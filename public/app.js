@@ -7,6 +7,7 @@ const CATEGORIES = {
   attraction: { label: 'Places & day trips', color: '#dd6b20', glyph: '📍' },
   cultura:    { label: 'Pasaporte Cultura',  color: '#805ad5', glyph: '🏛️' }
 };
+const KIND_LABEL = { 'Museum': 'Museum / exhibition centre', 'Cultural site': 'Historic or archaeological site', 'Cave': 'Cave (guided visit, book ahead)' };
 const KIND_GLYPH = { 'Museum': '🏛️', 'Cultural site': '🏰', 'Cave': '🔦' };
 
 const LOCATION_LABEL = {
@@ -57,6 +58,7 @@ function pinIcon(p, sel) {
 const money = n => (n === 0 ? 'Free' : '€' + String(n).replace(/\.5$/, '.50'));
 const gmapsLink = p => `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`;
 
+function row(label, value) { return value || value === 0 ? `<div class="row"><span>${esc(label)}</span><b>${esc(value)}</b></div>` : ''; }
 function stat(label, value) { return value || value === 0 ? `<div class="stat"><b>${esc(value)}</b><span>${esc(label)}</span></div>` : ''; }
 function kv(label, value) { return value ? `<dt>${esc(label)}</dt><dd>${esc(value)}</dd>` : ''; }
 function link(href, text, primary) { return href ? `<a ${primary ? 'class="primary" ' : ''}href="${esc(href)}" target="_blank" rel="noopener">${esc(text)}</a>` : ''; }
@@ -95,8 +97,9 @@ function renderPlace(p) {
       ${p.rainyDay ? `<span class="tag">Rainy day: ${esc(p.rainyDay)}</span>` : ''}
       ${p.category === 'cultura' ? '<span class="tag">Included in Pasaporte Cultura</span>' : ''}
     </div>
+    ${p.description ? `<p class="desc">${esc(p.description)}</p>` : ''}
     ${p.why ? `<p>${esc(p.why)}</p>` : ''}
-    <div class="stats">${stat('Visit', p.visitTime)}${stat('Price', prices)}${stat('Drive', p.drive)}</div>
+    <div class="rows">${row('Visit time', p.visitTime)}${row('Price', prices)}${row('Drive from Mortera', p.drive)}</div>
     ${p.booking ? `<div class="callout">${esc(p.booking)}</div>` : ''}
     ${p.hours ? `<details><summary>Opening hours</summary><p>${esc(p.hours)}</p></details>` : ''}`;
 }
@@ -107,7 +110,9 @@ function openSheet(p) {
   markers[p.id].setIcon(pinIcon(p, true));
   const cat = CATEGORIES[p.category];
   const h = p.hike || {};
+  const im = p.image;
   $('sheet-body').innerHTML = `
+    ${im ? `<figure class="hero"><img src="${esc(im.src)}" alt="${esc(p.name)}" loading="lazy"><figcaption>Photo: ${esc(im.credit)} · <a href="${esc(im.page)}" target="_blank" rel="noopener">${esc(im.license || 'Wikimedia Commons')}</a></figcaption></figure>` : ''}
     <h2>${esc(p.name)}</h2>
     <div class="sub">${esc([p.kind || cat.label, p.area].filter(Boolean).join(' · '))}</div>
     ${p.category === 'hike' ? renderHike(p) : renderPlace(p)}
@@ -127,6 +132,25 @@ function openSheet(p) {
     if (y > window.innerHeight * 0.35) map.panBy([0, y - window.innerHeight * 0.2]);
   }
 }
+function buildLegend(places) {
+  const cats = Object.entries(CATEGORIES).filter(([k]) => places.some(p => p.category === k));
+  const kinds = [...new Set(places.map(p => p.kind).filter(Boolean))];
+  const status = new Set(places.map(p => p.locationStatus));
+  $('legend').innerHTML = `
+    <h3>Key</h3>
+    <h4>Colour = layer</h4>
+    ${cats.map(([, c]) => `<div class="lg"><span class="sw" style="background:${c.color}"></span>${esc(c.label)}</div>`).join('')}
+    <h4>Icon = type</h4>
+    ${kinds.map(k => `<div class="lg"><span class="ic">${KIND_GLYPH[k] || ''}</span>${esc(KIND_LABEL[k] || k)}</div>`).join('')}
+    ${cats.some(([k]) => k === 'hike') ? `<div class="lg"><span class="ic">🥾</span>Hike start (trailhead)</div>` : ''}
+    <h4>Outline = location accuracy</h4>
+    <div class="lg"><span class="sw ring"></span>Solid: verified</div>
+    ${status.has('approximate') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dashed"></span>Dashed: approximate start</div>' : ''}
+    ${status.has('unverified') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dotted"></span>Dotted: needs verifying</div>' : ''}`;
+}
+$('btn-legend').addEventListener('click', e => { e.stopPropagation(); $('legend').hidden = !$('legend').hidden; });
+map.on('click', () => { $('legend').hidden = true; });
+
 function closeSheet() {
   $('sheet').hidden = true;
   if (selected && markers[selected]) markers[selected].setIcon(pinIcon(byId[selected], false));
@@ -165,6 +189,7 @@ async function init() {
       .addTo(g);
   }
 
+  buildLegend(places);
   const chips = $('filters');
   for (const [key, cat] of Object.entries(CATEGORIES)) {
     const n = places.filter(p => p.category === key).length;

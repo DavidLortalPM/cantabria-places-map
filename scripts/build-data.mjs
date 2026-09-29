@@ -5,6 +5,8 @@ import fs from 'node:fs';
 
 const notion = JSON.parse(fs.readFileSync('data/cultura.notion.json', 'utf8'));
 const coords = JSON.parse(fs.readFileSync('data/coords.json', 'utf8'));
+const desc = JSON.parse(fs.readFileSync('data/descriptions.json', 'utf8'));
+const images = fs.existsSync('data/images.json') ? JSON.parse(fs.readFileSync('data/images.json', 'utf8')) : {};
 
 const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -14,6 +16,7 @@ for (const n of notion) {
   if (!c) { console.warn('NO COORDS (skipped):', n.name); continue; }
   places.push({
     id: slug(n.name), name: n.name, category: 'cultura', kind: c.kind, area: n.area,
+    description: desc[n.name], image: images[n.name],
     lat: c.lat, lon: c.lon, locationStatus: c.status, locationSource: c.source,
     drive: n.drive, visitTime: n.visit, hours: n.hours, adult: n.adult, child: n.child,
     rainyDay: n.rainy, familyFriendly: true, booking: n.booking, link: n.link, notion: n.notion

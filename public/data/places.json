@@ -7,6 +7,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "Comillas",
+   "description": "A vast Neo-Gothic former seminary overlooking Comillas, designed by Joan Martorell and later home to a pontifical university. Guided visits explore its church, halls and grounds.",
+   "image": {
+    "src": "/img/antiguo-seminario-mayor-de-comillas.jpg",
+    "credit": "-Merce-",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Comillas_Antiguo_Seminario_y_Universidad_Pontificia.jpg"
+   },
    "lat": 43.38647,
    "lon": -4.29887,
    "locationStatus": "verified",
@@ -28,6 +35,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "Camesa-Rebolledo",
+   "description": "Two archaeological sites near Mataporquera linked to a Roman settlement founded after the Cantabrian Wars, close to a Roman road. A quiet stop that shows how Rome settled inland Cantabria.",
+   "image": {
+    "src": "/img/arqueositio-cantabro-romano-de-camesa-rebolledo.jpg",
+    "credit": "Emilio Gómez Fernández",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arqueositio_C%C3%A1ntabro-Romano_de_Camesa-Rebolledo_2.jpg"
+   },
    "lat": 42.88735,
    "lon": -4.1584,
    "locationStatus": "verified",
@@ -49,6 +63,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "Santillana del Mar",
+   "description": "Two neighbouring historic stone mansions on the main square of Santillana del Mar, open to visitors and free to enter. Easy to combine with a wander around the medieval town.",
+   "image": {
+    "src": "/img/casas-del-aguila-y-la-parra.jpg",
+    "credit": "Zarateman",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santillana_del_Mar_-_Casas_del_%C3%81guila_y_la_Parra_1.jpg"
+   },
    "lat": 43.39035,
    "lon": -4.10864,
    "locationStatus": "verified",
@@ -70,6 +91,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Tudanca",
+   "description": "The family home of the writer and scholar José María de Cossío (until 1977), now a house-museum and library in the mountain village of Tudanca, famous for its cattle breed.",
+   "image": {
+    "src": "/img/casona-de-tudanca.jpg",
+    "credit": "Vanbasten 23",
+    "license": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Casona_de_Tudanca_(Cantabria).jpg"
+   },
    "lat": 43.15293,
    "lon": -4.37285,
    "locationStatus": "verified",
@@ -91,6 +119,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Puente Viesgo",
+   "description": "An exhibition centre at the foot of Monte Castillo explaining Cantabria's cave art, through displays and guided visits. Free on the same day as a ticket for El Castillo or Las Monedas.",
+   "image": {
+    "src": "/img/centro-de-arte-rupestre-de-cantabria.jpg",
+    "credit": "Thilo Parg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_arte_rupestre_de_Cantabria_-_Puente_Viesgo.jpg"
+   },
    "lat": 43.29577,
    "lon": -3.96963,
    "locationStatus": "verified",
@@ -112,6 +147,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "Villacantid",
+   "description": "A small interpretation centre in Villacantid, near Reinosa, explaining the Romanesque churches of southern Cantabria.",
+   "image": {
+    "src": "/img/centro-de-interpretacion-del-romanico.jpg",
+    "credit": "Jesús Ángel García Arnay.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_Interpretaci%C3%B3n_del_Rom%C3%A1nico_(Villacantid).jpg"
+   },
    "lat": 43.00362,
    "lon": -4.20731,
    "locationStatus": "verified",
@@ -133,6 +175,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "Retortillo",
+   "description": "The most important Roman city in Cantabria, founded in 26 BC after the Cantabrian Wars on a hilltop near Retortillo. You can walk the streets and see the excavated Roman house, the Domus.",
+   "image": {
+    "src": "/img/ciudad-romana-y-domus-de-juliobriga.jpg",
+    "credit": "Jesús Ángel García Arnay.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Mosaicos_(Juli%C3%B3briga).jpg"
+   },
    "lat": 42.98583,
    "lon": -4.11546,
    "locationStatus": "verified",
@@ -154,6 +203,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "Riclones",
+   "description": "A cave above the meeting of the Lamasón and Nansa rivers with Palaeolithic paintings, listed by UNESCO. Open only seasonally, with very small groups and a short approach on foot.",
+   "image": {
+    "src": "/img/cueva-de-chufin.jpg",
+    "credit": "Gobierno de Cantabria",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chufin9.jpg"
+   },
    "lat": 43.28322,
    "lon": -4.45828,
    "locationStatus": "verified",
@@ -175,6 +231,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "Ramales de la Victoria",
+   "description": "A Palaeolithic cave known for its red paintings of hinds (female deer), outlined in dots. It is part of the UNESCO World Heritage listing for the cave art of northern Spain, and only tiny groups are admitted.",
+   "image": {
+    "src": "/img/cueva-de-covalanas.jpg",
+    "credit": "Edward the Confessor",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_de_Covalanas.jpg"
+   },
    "lat": 43.2456,
    "lon": -3.45207,
    "locationStatus": "verified",
@@ -196,6 +259,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "Ramales de la Victoria",
+   "description": "One of Cantabria's largest cave systems, with a walkway into the cave and Palaeolithic drawings on the walls. It is also the ticket office for nearby Covalanas.",
+   "image": {
+    "src": "/img/cueva-de-cullalvera.jpg",
+    "credit": "Tony Rotondas",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_de_Cullalvera.jpg"
+   },
    "lat": 43.2557,
    "lon": -3.45814,
    "locationStatus": "verified",
@@ -217,6 +287,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "Puente Viesgo",
+   "description": "One of the oldest known cave-art sites in Europe, including a red disc dated to over 40,000 years ago. Guided visits of about an hour, and the ticket includes the Rock Art Centre.",
+   "image": {
+    "src": "/img/cueva-de-el-castillo.jpg",
+    "credit": "Gabinete de Prensa del Gobierno de Cantabria",
+    "license": "CC BY 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_del_Castillo_interior.jpg"
+   },
    "lat": 43.29222,
    "lon": -3.96549,
    "locationStatus": "verified",
@@ -238,6 +315,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "Escobedo de Camargo",
+   "description": "A large prehistoric cave near Santander with a rich excavated record and Palaeolithic art, listed by UNESCO. Visited on a 45-minute guided tour.",
+   "image": {
+    "src": "/img/cueva-de-el-pendo.jpg",
+    "credit": "Sautuola1880",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EL_PENDO_low.jpg"
+   },
    "lat": 43.38839,
    "lon": -3.91227,
    "locationStatus": "verified",
@@ -259,6 +343,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "San Felices de Buelna",
+   "description": "A cave lived in for more than 30,000 years, from the Middle Palaeolithic to the Neolithic, with rock art and a UNESCO listing. Only four visitors per session.",
+   "image": {
+    "src": "/img/cueva-de-hornos-de-la-pena.jpg",
+    "credit": "Vanbasten 23",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrada_a_la_Cueva_de_Hornos_de_la_Pe%C3%B1a.jpg"
+   },
    "lat": 43.26134,
    "lon": -4.03002,
    "locationStatus": "verified",
@@ -280,6 +371,13 @@
    "category": "cultura",
    "kind": "Cave",
    "area": "Puente Viesgo",
+   "description": "A cave in the Monte Castillo group, named after coins found there, decorated with black drawings of animals. Timed guided visits of small groups; the ticket includes the Rock Art Centre.",
+   "image": {
+    "src": "/img/cueva-de-las-monedas.jpg",
+    "credit": "Gobierno de Cantabria",
+    "license": "CC BY 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Monedas-8.jpg"
+   },
    "lat": 43.28892,
    "lon": -3.96769,
    "locationStatus": "verified",
@@ -301,6 +399,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Carrejo",
+   "description": "A natural-history museum in an 18th-century mansion in Carrejo, near Cabezón de la Sal, with exhibits on Cantabria's wildlife and landscapes. Free on Sundays.",
+   "image": {
+    "src": "/img/museo-de-la-naturaleza-de-cantabria.jpg",
+    "credit": "rosale",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrejo.jpg"
+   },
    "lat": 43.29383,
    "lon": -4.23798,
    "locationStatus": "verified",
@@ -322,6 +427,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Santander",
+   "description": "Cantabria's main archaeology museum in Santander, built around finds from the region's famous prehistoric caves, with further collections from the ancient and medieval worlds.",
+   "image": {
+    "src": "/img/museo-de-prehistoria-y-arqueologia-de-cantabria-mupac.jpg",
+    "credit": "Valdavia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MUPAC_-_Museo_de_Prehistoria_y_Arqueolog%C3%ADa_de_Cantabria_01.JPG"
+   },
    "lat": 43.46226,
    "lon": -3.804,
    "locationStatus": "verified",
@@ -343,6 +455,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Muriedas",
+   "description": "A museum in Muriedas about traditional Cantabrian life and culture, with guided visits and family workshops.",
+   "image": {
+    "src": "/img/museo-etnografico-de-cantabria.jpg",
+    "credit": "Laura G. Velasco",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_Etnogr%C3%A1fico_de_Cantabria.jpg"
+   },
    "lat": 43.42138,
    "lon": -3.85408,
    "locationStatus": "verified",
@@ -364,6 +483,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Santander",
+   "description": "A museum and aquarium on the edge of Santander bay, covering marine life and the people of the Cantabrian Sea. A good rainy-day option for children.",
+   "image": {
+    "src": "/img/museo-maritimo-del-cantabrico.jpg",
+    "credit": "Zarateman",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santander_-_Museo_Mar%C3%ADtimo_del_Cant%C3%A1brico_02.JPG"
+   },
    "lat": 43.46332,
    "lon": -3.78368,
    "locationStatus": "verified",
@@ -385,6 +511,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "Comillas",
+   "description": "A Neo-Gothic palace built in the 1880s for the Marquess of Comillas, designed by Joan Martorell. The neighbouring chapel-pantheon, the family mausoleum, is a showpiece of Catalan Modernisme.",
+   "image": {
+    "src": "/img/palacio-y-capilla-panteon-de-sobrellano.jpg",
+    "credit": "Fernando",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Sobrellano_2021.jpg"
+   },
    "lat": 43.38353,
    "lon": -4.29438,
    "locationStatus": "verified",
@@ -406,6 +539,13 @@
    "category": "cultura",
    "kind": "Cultural site",
    "area": "San Felices de Buelna",
+   "description": "A medieval tower (the Torre de la Aguilera) in San Felices de Buelna, now a museum about the life and times of the knight and naval commander Pero Niño.",
+   "image": {
+    "src": "/img/torre-de-pero-nino.jpg",
+    "credit": "P. B. Obregón",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Torre_de_Pero_Ni%C3%B1o_001.JPG"
+   },
    "lat": 43.27811,
    "lon": -4.05237,
    "locationStatus": "verified",
@@ -427,6 +567,13 @@
    "category": "cultura",
    "kind": "Museum",
    "area": "Potes",
+   "description": "A medieval fortified tower in the centre of Potes, at the foot of the Picos de Europa. A short visit that fits well with a walk around the town.",
+   "image": {
+    "src": "/img/torre-del-infantado.jpg",
+    "credit": "Charlytos",
+    "license": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Conjunto_Hist%C3%B3rico_Art%C3%ADstico_la_Villa_de_Potes.jpg"
+   },
    "lat": 43.15414,
    "lon": -4.62359,
    "locationStatus": "verified",
