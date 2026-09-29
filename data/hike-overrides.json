@@ -9,5 +9,131 @@
    "trailhead": "Poncebos (Asturias) — finish at Caín (León); return by 4×4/taxi",
    "exposure": "Significant exposure beside the gorge, though the path is physically fairly straightforward after the initial climb. Check National Park alerts for rockfall closures before walking."
   }
+ },
+ "Acantilados de San Vicente (CA-ENP01)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1CBw-P39JF61Uzd8GmE0cNTcu9w1UrMQn",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Alto de La Guarda (CA-ENP03)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1MtmgQbaEdvPj-_qMphjLgPppsksQt_6d",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Braña de los Tejos (CA-ENP06)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1YxoQOxgKUfWNx_sk-M1pNQ8Qbs9cVrYf",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Peñas de Bejes (CA-ENP07)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1spXvCPTzethmExS13ke0VdpAkequIud9",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Canto Pilanco (CA-ENP10)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1s30CRZ1DluDqchI0YbTgNIyNjM1BoJy6",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Cascada del Tobazo (CA-ENP route)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1h7GA8frTlryYw80LI4KvEaA8lsuTwtzA",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Hayedo de La Zamina (CA-ENP21)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=10m3faLbBOWM59EsrPCkA_SkKnrkP5nFB",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "La Garma — Nacimiento del Pisueña (CA-ENP23)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1iilxWsa10vV05Hg_2X63v4oQ_UoI68NZ",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Las Praizas de Cucayo (CA-ENP25)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1YY2ymFqpLWYyqjVxHF-Pwf1Dx_eRIyvG",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Praderas de Ruyemas (CA-ENP29)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1LRBFWOPhn5uGsMhvcjWmmXO0Xt43nnfn",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Los Bosques del Monte Corona (CA-ENP33)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=17h715Wb4FBezoEGEKaCQjTTZkrUBwdau",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Senda Fluvial del Nansa (CA-ENP34)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1f4idd-EamJZJOJ67udaKuxF_8lXF1-eL",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Linear"
+  }
+ },
+ "Sendero de los Puentes (CA-ENP35)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=16sIztAgSqLuB9KQKyajtf5E-N_VSF2qB",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
+ },
+ "Altos de Carmona (CA-ENP38)": {
+  "hike": {
+   "gpxUrl": "https://drive.google.com/uc?export=download&id=1Lt_dX0Ra1s848J60c9zc4d87BApHCjeH",
+   "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
+   "routeGeometry": "Full track",
+   "trackSource": "Official (Naturea GPX)",
+   "routeType": "Circular"
+  }
  }
 }

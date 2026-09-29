@@ -1,17 +1,17 @@
 {
  "Alto de La Guarda (CA-ENP03)": {
-  "lat": 43.14304,
-  "lon": -4.19327,
-  "status": "approximate",
-  "source": "OSM: Bárcena Mayor (village named as start)",
-  "note": "village centre, not the exact trailhead"
+  "lat": 43.146203,
+  "lon": -4.195658,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Braña de los Tejos (CA-ENP06)": {
-  "lat": 43.23614,
-  "lon": -4.55034,
-  "status": "approximate",
-  "source": "OSM: Cicera hamlet (named as start)",
-  "note": "hamlet centre, not the exact trailhead"
+  "lat": 43.236999,
+  "lon": -4.550048,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Brañavieja — Cuchillón — Tres Mares": {
   "lat": 43.03385,
@@ -77,10 +77,10 @@
   "note": "hamlet, not the exact path start"
  },
  "Sendero de los Puentes (CA-ENP35)": {
-  "lat": 43.23527,
-  "lon": -4.21876,
+  "lat": 43.235661,
+  "lon": -4.219394,
   "status": "verified",
-  "source": "OSM: Casa del Monte, Sendero de los Puentes (Ucieda)",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
   "note": ""
  },
  "Sierra de Cocón — Oceño — Tresviso / San Esteban (PR-PNPE 34)": {
@@ -119,11 +119,11 @@
   "note": "centre of the protected area, not the car park"
  },
  "Canto Pilanco (CA-ENP10)": {
-  "lat": 43.12505,
-  "lon": -4.28971,
-  "status": "approximate",
-  "source": "OSM: Canto Pilanco locality",
-  "note": "Notion names the start as Puente de Bárcena Sellano / Río Saja; not yet pinned exactly"
+  "lat": 43.129728,
+  "lon": -4.296748,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Demués — Lagos (PR-PNPE 08)": {
   "lat": 43.31868,
@@ -140,18 +140,18 @@
   "note": "village centre"
  },
  "La Garma — Nacimiento del Pisueña (CA-ENP23)": {
-  "lat": 43.21669,
-  "lon": -3.80686,
-  "status": "approximate",
-  "source": "OSM: Selaya (named as start area)",
-  "note": "municipality centre, not the trailhead"
+  "lat": 43.190801,
+  "lon": -3.763589,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Los Bosques del Monte Corona (CA-ENP33)": {
-  "lat": 43.32779,
-  "lon": -4.20257,
-  "status": "approximate",
-  "source": "OSM: La Tejera locality (Parking de La Tejera named in Notion)",
-  "note": "locality, exact car park not confirmed"
+  "lat": 43.31752,
+  "lon": -4.260802,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Monte Buciero — Faros y Acantilados": {
   "lat": 43.43928,
@@ -203,60 +203,60 @@
   "note": "Notion: choose the exact parking/start variant (Sotres or Collado Pandébano) before walking"
  },
  "Acantilados de San Vicente (CA-ENP01)": {
-  "lat": 43.3936,
-  "lon": -4.39195,
-  "status": "approximate",
-  "source": "OSM: Faro de Punta de la Silla (start named on the Naturea guided-activity page for this route)",
-  "note": "the self-guided Naturea page does not name a start"
+  "lat": 43.392862,
+  "lon": -4.39159,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Altos de Carmona (CA-ENP38)": {
-  "lat": 43.2542,
-  "lon": -4.35911,
-  "status": "approximate",
-  "source": "OSM: Carmona hamlet — Naturea page: \"El itinerario comienza en Carmona\"",
-  "note": "village centre, exact parking not given"
+  "lat": 43.254524,
+  "lon": -4.357378,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Hayedo de La Zamina (CA-ENP21)": {
-  "lat": 43.2088,
-  "lon": -3.7027,
-  "status": "approximate",
-  "source": "OSM: Casa del Pasiego, Barrio La Concha, San Roque de Riomiera (start from third-party trail sources)",
-  "note": "Naturea page names no start"
+  "lat": 43.208956,
+  "lon": -3.703007,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Las Praizas de Cucayo (CA-ENP25)": {
-  "lat": 43.05572,
-  "lon": -4.63747,
-  "status": "approximate",
-  "source": "OSM: Cucayo hamlet — Naturea page: route starts and ends in the village",
-  "note": "village centre"
+  "lat": 43.057533,
+  "lon": -4.639037,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Peñas de Bejes (CA-ENP07)": {
-  "lat": 43.2423,
-  "lon": -4.64668,
-  "status": "approximate",
-  "source": "OSM: Bejes hamlet",
-  "note": "assumed from the route name; the page does not state the start"
+  "lat": 43.241304,
+  "lon": -4.645783,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Praderas de Ruyemas (CA-ENP29)": {
-  "lat": 43.14605,
-  "lon": -3.72265,
-  "status": "approximate",
-  "source": "OSM: Pandillo hamlet, Vega de Pas",
-  "note": "probable start only; official page names none"
+  "lat": 43.146025,
+  "lon": -3.722529,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Senda Fluvial del Nansa (CA-ENP34)": {
-  "lat": 43.36234,
-  "lon": -4.48619,
-  "status": "approximate",
-  "source": "OSM: Muñorrodero hamlet (lower end of the linear route)",
-  "note": "linear route; the guided version starts upstream at Trascudia (43.32946, -4.50699)"
+  "lat": 43.360376,
+  "lon": -4.489394,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Cascada del Tobazo (CA-ENP route)": {
-  "lat": 42.83107,
-  "lon": -3.83458,
-  "status": "approximate",
-  "source": "OSM: \"Cascada del Tobazo\" guidepost at Villaescusa de Ebro",
-  "note": "likely trailhead signage, parking not confirmed; the waterfall itself is the destination"
+  "lat": 42.830975,
+  "lon": -3.834853,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  },
  "Costa Quebrada — coastal walking route": {
   "lat": 43.4448,

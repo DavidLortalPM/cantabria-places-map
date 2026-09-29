@@ -6,10 +6,10 @@
    "name": "Acantilados de San Vicente (CA-ENP01)",
    "category": "hike",
    "area": "San Vicente de la Barquera / Western Coast",
-   "lat": 43.3936,
-   "lon": -4.39195,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Faro de Punta de la Silla (start named on the Naturea guided-activity page for this route) — the self-guided Naturea page does not name a start",
+   "lat": 43.392862,
+   "lon": -4.39159,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Official western-coast route adding a different cliff landscape from Costa Quebrada and Monte Buciero.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -18,9 +18,11 @@
     "distanceKm": 8.5,
     "difficulty": "Easy",
     "stage": "Do now",
-    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1CBw-P39JF61Uzd8GmE0cNTcu9w1UrMQn",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -28,10 +30,10 @@
    "name": "Alto de La Guarda (CA-ENP03)",
    "category": "hike",
    "area": "Saja-Nansa / Los Tojos",
-   "lat": 43.14304,
-   "lon": -4.19327,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Bárcena Mayor (village named as start) — village centre, not the exact trailhead",
+   "lat": 43.146203,
+   "lon": -4.195658,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Substantial 8.5 km Saja-Besaya circuit with 650 m ascent: short in distance but a proper climbing day.",
    "familyFriendly": false,
    "priority": "Worth doing",
@@ -46,8 +48,9 @@
     "trailhead": "Bárcena Mayor",
     "terrain": "Forest ascent with some rocky sections, then open views towards the Valle del Río Lodar and Valle del Río Queriendo.",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
-    "routeGeometry": "Missing",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1MtmgQbaEdvPj-_qMphjLgPppsksQt_6d",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -55,10 +58,10 @@
    "name": "Altos de Carmona (CA-ENP38)",
    "category": "hike",
    "area": "Carmona / Cabuérniga / Saja-Nansa",
-   "lat": 43.2542,
-   "lon": -4.35911,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Carmona hamlet — Naturea page: \"El itinerario comienza en Carmona\" — village centre, exact parking not given",
+   "lat": 43.254524,
+   "lon": -4.357378,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Combines the historic village of Carmona with a proper climb onto the Sierra del Escudo de Cabuérniga.",
    "familyFriendly": false,
    "priority": "Worth doing",
@@ -67,9 +70,11 @@
     "distanceKm": 12,
     "difficulty": "Moderate",
     "stage": "Do now",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1Lt_dX0Ra1s848J60c9zc4d87BApHCjeH",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -173,10 +178,10 @@
    "name": "Braña de los Tejos (CA-ENP06)",
    "category": "hike",
    "area": "Cicera / Peñarrubia / Saja-Nansa",
-   "lat": 43.23614,
-   "lon": -4.55034,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Cicera hamlet (named as start) — hamlet centre, not the exact trailhead",
+   "lat": 43.236999,
+   "lon": -4.550048,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "One of Saja-Nansa's emblematic routes: mature oak and beech forest leading to a rare high-altitude grove of ancient yews at about 1,400 m.",
    "familyFriendly": false,
    "priority": "Must do",
@@ -189,8 +194,9 @@
     "conditions": "Avoid poor weather; muddy after rain and snow is possible in winter. Official shorter option turns back before the Braña for about 8.7 km.",
     "trailhead": "Cicera",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YxoQOxgKUfWNx_sk-M1pNQ8Qbs9cVrYf",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -240,10 +246,10 @@
    "name": "Canto Pilanco (CA-ENP10)",
    "category": "hike",
    "area": "Los Tojos / Saja-Besaya",
-   "lat": 43.12505,
-   "lon": -4.28971,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Canto Pilanco locality — Notion names the start as Puente de Bárcena Sellano / Río Saja; not yet pinned exactly",
+   "lat": 43.129728,
+   "lon": -4.296748,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Compact forest hike through river woodland and mature beech forest, with an optional viewpoint over the south-western Saja-Besaya mountains.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -252,12 +258,14 @@
     "distanceKm": 4.8,
     "difficulty": "Easy",
     "stage": "Do now",
+    "routeType": "Circular",
     "childSuitability": "Strong short family/progression hike; optional viewpoint climb is short but steep.",
     "conditions": "Excellent autumn option. Check hunting calendar; avoid the steep viewpoint spur in adverse weather.",
     "trailhead": "Puente de Bárcena Sellano / Río Saja",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1s30CRZ1DluDqchI0YbTgNIyNjM1BoJy6",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -293,10 +301,10 @@
    "name": "Cascada del Tobazo (CA-ENP route)",
    "category": "hike",
    "area": "Valderredible / Southern Cantabria",
-   "lat": 42.83107,
-   "lon": -3.83458,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: \"Cascada del Tobazo\" guidepost at Villaescusa de Ebro — likely trailhead signage, parking not confirmed; the waterfall itself is the destination",
+   "lat": 42.830975,
+   "lon": -3.834853,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Short official Naturea waterfall route; useful family-scale hike and a distinct southern Cantabria landscape.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -305,9 +313,12 @@
     "distanceKm": 4,
     "difficulty": "Easy",
     "stage": "Do now",
+    "routeType": "Circular",
     "childSuitability": "Short family-distance route.",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1h7GA8frTlryYw80LI4KvEaA8lsuTwtzA",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -814,10 +825,10 @@
    "name": "Hayedo de La Zamina (CA-ENP21)",
    "category": "hike",
    "area": "San Roque de Riomiera / Valles Pasiegos",
-   "lat": 43.2088,
-   "lon": -3.7027,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Casa del Pasiego, Barrio La Concha, San Roque de Riomiera (start from third-party trail sources) — Naturea page names no start",
+   "lat": 43.208956,
+   "lon": -3.703007,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Pasiego landscape, karst and a mature beech forest in one compact route.",
    "familyFriendly": false,
    "priority": "Worth doing",
@@ -826,10 +837,12 @@
     "distanceKm": 8.8,
     "difficulty": "Moderate",
     "stage": "Do now",
+    "routeType": "Circular",
     "conditions": "Year-round, but avoid rainy/foggy days; particularly attractive in autumn.",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=10m3faLbBOWM59EsrPCkA_SkKnrkP5nFB",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -887,10 +900,10 @@
    "name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
    "category": "hike",
    "area": "Selaya / Valles Pasiegos",
-   "lat": 43.21669,
-   "lon": -3.80686,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Selaya (named as start area) — municipality centre, not the trailhead",
+   "lat": 43.190801,
+   "lon": -3.763589,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Short official Pasiego route following the Pisueña towards its headwaters through traditional cabañas and limestone scenery.",
    "familyFriendly": false,
    "priority": "Worth doing",
@@ -899,10 +912,12 @@
     "distanceKm": 6,
     "difficulty": "Easy",
     "stage": "Do now",
+    "routeType": "Circular",
     "trailhead": "Selaya / Pisueña valley",
-    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1iilxWsa10vV05Hg_2X63v4oQ_UoI68NZ",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -956,10 +971,10 @@
    "name": "Las Praizas de Cucayo (CA-ENP25)",
    "category": "hike",
    "area": "Cucayo / Vega de Liébana",
-   "lat": 43.05572,
-   "lon": -4.63747,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Cucayo hamlet — Naturea page: route starts and ends in the village — village centre",
+   "lat": 43.057533,
+   "lon": -4.639037,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Compact Liébana route through traditional invernales, hayedo and views towards Peña Dobres/Pica de Casanzo.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -968,9 +983,11 @@
     "distanceKm": 6.9,
     "difficulty": "Moderate",
     "stage": "Do now",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YY2ymFqpLWYyqjVxHF-Pwf1Dx_eRIyvG",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -978,10 +995,10 @@
    "name": "Los Bosques del Monte Corona (CA-ENP33)",
    "category": "hike",
    "area": "Western Cantabria",
-   "lat": 43.32779,
-   "lon": -4.20257,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: La Tejera locality (Parking de La Tejera named in Notion) — locality, exact car park not confirmed",
+   "lat": 43.31752,
+   "lon": -4.260802,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Turns the redwoods into a proper 13.8 km forest-and-viewpoint day through Monte Corona and the edge of Oyambre, rather than only a short stop at the sequoias.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -990,10 +1007,12 @@
     "distanceKm": 13.8,
     "difficulty": "Easy",
     "stage": "Do now",
+    "routeType": "Circular",
     "trailhead": "Parking de La Tejera / Monumento Natural de las Secuoyas",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=17h715Wb4FBezoEGEKaCQjTTZkrUBwdau",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -1305,10 +1324,10 @@
    "name": "Peñas de Bejes (CA-ENP07)",
    "category": "hike",
    "area": "Bejes / Cillorigo de Liébana",
-   "lat": 43.2423,
-   "lon": -4.64668,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Bejes hamlet — assumed from the route name; the page does not state the start",
+   "lat": 43.241304,
+   "lon": -4.645783,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Shorter Liébana limestone route that gives us a useful middle ground below the major Picos objectives.",
    "familyFriendly": false,
    "priority": "Worth doing",
@@ -1317,9 +1336,11 @@
     "distanceKm": 6.2,
     "difficulty": "Moderate",
     "stage": "Do now",
-    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1spXvCPTzethmExS13ke0VdpAkequIud9",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -1374,10 +1395,10 @@
    "name": "Praderas de Ruyemas (CA-ENP29)",
    "category": "hike",
    "area": "Vega de Pas / Valles Pasiegos",
-   "lat": 43.14605,
-   "lon": -3.72265,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Pandillo hamlet, Vega de Pas — probable start only; official page names none",
+   "lat": 43.146025,
+   "lon": -3.722529,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Short Pasiego circuit through traditional cabañales, beech woodland and views towards the Castro Valnera massif.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -1386,10 +1407,12 @@
     "distanceKm": 5.1,
     "difficulty": "Easy",
     "stage": "Do now",
+    "routeType": "Circular",
     "childSuitability": "Useful 5 km family progression hike with varied landscape.",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1LRBFWOPhn5uGsMhvcjWmmXO0Xt43nnfn",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -1496,10 +1519,10 @@
    "name": "Senda Fluvial del Nansa (CA-ENP34)",
    "category": "hike",
    "area": "Val de San Vicente / Herrerías / Saja-Nansa",
-   "lat": 43.36234,
-   "lon": -4.48619,
-   "locationStatus": "approximate",
-   "locationSource": "OSM: Muñorrodero hamlet (lower end of the linear route) — linear route; the guided version starts upstream at Trascudia (43.32946, -4.50699)",
+   "lat": 43.360376,
+   "lon": -4.489394,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Long but low-commitment riverside route that fills the gap between short family walks and mountain days.",
    "familyFriendly": true,
    "priority": "Worth doing",
@@ -1508,9 +1531,11 @@
     "distanceKm": 13.7,
     "difficulty": "Easy",
     "stage": "Do now",
-    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "routeType": "Linear",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1f4idd-EamJZJOJ67udaKuxF_8lXF1-eL",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
@@ -1518,10 +1543,10 @@
    "name": "Sendero de los Puentes (CA-ENP35)",
    "category": "hike",
    "area": "Ruente / Saja-Besaya",
-   "lat": 43.23527,
-   "lon": -4.21876,
+   "lat": 43.235661,
+   "lon": -4.219394,
    "locationStatus": "verified",
-   "locationSource": "OSM: Casa del Monte, Sendero de los Puentes (Ucieda)",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
    "why": "Long forest circuit through Río Bayones / Monte Río de los Vados; a proper 15.8 km Saja-Besaya day rather than a short woodland stroll.",
    "familyFriendly": false,
    "priority": "Worth doing",
@@ -1538,8 +1563,9 @@
     "parking": "Casa del Monte / Ucieda recreation area",
     "terrain": "Monte Río de los Vados and Río Bayones woodland; multiple river/bridge crossings and notable trees.",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
-    "routeGeometry": "Trailhead only",
-    "trackSource": "Official"
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=16sIztAgSqLuB9KQKyajtf5E-N_VSF2qB",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
    }
   },
   {
