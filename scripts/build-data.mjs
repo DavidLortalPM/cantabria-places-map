@@ -15,6 +15,7 @@ const unplaced = [];
 const cultura = read('data/cultura.notion.json');
 const coords = read('data/coords.json');
 const desc = read('data/descriptions.json');
+const opening = fs.existsSync('data/opening.json') ? read('data/opening.json') : {};
 const images = fs.existsSync('data/images.json') ? read('data/images.json') : {};
 for (const n of cultura) {
   const c = coords[n.name];
@@ -24,7 +25,7 @@ for (const n of cultura) {
     description: desc[n.name], image: images[n.name],
     lat: c.lat, lon: c.lon, locationStatus: c.status, locationSource: c.source,
     drive: n.drive, visitTime: n.visit, hours: n.hours, adult: n.adult, child: n.child,
-    rainyDay: n.rainy, familyFriendly: true, booking: n.booking, link: n.link, notion: n.notion
+    open: opening[n.name], rainyDay: n.rainy, familyFriendly: true, booking: n.booking, link: n.link, notion: n.notion
   });
 }
 

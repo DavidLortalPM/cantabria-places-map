@@ -94,6 +94,17 @@
    "hours": "Low: Mon–Fri & Sun 09:30–15:30; Sat split to 16:30. Mid: Mon–Sat 09:30–13:30 & 14:30–18:30; Sun 10:00–15:00. High: Mon–Sat 10:00–14:00 & 15:00–19:00; Sun split to 18:00.",
    "adult": 7,
    "child": 5,
+   "open": {
+    "days": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Can combine with Sobrellano; official site recommends 90–120 minutes between visit start times.",
@@ -122,6 +133,16 @@
    "hours": "Same standard seasonal pattern: low daytime hours; mid/high split day Tue–Sat; Sunday mornings; Mon closed. Weather can alter opening.",
    "adult": 3,
    "child": 2,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Mixed",
    "familyFriendly": true,
    "booking": "Opening can change due to weather; check before travel.",
@@ -339,6 +360,16 @@
    "hours": "Low: Tue–Fri & Sun 09:00–15:00; Sat to 16:00. Mid: Tue–Sat 09:00–18:00; Sun to 14:00. High: Tue–Sat 09:30–18:30; Sun to 14:30. Mon closed.",
    "adult": 4,
    "child": 2,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Permanent exhibition; guided visits available. Free same day with El Castillo or Las Monedas ticket.",
@@ -367,6 +398,15 @@
    "hours": "Low: Wed–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Wed–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Wed–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon/Tue closed.",
    "adult": 3,
    "child": 2,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Opening can change due to weather; check before travel.",
@@ -395,6 +435,16 @@
    "hours": "Low: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed; weather can affect opening.",
    "adult": 5,
    "child": 3,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Mixed",
    "familyFriendly": true,
    "booking": "Check opening times before travel.",
@@ -465,6 +515,26 @@
    "hours": "Easter 2–5 Apr; 15 Jun–15 Sep. Wed–Sat 10:00–14:00 & 15:00–19:00; Sun 10:00–15:00. Closed rest of year.",
    "adult": 15,
    "child": 7.5,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ],
+    "seasons": [
+     {
+      "from": "04-02",
+      "to": "04-05"
+     },
+     {
+      "from": "06-15",
+      "to": "09-15"
+     }
+    ],
+    "seasonNote": "Open Easter (2–5 Apr 2026) and 15 Jun–15 Sep only"
+   },
    "rainyDay": "Poor",
    "familyFriendly": true,
    "booking": "Seasonal; very limited capacity (6). Check availability/reserve in advance.",
@@ -493,6 +563,15 @@
    "hours": "21 Oct–14 Jun & 16 Sep–28 Feb: Wed–Sun 10:00–13:00. 15 Jun–15 Sep: Wed–Sun 10:30–13:30. Mon/Tue closed; only 4 per session.",
    "adult": 15,
    "child": 7.5,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Mixed",
    "familyFriendly": true,
    "booking": "Very limited capacity (4). Same-day tickets depend on availability via Cullalvera ticket office.",
@@ -521,6 +600,16 @@
    "hours": "Low: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed.",
    "adult": 10,
    "child": 5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Timed cave visit; check availability before travel.",
@@ -549,6 +638,16 @@
    "hours": "Low: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed.",
    "adult": 15,
    "child": 7.5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
@@ -577,6 +676,16 @@
    "hours": "Low 21 Oct–28 Feb: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High 15 Jun–15 Sep: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed.",
    "adult": 15,
    "child": 7.5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Timed guided visits; limited capacity. Advance booking recommended.",
@@ -605,6 +714,15 @@
    "hours": "Low: Wed–Sun 10:00–14:00. Mid: Wed–Sun 10:00–13:00. High: Wed–Sun 10:30–13:30. Mon/Tue closed; only 4 per session.",
    "adult": 15,
    "child": 7.5,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Very limited capacity (4 per session); advance planning strongly advisable.",
@@ -633,6 +751,16 @@
    "hours": "Same seasonal pattern as El Castillo; fixed sessions. Mon closed. Entry includes Centro de Arte Rupestre.",
    "adult": 15,
    "child": 7.5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
@@ -1496,6 +1624,15 @@
    "hours": "Low: Wed–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Wed–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Wed–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon/Tue closed.",
    "adult": 4,
    "child": 2,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Seasonal opening hours; check before travel.",
@@ -1524,6 +1661,17 @@
    "hours": "1 Oct–30 Jun 09:30–17:00. 1 Jul–30 Sep & Easter 09:30–19:00. Selected holiday closures.",
    "adult": 4,
    "child": 2,
+   "open": {
+    "days": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
    "rainyDay": "Good",
    "familyFriendly": true,
    "booking": "Check opening hours before travel.",

@@ -53,10 +53,27 @@ let selected = null;
 function pinIcon(p, sel) {
   const cat = CATEGORIES[p.category] || CATEGORIES.attraction;
   const glyph = KIND_GLYPH[p.kind] || cat.glyph;
-  const cls = 'pin' + (sel ? ' sel' : '') + (p.locationStatus === 'approximate' ? ' approx' : p.locationStatus === 'unverified' ? ' unverified' : '');
+  const cls = 'pin' + (openStatus(p).open === false ? ' closed' : '') + (sel ? ' sel' : '') + (p.locationStatus === 'approximate' ? ' approx' : p.locationStatus === 'unverified' ? ' unverified' : '');
   return L.divIcon({ className: '', html: `<div class="${cls}" style="--c:${cat.color}">${glyph}</div>`, iconSize: [30, 30], iconAnchor: [15, 15] });
 }
 
+const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const md = d => String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+const fmtMD = s => parseInt(s.slice(3), 10) + ' ' + MONTHS[parseInt(s.slice(0, 2), 10) - 1];
+// Is this place open on weekday `day`, judged in today's season? -> {open: true|false|null, text}
+function openStatus(p, day = new Date().getDay(), when = new Date()) {
+  const o = p.open;
+  if (!o) return { open: null, text: '' };
+  if (o.seasons) {
+    const t = md(when);
+    if (!o.seasons.some(s => t >= s.from && t <= s.to)) {
+      const froms = o.seasons.map(s => s.from).sort();
+      return { open: false, text: 'Out of season — next opening ' + fmtMD(froms.find(f => f > t) || froms[0]) };
+    }
+  }
+  return o.days.includes(day) ? { open: true, text: 'Usually open ' + DAY_NAMES[day] + 's' } : { open: false, text: 'Closed on ' + DAY_NAMES[day] + 's' };
+}
 const money = n => (n === 0 ? 'Free' : '€' + String(n).replace(/\.5$/, '.50'));
 const gmapsLink = p => `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`;
 
@@ -97,12 +114,14 @@ function renderPlace(p) {
     <div class="tags">
       ${p.familyFriendly ? '<span class="tag">Family friendly</span>' : ''}
       ${p.rainyDay ? `<span class="tag">Rainy day: ${esc(p.rainyDay)}</span>` : ''}
+      ${(() => { const s = openStatus(p); return s.open === null ? '' : `<span class="tag ${s.open ? 'ok' : 'warn'}">${s.open ? 'Open today' : 'Closed today'}</span>`; })()}
       ${p.category === 'cultura' ? '<span class="tag">Included in Pasaporte Cultura</span>' : ''}
     </div>
     ${p.description ? `<p class="desc">${esc(p.description)}</p>` : ''}
     ${p.why ? `<p>${esc(p.why)}</p>` : ''}
     <div class="rows">${row('Visit time', p.visitTime)}${row('Price', prices)}${row('Drive from Mortera', p.drive)}</div>
     ${p.booking ? `<div class="callout">${esc(p.booking)}</div>` : ''}
+    ${p.open?.seasonNote ? `<div class="callout">${esc(p.open.seasonNote)}</div>` : ''}
     ${p.hours ? `<details><summary>Opening hours</summary><p>${esc(p.hours)}</p></details>` : ''}`;
 }
 
@@ -194,7 +213,14 @@ async function init() {
   }
 
   const stageOn = Object.fromEntries(STAGES.map(s => [s, true]));
-  const visible = p => on[p.category] && (p.category !== 'hike' || stageOn[p.hike?.stage] !== false);
+  const opt = { rainy: false, day: 'any' };
+  const visible = p => {
+    if (!on[p.category]) return false;
+    if (p.category === 'hike' && stageOn[p.hike?.stage] === false) return false;
+    if (opt.rainy && p.rainyDay !== 'Good') return false;
+    if (opt.day !== 'any' && openStatus(p, +opt.day).open === false) return false;
+    return true;
+  };
   const refresh = () => {
     for (const p of places) {
       const g = groups[p.category], m = markers[p.id];
@@ -204,6 +230,7 @@ async function init() {
     safeStore.set('layers', JSON.stringify(on));
     safeStore.set('stages', JSON.stringify(stageOn));
     if (stageBar) stageBar.hidden = !on.hike;
+    document.body.classList.toggle('has-stages', !!stageBar && !!on.hike);
   };
   let stageBar = null;
   const chips = $('filters');
@@ -237,6 +264,24 @@ async function init() {
       stageBar.appendChild(sb);
     });
     document.body.appendChild(stageBar);
+  }
+  // Planning filters: rainy-day options and "open on" a weekday (only places with opening data can be ruled out)
+  if (places.some(p => p.rainyDay || p.open)) {
+    const bar = document.createElement('div');
+    bar.id = 'planbar';
+    const rb = document.createElement('button');
+    rb.className = 'chip small'; rb.type = 'button'; rb.setAttribute('aria-pressed', 'false');
+    rb.textContent = '☔ Rainy-day options';
+    rb.addEventListener('click', () => { opt.rainy = !opt.rainy; rb.setAttribute('aria-pressed', String(opt.rainy)); refresh(); });
+    const sel = document.createElement('select');
+    sel.className = 'chip small'; sel.setAttribute('aria-label', 'Open on');
+    const today = new Date().getDay();
+    sel.innerHTML = '<option value="any">Open: any day</option>' +
+      '<option value="' + today + '">Open today (' + DAY_NAMES[today] + ')</option>' +
+      [1, 2, 3, 4, 5, 6, 0].map(d => '<option value="' + d + '">Open ' + DAY_NAMES[d] + '</option>').join('');
+    sel.addEventListener('change', () => { opt.day = sel.value; refresh(); });
+    bar.append(rb, sel);
+    document.body.appendChild(bar);
   }
   refresh();
   buildLegend(places, data.unplaced || []);
