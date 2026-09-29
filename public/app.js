@@ -4,13 +4,14 @@
 const CATEGORIES = {
   hike:       { label: 'Hikes',              color: '#2f855a', glyph: '🥾' },
   family:     { label: 'Family',             color: '#2b6cb0', glyph: '🎈' },
+  walk:       { label: 'Easy walks',         color: '#2c9c91', glyph: '🚶' },
   attraction: { label: 'Places & day trips', color: '#dd6b20', glyph: '📍' },
   cultura:    { label: 'Pasaporte Cultura',  color: '#805ad5', glyph: '🏛️' }
 };
 const STAGES = ['Do now', 'Build towards', 'Major objective'];
 const STAGE_HELP = { 'Do now': 'Ready to do this year', 'Build towards': 'Needs some fitness or planning first', 'Major objective': 'Big day, mountain experience needed' };
-const KIND_LABEL = { 'Museum': 'Museum / exhibition centre', 'Cultural site': 'Historic or archaeological site', 'Cave': 'Cave (guided visit, book ahead)' };
-const KIND_GLYPH = { 'Museum': '🏛️', 'Cultural site': '🏰', 'Cave': '🔦' };
+const KIND_LABEL = { 'Museum': 'Museum / exhibition centre', 'Cultural site': 'Historic or archaeological site', 'Cave': 'Cave (guided visit, book ahead)', 'Viewpoint': 'Viewpoint', 'Day trip': 'Day-trip idea' };
+const KIND_GLYPH = { 'Museum': '🏛️', 'Cultural site': '🏰', 'Cave': '🔦', 'Viewpoint': '🔭', 'Day trip': '🗺️' };
 
 const LOCATION_LABEL = {
   verified: 'Verified location',
@@ -136,9 +137,9 @@ function openSheet(p) {
     ${im ? `<figure class="hero"><img src="${esc(im.src)}" alt="${esc(p.name)}" loading="lazy"><figcaption>Photo: ${esc(im.credit)} · <a href="${esc(im.page)}" target="_blank" rel="noopener">${esc(im.license || 'Wikimedia Commons')}</a></figcaption></figure>` : ''}
     <h2>${esc(p.name)}</h2>
     <div class="sub">${esc([p.kind || cat.label, p.area].filter(Boolean).join(' · '))}</div>
-    ${p.category === 'hike' ? renderHike(p) : renderPlace(p)}
+    ${p.category === 'hike' || p.category === 'walk' ? renderHike(p) : renderPlace(p)}
     <div class="links">
-      ${link(gmapsLink(p), p.category === 'hike' ? 'Google Maps (start)' : 'Google Maps', true)}
+      ${link(gmapsLink(p), p.category === 'hike' || p.category === 'walk' ? 'Google Maps (start)' : 'Google Maps', true)}
       ${link(h.officialUrl, 'Official route')}
       ${link(h.allTrailsUrl, 'AllTrails')}
       ${link(h.gpxUrl, 'GPX / track')}
@@ -163,13 +164,13 @@ function buildLegend(places, unplaced) {
     ${cats.map(([, c]) => `<div class="lg"><span class="sw" style="background:${c.color}"></span>${esc(c.label)}</div>`).join('')}
     <h4>Icon = type</h4>
     ${kinds.map(k => `<div class="lg"><span class="ic">${KIND_GLYPH[k] || ''}</span>${esc(KIND_LABEL[k] || k)}</div>`).join('')}
-    ${cats.some(([k]) => k === 'hike') ? `<div class="lg"><span class="ic">🥾</span>Hike start (trailhead)</div>` : ''}
+    ${cats.map(([k, c]) => ({ hike: 'Hike start (trailhead)', walk: 'Easy walk start', family: 'Family activity', attraction: 'Place / other' })[k] ? `<div class="lg"><span class="ic">${c.glyph}</span>${({ hike: 'Hike start (trailhead)', walk: 'Easy walk start', family: 'Family activity', attraction: 'Place / other' })[k]}</div>` : '').join('')}
     ${cats.some(([k]) => k === 'hike') ? `<h4>Hike stage</h4>${STAGES.map(s => `<div class="lg"><b>${esc(s)}</b>&nbsp;— ${esc(STAGE_HELP[s])}</div>`).join('')}` : ''}
     <h4>Outline = location accuracy</h4>
     <div class="lg"><span class="sw ring"></span>Solid: verified</div>
     ${status.has('approximate') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dashed"></span>Dashed: approximate start</div>' : ''}
     ${status.has('unverified') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dotted"></span>Dotted: needs verifying</div>' : ''}
-    ${unplaced.length ? `<details class="unplaced"><summary>${unplaced.length} hikes not on the map yet (no start point found)</summary><ul>${unplaced.map(u => `<li>${esc(u.name)}</li>`).join('')}</ul></details>` : ''}`;
+    ${unplaced.length ? `<details class="unplaced"><summary>${unplaced.length} not on the map yet (no start point found)</summary><ul>${unplaced.map(u => `<li>${esc(u.name)}</li>`).join('')}</ul></details>` : ''}`;
 }
 $('btn-legend').addEventListener('click', e => { e.stopPropagation(); $('legend').hidden = !$('legend').hidden; });
 map.on('click', () => { $('legend').hidden = true; });

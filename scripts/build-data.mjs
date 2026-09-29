@@ -61,6 +61,15 @@ if (fs.existsSync('data/hikes.notion.json')) {
   }
 }
 
+// ---- Family activities, places and easy walks (hand-transcribed from Notion into data/other.json)
+if (fs.existsSync('data/other.json')) {
+  for (const o of read('data/other.json')) {
+    const { status, source, ...rest } = o;
+    places.push({ id: slug(o.name), locationStatus: status, locationSource: source, ...rest });
+  }
+  unplaced.push({ name: 'Sendero de Castrejón', category: 'walk' });
+}
+
 places.sort((a, b) => a.name.localeCompare(b.name, 'es'));
 fs.mkdirSync('public/data', { recursive: true });
 fs.writeFileSync('public/data/places.json', JSON.stringify({ generated: new Date().toISOString().slice(0, 10), places, unplaced }, null, 1));

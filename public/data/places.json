@@ -221,6 +221,20 @@
    }
   },
   {
+   "id": "camaleno",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Camaleño municipality centre",
+   "name": "Camaleño",
+   "category": "attraction",
+   "kind": "Day trip",
+   "area": "Camaleño, Liébana",
+   "lat": 43.15084,
+   "lon": -4.69388,
+   "description": "The Liébana municipality at the foot of the Picos de Europa; it includes Fuente Dé. A day-trip idea in your Notion.",
+   "familyFriendly": true,
+   "notion": "https://app.notion.com/p/3e834226b3a1817d9330d698d69f035d"
+  },
+  {
    "id": "canal-de-camburero",
    "name": "Canal de Camburero",
    "category": "hike",
@@ -921,6 +935,63 @@
    }
   },
   {
+   "id": "laberinto-de-tilde",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Entrambasaguas hamlet (Notion area); the maze itself is not in OSM",
+   "name": "Laberinto de Tilde",
+   "category": "family",
+   "area": "Entrambasaguas, Campoo de Suso",
+   "lat": 43.00972,
+   "lon": -4.2816,
+   "description": "An outdoor hedge maze in Campoo, best combined with another outing in the area rather than a dedicated drive.",
+   "drive": "~80 km / ~1h",
+   "visitTime": "~1–2h",
+   "hours": "Published opening 10:00–20:00; subject to weather. Check before travel.",
+   "adult": 5,
+   "rainyDay": "Poor",
+   "familyFriendly": true,
+   "booking": "Outdoor and weather-dependent.",
+   "link": "https://laberintodetilde.com/",
+   "notion": "https://app.notion.com/p/3e834226b3a181748a73c9ba35591fad"
+  },
+  {
+   "id": "laberinto-de-villapresente",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Laberinto de Villapresente",
+   "name": "Laberinto de Villapresente",
+   "category": "family",
+   "area": "Villapresente, Reocín",
+   "lat": 43.36529,
+   "lon": -4.11748,
+   "description": "A seasonal outdoor hedge maze near Santillana del Mar, easy to combine with a visit to the town.",
+   "drive": "~25 km / ~25 min",
+   "visitTime": "30–60 min; allow ~1–1.5h",
+   "hours": "2026: 28 Mar–12 Oct. Jul/Aug daily; rest closed Mon/Tue. Generally 10:30–20:00; last entry 19:00, earlier from 16 Sep.",
+   "adult": 5,
+   "child": 4,
+   "rainyDay": "Poor",
+   "familyFriendly": true,
+   "booking": "No reservation normally needed. Outdoor hedge maze; no umbrellas inside.",
+   "link": "https://laberintodevillapresente.es/",
+   "notion": "https://app.notion.com/p/3e834226b3a18101b807e59e97477020",
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ],
+    "seasons": [
+     {
+      "from": "03-28",
+      "to": "10-12"
+     }
+    ],
+    "seasonNote": "Open 28 Mar–12 Oct in 2026; closed Mon/Tue outside July and August"
+   }
+  },
+  {
    "id": "laberintos-del-ason",
    "name": "Laberintos del Asón",
    "category": "hike",
@@ -1014,6 +1085,20 @@
     "routeGeometry": "Full track",
     "trackSource": "Official (Naturea GPX)"
    }
+  },
+  {
+   "id": "mirador-de-covalruyo",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Mirador de Covalruyo",
+   "name": "Mirador de Covalruyo",
+   "category": "attraction",
+   "kind": "Viewpoint",
+   "area": "Soba",
+   "lat": 43.17896,
+   "lon": -3.67692,
+   "description": "A viewpoint above the Asón valley in Soba, saved in Notion as a hiking/family idea.",
+   "familyFriendly": true,
+   "notion": "https://app.notion.com/p/3e834226b3a181249939e0c4d201bc3c"
   },
   {
    "id": "monte-buciero-faros-y-acantilados",
@@ -1276,6 +1361,25 @@
    "notion": "https://app.notion.com/p/3e834226b3a1810ba5dcfb8d81965d28"
   },
   {
+   "id": "parque-de-la-naturaleza-de-cabarceno",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Parque de la Naturaleza de Cabárceno",
+   "name": "Parque de la Naturaleza de Cabárceno",
+   "category": "family",
+   "area": "Obregón / Cabárceno",
+   "lat": 43.35552,
+   "lon": -3.84135,
+   "description": "A large wildlife park in a former open-cast mine landscape near Santander. A full-day outing, with an annual pass worth considering.",
+   "drive": "~30 km / ~30 min",
+   "visitTime": "5–7h",
+   "hours": "Year-round except 24, 25 & 31 Dec and 1 Jan; seasonal hours.",
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "2026 tickets: adult €25/€35/€45; child 4–12 €15/€20/€25 depending on season. Annual Tarjeta Amigo: individual €80; family €170; Family Plus €200.",
+   "link": "https://parquedecabarceno.com/",
+   "notion": "https://app.notion.com/p/3e834226b3a181a98ea2efa443c107d6"
+  },
+  {
    "id": "pasa-de-picayo",
    "name": "Pasá de Picayo",
    "category": "hike",
@@ -1458,6 +1562,36 @@
    }
   },
   {
+   "id": "rasines-ruta-azul-balconada-de-cerreo",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Rasines municipality centre (no start in Notion)",
+   "name": "Rasines — Ruta Azul: Balconada de Cerreo",
+   "category": "walk",
+   "area": "Rasines / Eastern Cantabria",
+   "lat": 43.30681,
+   "lon": -3.4262,
+   "why": "Signed local Rasines route to the Balconada de Cerreo.",
+   "familyFriendly": false,
+   "priority": "Research",
+   "notion": "https://app.notion.com/p/3e834226b3a1810ba670dc2eb468d9c4",
+   "hike": {}
+  },
+  {
+   "id": "rasines-ruta-verde-parque-paleolitico-la-balsa-y-cantera-arqueologica",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Rasines municipality centre (no start in Notion)",
+   "name": "Rasines — Ruta Verde: Parque Paleolítico, La Balsa y Cantera Arqueológica",
+   "category": "walk",
+   "area": "Rasines / Eastern Cantabria",
+   "lat": 43.30681,
+   "lon": -3.4262,
+   "why": "Signed local route through Rasines linking the Parque Paleolítico, La Balsa and Cantera Arqueológica.",
+   "familyFriendly": true,
+   "priority": "Research",
+   "notion": "https://app.notion.com/p/3e834226b3a18157bb0dfd813c354671",
+   "hike": {}
+  },
+  {
    "id": "ruta-del-cares",
    "name": "Ruta del Cares (Poncebos → Caín)",
    "category": "hike",
@@ -1536,6 +1670,25 @@
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1f4idd-EamJZJOJ67udaKuxF_8lXF1-eL",
     "routeGeometry": "Full track",
     "trackSource": "Official (Naturea GPX)"
+   }
+  },
+  {
+   "id": "sendero-adaptado-del-rio-bayones",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Sendero Adaptado del Río Bayones (path)",
+   "name": "Sendero adaptado del Río Bayones",
+   "category": "walk",
+   "area": "Ruente / Saja-Besaya",
+   "lat": 43.23128,
+   "lon": -4.20671,
+   "why": "Very short family nature walk with ten tactile interpretation panels about local flora and fauna.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "notion": "https://app.notion.com/p/3e834226b3a18186bd36f211d0988747",
+   "hike": {
+    "distanceKm": 2,
+    "difficulty": "Easy",
+    "childSuitability": "Very suitable: short, low-difficulty adapted nature trail; part of the route is conditioned/protected with a handrail."
    }
   },
   {
@@ -1821,6 +1974,25 @@
     "routeGeometry": "Trailhead only",
     "trackSource": "Official"
    }
+  },
+  {
+   "id": "zoo-de-santillana",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Zoológico de Santillana del Mar",
+   "name": "Zoo de Santillana",
+   "category": "family",
+   "area": "Santillana del Mar",
+   "lat": 43.38066,
+   "lon": -4.10316,
+   "description": "A zoo just outside Santillana del Mar; a half-day outing that pairs with the town and its museums.",
+   "drive": "~25 km / ~25 min",
+   "visitTime": "3–4h",
+   "hours": "Open every day from 09:30; official site currently states until 20:00 / dusk.",
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "Tickets at the zoo or online; check the current day tariff. Annual Club de Amigos: child 4–12 €50; adult €100; family up to 3 children €300.",
+   "link": "https://zoosantillanadelmar.com/",
+   "notion": "https://app.notion.com/p/3e834226b3a1818b8c73fe4337317c48"
   }
  ],
  "unplaced": [
@@ -1853,6 +2025,10 @@
    "name": "Porra del Mortillano — Faja del Campanu y vía normal",
    "category": "hike",
    "stage": "Major objective"
+  },
+  {
+   "name": "Sendero de Castrejón",
+   "category": "walk"
   }
  ]
 }
