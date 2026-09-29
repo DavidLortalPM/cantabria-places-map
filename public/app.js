@@ -7,6 +7,8 @@ const CATEGORIES = {
   attraction: { label: 'Places & day trips', color: '#dd6b20', glyph: '📍' },
   cultura:    { label: 'Pasaporte Cultura',  color: '#805ad5', glyph: '🏛️' }
 };
+const STAGES = ['Do now', 'Build towards', 'Major objective'];
+const STAGE_HELP = { 'Do now': 'Ready to do this year', 'Build towards': 'Needs some fitness or planning first', 'Major objective': 'Big day, mountain experience needed' };
 const KIND_LABEL = { 'Museum': 'Museum / exhibition centre', 'Cultural site': 'Historic or archaeological site', 'Cave': 'Cave (guided visit, book ahead)' };
 const KIND_GLYPH = { 'Museum': '🏛️', 'Cultural site': '🏰', 'Cave': '🔦' };
 
@@ -66,7 +68,7 @@ function link(href, text, primary) { return href ? `<a ${primary ? 'class="prima
 function renderHike(p) {
   const h = p.hike || {};
   const warn = h.exposure ? `<div class="callout"><b>Exposure / scrambling:</b> ${esc(h.exposure)}</div>` : '';
-  const geometry = h.routeGeometry === 'Full track' ? 'Full track available' : h.routeGeometry === 'Trailhead only' ? 'Trailhead only — no track yet' : h.routeGeometry ? 'Route geometry missing' : '';
+  const geometry = h.routeGeometry === 'Full track' && h.gpxUrl ? 'Track/GPX link held' : h.routeGeometry === 'Trailhead only' ? 'Trailhead only — no track yet' : 'No track held';
   return `
     <div class="tags">
       ${h.stage ? `<span class="tag">${esc(h.stage)}</span>` : ''}
@@ -132,7 +134,7 @@ function openSheet(p) {
     if (y > window.innerHeight * 0.35) map.panBy([0, y - window.innerHeight * 0.2]);
   }
 }
-function buildLegend(places) {
+function buildLegend(places, unplaced) {
   const cats = Object.entries(CATEGORIES).filter(([k]) => places.some(p => p.category === k));
   const kinds = [...new Set(places.map(p => p.kind).filter(Boolean))];
   const status = new Set(places.map(p => p.locationStatus));
@@ -143,10 +145,12 @@ function buildLegend(places) {
     <h4>Icon = type</h4>
     ${kinds.map(k => `<div class="lg"><span class="ic">${KIND_GLYPH[k] || ''}</span>${esc(KIND_LABEL[k] || k)}</div>`).join('')}
     ${cats.some(([k]) => k === 'hike') ? `<div class="lg"><span class="ic">🥾</span>Hike start (trailhead)</div>` : ''}
+    ${cats.some(([k]) => k === 'hike') ? `<h4>Hike stage</h4>${STAGES.map(s => `<div class="lg"><b>${esc(s)}</b>&nbsp;— ${esc(STAGE_HELP[s])}</div>`).join('')}` : ''}
     <h4>Outline = location accuracy</h4>
     <div class="lg"><span class="sw ring"></span>Solid: verified</div>
     ${status.has('approximate') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dashed"></span>Dashed: approximate start</div>' : ''}
-    ${status.has('unverified') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dotted"></span>Dotted: needs verifying</div>' : ''}`;
+    ${status.has('unverified') || cats.some(([k]) => k === 'hike') ? '<div class="lg"><span class="sw ring dotted"></span>Dotted: needs verifying</div>' : ''}
+    ${unplaced.length ? `<details class="unplaced"><summary>${unplaced.length} hikes not on the map yet (no start point found)</summary><ul>${unplaced.map(u => `<li>${esc(u.name)}</li>`).join('')}</ul></details>` : ''}`;
 }
 $('btn-legend').addEventListener('click', e => { e.stopPropagation(); $('legend').hidden = !$('legend').hidden; });
 map.on('click', () => { $('legend').hidden = true; });
@@ -189,7 +193,19 @@ async function init() {
       .addTo(g);
   }
 
-  buildLegend(places);
+  const stageOn = Object.fromEntries(STAGES.map(s => [s, true]));
+  const visible = p => on[p.category] && (p.category !== 'hike' || stageOn[p.hike?.stage] !== false);
+  const refresh = () => {
+    for (const p of places) {
+      const g = groups[p.category], m = markers[p.id];
+      visible(p) ? g.addLayer(m) : g.removeLayer(m);
+    }
+    if (selected && !visible(byId[selected])) closeSheet();
+    safeStore.set('layers', JSON.stringify(on));
+    safeStore.set('stages', JSON.stringify(stageOn));
+    if (stageBar) stageBar.hidden = !on.hike;
+  };
+  let stageBar = null;
   const chips = $('filters');
   for (const [key, cat] of Object.entries(CATEGORIES)) {
     const n = places.filter(p => p.category === key).length;
@@ -198,16 +214,32 @@ async function init() {
     const b = document.createElement('button');
     b.className = 'chip'; b.type = 'button'; b.style.setProperty('--c', cat.color);
     b.innerHTML = `<span class="dot"></span>${esc(cat.label)} <span class="n">${n}</span>`;
-    const apply = () => {
-      b.setAttribute('aria-pressed', String(on[key]));
-      on[key] ? groups[key].addTo(map) : map.removeLayer(groups[key]);
-      if (selected && byId[selected].category === key && !on[key]) closeSheet();
-      safeStore.set('layers', JSON.stringify(on));
-    };
-    b.addEventListener('click', () => { on[key] = !on[key]; apply(); });
+    b.setAttribute('aria-pressed', String(on[key]));
+    groups[key].addTo(map);
+    b.addEventListener('click', () => { on[key] = !on[key]; b.setAttribute('aria-pressed', String(on[key])); refresh(); });
     chips.appendChild(b);
-    apply();
   }
+
+  // Hiking Stage sub-filter (only when there are hikes)
+  const counts = STAGES.map(s => places.filter(p => p.category === 'hike' && p.hike?.stage === s).length);
+  if (counts.some(Boolean)) {
+    const savedStages = (() => { try { return JSON.parse(safeStore.get('stages') || 'null'); } catch { return null; } })();
+    stageBar = document.createElement('div');
+    stageBar.id = 'stages';
+    STAGES.forEach((s, i) => {
+      if (!counts[i]) return;
+      if (savedStages) stageOn[s] = savedStages[s] !== false;
+      const sb = document.createElement('button');
+      sb.className = 'chip small'; sb.type = 'button'; sb.title = STAGE_HELP[s];
+      sb.setAttribute('aria-pressed', String(stageOn[s]));
+      sb.innerHTML = `${esc(s)} <span class="n">${counts[i]}</span>`;
+      sb.addEventListener('click', () => { stageOn[s] = !stageOn[s]; sb.setAttribute('aria-pressed', String(stageOn[s])); refresh(); });
+      stageBar.appendChild(sb);
+    });
+    document.body.appendChild(stageBar);
+  }
+  refresh();
+  buildLegend(places, data.unplaced || []);
 
   if (places.length) map.fitBounds(L.latLngBounds(places.map(p => [p.lat, p.lon])), { padding: [50, 50], maxZoom: 10 });
 

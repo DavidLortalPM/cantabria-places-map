@@ -9,7 +9,7 @@ Notion (`Places & Activities`) stays the source of truth. This site is a static 
 | Layer | Status |
 |---|---|
 | Pasaporte Cultura | 21 places (Notion currently has 21, not 19) |
-| Hikes (trailheads) | pending the one-year hit list |
+| Hikes (trailheads) | 46 of the 52 staged hikes (Hiking Stage set in Notion); 6 await a start point |
 | Family / Places & day trips | schema ready, no data yet |
 
 Empty layers are hidden automatically.

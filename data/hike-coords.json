@@ -1,0 +1,324 @@
+{
+ "Alto de La Guarda (CA-ENP03)": {
+  "lat": 43.14304,
+  "lon": -4.19327,
+  "status": "approximate",
+  "source": "OSM: Bárcena Mayor (village named as start)",
+  "note": "village centre, not the exact trailhead"
+ },
+ "Braña de los Tejos (CA-ENP06)": {
+  "lat": 43.23614,
+  "lon": -4.55034,
+  "status": "approximate",
+  "source": "OSM: Cicera hamlet (named as start)",
+  "note": "hamlet centre, not the exact trailhead"
+ },
+ "Brañavieja — Cuchillón — Tres Mares": {
+  "lat": 43.03385,
+  "lon": -4.35728,
+  "status": "approximate",
+  "source": "OSM: Brañavieja (Alto Campoo)",
+  "note": "hamlet, not the exact trailhead"
+ },
+ "Horcados Rojos": {
+  "lat": 43.15352,
+  "lon": -4.80574,
+  "status": "verified",
+  "source": "OSM: Mirador de El Cable (top of the Fuente Dé cable car)",
+  "note": ""
+ },
+ "Laberintos del Asón": {
+  "lat": 43.21891,
+  "lon": -3.61338,
+  "status": "approximate",
+  "source": "OSM: path to Sima Tibia from Collado de Asón",
+  "note": "Notion says the exact labyrinth variant still needs verifying"
+ },
+ "Monte Camba — Tielve to Sotres (PR-PNPE 20)": {
+  "lat": 43.26325,
+  "lon": -4.77558,
+  "status": "approximate",
+  "source": "OSM: Tielve village (named as start)",
+  "note": "village centre"
+ },
+ "Monte Hijedo — ruta completa": {
+  "lat": 42.87063,
+  "lon": -3.91782,
+  "status": "approximate",
+  "source": "OSM: Riopanero hamlet (named as start)",
+  "note": "Notion: parking at the start of the forest track — exact spot not yet confirmed"
+ },
+ "Ordiales / Vegarredonda": {
+  "lat": 43.27615,
+  "lon": -4.98609,
+  "status": "verified",
+  "source": "OSM: Buferrera / Lagos de Covadonga bus station",
+  "note": ""
+ },
+ "Porracolina — Cordal de las Jorobas y vía normal": {
+  "lat": 43.28066,
+  "lon": -3.65061,
+  "status": "approximate",
+  "source": "OSM: Bustablado hamlet (named as start)",
+  "note": "hamlet, not the exact trailhead"
+ },
+ "Portillo de Lunada — Pico de la Miel — Castro Valnera": {
+  "lat": 43.17098,
+  "lon": -3.65455,
+  "status": "verified",
+  "source": "OSM: Portillo de Lunada (mountain pass)",
+  "note": ""
+ },
+ "Ruta del Cares": {
+  "lat": 43.26178,
+  "lon": -4.8314,
+  "status": "approximate",
+  "source": "OSM: Poncebos hamlet (start of the planned one-way route)",
+  "note": "hamlet, not the exact path start"
+ },
+ "Sendero de los Puentes (CA-ENP35)": {
+  "lat": 43.23527,
+  "lon": -4.21876,
+  "status": "verified",
+  "source": "OSM: Casa del Monte, Sendero de los Puentes (Ucieda)",
+  "note": ""
+ },
+ "Sierra de Cocón — Oceño — Tresviso / San Esteban (PR-PNPE 34)": {
+  "lat": 43.29733,
+  "lon": -4.73654,
+  "status": "approximate",
+  "source": "OSM: Oceño village",
+  "note": "Notion: choose the direction/start before walking"
+ },
+ "Urdón — Tresviso": {
+  "lat": 43.26709,
+  "lon": -4.63189,
+  "status": "approximate",
+  "source": "OSM: Urdón hamlet (named as start)",
+  "note": "hamlet, not the exact path start"
+ },
+ "Vega de Ario": {
+  "lat": 43.26747,
+  "lon": -4.98096,
+  "status": "approximate",
+  "source": "OSM: Lago de la Ercina (Lagos de Covadonga)",
+  "note": "start area named in Notion; exact car park not confirmed"
+ },
+ "Vega de Liordes": {
+  "lat": 43.1488,
+  "lon": -4.80876,
+  "status": "verified",
+  "source": "OSM: Teleférico de Fuente Dé",
+  "note": ""
+ },
+ "Bosque de Secuoyas de Monte Cabezón": {
+  "lat": 43.3196,
+  "lon": -4.25938,
+  "status": "approximate",
+  "source": "OSM: Monumento Natural de las Secuoyas del Monte Cabezón",
+  "note": "centre of the protected area, not the car park"
+ },
+ "Canto Pilanco (CA-ENP10)": {
+  "lat": 43.12505,
+  "lon": -4.28971,
+  "status": "approximate",
+  "source": "OSM: Canto Pilanco locality",
+  "note": "Notion names the start as Puente de Bárcena Sellano / Río Saja; not yet pinned exactly"
+ },
+ "Demués — Lagos (PR-PNPE 08)": {
+  "lat": 43.31868,
+  "lon": -4.9905,
+  "status": "approximate",
+  "source": "OSM: Demués hamlet (named as start)",
+  "note": "hamlet centre"
+ },
+ "Entorno de Tresviso (PR-PNPE 17)": {
+  "lat": 43.25713,
+  "lon": -4.66813,
+  "status": "approximate",
+  "source": "OSM: Tresviso village (named as start)",
+  "note": "village centre"
+ },
+ "La Garma — Nacimiento del Pisueña (CA-ENP23)": {
+  "lat": 43.21669,
+  "lon": -3.80686,
+  "status": "approximate",
+  "source": "OSM: Selaya (named as start area)",
+  "note": "municipality centre, not the trailhead"
+ },
+ "Los Bosques del Monte Corona (CA-ENP33)": {
+  "lat": 43.32779,
+  "lon": -4.20257,
+  "status": "approximate",
+  "source": "OSM: La Tejera locality (Parking de La Tejera named in Notion)",
+  "note": "locality, exact car park not confirmed"
+ },
+ "Monte Buciero — Faros y Acantilados": {
+  "lat": 43.43928,
+  "lon": -3.44711,
+  "status": "verified",
+  "source": "OSM: Fuerte de San Martín, Santoña",
+  "note": ""
+ },
+ "Nacimiento del Asón / Cascada de Cailagua": {
+  "lat": 43.22482,
+  "lon": -3.60064,
+  "status": "approximate",
+  "source": "OSM: track 'Camino a la cascada del nacimiento del río Asón' near Asón village",
+  "note": "a point on the access track, not a confirmed car park"
+ },
+ "Peña Oviedo": {
+  "lat": 43.15352,
+  "lon": -4.80574,
+  "status": "verified",
+  "source": "OSM: Mirador de El Cable (top of the Fuente Dé cable car)",
+  "note": "official PR-PNPE22 descends from here towards Mogrovejo"
+ },
+ "Pueblos de Sajambre (PR-PNPE 10)": {
+  "lat": 43.13697,
+  "lon": -5.03887,
+  "status": "approximate",
+  "source": "OSM: Oseja de Sajambre (named as start)",
+  "note": "village centre"
+ },
+ "Ruta del Cubilón / Monte Aa": {
+  "lat": 43.25868,
+  "lon": -4.26732,
+  "status": "approximate",
+  "source": "OSM: Ruente (named as start area)",
+  "note": "village centre; Notion: access track toward Monte Aa"
+ },
+ "Vega de Llos (PR-PNPE 12)": {
+  "lat": 43.15147,
+  "lon": -4.91896,
+  "status": "approximate",
+  "source": "OSM: Posada de Valdeón (named as start)",
+  "note": "village centre"
+ },
+ "Vega de Urriellu from Sotres / Pandébano": {
+  "lat": 43.23308,
+  "lon": -4.74922,
+  "status": "approximate",
+  "source": "OSM: Sotres village",
+  "note": "Notion: choose the exact parking/start variant (Sotres or Collado Pandébano) before walking"
+ },
+ "Acantilados de San Vicente (CA-ENP01)": {
+  "lat": 43.3936,
+  "lon": -4.39195,
+  "status": "approximate",
+  "source": "OSM: Faro de Punta de la Silla (start named on the Naturea guided-activity page for this route)",
+  "note": "the self-guided Naturea page does not name a start"
+ },
+ "Altos de Carmona (CA-ENP38)": {
+  "lat": 43.2542,
+  "lon": -4.35911,
+  "status": "approximate",
+  "source": "OSM: Carmona hamlet — Naturea page: \"El itinerario comienza en Carmona\"",
+  "note": "village centre, exact parking not given"
+ },
+ "Hayedo de La Zamina (CA-ENP21)": {
+  "lat": 43.2088,
+  "lon": -3.7027,
+  "status": "approximate",
+  "source": "OSM: Casa del Pasiego, Barrio La Concha, San Roque de Riomiera (start from third-party trail sources)",
+  "note": "Naturea page names no start"
+ },
+ "Las Praizas de Cucayo (CA-ENP25)": {
+  "lat": 43.05572,
+  "lon": -4.63747,
+  "status": "approximate",
+  "source": "OSM: Cucayo hamlet — Naturea page: route starts and ends in the village",
+  "note": "village centre"
+ },
+ "Peñas de Bejes (CA-ENP07)": {
+  "lat": 43.2423,
+  "lon": -4.64668,
+  "status": "approximate",
+  "source": "OSM: Bejes hamlet",
+  "note": "assumed from the route name; the page does not state the start"
+ },
+ "Praderas de Ruyemas (CA-ENP29)": {
+  "lat": 43.14605,
+  "lon": -3.72265,
+  "status": "approximate",
+  "source": "OSM: Pandillo hamlet, Vega de Pas",
+  "note": "probable start only; official page names none"
+ },
+ "Senda Fluvial del Nansa (CA-ENP34)": {
+  "lat": 43.36234,
+  "lon": -4.48619,
+  "status": "approximate",
+  "source": "OSM: Muñorrodero hamlet (lower end of the linear route)",
+  "note": "linear route; the guided version starts upstream at Trascudia (43.32946, -4.50699)"
+ },
+ "Cascada del Tobazo (CA-ENP route)": {
+  "lat": 42.83107,
+  "lon": -3.83458,
+  "status": "approximate",
+  "source": "OSM: \"Cascada del Tobazo\" guidepost at Villaescusa de Ebro",
+  "note": "likely trailhead signage, parking not confirmed; the waterfall itself is the destination"
+ },
+ "Costa Quebrada — coastal walking route": {
+  "lat": 43.4448,
+  "lon": -3.97497,
+  "status": "approximate",
+  "source": "OSM: Playa de Valdearenas (most commonly documented start of the ~6 km circuit)",
+  "note": "beach node, a short way from the car park; Notion says the exact walking variant is still to be chosen"
+ },
+ "Sierra del Hornijo — Mazo Grande y Mortero de Astrana": {
+  "lat": 43.20222,
+  "lon": -3.56157,
+  "status": "approximate",
+  "source": "OSM: Astrana hamlet, Soba (start near the church per Wikiloc/blog routes)",
+  "note": "not an official source"
+ },
+ "Lagos de Covadonga circuit": {
+  "lat": 43.27644,
+  "lon": -4.98554,
+  "status": "verified",
+  "source": "OSM: Buferrera car park — MITECO: PR-PNPE 2 starts at the Buferrera car park",
+  "note": "alternative start is the Lago Ercina car park"
+ },
+ "Puertos de Áliva": {
+  "lat": 43.1536,
+  "lon": -4.80533,
+  "status": "verified",
+  "source": "OSM: upper cable-car terminal (El Cable) — MITECO: PR-PNPE 24 starts at El Cable",
+  "note": "all descent to Fuente Dé; needs the cable car to reach the start"
+ },
+ "Canal de Camburero": {
+  "lat": 43.26178,
+  "lon": -4.8314,
+  "status": "approximate",
+  "source": "OSM: Poncebos hamlet — MITECO: route runs Poncebos to Vega de Urriellu",
+  "note": "hamlet, not the exact trailhead"
+ },
+ "Collado Jermoso": {
+  "lat": 43.16805,
+  "lon": -4.90317,
+  "status": "approximate",
+  "source": "OSM: Cordiñanes hamlet — MITECO PR-PNPE 16 starts at Cordiñanes",
+  "note": "trailhead is at the upper end of the village; alternative approaches from Fuente Dé or Puerto de Pandetrave"
+ },
+ "Jou de los Cabrones": {
+  "lat": 43.26178,
+  "lon": -4.8314,
+  "status": "approximate",
+  "source": "OSM: Poncebos hamlet — MITECO PR-PNPE 18 starts at Poncebos",
+  "note": "hamlet; overlaps the Cares and Camburero pins"
+ },
+ "Pasá de Picayo": {
+  "lat": 43.25713,
+  "lon": -4.66813,
+  "status": "approximate",
+  "source": "OSM: Tresviso village — MITECO: linear PR-PNPE 29 can start at Tresviso or San Esteban de Cuñaba",
+  "note": "either end; village-level pin"
+ },
+ "Sierra Breñas y Pico Candiano": {
+  "lat": 43.35016,
+  "lon": -3.46607,
+  "status": "approximate",
+  "source": "OSM: Padiérniga hamlet — start of published Candiano routes (blog/Cantabria Rural)",
+  "note": "may not match your exact ~7 km variant; other routes start at Bueras or Venta del Hambre"
+ }
+}
