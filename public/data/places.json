@@ -892,6 +892,39 @@
    "familyFriendly": true
   },
   {
+   "id": "monte-buciero-faros-y-acantilados",
+   "name": "Monte Buciero — Faros y Acantilados",
+   "category": "hike",
+   "area": "Santoña / Eastern Coast",
+   "lat": 43.43928,
+   "lon": -3.44711,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Fuerte de San Martín, Santoña",
+   "why": "Canonical Monte Buciero circuit combining Cantabrian cliffs, woodland, historic fortifications and the Faro del Caballo.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 12,
+    "duration": "Approx. 4–5h",
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "conditions": "Dry conditions preferable; take particular care on steep/rocky terrain and the lighthouse stairs.",
+    "trailhead": "Fuerte de San Martín, Santoña",
+    "terrain": "Coastal cliff and woodland paths; Faro del Caballo adds a long steep staircase.",
+    "officialUrl": "https://www.aytosantona.org/2020/02/17/rutas-monte-buciero-faro-caballo/",
+    "routeGeometry": "Trailhead only",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 9.3,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/3306621",
+    "circular": true,
+    "note": "OSM waymarked loop from Fuerte de San Martín (about 9 km; Notion estimate is longer)"
+   }
+  },
+  {
    "id": "museo-de-la-naturaleza-de-cantabria",
    "name": "Museo de la Naturaleza de Cantabria",
    "category": "cultura",
@@ -1071,6 +1104,65 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
     "circular": true
+   }
+  },
+  {
+   "id": "porracolina-cordal-de-las-jorobas-y-via-normal",
+   "name": "Porracolina — Cordal de las Jorobas y vía normal",
+   "category": "hike",
+   "area": "Alto Asón / Eastern Cantabria",
+   "lat": 43.28066,
+   "lon": -3.65061,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Bustablado hamlet (named as start) — hamlet, not the exact trailhead",
+   "why": "One of the defining Alto Asón summits, with a more adventurous Cordal de las Jorobas option and normal-route alternative.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 13,
+    "stage": "Build towards",
+    "trailhead": "Bustablado, Arredondo",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
+    "routeGeometry": "Trailhead only",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 6.6,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bustablado-porracolina/",
+    "circular": false,
+    "note": "Official CA-ENP09 Bustablado–Porracolina: the ascent track only (6.6 km one way, return the same way = about 13 km)"
+   }
+  },
+  {
+   "id": "portillo-de-lunada-pico-de-la-miel-castro-valnera",
+   "name": "Portillo de Lunada — Pico de la Miel — Castro Valnera",
+   "category": "hike",
+   "area": "Pas / Lunada",
+   "lat": 43.17098,
+   "lon": -3.65455,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Portillo de Lunada (mountain pass)",
+   "why": "Major local mountain day linking Lunada with Pico de la Miel and Castro Valnera.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "duration": "Approx. 4–6h",
+    "difficulty": "Hard",
+    "stage": "Build towards",
+    "conditions": "Dry, clear conditions; avoid poor visibility.",
+    "exposure": "Exposed/pathless sections possible.",
+    "trailhead": "Portillo de Lunada",
+    "parking": "Portillo de Lunada; confirm road and parking conditions before walking",
+    "terrain": "High exposed mountain terrain; sections may be pathless.",
+    "routeGeometry": "Missing"
+   },
+   "route": {
+    "km": 5.3,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/6036134",
+    "circular": false,
+    "note": "OSM \"Senda Lunada al Castro Valnera\": ascent only, about 5.3 km one way; return the same way"
    }
   },
   {

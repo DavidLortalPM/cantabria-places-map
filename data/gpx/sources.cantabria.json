@@ -1,0 +1,20 @@
+{
+ "porracolina-cordal-de-las-jorobas-y-via-normal": {
+  "name": "Porracolina — Cordal de las Jorobas y vía normal",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bustablado-porracolina/",
+  "note": "Official CA-ENP09 Bustablado–Porracolina: the ascent track only (6.6 km one way, return the same way = about 13 km)"
+ },
+ "monte-buciero-faros-y-acantilados": {
+  "name": "Monte Buciero — Faros y Acantilados",
+  "source": "OpenStreetMap contributors",
+  "sourceUrl": "https://www.openstreetmap.org/relation/3306621",
+  "note": "OSM waymarked loop from Fuerte de San Martín (about 9 km; Notion estimate is longer)"
+ },
+ "portillo-de-lunada-pico-de-la-miel-castro-valnera": {
+  "name": "Portillo de Lunada — Pico de la Miel — Castro Valnera",
+  "source": "OpenStreetMap contributors",
+  "sourceUrl": "https://www.openstreetmap.org/relation/6036134",
+  "note": "OSM \"Senda Lunada al Castro Valnera\": ascent only, about 5.3 km one way; return the same way"
+ }
+}

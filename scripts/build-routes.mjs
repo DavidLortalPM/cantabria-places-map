@@ -16,7 +16,9 @@ const DEDUP_M = 2;        // drop points closer than this to the previous kept p
 const CIRCULAR_M = 150;   // start/end closer than this = circular
 
 // Per-hike metadata (source + page the GPX came from). Keyed by hike id.
-const SOURCES = JSON.parse(fs.readFileSync(path.join(gpxDir, 'sources.json'), 'utf8'));
+// Several files can contribute (sources.json, sources.<name>.json) so parallel work does not collide; later files win.
+const SOURCES = {};
+for (const f of fs.readdirSync(gpxDir).filter(f => /^sources(..+)?.json$/.test(f)).sort()) Object.assign(SOURCES, JSON.parse(fs.readFileSync(path.join(gpxDir, f), 'utf8')));
 
 const notion = JSON.parse(fs.readFileSync(path.join(root, 'data/hikes.notion.json'), 'utf8'));
 const coords = JSON.parse(fs.readFileSync(path.join(root, 'data/hike-coords.json'), 'utf8'));
@@ -129,7 +131,7 @@ for (const id of fs.readdirSync(gpxDir).sort()) {
   const files = fs.readdirSync(dir).filter(f => /\.gpx$/i.test(f)).sort();
   if (!files.length) continue;
   const src = SOURCES[id];
-  if (!src) { console.warn(`! ${id}: no entry in data/gpx/sources.json, skipped`); continue; }
+  if (!src) { console.warn(`! ${id}: no entry in data/gpx/sources*.json, skipped`); continue; }
   let raw = [], names = [], nTrk = 0, nSeg = 0;
   for (const f of files) {
     const p = parseGpx(decode(fs.readFileSync(path.join(dir, f))));
