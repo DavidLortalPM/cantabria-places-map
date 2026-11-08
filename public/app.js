@@ -392,4 +392,15 @@ async function init() {
 }
 init();
 
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
+// Stay current: look for a new version on load and whenever the app comes back to the foreground, and reload once
+// when a new service worker takes over (unless a place sheet is open) so updates show without a second open.
+if ('serviceWorker' in navigator) {
+  let hadController = !!navigator.serviceWorker.controller, reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (hadController && !reloading && $('sheet').hidden) { reloading = true; location.reload(); }
+    hadController = true;
+  });
+  navigator.serviceWorker.register('/sw.js').then(reg => {
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) reg.update().catch(() => {}); });
+  }).catch(() => {});
+}
