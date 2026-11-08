@@ -1,0 +1,13 @@
+# Used when the site is served by Hostinger (LiteSpeed/Apache). Ignored by Cloudflare/GitHub Pages.
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+  # The service worker and the HTML must always be revalidated so updates are picked up.
+  <FilesMatch "^(sw\.js|index\.html)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
+<IfModule mod_mime.c>
+  AddType application/manifest+json .webmanifest
+  AddType application/json .json
+</IfModule>
+DirectoryIndex index.html

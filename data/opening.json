@@ -1,0 +1,17 @@
+{
+ "_readme": "Opening days derived by hand from the Notion 'Opening Hours' text. days: 0=Sun..6=Sat. Places where the text gives no weekday pattern are omitted (shown as 'check hours'). seasons: MM-DD ranges, year-agnostic; Easter dates are 2026's.",
+ "Antiguo Seminario Mayor de Comillas": {"days":[0,1,2,3,4,5,6]},
+ "Cueva de Covalanas": {"days":[3,4,5,6,0]},
+ "Arqueositio Cántabro-Romano de Camesa-Rebolledo": {"days":[2,3,4,5,6,0]},
+ "Cueva de Chufín": {"days":[3,4,5,6,0], "seasons":[{"from":"04-02","to":"04-05"},{"from":"06-15","to":"09-15"}], "seasonNote":"Open Easter (2–5 Apr 2026) and 15 Jun–15 Sep only"},
+ "Cueva de Cullalvera": {"days":[2,3,4,5,6,0]},
+ "Ciudad romana y Domus de Julióbriga": {"days":[2,3,4,5,6,0]},
+ "Cueva de El Castillo": {"days":[2,3,4,5,6,0]},
+ "Cueva de Las Monedas": {"days":[2,3,4,5,6,0]},
+ "Centro de Interpretación del Románico": {"days":[3,4,5,6,0]},
+ "Cueva de Hornos de la Peña": {"days":[3,4,5,6,0]},
+ "Cueva de El Pendo": {"days":[2,3,4,5,6,0]},
+ "Torre de Pero Niño": {"days":[3,4,5,6,0]},
+ "Torre del Infantado": {"days":[0,1,2,3,4,5,6]},
+ "Centro de Arte Rupestre de Cantabria": {"days":[2,3,4,5,6,0]}
+}

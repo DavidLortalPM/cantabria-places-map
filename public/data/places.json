@@ -1,0 +1,1349 @@
+{
+ "generated": "2026-11-08",
+ "places": [
+  {
+   "id": "acantilados-de-san-vicente-ca-enp01",
+   "name": "Acantilados de San Vicente (CA-ENP01)",
+   "category": "hike",
+   "area": "San Vicente de la Barquera / Western Coast",
+   "lat": 43.392862,
+   "lon": -4.39159,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Official western-coast route adding a different cliff landscape from Costa Quebrada and Monte Buciero.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 8.5,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1CBw-P39JF61Uzd8GmE0cNTcu9w1UrMQn",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 8.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
+    "circular": true
+   }
+  },
+  {
+   "id": "alto-de-la-guarda-ca-enp03",
+   "name": "Alto de La Guarda (CA-ENP03)",
+   "category": "hike",
+   "area": "Saja-Nansa / Los Tojos",
+   "lat": 43.146203,
+   "lon": -4.195658,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Substantial 8.5 km Saja-Besaya circuit with 650 m ascent: short in distance but a proper climbing day.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 8.5,
+    "ascentM": 650,
+    "duration": "3h 40m",
+    "difficulty": "Moderate",
+    "stage": "Build towards",
+    "routeType": "Circular",
+    "trailhead": "Bárcena Mayor",
+    "terrain": "Forest ascent with some rocky sections, then open views towards the Valle del Río Lodar and Valle del Río Queriendo.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1MtmgQbaEdvPj-_qMphjLgPppsksQt_6d",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 8.3,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
+    "circular": true
+   }
+  },
+  {
+   "id": "altos-de-carmona-ca-enp38",
+   "name": "Altos de Carmona (CA-ENP38)",
+   "category": "hike",
+   "area": "Carmona / Cabuérniga / Saja-Nansa",
+   "lat": 43.254524,
+   "lon": -4.357378,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Combines the historic village of Carmona with a proper climb onto the Sierra del Escudo de Cabuérniga.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 12,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1Lt_dX0Ra1s848J60c9zc4d87BApHCjeH",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 11.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
+    "circular": true
+   }
+  },
+  {
+   "id": "antiguo-seminario-mayor-de-comillas",
+   "name": "Antiguo Seminario Mayor de Comillas",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "Comillas",
+   "description": "A vast Neo-Gothic former seminary overlooking Comillas, designed by Joan Martorell and later home to a pontifical university. Guided visits explore its church, halls and grounds.",
+   "image": {
+    "src": "/img/antiguo-seminario-mayor-de-comillas.jpg",
+    "credit": "-Merce-",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Comillas_Antiguo_Seminario_y_Universidad_Pontificia.jpg"
+   },
+   "lat": 43.38647,
+   "lon": -4.29887,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Seminario Mayor de Comillas",
+   "drive": "37 km / ~34 min",
+   "visitTime": "~1h; allow 1–1.5h",
+   "hours": "Low: Mon–Fri & Sun 09:30–15:30; Sat split to 16:30. Mid: Mon–Sat 09:30–13:30 & 14:30–18:30; Sun 10:00–15:00. High: Mon–Sat 10:00–14:00 & 15:00–19:00; Sun split to 18:00.",
+   "adult": 7,
+   "child": 5,
+   "open": {
+    "days": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Can combine with Sobrellano; official site recommends 90–120 minutes between visit start times.",
+   "link": "https://centros.culturadecantabria.com/seminario-mayor-de-comillas/"
+  },
+  {
+   "id": "arqueositio-cantabro-romano-de-camesa-rebolledo",
+   "name": "Arqueositio Cántabro-Romano de Camesa-Rebolledo",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "Camesa-Rebolledo",
+   "description": "Two archaeological sites near Mataporquera linked to a Roman settlement founded after the Cantabrian Wars, close to a Roman road. A quiet stop that shows how Rome settled inland Cantabria.",
+   "image": {
+    "src": "/img/arqueositio-cantabro-romano-de-camesa-rebolledo.jpg",
+    "credit": "Emilio Gómez Fernández",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arqueositio_C%C3%A1ntabro-Romano_de_Camesa-Rebolledo_2.jpg"
+   },
+   "lat": 42.88735,
+   "lon": -4.1584,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Arqueositio Cántabro-Romano de Camesa-Rebolledo",
+   "drive": "~75 km / ~55 min",
+   "visitTime": "~1h; allow 1.5h",
+   "hours": "Same standard seasonal pattern: low daytime hours; mid/high split day Tue–Sat; Sunday mornings; Mon closed. Weather can alter opening.",
+   "adult": 3,
+   "child": 2,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "Opening can change due to weather; check before travel.",
+   "link": "https://centros.culturadecantabria.com/arqueositio/"
+  },
+  {
+   "id": "brana-de-los-tejos-ca-enp06",
+   "name": "Braña de los Tejos (CA-ENP06)",
+   "category": "hike",
+   "area": "Cicera / Peñarrubia / Saja-Nansa",
+   "lat": 43.236999,
+   "lon": -4.550048,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "One of Saja-Nansa's emblematic routes: mature oak and beech forest leading to a rare high-altitude grove of ancient yews at about 1,400 m.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 14.5,
+    "difficulty": "Hard",
+    "stage": "Build towards",
+    "routeType": "Circular",
+    "conditions": "Avoid poor weather; muddy after rain and snow is possible in winter. Official shorter option turns back before the Braña for about 8.7 km.",
+    "trailhead": "Cicera",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YxoQOxgKUfWNx_sk-M1pNQ8Qbs9cVrYf",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 14.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
+    "circular": true
+   }
+  },
+  {
+   "id": "camaleno",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Camaleño municipality centre",
+   "name": "Camaleño",
+   "category": "attraction",
+   "kind": "Day trip",
+   "area": "Camaleño, Liébana",
+   "lat": 43.15084,
+   "lon": -4.69388,
+   "description": "The Liébana municipality at the foot of the Picos de Europa; it includes Fuente Dé. A day-trip idea in your Notion.",
+   "familyFriendly": true
+  },
+  {
+   "id": "canto-pilanco-ca-enp10",
+   "name": "Canto Pilanco (CA-ENP10)",
+   "category": "hike",
+   "area": "Los Tojos / Saja-Besaya",
+   "lat": 43.129728,
+   "lon": -4.296748,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Compact forest hike through river woodland and mature beech forest, with an optional viewpoint over the south-western Saja-Besaya mountains.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 4.8,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "childSuitability": "Strong short family/progression hike; optional viewpoint climb is short but steep.",
+    "conditions": "Excellent autumn option. Check hunting calendar; avoid the steep viewpoint spur in adverse weather.",
+    "trailhead": "Puente de Bárcena Sellano / Río Saja",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1s30CRZ1DluDqchI0YbTgNIyNjM1BoJy6",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 4.8,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
+    "circular": true
+   }
+  },
+  {
+   "id": "casas-del-aguila-y-la-parra",
+   "name": "Casas del Águila y la Parra",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "Santillana del Mar",
+   "description": "Two neighbouring historic stone mansions on the main square of Santillana del Mar, open to visitors and free to enter. Easy to combine with a wander around the medieval town.",
+   "image": {
+    "src": "/img/casas-del-aguila-y-la-parra.jpg",
+    "credit": "Zarateman",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santillana_del_Mar_-_Casas_del_%C3%81guila_y_la_Parra_1.jpg"
+   },
+   "lat": 43.39035,
+   "lon": -4.10864,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Casa del Águila and Casa Torre de la Parra share Plaza de Ramón Pelayo",
+   "drive": "~30 km / ~25 min",
+   "visitTime": "30–60 min",
+   "hours": "Check current daily opening before travel; free admission. Best combined with Santillana del Mar.",
+   "adult": 0,
+   "child": 0,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Currently free entry; pass gives no direct admission saving at current tariff.",
+   "link": "https://centros.culturadecantabria.com/casas-del-aguila-y-la-parra/"
+  },
+  {
+   "id": "cascada-del-tobazo-ca-enp-route",
+   "name": "Cascada del Tobazo (CA-ENP route)",
+   "category": "hike",
+   "area": "Valderredible / Southern Cantabria",
+   "lat": 42.830975,
+   "lon": -3.834853,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short official Naturea waterfall route; useful family-scale hike and a distinct southern Cantabria landscape.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 4,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "childSuitability": "Short family-distance route.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1h7GA8frTlryYw80LI4KvEaA8lsuTwtzA",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 3.6,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
+    "circular": true
+   }
+  },
+  {
+   "id": "casona-de-tudanca",
+   "name": "Casona de Tudanca",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Tudanca",
+   "description": "The family home of the writer and scholar José María de Cossío (until 1977), now a house-museum and library in the mountain village of Tudanca, famous for its cattle breed.",
+   "image": {
+    "src": "/img/casona-de-tudanca.jpg",
+    "credit": "Vanbasten 23",
+    "license": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Casona_de_Tudanca_(Cantabria).jpg"
+   },
+   "lat": 43.15293,
+   "lon": -4.37285,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Casa Museo de Tudanca",
+   "drive": "~75 km / ~1h",
+   "visitTime": "1–1.5h",
+   "hours": "Year-round subject to published opening calendar; some periods require reservation at least a day ahead; Sundays free.",
+   "adult": 3,
+   "child": 1.5,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Published tariff: adult €3; age 4–12 €1.50; under 4 free. Reservation required at least one day ahead in some periods; Sundays free.",
+   "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "centro-de-arte-rupestre-de-cantabria",
+   "name": "Centro de Arte Rupestre de Cantabria",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Puente Viesgo",
+   "description": "An exhibition centre at the foot of Monte Castillo explaining Cantabria's cave art, through displays and guided visits. Free on the same day as a ticket for El Castillo or Las Monedas.",
+   "image": {
+    "src": "/img/centro-de-arte-rupestre-de-cantabria.jpg",
+    "credit": "Thilo Parg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_arte_rupestre_de_Cantabria_-_Puente_Viesgo.jpg"
+   },
+   "lat": 43.29577,
+   "lon": -3.96963,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Centro de Arte Rupestre de Cantabria",
+   "drive": "~30 km / ~30 min",
+   "visitTime": "1–1.5h",
+   "hours": "Low: Tue–Fri & Sun 09:00–15:00; Sat to 16:00. Mid: Tue–Sat 09:00–18:00; Sun to 14:00. High: Tue–Sat 09:30–18:30; Sun to 14:30. Mon closed.",
+   "adult": 4,
+   "child": 2,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Permanent exhibition; guided visits available. Free same day with El Castillo or Las Monedas ticket.",
+   "link": "https://cuevas.culturadecantabria.com/centro-de-arte-rupestre-de-cantabria/"
+  },
+  {
+   "id": "centro-de-interpretacion-del-romanico",
+   "name": "Centro de Interpretación del Románico",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "Villacantid",
+   "description": "A small interpretation centre in Villacantid, near Reinosa, explaining the Romanesque churches of southern Cantabria.",
+   "image": {
+    "src": "/img/centro-de-interpretacion-del-romanico.jpg",
+    "credit": "Jesús Ángel García Arnay.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_Interpretaci%C3%B3n_del_Rom%C3%A1nico_(Villacantid).jpg"
+   },
+   "lat": 43.00362,
+   "lon": -4.20731,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Centro de interpretación del Románico del sur de Cantabria (Nestares-Barrio, beside Villacantid)",
+   "drive": "~80 km / ~55 min",
+   "visitTime": "45–60 min",
+   "hours": "Low: Wed–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Wed–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Wed–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon/Tue closed.",
+   "adult": 3,
+   "child": 2,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Opening can change due to weather; check before travel.",
+   "link": "https://centros.culturadecantabria.com/romanico/"
+  },
+  {
+   "id": "ciudad-romana-y-domus-de-juliobriga",
+   "name": "Ciudad romana y Domus de Julióbriga",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "Retortillo",
+   "description": "The most important Roman city in Cantabria, founded in 26 BC after the Cantabrian Wars on a hilltop near Retortillo. You can walk the streets and see the excavated Roman house, the Domus.",
+   "image": {
+    "src": "/img/ciudad-romana-y-domus-de-juliobriga.jpg",
+    "credit": "Jesús Ángel García Arnay.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Mosaicos_(Juli%C3%B3briga).jpg"
+   },
+   "lat": 42.98583,
+   "lon": -4.11546,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Iuliobriga archaeological site",
+   "drive": "~70 km / ~50 min",
+   "visitTime": "~1h; allow 1.5h",
+   "hours": "Low: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed; weather can affect opening.",
+   "adult": 5,
+   "child": 3,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "Check opening times before travel.",
+   "link": "https://centros.culturadecantabria.com/juliobriga/"
+  },
+  {
+   "id": "cueva-de-chufin",
+   "name": "Cueva de Chufín",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "Riclones",
+   "description": "A cave above the meeting of the Lamasón and Nansa rivers with Palaeolithic paintings, listed by UNESCO. Open only seasonally, with very small groups and a short approach on foot.",
+   "image": {
+    "src": "/img/cueva-de-chufin.jpg",
+    "credit": "Gobierno de Cantabria",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chufin9.jpg"
+   },
+   "lat": 43.28322,
+   "lon": -4.45828,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Cueva Chufín visitor reception area",
+   "drive": "~90 km / ~1h15",
+   "visitTime": "~2h incl. approach/visit",
+   "hours": "Easter 2–5 Apr; 15 Jun–15 Sep. Wed–Sat 10:00–14:00 & 15:00–19:00; Sun 10:00–15:00. Closed rest of year.",
+   "adult": 15,
+   "child": 7.5,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ],
+    "seasons": [
+     {
+      "from": "04-02",
+      "to": "04-05"
+     },
+     {
+      "from": "06-15",
+      "to": "09-15"
+     }
+    ],
+    "seasonNote": "Open Easter (2–5 Apr 2026) and 15 Jun–15 Sep only"
+   },
+   "rainyDay": "Poor",
+   "familyFriendly": true,
+   "booking": "Seasonal; very limited capacity (6). Check availability/reserve in advance.",
+   "link": "https://cuevas.culturadecantabria.com/chufin/"
+  },
+  {
+   "id": "cueva-de-covalanas",
+   "name": "Cueva de Covalanas",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "Ramales de la Victoria",
+   "description": "A Palaeolithic cave known for its red paintings of hinds (female deer), outlined in dots. It is part of the UNESCO World Heritage listing for the cave art of northern Spain, and only tiny groups are admitted.",
+   "image": {
+    "src": "/img/cueva-de-covalanas.jpg",
+    "credit": "Edward the Confessor",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_de_Covalanas.jpg"
+   },
+   "lat": 43.2456,
+   "lon": -3.45207,
+   "locationStatus": "verified",
+   "locationSource": "OSM: cave entrance",
+   "drive": "~70 km / ~55 min",
+   "visitTime": "~1h; allow 1.5–2h",
+   "hours": "21 Oct–14 Jun & 16 Sep–28 Feb: Wed–Sun 10:00–13:00. 15 Jun–15 Sep: Wed–Sun 10:30–13:30. Mon/Tue closed; only 4 per session.",
+   "adult": 15,
+   "child": 7.5,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "Very limited capacity (4). Same-day tickets depend on availability via Cullalvera ticket office.",
+   "link": "https://cuevas.culturadecantabria.com/covalanas-esp/"
+  },
+  {
+   "id": "cueva-de-cullalvera",
+   "name": "Cueva de Cullalvera",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "Ramales de la Victoria",
+   "description": "One of Cantabria's largest cave systems, with a walkway into the cave and Palaeolithic drawings on the walls. It is also the ticket office for nearby Covalanas.",
+   "image": {
+    "src": "/img/cueva-de-cullalvera.jpg",
+    "credit": "Tony Rotondas",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_de_Cullalvera.jpg"
+   },
+   "lat": 43.2557,
+   "lon": -3.45814,
+   "locationStatus": "verified",
+   "locationSource": "OSM: cave entrance",
+   "drive": "~70 km / ~55 min",
+   "visitTime": "~1h; allow 1.5h",
+   "hours": "Low: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed.",
+   "adult": 10,
+   "child": 5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Timed cave visit; check availability before travel.",
+   "link": "https://cuevas.culturadecantabria.com/cullalvera-esp/"
+  },
+  {
+   "id": "cueva-de-el-castillo",
+   "name": "Cueva de El Castillo",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "Puente Viesgo",
+   "description": "One of the oldest known cave-art sites in Europe, including a red disc dated to over 40,000 years ago. Guided visits of about an hour, and the ticket includes the Rock Art Centre.",
+   "image": {
+    "src": "/img/cueva-de-el-castillo.jpg",
+    "credit": "Gabinete de Prensa del Gobierno de Cantabria",
+    "license": "CC BY 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_del_Castillo_interior.jpg"
+   },
+   "lat": 43.29222,
+   "lon": -3.96549,
+   "locationStatus": "verified",
+   "locationSource": "OSM: cave entrance",
+   "drive": "~30 km / ~30 min",
+   "visitTime": "~1h cave; allow 1.5–2h",
+   "hours": "Low: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed.",
+   "adult": 15,
+   "child": 7.5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
+   "link": "https://cuevas.culturadecantabria.com/el-castillo/"
+  },
+  {
+   "id": "cueva-de-el-pendo",
+   "name": "Cueva de El Pendo",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "Escobedo de Camargo",
+   "description": "A large prehistoric cave near Santander with a rich excavated record and Palaeolithic art, listed by UNESCO. Visited on a 45-minute guided tour.",
+   "image": {
+    "src": "/img/cueva-de-el-pendo.jpg",
+    "credit": "Sautuola1880",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EL_PENDO_low.jpg"
+   },
+   "lat": 43.38839,
+   "lon": -3.91227,
+   "locationStatus": "verified",
+   "locationSource": "OSM: cave entrance",
+   "drive": "~18 km / ~20 min",
+   "visitTime": "~45 min guided; allow 1–1.5h",
+   "hours": "Low 21 Oct–28 Feb: Tue–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Tue–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High 15 Jun–15 Sep: Tue–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon closed.",
+   "adult": 15,
+   "child": 7.5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Timed guided visits; limited capacity. Advance booking recommended.",
+   "link": "https://cuevas.culturadecantabria.com/el-pendo/"
+  },
+  {
+   "id": "cueva-de-hornos-de-la-pena",
+   "name": "Cueva de Hornos de la Peña",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "San Felices de Buelna",
+   "description": "A cave lived in for more than 30,000 years, from the Middle Palaeolithic to the Neolithic, with rock art and a UNESCO listing. Only four visitors per session.",
+   "image": {
+    "src": "/img/cueva-de-hornos-de-la-pena.jpg",
+    "credit": "Vanbasten 23",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrada_a_la_Cueva_de_Hornos_de_la_Pe%C3%B1a.jpg"
+   },
+   "lat": 43.26134,
+   "lon": -4.03002,
+   "locationStatus": "verified",
+   "locationSource": "OSM: cave entrance",
+   "drive": "~40 km / ~35 min",
+   "visitTime": "~1h; allow 1.5h",
+   "hours": "Low: Wed–Sun 10:00–14:00. Mid: Wed–Sun 10:00–13:00. High: Wed–Sun 10:30–13:30. Mon/Tue closed; only 4 per session.",
+   "adult": 15,
+   "child": 7.5,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Very limited capacity (4 per session); advance planning strongly advisable.",
+   "link": "https://cuevas.culturadecantabria.com/hornos-de-la-pena/"
+  },
+  {
+   "id": "cueva-de-las-monedas",
+   "name": "Cueva de Las Monedas",
+   "category": "cultura",
+   "kind": "Cave",
+   "area": "Puente Viesgo",
+   "description": "A cave in the Monte Castillo group, named after coins found there, decorated with black drawings of animals. Timed guided visits of small groups; the ticket includes the Rock Art Centre.",
+   "image": {
+    "src": "/img/cueva-de-las-monedas.jpg",
+    "credit": "Gobierno de Cantabria",
+    "license": "CC BY 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Monedas-8.jpg"
+   },
+   "lat": 43.28892,
+   "lon": -3.96769,
+   "locationStatus": "verified",
+   "locationSource": "OSM: cave entrance",
+   "drive": "~30 km / ~30 min",
+   "visitTime": "~1h cave; allow 1.5–2h",
+   "hours": "Same seasonal pattern as El Castillo; fixed sessions. Mon closed. Entry includes Centro de Arte Rupestre.",
+   "adult": 15,
+   "child": 7.5,
+   "open": {
+    "days": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
+   "link": "https://cuevas.culturadecantabria.com/las-monedas/"
+  },
+  {
+   "id": "hayedo-de-la-zamina-ca-enp21",
+   "name": "Hayedo de La Zamina (CA-ENP21)",
+   "category": "hike",
+   "area": "San Roque de Riomiera / Valles Pasiegos",
+   "lat": 43.208956,
+   "lon": -3.703007,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Pasiego landscape, karst and a mature beech forest in one compact route.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 8.8,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "conditions": "Year-round, but avoid rainy/foggy days; particularly attractive in autumn.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=10m3faLbBOWM59EsrPCkA_SkKnrkP5nFB",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 8.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
+    "circular": true
+   }
+  },
+  {
+   "id": "la-garma-nacimiento-del-pisuena-ca-enp23",
+   "name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
+   "category": "hike",
+   "area": "Selaya / Valles Pasiegos",
+   "lat": 43.190801,
+   "lon": -3.763589,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short official Pasiego route following the Pisueña towards its headwaters through traditional cabañas and limestone scenery.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 6,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "trailhead": "Selaya / Pisueña valley",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1iilxWsa10vV05Hg_2X63v4oQ_UoI68NZ",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 5.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
+    "circular": true
+   }
+  },
+  {
+   "id": "laberinto-de-tilde",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Entrambasaguas hamlet (Notion area); the maze itself is not in OSM",
+   "name": "Laberinto de Tilde",
+   "category": "family",
+   "area": "Entrambasaguas, Campoo de Suso",
+   "lat": 43.00972,
+   "lon": -4.2816,
+   "description": "An outdoor hedge maze in Campoo, best combined with another outing in the area rather than a dedicated drive.",
+   "drive": "~80 km / ~1h",
+   "visitTime": "~1–2h",
+   "hours": "Published opening 10:00–20:00; subject to weather. Check before travel.",
+   "adult": 5,
+   "rainyDay": "Poor",
+   "familyFriendly": true,
+   "booking": "Outdoor and weather-dependent.",
+   "link": "https://laberintodetilde.com/"
+  },
+  {
+   "id": "laberinto-de-villapresente",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Laberinto de Villapresente",
+   "name": "Laberinto de Villapresente",
+   "category": "family",
+   "area": "Villapresente, Reocín",
+   "lat": 43.36529,
+   "lon": -4.11748,
+   "description": "A seasonal outdoor hedge maze near Santillana del Mar, easy to combine with a visit to the town.",
+   "drive": "~25 km / ~25 min",
+   "visitTime": "30–60 min; allow ~1–1.5h",
+   "hours": "2026: 28 Mar–12 Oct. Jul/Aug daily; rest closed Mon/Tue. Generally 10:30–20:00; last entry 19:00, earlier from 16 Sep.",
+   "adult": 5,
+   "child": 4,
+   "rainyDay": "Poor",
+   "familyFriendly": true,
+   "booking": "No reservation normally needed. Outdoor hedge maze; no umbrellas inside.",
+   "link": "https://laberintodevillapresente.es/",
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ],
+    "seasons": [
+     {
+      "from": "03-28",
+      "to": "10-12"
+     }
+    ],
+    "seasonNote": "Open 28 Mar–12 Oct in 2026; closed Mon/Tue outside July and August"
+   }
+  },
+  {
+   "id": "las-praizas-de-cucayo-ca-enp25",
+   "name": "Las Praizas de Cucayo (CA-ENP25)",
+   "category": "hike",
+   "area": "Cucayo / Vega de Liébana",
+   "lat": 43.057533,
+   "lon": -4.639037,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Compact Liébana route through traditional invernales, hayedo and views towards Peña Dobres/Pica de Casanzo.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 6.9,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YY2ymFqpLWYyqjVxHF-Pwf1Dx_eRIyvG",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 6.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
+    "circular": true
+   }
+  },
+  {
+   "id": "los-bosques-del-monte-corona-ca-enp33",
+   "name": "Los Bosques del Monte Corona (CA-ENP33)",
+   "category": "hike",
+   "area": "Western Cantabria",
+   "lat": 43.31752,
+   "lon": -4.260802,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Turns the redwoods into a proper 13.8 km forest-and-viewpoint day through Monte Corona and the edge of Oyambre, rather than only a short stop at the sequoias.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 13.8,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "trailhead": "Parking de La Tejera / Monumento Natural de las Secuoyas",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=17h715Wb4FBezoEGEKaCQjTTZkrUBwdau",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 13.8,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
+    "circular": true
+   }
+  },
+  {
+   "id": "mirador-de-covalruyo",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Mirador de Covalruyo",
+   "name": "Mirador de Covalruyo",
+   "category": "attraction",
+   "kind": "Viewpoint",
+   "area": "Soba",
+   "lat": 43.17896,
+   "lon": -3.67692,
+   "description": "A viewpoint above the Asón valley in Soba, saved in Notion as a hiking/family idea.",
+   "familyFriendly": true
+  },
+  {
+   "id": "museo-de-la-naturaleza-de-cantabria",
+   "name": "Museo de la Naturaleza de Cantabria",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Carrejo",
+   "description": "A natural-history museum in an 18th-century mansion in Carrejo, near Cabezón de la Sal, with exhibits on Cantabria's wildlife and landscapes. Free on Sundays.",
+   "image": {
+    "src": "/img/museo-de-la-naturaleza-de-cantabria.jpg",
+    "credit": "rosale",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrejo.jpg"
+   },
+   "lat": 43.29383,
+   "lon": -4.23798,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Museo de la Naturaleza",
+   "drive": "~45 km / ~35–40 min",
+   "visitTime": "1–1.5h",
+   "hours": "Year-round museum; Sundays free. Check current seasonal timetable before travel.",
+   "adult": 5,
+   "child": 3,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Normal €5 age 13+; reduced €3 age 4–12; age 0–3 free. Sundays free.",
+   "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "museo-de-prehistoria-y-arqueologia-de-cantabria-mupac",
+   "name": "Museo de Prehistoria y Arqueología de Cantabria (MUPAC)",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Santander",
+   "description": "Cantabria's main archaeology museum in Santander, built around finds from the region's famous prehistoric caves, with further collections from the ancient and medieval worlds.",
+   "image": {
+    "src": "/img/museo-de-prehistoria-y-arqueologia-de-cantabria-mupac.jpg",
+    "credit": "Valdavia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MUPAC_-_Museo_de_Prehistoria_y_Arqueolog%C3%ADa_de_Cantabria_01.JPG"
+   },
+   "lat": 43.46226,
+   "lon": -3.804,
+   "locationStatus": "verified",
+   "locationSource": "OSM: MUPAC museum, Calle de Bailén (current site; a nearby OSM hit was the future-site construction works, ignored)",
+   "drive": "~13 km / ~15–20 min",
+   "visitTime": "1.5–2h",
+   "hours": "Year-round museum; check current daily timetable before setting out.",
+   "adult": 6,
+   "child": 3,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Check current reservation requirements; Sunday late afternoon may be free without the pass.",
+   "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "museo-etnografico-de-cantabria",
+   "name": "Museo Etnográfico de Cantabria",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Muriedas",
+   "description": "A museum in Muriedas about traditional Cantabrian life and culture, with guided visits and family workshops.",
+   "image": {
+    "src": "/img/museo-etnografico-de-cantabria.jpg",
+    "credit": "Laura G. Velasco",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_Etnogr%C3%A1fico_de_Cantabria.jpg"
+   },
+   "lat": 43.42138,
+   "lon": -3.85408,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Museo Etnográfico de Cantabria",
+   "drive": "~15 km / ~20 min",
+   "visitTime": "1–1.5h",
+   "hours": "Guided/free visits; check current schedule and reserve workshops/activities where required.",
+   "adult": 0,
+   "child": 0,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Visits are reported as free and guided; workshops require reservation. No direct admission saving from the pass at current tariff.",
+   "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "museo-maritimo-del-cantabrico",
+   "name": "Museo Marítimo del Cantábrico",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Santander",
+   "description": "A museum and aquarium on the edge of Santander bay, covering marine life and the people of the Cantabrian Sea. A good rainy-day option for children.",
+   "image": {
+    "src": "/img/museo-maritimo-del-cantabrico.jpg",
+    "credit": "Zarateman",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santander_-_Museo_Mar%C3%ADtimo_del_Cant%C3%A1brico_02.JPG"
+   },
+   "lat": 43.46332,
+   "lon": -3.78368,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Museo Marítimo del Cantábrico",
+   "drive": "~15 km / ~20 min",
+   "visitTime": "2–3h",
+   "hours": "Year-round museum; current listing shows daytime opening (e.g. 10:00–18:00). Check official hours for chosen date.",
+   "adult": 8,
+   "child": 5,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "2026 published tariff: adult €8; child 5–12 €5; under 5 free.",
+   "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "palacio-y-capilla-panteon-de-sobrellano",
+   "name": "Palacio y Capilla-Panteón de Sobrellano",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "Comillas",
+   "description": "A Neo-Gothic palace built in the 1880s for the Marquess of Comillas, designed by Joan Martorell. The neighbouring chapel-pantheon, the family mausoleum, is a showpiece of Catalan Modernisme.",
+   "image": {
+    "src": "/img/palacio-y-capilla-panteon-de-sobrellano.jpg",
+    "credit": "Fernando",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Sobrellano_2021.jpg"
+   },
+   "lat": 43.38353,
+   "lon": -4.29438,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Palacio de Sobrellano",
+   "drive": "37 km / ~34 min",
+   "visitTime": "45 min guided; allow 1–1.5h",
+   "hours": "Year-round seasonal schedule; advance booking recommended. Combine with Seminario; Capilla-Panteón currently temporarily closed.",
+   "adult": 7,
+   "child": 5,
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Can combine with Seminario Mayor; allow sufficient time between timed visits.",
+   "link": "https://centros.culturadecantabria.com/palacio-de-sobrellano/"
+  },
+  {
+   "id": "parque-de-la-naturaleza-de-cabarceno",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Parque de la Naturaleza de Cabárceno",
+   "name": "Parque de la Naturaleza de Cabárceno",
+   "category": "family",
+   "area": "Obregón / Cabárceno",
+   "lat": 43.35552,
+   "lon": -3.84135,
+   "description": "A large wildlife park in a former open-cast mine landscape near Santander. A full-day outing, with an annual pass worth considering.",
+   "drive": "~30 km / ~30 min",
+   "visitTime": "5–7h",
+   "hours": "Year-round except 24, 25 & 31 Dec and 1 Jan; seasonal hours.",
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "2026 tickets: adult €25/€35/€45; child 4–12 €15/€20/€25 depending on season. Annual Tarjeta Amigo: individual €80; family €170; Family Plus €200.",
+   "link": "https://parquedecabarceno.com/"
+  },
+  {
+   "id": "penas-de-bejes-ca-enp07",
+   "name": "Peñas de Bejes (CA-ENP07)",
+   "category": "hike",
+   "area": "Bejes / Cillorigo de Liébana",
+   "lat": 43.241304,
+   "lon": -4.645783,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Shorter Liébana limestone route that gives us a useful middle ground below the major Picos objectives.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 6.2,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1spXvCPTzethmExS13ke0VdpAkequIud9",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 6.2,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
+    "circular": true
+   }
+  },
+  {
+   "id": "praderas-de-ruyemas-ca-enp29",
+   "name": "Praderas de Ruyemas (CA-ENP29)",
+   "category": "hike",
+   "area": "Vega de Pas / Valles Pasiegos",
+   "lat": 43.146025,
+   "lon": -3.722529,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short Pasiego circuit through traditional cabañales, beech woodland and views towards the Castro Valnera massif.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 5.1,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "childSuitability": "Useful 5 km family progression hike with varied landscape.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1LRBFWOPhn5uGsMhvcjWmmXO0Xt43nnfn",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 5.1,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
+    "circular": true
+   }
+  },
+  {
+   "id": "rasines-ruta-azul-balconada-de-cerreo",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Rasines municipality centre (no start in Notion)",
+   "name": "Rasines — Ruta Azul: Balconada de Cerreo",
+   "category": "walk",
+   "area": "Rasines / Eastern Cantabria",
+   "lat": 43.30681,
+   "lon": -3.4262,
+   "why": "Signed local Rasines route to the Balconada de Cerreo.",
+   "familyFriendly": false,
+   "priority": "Research",
+   "hike": {}
+  },
+  {
+   "id": "rasines-ruta-verde-parque-paleolitico-la-balsa-y-cantera-arqueologica",
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Rasines municipality centre (no start in Notion)",
+   "name": "Rasines — Ruta Verde: Parque Paleolítico, La Balsa y Cantera Arqueológica",
+   "category": "walk",
+   "area": "Rasines / Eastern Cantabria",
+   "lat": 43.30681,
+   "lon": -3.4262,
+   "why": "Signed local route through Rasines linking the Parque Paleolítico, La Balsa and Cantera Arqueológica.",
+   "familyFriendly": true,
+   "priority": "Research",
+   "hike": {}
+  },
+  {
+   "id": "senda-fluvial-del-nansa-ca-enp34",
+   "name": "Senda Fluvial del Nansa (CA-ENP34)",
+   "category": "hike",
+   "area": "Val de San Vicente / Herrerías / Saja-Nansa",
+   "lat": 43.360376,
+   "lon": -4.489394,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Long but low-commitment riverside route that fills the gap between short family walks and mountain days.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 13.7,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Linear",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1f4idd-EamJZJOJ67udaKuxF_8lXF1-eL",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 13.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
+    "circular": false
+   }
+  },
+  {
+   "id": "sendero-adaptado-del-rio-bayones",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Sendero Adaptado del Río Bayones (path)",
+   "name": "Sendero adaptado del Río Bayones",
+   "category": "walk",
+   "area": "Ruente / Saja-Besaya",
+   "lat": 43.23128,
+   "lon": -4.20671,
+   "why": "Very short family nature walk with ten tactile interpretation panels about local flora and fauna.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 2,
+    "difficulty": "Easy",
+    "childSuitability": "Very suitable: short, low-difficulty adapted nature trail; part of the route is conditioned/protected with a handrail."
+   }
+  },
+  {
+   "id": "sendero-de-los-puentes-ca-enp35",
+   "name": "Sendero de los Puentes (CA-ENP35)",
+   "category": "hike",
+   "area": "Ruente / Saja-Besaya",
+   "lat": 43.235661,
+   "lon": -4.219394,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Long forest circuit through Río Bayones / Monte Río de los Vados; a proper 15.8 km Saja-Besaya day rather than a short woodland stroll.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 15.8,
+    "ascentM": 690,
+    "duration": "5h 15m",
+    "difficulty": "Moderate",
+    "stage": "Build towards",
+    "routeType": "Circular",
+    "conditions": "Check hunting calendar before going, particularly autumn/winter weekends.",
+    "trailhead": "Casa del Monte, Ucieda",
+    "parking": "Casa del Monte / Ucieda recreation area",
+    "terrain": "Monte Río de los Vados and Río Bayones woodland; multiple river/bridge crossings and notable trees.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=16sIztAgSqLuB9KQKyajtf5E-N_VSF2qB",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 15.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
+    "circular": true
+   }
+  },
+  {
+   "id": "torre-de-pero-nino",
+   "name": "Torre de Pero Niño",
+   "category": "cultura",
+   "kind": "Cultural site",
+   "area": "San Felices de Buelna",
+   "description": "A medieval tower (the Torre de la Aguilera) in San Felices de Buelna, now a museum about the life and times of the knight and naval commander Pero Niño.",
+   "image": {
+    "src": "/img/torre-de-pero-nino.jpg",
+    "credit": "P. B. Obregón",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Torre_de_Pero_Ni%C3%B1o_001.JPG"
+   },
+   "lat": 43.27811,
+   "lon": -4.05237,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Torre de Pero Niño",
+   "drive": "~40 km / ~35 min",
+   "visitTime": "30–60 min",
+   "hours": "Low: Wed–Fri & Sun 09:30–15:30; Sat to 16:30. Mid: Wed–Sat 09:30–13:30 & 14:30–18:30; Sun to 14:30. High: Wed–Sat 10:00–14:00 & 15:00–19:00; Sun to 15:00. Mon/Tue closed.",
+   "adult": 4,
+   "child": 2,
+   "open": {
+    "days": [
+     3,
+     4,
+     5,
+     6,
+     0
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Seasonal opening hours; check before travel.",
+   "link": "https://centros.culturadecantabria.com/torre-de-pero-nino-2/"
+  },
+  {
+   "id": "torre-del-infantado",
+   "name": "Torre del Infantado",
+   "category": "cultura",
+   "kind": "Museum",
+   "area": "Potes",
+   "description": "A medieval fortified tower in the centre of Potes, at the foot of the Picos de Europa. A short visit that fits well with a walk around the town.",
+   "image": {
+    "src": "/img/torre-del-infantado.jpg",
+    "credit": "Charlytos",
+    "license": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Conjunto_Hist%C3%B3rico_Art%C3%ADstico_la_Villa_de_Potes.jpg"
+   },
+   "lat": 43.15414,
+   "lon": -4.62359,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Torre del Infantado (museum)",
+   "drive": "~95 km / ~1h15",
+   "visitTime": "20–60 min; combine with Potes",
+   "hours": "1 Oct–30 Jun 09:30–17:00. 1 Jul–30 Sep & Easter 09:30–19:00. Selected holiday closures.",
+   "adult": 4,
+   "child": 2,
+   "open": {
+    "days": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "rainyDay": "Good",
+   "familyFriendly": true,
+   "booking": "Check opening hours before travel.",
+   "link": "https://centros.culturadecantabria.com/torre-del-infantado/"
+  },
+  {
+   "id": "urdon-tresviso",
+   "name": "Urdón — Tresviso",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.26709,
+   "lon": -4.63189,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Urdón hamlet (named as start) — hamlet, not the exact path start",
+   "why": "One of the great steep approach walks of the eastern Picos, climbing from the Deva gorge to Tresviso.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 12.1,
+    "ascentM": 981,
+    "duration": "Approx. 5h 30m",
+    "difficulty": "Hard",
+    "stage": "Build towards",
+    "routeType": "Out and back",
+    "trailhead": "Urdón, Desfiladero de La Hermida",
+    "parking": "Very limited space at Urdón; a secondary source recommends parking in La Hermida and approaching on foot if necessary.",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/visitas/folletos/rutas-sen%CC%83alizadas/",
+    "gpxUrl": "https://rutasdeasturias.com/downloads/trackGPX/1589227795",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 5.2,
+    "source": "Rutas de Asturias",
+    "sourceUrl": "https://rutasdeasturias.com/downloads/trackGPX/1589227795",
+    "circular": false,
+    "note": "The track covers only the climb from Urdón up to Tresviso (about 5 km one way, 840 m of ascent). The return leg is not drawn."
+   }
+  },
+  {
+   "id": "zoo-de-santillana",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Zoológico de Santillana del Mar",
+   "name": "Zoo de Santillana",
+   "category": "family",
+   "area": "Santillana del Mar",
+   "lat": 43.38066,
+   "lon": -4.10316,
+   "description": "A zoo just outside Santillana del Mar; a half-day outing that pairs with the town and its museums.",
+   "drive": "~25 km / ~25 min",
+   "visitTime": "3–4h",
+   "hours": "Open every day from 09:30; official site currently states until 20:00 / dusk.",
+   "rainyDay": "Mixed",
+   "familyFriendly": true,
+   "booking": "Tickets at the zoo or online; check the current day tariff. Annual Club de Amigos: child 4–12 €50; adult €100; family up to 3 children €300.",
+   "link": "https://zoosantillanadelmar.com/"
+  }
+ ],
+ "unplaced": [
+  {
+   "name": "Sendero de Castrejón",
+   "category": "walk"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "alto-de-la-guarda-ca-enp03": {
+  "name": "Alto de La Guarda (CA-ENP03)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/"
+ },
+ "brana-de-los-tejos-ca-enp06": {
+  "name": "Braña de los Tejos (CA-ENP06)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/"
+ },
+ "sendero-de-los-puentes-ca-enp35": {
+  "name": "Sendero de los Puentes (CA-ENP35)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/"
+ },
+ "acantilados-de-san-vicente-ca-enp01": {
+  "name": "Acantilados de San Vicente (CA-ENP01)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/"
+ },
+ "altos-de-carmona-ca-enp38": {
+  "name": "Altos de Carmona (CA-ENP38)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/"
+ },
+ "canto-pilanco-ca-enp10": {
+  "name": "Canto Pilanco (CA-ENP10)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/"
+ },
+ "cascada-del-tobazo-ca-enp-route": {
+  "name": "Cascada del Tobazo (CA-ENP route)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/"
+ },
+ "hayedo-de-la-zamina-ca-enp21": {
+  "name": "Hayedo de La Zamina (CA-ENP21)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/"
+ },
+ "la-garma-nacimiento-del-pisuena-ca-enp23": {
+  "name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/"
+ },
+ "las-praizas-de-cucayo-ca-enp25": {
+  "name": "Las Praizas de Cucayo (CA-ENP25)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/"
+ },
+ "los-bosques-del-monte-corona-ca-enp33": {
+  "name": "Los Bosques del Monte Corona (CA-ENP33)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/"
+ },
+ "penas-de-bejes-ca-enp07": {
+  "name": "Peñas de Bejes (CA-ENP07)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/"
+ },
+ "praderas-de-ruyemas-ca-enp29": {
+  "name": "Praderas de Ruyemas (CA-ENP29)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/"
+ },
+ "senda-fluvial-del-nansa-ca-enp34": {
+  "name": "Senda Fluvial del Nansa (CA-ENP34)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/"
+ },
+ "urdon-tresviso": {
+  "name": "Urdón — Tresviso",
+  "source": "Rutas de Asturias",
+  "sourceUrl": "https://rutasdeasturias.com/downloads/trackGPX/1589227795",
+  "note": "The track covers only the climb from Urdón up to Tresviso (about 5 km one way, 840 m of ascent). The return leg is not drawn."
+ }
+}

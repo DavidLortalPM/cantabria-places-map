@@ -1,0 +1,23 @@
+{
+ "Palacio y Capilla-Panteón de Sobrellano": {"kind":"Cultural site","lat":43.38353,"lon":-4.29438,"status":"verified","source":"OSM: Palacio de Sobrellano"},
+ "Museo de Prehistoria y Arqueología de Cantabria (MUPAC)": {"kind":"Museum","lat":43.46226,"lon":-3.80400,"status":"verified","source":"OSM: MUPAC museum, Calle de Bailén (current site; a nearby OSM hit was the future-site construction works, ignored)"},
+ "Antiguo Seminario Mayor de Comillas": {"kind":"Cultural site","lat":43.38647,"lon":-4.29887,"status":"verified","source":"OSM: Seminario Mayor de Comillas"},
+ "Cueva de Covalanas": {"kind":"Cave","lat":43.24560,"lon":-3.45207,"status":"verified","source":"OSM: cave entrance"},
+ "Arqueositio Cántabro-Romano de Camesa-Rebolledo": {"kind":"Cultural site","lat":42.88735,"lon":-4.15840,"status":"verified","source":"OSM: Arqueositio Cántabro-Romano de Camesa-Rebolledo"},
+ "Casas del Águila y la Parra": {"kind":"Cultural site","lat":43.39035,"lon":-4.10864,"status":"verified","source":"OSM: Casa del Águila and Casa Torre de la Parra share Plaza de Ramón Pelayo"},
+ "Cueva de Chufín": {"kind":"Cave","lat":43.28322,"lon":-4.45828,"status":"verified","source":"OSM: Cueva Chufín visitor reception area"},
+ "Cueva de Cullalvera": {"kind":"Cave","lat":43.25570,"lon":-3.45814,"status":"verified","source":"OSM: cave entrance"},
+ "Casona de Tudanca": {"kind":"Museum","lat":43.15293,"lon":-4.37285,"status":"verified","source":"OSM: Casa Museo de Tudanca"},
+ "Ciudad romana y Domus de Julióbriga": {"kind":"Cultural site","lat":42.98583,"lon":-4.11546,"status":"verified","source":"OSM: Iuliobriga archaeological site"},
+ "Cueva de El Castillo": {"kind":"Cave","lat":43.29222,"lon":-3.96549,"status":"verified","source":"OSM: cave entrance"},
+ "Museo Etnográfico de Cantabria": {"kind":"Museum","lat":43.42138,"lon":-3.85408,"status":"verified","source":"OSM: Museo Etnográfico de Cantabria"},
+ "Museo Marítimo del Cantábrico": {"kind":"Museum","lat":43.46332,"lon":-3.78368,"status":"verified","source":"OSM: Museo Marítimo del Cantábrico"},
+ "Cueva de Las Monedas": {"kind":"Cave","lat":43.28892,"lon":-3.96769,"status":"verified","source":"OSM: cave entrance"},
+ "Centro de Interpretación del Románico": {"kind":"Cultural site","lat":43.00362,"lon":-4.20731,"status":"verified","source":"OSM: Centro de interpretación del Románico del sur de Cantabria (Nestares-Barrio, beside Villacantid)"},
+ "Cueva de Hornos de la Peña": {"kind":"Cave","lat":43.26134,"lon":-4.03002,"status":"verified","source":"OSM: cave entrance"},
+ "Cueva de El Pendo": {"kind":"Cave","lat":43.38839,"lon":-3.91227,"status":"verified","source":"OSM: cave entrance"},
+ "Museo de la Naturaleza de Cantabria": {"kind":"Museum","lat":43.29383,"lon":-4.23798,"status":"verified","source":"OSM: Museo de la Naturaleza"},
+ "Torre de Pero Niño": {"kind":"Cultural site","lat":43.27811,"lon":-4.05237,"status":"verified","source":"OSM: Torre de Pero Niño"},
+ "Torre del Infantado": {"kind":"Museum","lat":43.15414,"lon":-4.62359,"status":"verified","source":"OSM: Torre del Infantado (museum)"},
+ "Centro de Arte Rupestre de Cantabria": {"kind":"Museum","lat":43.29577,"lon":-3.96963,"status":"verified","source":"OSM: Centro de Arte Rupestre de Cantabria"}
+}
