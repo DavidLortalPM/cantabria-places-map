@@ -1,9 +1,11 @@
-# Used when the site is served by Hostinger (LiteSpeed/Apache). Ignored by Cloudflare/GitHub Pages.
+# Used when the site is served by Hostinger (LiteSpeed/Apache + Hostinger CDN). Ignored by other hosts.
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"
-  # The service worker and the HTML must always be revalidated so updates are picked up.
-  <FilesMatch "^(sw\.js|index\.html)$">
+  # The page, code, data and routes must always be revalidated (browser AND the CDN), so a new deploy shows up at once.
+  # Without this the server defaults to "cache for 7 days" and visitors can be served stale code for a week.
+  <FilesMatch "\.(html|js|css|json|webmanifest)$">
     Header set Cache-Control "no-cache"
+    Header unset Expires
   </FilesMatch>
 </IfModule>
 <IfModule mod_mime.c>
