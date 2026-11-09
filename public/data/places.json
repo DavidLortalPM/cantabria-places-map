@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08",
+ "generated": "2026-11-09",
  "places": [
   {
    "id": "acantilados-de-san-vicente-ca-enp01",
@@ -210,6 +210,33 @@
    "lon": -4.69388,
    "description": "The Liébana municipality at the foot of the Picos de Europa; it includes Fuente Dé. A day-trip idea in your Notion.",
    "familyFriendly": true
+  },
+  {
+   "id": "canal-de-camburero",
+   "name": "Canal de Camburero",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.25834,
+   "lon": -4.83083,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap PR-PNPE 19 track (relation 4809637) — road end above Poncebos; hamlet pin is about 385 m away",
+   "why": "Demanding classic Picos canal route; retained as a serious objective rather than an ordinary day hike.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "difficulty": "Hard",
+    "stage": "Major objective",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/loadParquesNac",
+    "routeGeometry": "Trailhead only",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 8.9,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/4809637",
+    "circular": false,
+    "note": "PR-PNPE 19, Poncebos to Vega de Urriellu, one way (about 8.9 km, 1,700 m climb). Official figure is 8.3 km one way."
+   }
   },
   {
    "id": "canto-pilanco-ca-enp10",
@@ -436,6 +463,34 @@
    "familyFriendly": true,
    "booking": "Check opening times before travel.",
    "link": "https://centros.culturadecantabria.com/juliobriga/"
+  },
+  {
+   "id": "collado-jermoso",
+   "name": "Collado Jermoso",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.16805,
+   "lon": -4.90317,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Cordiñanes hamlet — MITECO PR-PNPE 16 starts at Cordiñanes — trailhead is at the upper end of the village; alternative approaches from Fuente Dé or Puerto de Pandetrave",
+   "why": "One of the major Picos refuge objectives, with exceptional high-mountain scenery.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "difficulty": "Hard",
+    "stage": "Major objective",
+    "conditions": "Snow-free mountain conditions; reassess for snow, ice and visibility.",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/loadParquesNac",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 4.9,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/2690459",
+    "circular": false,
+    "note": "PR-PNPE 16 from Cordinanes, one way (4.9 km up). Fuente De and Pandetrave approaches are different routes."
+   }
   },
   {
    "id": "cueva-de-chufin",
@@ -706,6 +761,60 @@
    "link": "https://cuevas.culturadecantabria.com/las-monedas/"
   },
   {
+   "id": "demues-lagos-pr-pnpe-08",
+   "name": "Demués — Lagos (PR-PNPE 08)",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.31868,
+   "lon": -4.9905,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Demués hamlet (named as start) — hamlet centre",
+   "why": "Alternative approach into the Covadonga lakes landscape from a quieter village trailhead; useful beyond the standard lakes circuit.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "stage": "Do now",
+    "trailhead": "Demués",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 11.6,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/6862268",
+    "circular": false,
+    "note": "PR-PNPE 8, Demues to Los Lagos, one way (main line; the OSM alternative variant is left out)."
+   }
+  },
+  {
+   "id": "entorno-de-tresviso-pr-pnpe-17",
+   "name": "Entorno de Tresviso (PR-PNPE 17)",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.25713,
+   "lon": -4.66813,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Tresviso village (named as start) — village centre",
+   "why": "A route focused on the immediate Tresviso landscape rather than repeating the much steeper Urdón approach.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "stage": "Do now",
+    "trailhead": "Tresviso",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 3.3,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/13733191",
+    "circular": true,
+    "note": "PR-PNPE 17, circuit around Tresviso."
+   }
+  },
+  {
    "id": "hayedo-de-la-zamina-ca-enp21",
    "name": "Hayedo de La Zamina (CA-ENP21)",
    "category": "hike",
@@ -733,6 +842,68 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
     "circular": true
+   }
+  },
+  {
+   "id": "horcados-rojos",
+   "name": "Horcados Rojos",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.15352,
+   "lon": -4.80574,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Mirador de El Cable (top of the Fuente Dé cable car)",
+   "why": "Classic high-mountain Picos objective with dramatic central-massif scenery.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 11.4,
+    "ascentM": 772,
+    "duration": "Approx. 4h 25m",
+    "difficulty": "Moderate",
+    "stage": "Build towards",
+    "routeType": "Out and back",
+    "conditions": "Snow-free conditions with good visibility; snow, ice or poor visibility materially increase difficulty.",
+    "trailhead": "El Cable, upper station of the Fuente Dé cable car",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10415952",
+    "gpxUrl": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10415952",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 4.7,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/3933101",
+    "circular": false,
+    "note": "PR-PNPE 23, El Cable to Horcados Rojos, one way (4.7 km). Notion distance is probably the out-and-back."
+   }
+  },
+  {
+   "id": "jou-de-los-cabrones",
+   "name": "Jou de los Cabrones",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.25834,
+   "lon": -4.83083,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap PR-PNPE 18 track (relation 4809409) — same trailhead as Canal de Camburero",
+   "why": "Remote, serious central Picos refuge objective in spectacular limestone terrain.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "difficulty": "Hard",
+    "stage": "Major objective",
+    "conditions": "Stable snow-free high-mountain conditions.",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/loadParquesNac",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/4809409",
+    "circular": false,
+    "note": "PR-PNPE 18, Poncebos to Jou de los Cabrones, one way (about 10 km)."
    }
   },
   {
@@ -853,6 +1024,33 @@
    }
   },
   {
+   "id": "lagos-de-covadonga-circuit",
+   "name": "Lagos de Covadonga circuit",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.27644,
+   "lon": -4.98554,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Buferrera car park — MITECO: PR-PNPE 2 starts at the Buferrera car park — alternative start is the Lago Ercina car park",
+   "why": "Classic accessible Picos circuit with exceptional scenery; particularly useful as a family mountain day.",
+   "familyFriendly": true,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 6,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "childSuitability": "Strong family option: short, spectacular Picos scenery and low technical difficulty.",
+    "routeGeometry": "Missing"
+   },
+   "route": {
+    "km": 6.6,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/4664408",
+    "circular": true,
+    "note": "PR-PNPE 2 full circuit from Buferrera (the OSM shorter variant and the alternative shortcut are not included)."
+   }
+  },
+  {
    "id": "las-praizas-de-cucayo-ca-enp25",
    "name": "Las Praizas de Cucayo (CA-ENP25)",
    "category": "hike",
@@ -955,6 +1153,33 @@
     "sourceUrl": "https://www.openstreetmap.org/relation/3306621",
     "circular": true,
     "note": "OSM waymarked loop from Fuerte de San Martín (about 9 km; Notion estimate is longer)"
+   }
+  },
+  {
+   "id": "monte-camba-tielve-to-sotres-pr-pnpe-20",
+   "name": "Monte Camba — Tielve to Sotres (PR-PNPE 20)",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.26325,
+   "lon": -4.77558,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Tielve village (named as start) — village centre",
+   "why": "Village-to-village Picos traverse between Tielve and Sotres through the eastern massif landscape.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "stage": "Build towards",
+    "trailhead": "Tielve",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13.7,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/1703252",
+    "circular": true,
+    "note": "PR-PNPE 20 Monte Camba, a circuit from Tielve (passes Sotres)."
    }
   },
   {
@@ -1066,6 +1291,33 @@
    "link": "https://www.museosdecantabria.es/"
   },
   {
+   "id": "ordiales-vegarredonda",
+   "name": "Ordiales / Vegarredonda",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.27615,
+   "lon": -4.98609,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Buferrera / Lagos de Covadonga bus station",
+   "why": "Classic Lagos-side Picos day linking Vegarredonda with the Ordiales viewpoint.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "stage": "Build towards",
+    "trailhead": "Buferrera / Lagos de Covadonga",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/visitas/folletos/rutas-sen%CC%83alizadas/",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 11.6,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/5680646",
+    "circular": false,
+    "note": "PR-PNPE 5 Buferrera to Vega de Ordiales, one way (11.6 km). Vegarredonda is further on and is not included."
+   }
+  },
+  {
    "id": "palacio-y-capilla-panteon-de-sobrellano",
    "name": "Palacio y Capilla-Panteón de Sobrellano",
    "category": "cultura",
@@ -1109,6 +1361,62 @@
    "familyFriendly": true,
    "booking": "2026 tickets: adult €25/€35/€45; child 4–12 €15/€20/€25 depending on season. Annual Tarjeta Amigo: individual €80; family €170; Family Plus €200.",
    "link": "https://parquedecabarceno.com/"
+  },
+  {
+   "id": "pasa-de-picayo",
+   "name": "Pasá de Picayo",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.25713,
+   "lon": -4.66813,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Tresviso village — MITECO: linear PR-PNPE 29 can start at Tresviso or San Esteban de Cuñaba — either end; village-level pin",
+   "why": "A genuinely committing and memorable Picos route rather than a routine walking objective.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "difficulty": "Hard",
+    "stage": "Major objective",
+    "conditions": "Dry, stable conditions and good visibility.",
+    "exposure": "Exposed terrain; not a route to treat casually in poor conditions.",
+    "routeGeometry": "Missing"
+   },
+   "route": {
+    "km": 5.5,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/11994075",
+    "circular": false,
+    "note": "PR-PNPE 29, Tresviso to San Esteban de Cunaba, one way (5.5 km)."
+   }
+  },
+  {
+   "id": "pena-oviedo",
+   "name": "Peña Oviedo",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.15352,
+   "lon": -4.80574,
+   "locationStatus": "verified",
+   "locationSource": "OSM: Mirador de El Cable (top of the Fuente Dé cable car) — official PR-PNPE22 descends from here towards Mogrovejo",
+   "why": "Shorter Liébana/Picos foothill objective with strong views and less commitment than the high-mountain routes.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "stage": "Do now",
+    "routeType": "Linear",
+    "trailhead": "El Cable / Fuente Dé for the official PR-PNPE22 descent towards Mogrovejo",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9780961",
+    "gpxUrl": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9780961",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 15.3,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/4806864",
+    "circular": false,
+    "note": "PR-PNPE 22, El Cable to Mogrovejo, one way descent (15.3 km)."
+   }
   },
   {
    "id": "penas-de-bejes-ca-enp07",
@@ -1229,6 +1537,33 @@
    }
   },
   {
+   "id": "puertos-de-aliva",
+   "name": "Puertos de Áliva",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.1536,
+   "lon": -4.80533,
+   "locationStatus": "verified",
+   "locationSource": "OSM: upper cable-car terminal (El Cable) — MITECO: PR-PNPE 24 starts at El Cable — all descent to Fuente Dé; needs the cable car to reach the start",
+   "why": "Cable-car-assisted route through major Picos scenery; a substantial distance with predominantly downhill walking.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 14.5,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Linear",
+    "routeGeometry": "Missing"
+   },
+   "route": {
+    "km": 13.6,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/3110804",
+    "circular": false,
+    "note": "PR-PNPE 24, El Cable to Fuente De, one way descent (13.6 km)."
+   }
+  },
+  {
    "id": "rasines-ruta-azul-balconada-de-cerreo",
    "locationStatus": "approximate",
    "locationSource": "OSM: Rasines municipality centre (no start in Notion)",
@@ -1255,6 +1590,39 @@
    "familyFriendly": true,
    "priority": "Research",
    "hike": {}
+  },
+  {
+   "id": "ruta-del-cares",
+   "name": "Ruta del Cares (Poncebos → Caín)",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.25694,
+   "lon": -4.83294,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap-derived Poncebos to Cain track — start of the footpath at Poncebos; hamlet pin is about 550 m away",
+   "why": "The classic Cares gorge traverse: one of the defining walks of Picos de Europa.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "duration": "3–4 h",
+    "stage": "Build towards",
+    "routeType": "Point to point",
+    "exposure": "Significant exposure beside the gorge, though the path is physically fairly straightforward after the initial climb. Check National Park alerts for rockfall closures before walking.",
+    "trailhead": "Poncebos (Asturias) — finish at Caín (León); return by 4×4/taxi",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9781028",
+    "gpxUrl": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9781028",
+    "routeGeometry": "Full track",
+    "trackSource": "Official",
+    "plannedVersion": "Poncebos → Caín one way, about 11–12 km / 3–4 h, then a 4×4 or taxi back to Poncebos. Not the 22 km out-and-back version.",
+    "distanceText": "≈ 11–12 km one way"
+   },
+   "route": {
+    "km": 11.1,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/2687934",
+    "circular": false,
+    "note": "Poncebos to Cain, one way (11.1 km). Built from OSM footpath ways (no PR-PNPE 3 route relation exists); not an official track."
+   }
   },
   {
    "id": "senda-fluvial-del-nansa-ca-enp34",
@@ -1336,6 +1704,33 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
     "circular": true
+   }
+  },
+  {
+   "id": "sierra-de-cocon-oceno-tresviso-san-esteban-pr-pnpe-34",
+   "name": "Sierra de Cocón — Oceño — Tresviso / San Esteban (PR-PNPE 34)",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.29733,
+   "lon": -4.73654,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Oceño village — Notion: choose the direction/start before walking",
+   "why": "More adventurous eastern Picos traverse through the Sierra de Cocón and the Tresviso/San Esteban landscape.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "stage": "Build towards",
+    "trailhead": "Oceño / San Esteban; choose direction before walking",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 11.6,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/13733598",
+    "circular": false,
+    "note": "PR-PNPE 34, Oceno to San Esteban de Cunaba variant (the Oceno to Tresviso variant is OSM relation 13735432)."
    }
   },
   {
@@ -1444,6 +1839,147 @@
     "sourceUrl": "https://rutasdeasturias.com/downloads/trackGPX/1589227795",
     "circular": false,
     "note": "The track covers only the climb from Urdón up to Tresviso (about 5 km one way, 840 m of ascent). The return leg is not drawn."
+   }
+  },
+  {
+   "id": "vega-de-ario",
+   "name": "Vega de Ario",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.27649,
+   "lon": -4.98554,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap PR-PNPE 4 track (relation 5371648) — Buferrera car park; was pinned at Lago Ercina. Human check: Notion says 13.7 km but the mapped route is 8.2 km one way",
+   "why": "Classic western Picos refuge/meadow objective from the Lagos area with major massif views.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 13.7,
+    "stage": "Build towards",
+    "trailhead": "Lagos de Covadonga / Lago Ercina area",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/visitas/folletos/rutas-sen%CC%83alizadas/",
+    "gpxUrl": "https://guiarutas.es/rutas/asturias/picos-europa-vega-de-ario/",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 8.2,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/5371648",
+    "circular": false,
+    "note": "PR-PNPE 4 Buferrera to Vega de Ario, one way (8.2 km)."
+   }
+  },
+  {
+   "id": "vega-de-liordes",
+   "name": "Vega de Liordes",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.14309,
+   "lon": -4.8126,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap PR-PNPE 25 track (relation 2690460) — start of the circuit at Fuente De, about 700 m from the cable car pin; keep the cable car pin if preferred",
+   "why": "Dramatic high basin beneath the central Picos, reached by a sustained mountain approach.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "stage": "Build towards",
+    "trailhead": "Fuente Dé",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/busquedaIdProductor.do?Serie=MAPNC&idProductor=6-27",
+    "gpxUrl": "https://centrodedescargas.cnig.es/CentroDescargas/busquedaIdProductor.do?Serie=MAPNC&idProductor=6-27",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13.3,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/2690460",
+    "circular": true,
+    "note": "PR-PNPE 25 circuit from Fuente De via Vega de Liordes."
+   }
+  },
+  {
+   "id": "vega-de-llos-pr-pnpe-12",
+   "name": "Vega de Llos (PR-PNPE 12)",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.15147,
+   "lon": -4.91896,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Posada de Valdeón (named as start) — village centre",
+   "why": "Accessible Valdeón valley objective to the pastoral Vega de Llos, useful as a lower-commitment Picos day.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "stage": "Do now",
+    "trailhead": "Posada de Valdeón",
+    "officialUrl": "https://parquenacionalpicoseuropa.es/",
+    "routeGeometry": "Missing",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/2688408",
+    "circular": true,
+    "note": "PR-PNPE 12 circuit from Posada de Valdeon."
+   }
+  },
+  {
+   "id": "vega-de-orandi",
+   "name": "Vega de Orandi",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.30044,
+   "lon": -5.03755,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap PR-PNPE 6 track (relation 5680683) — Moferos, km 3 of the Covadonga to Lagos road",
+   "why": "Short Picos route with real mountain landscape without requiring a long day.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 4.3,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "childSuitability": "Short low-difficulty route suitable for building children's hiking distance.",
+    "routeGeometry": "Missing"
+   },
+   "route": {
+    "km": 5.3,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/5680683",
+    "circular": false,
+    "note": "PR-PNPE 6, Moferos to Covadonga, one way (5.3 km)."
+   }
+  },
+  {
+   "id": "vega-de-urriellu-from-sotres-pandebano",
+   "name": "Vega de Urriellu from Sotres / Pandébano",
+   "category": "hike",
+   "area": "Picos de Europa",
+   "lat": 43.22965,
+   "lon": -4.75409,
+   "locationStatus": "verified",
+   "locationSource": "first point of OpenStreetMap PR-PNPE 21 track (relation 3572654) — Pandebano track start just outside Sotres",
+   "why": "Iconic approach to the base of Picu Urriellu; one of the defining walking objectives in Picos de Europa.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "difficulty": "Hard",
+    "stage": "Major objective",
+    "conditions": "Best treated as a snow-free mountain objective; conditions change substantially with snow or ice.",
+    "trailhead": "Sotres / Collado Pandébano; choose exact parking/start variant before walking",
+    "officialUrl": "https://centrodedescargas.cnig.es/CentroDescargas/loadParquesNac",
+    "gpxUrl": "https://centrodedescargas.cnig.es/CentroDescargas/busquedaIdProductor.do?Serie=MAPNC&idProductor=6-328",
+    "routeGeometry": "Trailhead only",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10.4,
+    "source": "OpenStreetMap contributors",
+    "sourceUrl": "https://www.openstreetmap.org/relation/3572654",
+    "circular": false,
+    "note": "PR-PNPE 21 from the Pandebano track near Sotres to Vega de Urriellu, one way (10.4 km)."
    }
   },
   {

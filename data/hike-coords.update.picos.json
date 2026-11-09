@@ -1,0 +1,51 @@
+{
+ "Canal de Camburero": {
+  "lat": 43.25834,
+  "lon": -4.83083,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 19 track (relation 4809637)",
+  "note": "road end above Poncebos; hamlet pin is about 385 m away"
+ },
+ "Jou de los Cabrones": {
+  "lat": 43.25834,
+  "lon": -4.83083,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 18 track (relation 4809409)",
+  "note": "same trailhead as Canal de Camburero"
+ },
+ "Ruta del Cares": {
+  "lat": 43.25694,
+  "lon": -4.83294,
+  "status": "verified",
+  "source": "first point of OpenStreetMap-derived Poncebos to Cain track",
+  "note": "start of the footpath at Poncebos; hamlet pin is about 550 m away"
+ },
+ "Vega de Ario": {
+  "lat": 43.27649,
+  "lon": -4.98554,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 4 track (relation 5371648)",
+  "note": "Buferrera car park; was pinned at Lago Ercina. Human check: Notion says 13.7 km but the mapped route is 8.2 km one way"
+ },
+ "Vega de Liordes": {
+  "lat": 43.14309,
+  "lon": -4.8126,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 25 track (relation 2690460)",
+  "note": "start of the circuit at Fuente De, about 700 m from the cable car pin; keep the cable car pin if preferred"
+ },
+ "Vega de Urriellu from Sotres / Pandébano": {
+  "lat": 43.22965,
+  "lon": -4.75409,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 21 track (relation 3572654)",
+  "note": "Pandebano track start just outside Sotres"
+ },
+ "Vega de Orandi": {
+  "lat": 43.30044,
+  "lon": -5.03755,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 6 track (relation 5680683)",
+  "note": "Moferos, km 3 of the Covadonga to Lagos road"
+ }
+}

@@ -70,11 +70,11 @@
   "note": ""
  },
  "Ruta del Cares": {
-  "lat": 43.26178,
-  "lon": -4.8314,
-  "status": "approximate",
-  "source": "OSM: Poncebos hamlet (start of the planned one-way route)",
-  "note": "hamlet, not the exact path start"
+  "lat": 43.25694,
+  "lon": -4.83294,
+  "status": "verified",
+  "source": "first point of OpenStreetMap-derived Poncebos to Cain track",
+  "note": "start of the footpath at Poncebos; hamlet pin is about 550 m away"
  },
  "Sendero de los Puentes (CA-ENP35)": {
   "lat": 43.235661,
@@ -98,18 +98,18 @@
   "note": "hamlet, not the exact path start"
  },
  "Vega de Ario": {
-  "lat": 43.26747,
-  "lon": -4.98096,
-  "status": "approximate",
-  "source": "OSM: Lago de la Ercina (Lagos de Covadonga)",
-  "note": "start area named in Notion; exact car park not confirmed"
+  "lat": 43.27649,
+  "lon": -4.98554,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 4 track (relation 5371648)",
+  "note": "Buferrera car park; was pinned at Lago Ercina. Human check: Notion says 13.7 km but the mapped route is 8.2 km one way"
  },
  "Vega de Liordes": {
-  "lat": 43.1488,
-  "lon": -4.80876,
+  "lat": 43.14309,
+  "lon": -4.8126,
   "status": "verified",
-  "source": "OSM: Teleférico de Fuente Dé",
-  "note": ""
+  "source": "first point of OpenStreetMap PR-PNPE 25 track (relation 2690460)",
+  "note": "start of the circuit at Fuente De, about 700 m from the cable car pin; keep the cable car pin if preferred"
  },
  "Bosque de Secuoyas de Monte Cabezón": {
   "lat": 43.3196,
@@ -196,11 +196,11 @@
   "note": "village centre"
  },
  "Vega de Urriellu from Sotres / Pandébano": {
-  "lat": 43.23308,
-  "lon": -4.74922,
-  "status": "approximate",
-  "source": "OSM: Sotres village",
-  "note": "Notion: choose the exact parking/start variant (Sotres or Collado Pandébano) before walking"
+  "lat": 43.22965,
+  "lon": -4.75409,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 21 track (relation 3572654)",
+  "note": "Pandebano track start just outside Sotres"
  },
  "Acantilados de San Vicente (CA-ENP01)": {
   "lat": 43.392862,
@@ -287,11 +287,11 @@
   "note": "all descent to Fuente Dé; needs the cable car to reach the start"
  },
  "Canal de Camburero": {
-  "lat": 43.26178,
-  "lon": -4.8314,
-  "status": "approximate",
-  "source": "OSM: Poncebos hamlet — MITECO: route runs Poncebos to Vega de Urriellu",
-  "note": "hamlet, not the exact trailhead"
+  "lat": 43.25834,
+  "lon": -4.83083,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 19 track (relation 4809637)",
+  "note": "road end above Poncebos; hamlet pin is about 385 m away"
  },
  "Collado Jermoso": {
   "lat": 43.16805,
@@ -301,11 +301,11 @@
   "note": "trailhead is at the upper end of the village; alternative approaches from Fuente Dé or Puerto de Pandetrave"
  },
  "Jou de los Cabrones": {
-  "lat": 43.26178,
-  "lon": -4.8314,
-  "status": "approximate",
-  "source": "OSM: Poncebos hamlet — MITECO PR-PNPE 18 starts at Poncebos",
-  "note": "hamlet; overlaps the Cares and Camburero pins"
+  "lat": 43.25834,
+  "lon": -4.83083,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 18 track (relation 4809409)",
+  "note": "same trailhead as Canal de Camburero"
  },
  "Pasá de Picayo": {
   "lat": 43.25713,
@@ -320,5 +320,12 @@
   "status": "approximate",
   "source": "OSM: Padiérniga hamlet — start of published Candiano routes (blog/Cantabria Rural)",
   "note": "may not match your exact ~7 km variant; other routes start at Bueras or Venta del Hambre"
+ },
+ "Vega de Orandi": {
+  "lat": 43.30044,
+  "lon": -5.03755,
+  "status": "verified",
+  "source": "first point of OpenStreetMap PR-PNPE 6 track (relation 5680683)",
+  "note": "Moferos, km 3 of the Covadonga to Lagos road"
  }
 }
