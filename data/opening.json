@@ -1,9 +1,9 @@
 {
- "_readme": "Opening days derived by hand from the Notion 'Opening Hours' text. days: 0=Sun..6=Sat. Places where the text gives no weekday pattern are omitted (shown as 'check hours'). seasons: MM-DD ranges, year-agnostic; Easter dates are 2026's.",
+ "_readme": "Opening days derived by hand from the Notion 'Opening Hours' text. days: 0=Sun..6=Sat. Places where the text gives no weekday pattern are omitted (shown as 'check hours'). seasons: MM-DD ranges, year-agnostic (a range with from > to wraps the new year), optional per-season days overriding days; optional year = year the dates were checked; Easter dates are 2026's.",
  "Antiguo Seminario Mayor de Comillas": {"days":[0,1,2,3,4,5,6]},
  "Cueva de Covalanas": {"days":[3,4,5,6,0]},
  "Arqueositio Cántabro-Romano de Camesa-Rebolledo": {"days":[2,3,4,5,6,0]},
- "Cueva de Chufín": {"days":[3,4,5,6,0], "seasons":[{"from":"04-02","to":"04-05"},{"from":"06-15","to":"09-15"}], "seasonNote":"Open Easter (2–5 Apr 2026) and 15 Jun–15 Sep only"},
+ "Cueva de Chufín": {"days":[3,4,5,6,0], "year":2026, "seasons":[{"from":"04-02","to":"04-05"},{"from":"06-15","to":"09-15"}], "seasonNote":"Open Easter (2–5 Apr 2026) and 15 Jun–15 Sep only"},
  "Cueva de Cullalvera": {"days":[2,3,4,5,6,0]},
  "Ciudad romana y Domus de Julióbriga": {"days":[2,3,4,5,6,0]},
  "Cueva de El Castillo": {"days":[2,3,4,5,6,0]},
@@ -13,5 +13,6 @@
  "Cueva de El Pendo": {"days":[2,3,4,5,6,0]},
  "Torre de Pero Niño": {"days":[3,4,5,6,0]},
  "Torre del Infantado": {"days":[0,1,2,3,4,5,6]},
- "Centro de Arte Rupestre de Cantabria": {"days":[2,3,4,5,6,0]}
+ "Centro de Arte Rupestre de Cantabria": {"days":[2,3,4,5,6,0]},
+ "Laberinto de Villapresente": {"days":[3,4,5,6,0], "year":2026, "seasons":[{"from":"03-28","to":"06-30","days":[3,4,5,6,0]},{"from":"07-01","to":"08-31","days":[0,1,2,3,4,5,6]},{"from":"09-01","to":"10-12","days":[3,4,5,6,0]}], "seasonNote":"Open 28 Mar–12 Oct in 2026: Wed–Sun, daily in July and August"}
 }

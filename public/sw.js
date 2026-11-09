@@ -3,7 +3,7 @@
 //   If the network is slow (> NET_TIMEOUT_MS), fails, or the site is blocked by an ISP (e.g. LaLiga match windows
 //   in Spain), the saved copy is used instead, so the map still opens. A slow request keeps going and refreshes the copy.
 // - Libraries and icons: cache first. Photos: cached as you view them. Map tiles: cached as you view them (capped).
-const VERSION = 'v5';
+const VERSION = 'v6';
 const SHELL = `shell-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
 const TILES = `tiles-${VERSION}`;
@@ -11,7 +11,7 @@ const MAX_TILES = 600;
 const NET_TIMEOUT_MS = 3500;
 
 const PRECACHE = [
-  '/', '/app.js', '/style.css', '/manifest.webmanifest', '/icon-180.png', '/data/places.json',
+  '/', '/app.js', '/style.css', '/manifest.webmanifest', '/icon-180.png', '/icon-192.png', '/data/places.json',
   '/vendor/leaflet/leaflet.js', '/vendor/leaflet/leaflet.css',
   '/vendor/leaflet/images/layers.png', '/vendor/leaflet/images/layers-2x.png',
   '/vendor/leaflet/images/marker-icon.png', '/vendor/leaflet/images/marker-icon-2x.png', '/vendor/leaflet/images/marker-shadow.png'
@@ -20,10 +20,10 @@ const PRECACHE = [
 self.addEventListener('install', e => {
   e.waitUntil((async () => {
     const c = await caches.open(SHELL);
-    await c.addAll(PRECACHE);
+    await Promise.allSettled(PRECACHE.map(u => c.add(u))); // one missing file must not abort the install
     try { // hike routes are tiny: keep them all for offline use
       const idx = await (await fetch('/routes/index.json', { cache: 'no-cache' })).json();
-      await c.addAll(['/routes/index.json', ...Object.keys(idx).map(id => '/routes/' + id + '.json')]);
+      await Promise.allSettled(['/routes/index.json', ...Object.keys(idx).map(id => '/routes/' + id + '.json')].map(u => c.add(u)));
     } catch { /* no routes yet */ }
     await self.skipWaiting();
   })());
@@ -65,16 +65,22 @@ async function cacheFirst(req, cacheName) {
   }
 }
 
+let tileWrites = 0;
+// Tiles are fetched with CORS (crossOrigin on the tile layers) so they are readable and cacheable.
+// The a/b/c subdomain is dropped from the cache key so every mirror shares one copy.
 async function tile(req) {
   const cache = await caches.open(TILES);
-  const hit = await cache.match(req);
+  const key = req.url.replace(/^https:\/\/[abc]\.tile\./, 'https://tile.');
+  const hit = await cache.match(key);
   if (hit) return hit;
   try {
     const res = await fetch(req);
     if (res.ok) {
-      await cache.put(req, res.clone());
-      const keys = await cache.keys();
-      if (keys.length > MAX_TILES) await Promise.all(keys.slice(0, keys.length - MAX_TILES).map(k => cache.delete(k)));
+      await cache.put(key, res.clone());
+      if (++tileWrites % 25 === 0) { // trim only now and then
+        const keys = await cache.keys();
+        if (keys.length > MAX_TILES) await Promise.all(keys.slice(0, keys.length - MAX_TILES).map(k => cache.delete(k)));
+      }
     }
     return res;
   } catch {

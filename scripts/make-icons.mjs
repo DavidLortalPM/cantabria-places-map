@@ -36,5 +36,5 @@ function icon(size) {
   ihdr.writeUInt32BE(size, 0); ihdr.writeUInt32BE(size, 4); ihdr[8] = 8; ihdr[9] = 6;
   return Buffer.concat([Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]), chunk('IHDR', ihdr), chunk('IDAT', zlib.deflateSync(raw)), chunk('IEND', Buffer.alloc(0))]);
 }
-for (const s of [180, 512]) fs.writeFileSync(`public/icon-${s}.png`, icon(s));
+for (const s of [180, 192, 512]) fs.writeFileSync(`public/icon-${s}.png`, icon(s));
 console.log('icons written');
