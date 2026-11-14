@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-14",
  "places": [
   {
    "id": "acantilados-de-san-vicente-ca-enp01",
@@ -813,6 +813,19 @@
     "circular": true,
     "note": "PR-PNPE 17, circuit around Tresviso."
    }
+  },
+  {
+   "id": "ermita-de-san-esteban-monte-corona",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Ermita de San Esteban",
+   "name": "Ermita de San Esteban (Monte Corona)",
+   "category": "attraction",
+   "kind": "Viewpoint",
+   "area": "Monte Corona, Oyambre Natural Park (Comillas)",
+   "lat": 43.34665,
+   "lon": -4.29459,
+   "description": "A small hermitage on a high point of Monte Corona (about 250 m) inside the Oyambre Natural Park. Next to it are a picnic area with tables and barbecues and a small viewpoint over the forest and the western Cantabrian coast; on clear days you can see San Vicente de la Barquera and the Picos de Europa. Reached by a paved forest road from La Hayuela. A pilgrimage (romeria) is held here around 3 August.",
+   "familyFriendly": true
   },
   {
    "id": "hayedo-de-la-zamina-ca-enp21",
