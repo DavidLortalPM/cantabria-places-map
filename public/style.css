@@ -1,6 +1,7 @@
 :root{
   --bg:#fff; --fg:#1c2421; --muted:#55635d; --line:#e3e8e5; --card:#fff; --shadow:0 2px 14px rgba(0,0,0,.22);
   --accent:#1f4d3a; --land:#e9eee9;
+  color-scheme:light dark;
 }
 @media (prefers-color-scheme:dark){
   :root{--bg:#1b211e;--fg:#eaf0ec;--muted:#9fb0a7;--line:#33403a;--card:#1f2622;--shadow:0 2px 14px rgba(0,0,0,.6);--accent:#7fd1a8;--land:#1d2622}
@@ -108,9 +109,8 @@ body{font:15px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--fg)
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
 .tag{font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px;background:var(--line);color:var(--fg)}
 .status{font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px;margin:8px 0;background:var(--line)}
-.status.ok{background:#d6f0dd;color:#14532d}
-.status.warn{background:#fde8c8;color:#7a3b00}
-@media (prefers-color-scheme:dark){.status.ok{background:#1d4a2c;color:#c6f3d3}.status.warn{background:#5a3a12;color:#ffd9a0}}
+.status.ok{background:light-dark(#d6f0dd,#1d4a2c);color:light-dark(#14532d,#c6f3d3)}
+.status.warn{background:light-dark(#fde8c8,#5a3a12);color:light-dark(#7a3b00,#ffd9a0)}
 .stats{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
 .stat{flex:0 1 auto;min-width:104px;background:var(--line);border-radius:10px;padding:7px 9px}
 .stat b{display:block;font-size:15px;overflow-wrap:anywhere}
