@@ -11,7 +11,7 @@
     "kind": "Spanish-Moroccan"
   },
   {
-    "name": "Alterna Sidrería",
+    "name": "Alterna Sidrería (Calle Rosal)",
     "category": "restaurant",
     "lat": 43.3600215,
     "lon": -5.8469674,
@@ -19,7 +19,20 @@
     "source": "OpenStreetMap node 10087427219 (ODbL); Asturias tourism listing for the address and website",
     "kind": "Sidrería",
     "area": "Oviedo, Asturias",
-    "description": "Asturian cider house (sidrería) in the El Fontán area of Oviedo, focused on meat and Asturian cooking. Wheelchair accessible per OpenStreetMap. A second Alterna branch is at Calle Puerto de Pajares 9.",
+    "description": "Asturian cider house (sidrería) in the El Fontán area of Oviedo, focused on meat and Asturian cooking. Wheelchair accessible per OpenStreetMap. Alterna has a second branch at Calle Puerto de Pajares 9.",
     "link": "https://alternasidreria.com"
+  },
+  {
+    "name": "Alterna Sidrería (Puerto de Pajares)",
+    "category": "restaurant",
+    "lat": 43.3712341,
+    "lon": -5.8360637,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; address confirmed against OpenStreetMap (Calle Puerto de Pajares 9)",
+    "gmaps": "https://maps.app.goo.gl/cDDL3gzK3sn4hCz59",
+    "kind": "Sidrería",
+    "area": "Oviedo, Asturias",
+    "link": "https://alternasidreria.com",
+    "description": "Second Alterna sidrería in Oviedo, in the Montenuño / Teatinos area. Asturian cider house focused on meat and Asturian cooking. The other branch is on Calle Rosal 13."
   }
 ]
