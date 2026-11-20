@@ -6,6 +6,7 @@ const CATEGORIES = {
   family:     { label: 'Family',  single: 'Family activity', color: '#2b6cb0', glyph: '🎈' },
   walk:       { label: 'Walks',   single: 'Easy walk',       color: '#0e7490', glyph: '🚶' },
   attraction: { label: 'Places',  single: 'Place',           color: '#dd6b20', glyph: '📍' },
+  restaurant: { label: 'Food',    single: 'Restaurant',      color: '#c53030', glyph: '🍽️' },
   cultura:    { label: 'Culture', single: 'Pasaporte Cultura', color: '#805ad5', glyph: '🏛️' }
 };
 const STAGES = ['Do now', 'Build towards', 'Major objective'];
@@ -159,7 +160,7 @@ function renderHike(p) {
 
 function renderPlace(p) {
   const prices = p.adult != null ? `${money(p.adult)} adult${p.child != null ? ' · ' + money(p.child) + ' child' : ''}` : '';
-  const rows = [row('Visit time', p.visitTime), row('Price', prices)].filter(Boolean);
+  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Phone', p.phone)].filter(Boolean);
   const driveQuick = p.drive && rows.length < 2;
   if (driveQuick) rows.push(row('Drive from base', p.drive));
   return [`
@@ -295,7 +296,7 @@ function buildLegend(places, unplaced) {
   const kinds = [...new Set(places.map(p => p.kind).filter(Boolean))];
   const status = new Set(places.map(p => p.locationStatus));
   const types = [
-    ...['hike', 'walk', 'family'].filter(k => cats.has(k)).map(k => [CATEGORIES[k].glyph, CATEGORIES[k].single]),
+    ...['hike', 'walk', 'family', 'restaurant'].filter(k => cats.has(k)).map(k => [CATEGORIES[k].glyph, CATEGORIES[k].single]),
     ...(places.some(p => p.category === 'attraction' && !p.kind) ? [[CATEGORIES.attraction.glyph, 'Place']] : []),
     ...kinds.map(k => [KIND_GLYPH[k] || '', KIND_LABEL[k] || k])
   ];

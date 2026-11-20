@@ -70,6 +70,14 @@ if (fs.existsSync('data/other.json')) {
   unplaced.push({ name: 'Sendero de Castrejón', category: 'walk' });
 }
 
+// ---- Restaurants (data/restaurants.json; added with scripts/add-restaurant.mjs from Google Maps links)
+if (fs.existsSync('data/restaurants.json')) {
+  for (const o of read('data/restaurants.json')) {
+    const { status, source, ...rest } = o;
+    places.push({ id: slug(o.name), category: 'restaurant', locationStatus: status, locationSource: source, ...rest });
+  }
+}
+
 // Hikes are only published once there is a route to draw (public/routes/<id>.json, see scripts/build-routes.mjs).
 // HIKES_NEED_ROUTE=0 publishes every placed hike; HIDE_CATEGORIES=a,b keeps whole categories out.
 const HIDE = new Set((process.env.HIDE_CATEGORIES ?? '').split(',').map(s => s.trim()).filter(Boolean));
