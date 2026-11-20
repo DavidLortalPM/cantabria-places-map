@@ -195,6 +195,56 @@
    "link": "https://centros.culturadecantabria.com/arqueositio/"
   },
   {
+   "id": "asador-llorente",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Asador Llorente, 1, Calle de San Roque",
+   "name": "Asador Llorente",
+   "lat": 43.154093,
+   "lon": -4.621832,
+   "kind": "Asador (grill)",
+   "area": "Potes, Liébana",
+   "description": "Meat-and-grill restaurant (asador) in Potes. Note: about 100 km from Santander, in the Picos / Liébana side."
+  },
+  {
+   "id": "atypique",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Atypique, 11, Calle de Castelar",
+   "name": "Atypique",
+   "lat": 43.463228,
+   "lon": -3.794985,
+   "gmaps": "https://maps.app.goo.gl/eUHFZLQccPbFRLaA8?g_st=ic",
+   "kind": "Café / breakfast",
+   "area": "Santander (centre)",
+   "description": "Breakfast option in downtown Santander."
+  },
+  {
+   "id": "bodega-del-riojano",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega del Riojano, 5, Calle del Río de la Pila",
+   "name": "Bodega del Riojano",
+   "lat": 43.464116,
+   "lon": -3.804221,
+   "kind": "Traditional Cantabrian",
+   "area": "Santander",
+   "priceLevel": "€€–€€€",
+   "description": "Mid-range, historic, and great for Cantabrian food."
+  },
+  {
+   "id": "bodega-fuente-de",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega Fuente De, 5, Calle de Peña Herbosa",
+   "name": "Bodega Fuente Dé",
+   "lat": 43.463455,
+   "lon": -3.799276,
+   "kind": "Tapas & pintxos",
+   "area": "Santander",
+   "description": "Tapas and pintxos bodega in central Santander."
+  },
+  {
    "id": "brana-de-los-tejos-ca-enp06",
    "name": "Braña de los Tejos (CA-ENP06)",
    "category": "hike",
@@ -296,6 +346,30 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
     "circular": true
    }
+  },
+  {
+   "id": "casa-ajero",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Ajero, 18, Calle de Daoíz y Velarde",
+   "name": "Casa Ajero",
+   "lat": 43.463079,
+   "lon": -3.801235,
+   "kind": "Tapas & pintxos",
+   "area": "Santander",
+   "description": "Tapas and pintxos in central Santander."
+  },
+  {
+   "id": "casa-lita",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Lita, 37, Paseo de Pereda",
+   "name": "Casa Lita",
+   "lat": 43.462609,
+   "lon": -3.797333,
+   "kind": "Tapas & pintxos",
+   "area": "Santander",
+   "description": "Tapas and pintxos spot on Paseo de Pereda."
   },
   {
    "id": "casas-del-aguila-y-la-parra",
@@ -947,6 +1021,32 @@
    }
   },
   {
+   "id": "kandela",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Kandela, Calle de Bonifaz, La Gándara",
+   "name": "Kandela",
+   "lat": 43.464025,
+   "lon": -3.797828,
+   "kind": "Restaurant",
+   "area": "Santander",
+   "priceLevel": "€€€",
+   "description": "Upmarket, modern and stylish; good for dinner."
+  },
+  {
+   "id": "la-bombi",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): La Bombi, 13, Calle de Casimiro Sainz",
+   "name": "La Bombi",
+   "lat": 43.464369,
+   "lon": -3.796926,
+   "kind": "Seafood",
+   "area": "Santander",
+   "priceLevel": "€€€–€€€€",
+   "description": "Upmarket Santander classic for fish and seafood; for a special occasion."
+  },
+  {
    "id": "la-garma-nacimiento-del-pisuena-ca-enp23",
    "name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
    "category": "hike",
@@ -1160,6 +1260,31 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
     "circular": true
    }
+  },
+  {
+   "id": "mercado-de-la-esperanza",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Mercado de La Esperanza, 12, Plaza de la Esperanza",
+   "name": "Mercado de la Esperanza",
+   "lat": 43.462788,
+   "lon": -3.809979,
+   "kind": "Market",
+   "area": "Santander",
+   "description": "A must for local produce, seafood and a proper Santander market experience."
+  },
+  {
+   "id": "meson-de-borlena",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Mesón de Borleña, Camino de Villegar a Borleña, Barrio del Campizo",
+   "name": "Mesón de Borleña",
+   "lat": 43.235577,
+   "lon": -3.948268,
+   "gmaps": "https://maps.app.goo.gl/6FhmNWgQekxGJaNNA?g_st=iw",
+   "kind": "Restaurant",
+   "area": "Borleña, Cantabria",
+   "description": "Saved from your Google Maps list."
   },
   {
    "id": "mirador-de-covalruyo",
@@ -1500,6 +1625,18 @@
    }
   },
   {
+   "id": "peter-pan",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Peter & Pan, 19B, Calle del Rostrío",
+   "name": "Peter & Pan",
+   "lat": 43.447412,
+   "lon": -3.865888,
+   "kind": "Café / breakfast",
+   "area": "Santander",
+   "description": "Coffee and breakfast spot."
+  },
+  {
    "id": "porracolina-cordal-de-las-jorobas-y-via-normal",
    "name": "Porracolina — Cordal de las Jorobas y vía normal",
    "category": "hike",
@@ -1675,6 +1812,19 @@
     "circular": false,
     "note": "Poncebos to Cain, one way (11.1 km). Built from OSM footpath ways (no PR-PNPE 3 route relation exists); not an official track."
    }
+  },
+  {
+   "id": "santa-co",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Santa&Co, 17, Calle de Marcelino Sanz de Sautuola",
+   "name": "Santa & Co",
+   "lat": 43.463575,
+   "lon": -3.803841,
+   "gmaps": "https://maps.app.goo.gl/rmVmhKhYok8scGzw6?g_st=ic",
+   "kind": "Café / breakfast",
+   "area": "Santander (centre)",
+   "description": "Coffee and breakfast in downtown Santander; a maybe for breakfast."
   },
   {
    "id": "senda-fluvial-del-nansa-ca-enp34",

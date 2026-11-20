@@ -34,5 +34,143 @@
     "area": "Oviedo, Asturias",
     "link": "https://alternasidreria.com",
     "description": "Second Alterna sidrería in Oviedo, in the Montenuño / Teatinos area. Asturian cider house focused on meat and Asturian cooking. The other branch is on Calle Rosal 13."
+  },
+  {
+    "name": "Asador Llorente",
+    "category": "restaurant",
+    "lat": 43.154093,
+    "lon": -4.621832,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Asador Llorente, 1, Calle de San Roque",
+    "kind": "Asador (grill)",
+    "area": "Potes, Liébana",
+    "description": "Meat-and-grill restaurant (asador) in Potes. Note: about 100 km from Santander, in the Picos / Liébana side."
+  },
+  {
+    "name": "Mesón de Borleña",
+    "category": "restaurant",
+    "lat": 43.235577,
+    "lon": -3.948268,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Mesón de Borleña, Camino de Villegar a Borleña, Barrio del Campizo",
+    "gmaps": "https://maps.app.goo.gl/6FhmNWgQekxGJaNNA?g_st=iw",
+    "kind": "Restaurant",
+    "area": "Borleña, Cantabria",
+    "description": "Saved from your Google Maps list."
+  },
+  {
+    "name": "Atypique",
+    "category": "restaurant",
+    "lat": 43.463228,
+    "lon": -3.794985,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Atypique, 11, Calle de Castelar",
+    "gmaps": "https://maps.app.goo.gl/eUHFZLQccPbFRLaA8?g_st=ic",
+    "kind": "Café / breakfast",
+    "area": "Santander (centre)",
+    "description": "Breakfast option in downtown Santander."
+  },
+  {
+    "name": "Santa & Co",
+    "category": "restaurant",
+    "lat": 43.463575,
+    "lon": -3.803841,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Santa&Co, 17, Calle de Marcelino Sanz de Sautuola",
+    "gmaps": "https://maps.app.goo.gl/rmVmhKhYok8scGzw6?g_st=ic",
+    "kind": "Café / breakfast",
+    "area": "Santander (centre)",
+    "description": "Coffee and breakfast in downtown Santander; a maybe for breakfast."
+  },
+  {
+    "name": "Kandela",
+    "category": "restaurant",
+    "lat": 43.464025,
+    "lon": -3.797828,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Kandela, Calle de Bonifaz, La Gándara",
+    "kind": "Restaurant",
+    "area": "Santander",
+    "priceLevel": "€€€",
+    "description": "Upmarket, modern and stylish; good for dinner."
+  },
+  {
+    "name": "La Bombi",
+    "category": "restaurant",
+    "lat": 43.464369,
+    "lon": -3.796926,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): La Bombi, 13, Calle de Casimiro Sainz",
+    "kind": "Seafood",
+    "area": "Santander",
+    "priceLevel": "€€€–€€€€",
+    "description": "Upmarket Santander classic for fish and seafood; for a special occasion."
+  },
+  {
+    "name": "Bodega del Riojano",
+    "category": "restaurant",
+    "lat": 43.464116,
+    "lon": -3.804221,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega del Riojano, 5, Calle del Río de la Pila",
+    "kind": "Traditional Cantabrian",
+    "area": "Santander",
+    "priceLevel": "€€–€€€",
+    "description": "Mid-range, historic, and great for Cantabrian food."
+  },
+  {
+    "name": "Casa Lita",
+    "category": "restaurant",
+    "lat": 43.462609,
+    "lon": -3.797333,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Lita, 37, Paseo de Pereda",
+    "kind": "Tapas & pintxos",
+    "area": "Santander",
+    "description": "Tapas and pintxos spot on Paseo de Pereda."
+  },
+  {
+    "name": "Bodega Fuente Dé",
+    "category": "restaurant",
+    "lat": 43.463455,
+    "lon": -3.799276,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega Fuente De, 5, Calle de Peña Herbosa",
+    "kind": "Tapas & pintxos",
+    "area": "Santander",
+    "description": "Tapas and pintxos bodega in central Santander."
+  },
+  {
+    "name": "Casa Ajero",
+    "category": "restaurant",
+    "lat": 43.463079,
+    "lon": -3.801235,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Ajero, 18, Calle de Daoíz y Velarde",
+    "kind": "Tapas & pintxos",
+    "area": "Santander",
+    "description": "Tapas and pintxos in central Santander."
+  },
+  {
+    "name": "Peter & Pan",
+    "category": "restaurant",
+    "lat": 43.447412,
+    "lon": -3.865888,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Peter & Pan, 19B, Calle del Rostrío",
+    "kind": "Café / breakfast",
+    "area": "Santander",
+    "description": "Coffee and breakfast spot."
+  },
+  {
+    "name": "Mercado de la Esperanza",
+    "category": "restaurant",
+    "lat": 43.462788,
+    "lon": -3.809979,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Mercado de La Esperanza, 12, Plaza de la Esperanza",
+    "kind": "Market",
+    "area": "Santander",
+    "description": "A must for local produce, seafood and a proper Santander market experience."
   }
 ]

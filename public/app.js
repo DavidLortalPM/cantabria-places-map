@@ -12,7 +12,7 @@ const CATEGORIES = {
 const STAGES = ['Do now', 'Build towards', 'Major objective'];
 const STAGE_HELP = { 'Do now': 'Ready to do this year', 'Build towards': 'Needs some fitness or planning first', 'Major objective': 'Big day, mountain experience needed' };
 const KIND_LABEL = { 'Museum': 'Museum / exhibition centre', 'Cultural site': 'Historic or archaeological site', 'Cave': 'Cave (guided visit, book ahead)', 'Viewpoint': 'Viewpoint', 'Day trip': 'Day-trip idea' };
-const KIND_GLYPH = { 'Museum': '🏛️', 'Cultural site': '🏰', 'Cave': '🔦', 'Viewpoint': '🔭', 'Day trip': '🧭' };
+const KIND_GLYPH = { 'Tapas & pintxos': '🍢', 'Café / breakfast': '☕', 'Market': '🧺', 'Seafood': '🦐', 'Asador (grill)': '🥩', 'Museum': '🏛️', 'Cultural site': '🏰', 'Cave': '🔦', 'Viewpoint': '🔭', 'Day trip': '🧭' };
 const RAIN = { Good: 'Good in rain', Poor: 'Poor in rain', Mixed: 'Mixed in rain' };
 
 const LOCATION_LABEL = {
@@ -160,7 +160,7 @@ function renderHike(p) {
 
 function renderPlace(p) {
   const prices = p.adult != null ? `${money(p.adult)} adult${p.child != null ? ' · ' + money(p.child) + ' child' : ''}` : '';
-  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Phone', p.phone)].filter(Boolean);
+  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Phone', p.phone), row('Price level', p.priceLevel)].filter(Boolean);
   const driveQuick = p.drive && rows.length < 2;
   if (driveQuick) rows.push(row('Drive from base', p.drive));
   return [`
