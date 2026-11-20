@@ -172,5 +172,21 @@
     "kind": "Market",
     "area": "Santander",
     "description": "A must for local produce, seafood and a proper Santander market experience."
+  },
+  {
+    "name": "El Cazurro",
+    "category": "restaurant",
+    "lat": 43.47273,
+    "lon": -3.917251,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres"
+  },
+  {
+    "name": "Casa Poli",
+    "category": "restaurant",
+    "lat": 43.398567,
+    "lon": -4.686083,
+    "status": "verified",
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Poli, N-634, Puertas de Vidiago"
   }
 ]

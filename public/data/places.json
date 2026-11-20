@@ -372,6 +372,15 @@
    "description": "Tapas and pintxos spot on Paseo de Pereda."
   },
   {
+   "id": "casa-poli",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Poli, N-634, Puertas de Vidiago",
+   "name": "Casa Poli",
+   "lat": 43.398567,
+   "lon": -4.686083
+  },
+  {
    "id": "casas-del-aguila-y-la-parra",
    "name": "Casas del Águila y la Parra",
    "category": "cultura",
@@ -887,6 +896,15 @@
     "circular": false,
     "note": "PR-PNPE 8, Demues to Los Lagos, one way (main line; the OSM alternative variant is left out)."
    }
+  },
+  {
+   "id": "el-cazurro",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres",
+   "name": "El Cazurro",
+   "lat": 43.47273,
+   "lon": -3.917251
   },
   {
    "id": "entorno-de-tresviso-pr-pnpe-17",
