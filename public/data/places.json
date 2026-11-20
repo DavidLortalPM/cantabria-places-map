@@ -378,7 +378,9 @@
    "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Poli, N-634, Puertas de Vidiago",
    "name": "Casa Poli",
    "lat": 43.398567,
-   "lon": -4.686083
+   "lon": -4.686083,
+   "description": "No reservations taken.",
+   "area": "Vidiago, Llanes (Asturias)"
   },
   {
    "id": "casas-del-aguila-y-la-parra",
@@ -1105,6 +1107,18 @@
    "gmaps": "https://maps.app.goo.gl/FPosCmvkCN8137mu9",
    "area": "Santander",
    "kind": "Spanish-Moroccan"
+  },
+  {
+   "id": "la-parrilla-de-prellezo",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): La Parrilla, Barrio Arco, Prellezo",
+   "name": "La Parrilla de Prellezo",
+   "lat": 43.380303,
+   "lon": -4.439802,
+   "kind": "Asador (grill)",
+   "area": "Prellezo, Val de San Vicente",
+   "description": "Grill house known for beef."
   },
   {
    "id": "laberinto-de-tilde",
