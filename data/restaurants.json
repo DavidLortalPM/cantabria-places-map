@@ -7,6 +7,19 @@
     "status": "verified",
     "source": "Google Maps link supplied by owner",
     "gmaps": "https://maps.app.goo.gl/FPosCmvkCN8137mu9",
-    "area": "Santander"
+    "area": "Santander",
+    "kind": "Spanish-Moroccan"
+  },
+  {
+    "name": "Alterna Sidrería",
+    "category": "restaurant",
+    "lat": 43.3600215,
+    "lon": -5.8469674,
+    "status": "verified",
+    "source": "OpenStreetMap node 10087427219 (ODbL); Asturias tourism listing for the address and website",
+    "kind": "Sidrería",
+    "area": "Oviedo, Asturias",
+    "description": "Asturian cider house (sidrería) in the El Fontán area of Oviedo, focused on meat and Asturian cooking. Wheelchair accessible per OpenStreetMap. A second Alterna branch is at Calle Puerto de Pajares 9.",
+    "link": "https://alternasidreria.com"
   }
 ]

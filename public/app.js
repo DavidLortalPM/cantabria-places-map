@@ -519,7 +519,9 @@ async function init() {
   refresh();
   buildLegend(places, data.unplaced || []);
 
-  if (places.length) map.fitBounds(L.latLngBounds(places.map(p => [p.lat, p.lon])), { padding: [70, 70], maxZoom: 9, animate: false });
+  // restaurants can be anywhere (e.g. Oviedo), so they do not stretch the opening view
+  const core = places.filter(p => p.category !== 'restaurant');
+  if (core.length) map.fitBounds(L.latLngBounds(core.map(p => [p.lat, p.lon])), { padding: [70, 70], maxZoom: 9, animate: false });
   openFromHash();
 }
 init();
