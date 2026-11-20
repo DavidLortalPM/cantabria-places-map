@@ -11,5 +11,7 @@
 <IfModule mod_mime.c>
   AddType application/manifest+json .webmanifest
   AddType application/json .json
+  AddType image/svg+xml .svg
+  AddType image/x-icon .ico
 </IfModule>
 DirectoryIndex index.html

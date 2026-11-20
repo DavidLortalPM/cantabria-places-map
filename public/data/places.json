@@ -153,7 +153,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Can combine with Sobrellano; official site recommends 90–120 minutes between visit start times.",
    "link": "https://centros.culturadecantabria.com/seminario-mayor-de-comillas/"
   },
@@ -190,7 +189,6 @@
     ]
    },
    "rainyDay": "Mixed",
-   "familyFriendly": true,
    "booking": "Opening can change due to weather; check before travel.",
    "link": "https://centros.culturadecantabria.com/arqueositio/"
   },
@@ -379,8 +377,9 @@
    "name": "Casa Poli",
    "lat": 43.398567,
    "lon": -4.686083,
-   "description": "No reservations taken.",
-   "area": "Vidiago, Llanes (Asturias)"
+   "area": "Vidiago, Llanes (Asturias)",
+   "kind": "Restaurant",
+   "reservations": "No reservations"
   },
   {
    "id": "casas-del-aguila-y-la-parra",
@@ -405,7 +404,6 @@
    "adult": 0,
    "child": 0,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Currently free entry; pass gives no direct admission saving at current tariff.",
    "link": "https://centros.culturadecantabria.com/casas-del-aguila-y-la-parra/"
   },
@@ -462,7 +460,6 @@
    "adult": 3,
    "child": 1.5,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Published tariff: adult €3; age 4–12 €1.50; under 4 free. Reservation required at least one day ahead in some periods; Sundays free.",
    "link": "https://www.museosdecantabria.es/"
   },
@@ -499,7 +496,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Permanent exhibition; guided visits available. Free same day with El Castillo or Las Monedas ticket.",
    "link": "https://cuevas.culturadecantabria.com/centro-de-arte-rupestre-de-cantabria/"
   },
@@ -535,7 +531,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Opening can change due to weather; check before travel.",
    "link": "https://centros.culturadecantabria.com/romanico/"
   },
@@ -572,7 +567,6 @@
     ]
    },
    "rainyDay": "Mixed",
-   "familyFriendly": true,
    "booking": "Check opening times before travel.",
    "link": "https://centros.culturadecantabria.com/juliobriga/"
   },
@@ -648,7 +642,6 @@
     "seasonNote": "Open Easter (2–5 Apr 2026) and 15 Jun–15 Sep only"
    },
    "rainyDay": "Poor",
-   "familyFriendly": true,
    "booking": "Seasonal; very limited capacity (6). Check availability/reserve in advance.",
    "link": "https://cuevas.culturadecantabria.com/chufin/"
   },
@@ -684,7 +677,6 @@
     ]
    },
    "rainyDay": "Mixed",
-   "familyFriendly": true,
    "booking": "Very limited capacity (4). Same-day tickets depend on availability via Cullalvera ticket office.",
    "link": "https://cuevas.culturadecantabria.com/covalanas-esp/"
   },
@@ -721,7 +713,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Timed cave visit; check availability before travel.",
    "link": "https://cuevas.culturadecantabria.com/cullalvera-esp/"
   },
@@ -758,7 +749,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
    "link": "https://cuevas.culturadecantabria.com/el-castillo/"
   },
@@ -795,7 +785,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Timed guided visits; limited capacity. Advance booking recommended.",
    "link": "https://cuevas.culturadecantabria.com/el-pendo/"
   },
@@ -831,7 +820,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Very limited capacity (4 per session); advance planning strongly advisable.",
    "link": "https://cuevas.culturadecantabria.com/hornos-de-la-pena/"
   },
@@ -868,7 +856,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
    "link": "https://cuevas.culturadecantabria.com/las-monedas/"
   },
@@ -906,7 +893,8 @@
    "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres",
    "name": "El Cazurro",
    "lat": 43.47273,
-   "lon": -3.917251
+   "lon": -3.917251,
+   "kind": "Bar / restaurant"
   },
   {
    "id": "entorno-de-tresviso-pr-pnpe-17",
@@ -1315,8 +1303,7 @@
    "lon": -3.948268,
    "gmaps": "https://maps.app.goo.gl/6FhmNWgQekxGJaNNA?g_st=iw",
    "kind": "Restaurant",
-   "area": "Borleña, Cantabria",
-   "description": "Saved from your Google Maps list."
+   "area": "Borleña, Cantabria"
   },
   {
    "id": "mirador-de-covalruyo",
@@ -1414,7 +1401,6 @@
    "adult": 5,
    "child": 3,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Normal €5 age 13+; reduced €3 age 4–12; age 0–3 free. Sundays free.",
    "link": "https://www.museosdecantabria.es/"
   },
@@ -1441,7 +1427,6 @@
    "adult": 6,
    "child": 3,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Check current reservation requirements; Sunday late afternoon may be free without the pass.",
    "link": "https://www.museosdecantabria.es/"
   },
@@ -1468,7 +1453,6 @@
    "adult": 0,
    "child": 0,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Visits are reported as free and guided; workshops require reservation. No direct admission saving from the pass at current tariff.",
    "link": "https://www.museosdecantabria.es/"
   },
@@ -1495,7 +1479,6 @@
    "adult": 8,
    "child": 5,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "2026 published tariff: adult €8; child 5–12 €5; under 5 free.",
    "link": "https://www.museosdecantabria.es/"
   },
@@ -1549,7 +1532,6 @@
    "adult": 7,
    "child": 5,
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Can combine with Seminario Mayor; allow sufficient time between timed visits.",
    "link": "https://centros.culturadecantabria.com/palacio-de-sobrellano/"
   },
@@ -2011,7 +1993,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Seasonal opening hours; check before travel.",
    "link": "https://centros.culturadecantabria.com/torre-de-pero-nino-2/"
   },
@@ -2049,7 +2030,6 @@
     ]
    },
    "rainyDay": "Good",
-   "familyFriendly": true,
    "booking": "Check opening hours before travel.",
    "link": "https://centros.culturadecantabria.com/torre-del-infantado/"
   },

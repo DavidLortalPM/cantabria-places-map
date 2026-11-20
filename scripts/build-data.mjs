@@ -25,7 +25,7 @@ for (const n of cultura) {
     description: desc[n.name], image: images[n.name],
     lat: c.lat, lon: c.lon, locationStatus: c.status, locationSource: c.source,
     drive: n.drive, visitTime: n.visit, hours: n.hours, adult: n.adult, child: n.child,
-    open: opening[n.name], rainyDay: n.rainy, familyFriendly: true, booking: n.booking, link: n.link
+    open: opening[n.name], rainyDay: n.rainy, booking: n.booking, link: n.link // no family-friendly field in the source, so none is claimed
   });
 }
 
@@ -71,9 +71,12 @@ if (fs.existsSync('data/other.json')) {
 }
 
 // ---- Restaurants (data/restaurants.json; added with scripts/add-restaurant.mjs from Google Maps links)
+// Optional fields shown as sheet tags: kind, priceLevel (€ … €€€€), reservations ("No reservations" | "Book ahead").
+const RESERVATIONS = new Set(['No reservations', 'Book ahead']);
 if (fs.existsSync('data/restaurants.json')) {
   for (const o of read('data/restaurants.json')) {
     const { status, source, ...rest } = o;
+    if (o.reservations && !RESERVATIONS.has(o.reservations)) console.warn('warning:', o.name, 'has unknown reservations value', JSON.stringify(o.reservations));
     places.push({ id: slug(o.name), category: 'restaurant', locationStatus: status, locationSource: source, ...rest });
   }
 }

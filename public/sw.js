@@ -3,7 +3,7 @@
 //   If the network is slow (> NET_TIMEOUT_MS), fails, or the site is blocked by an ISP (e.g. LaLiga match windows
 //   in Spain), the saved copy is used instead, so the map still opens. A slow request keeps going and refreshes the copy.
 // - Libraries and icons: cache first. Photos: cached as you view them. Map tiles: cached as you view them (capped).
-const VERSION = 'v6';
+const VERSION = 'v7';
 const SHELL = `shell-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
 const TILES = `tiles-${VERSION}`;
@@ -11,7 +11,7 @@ const MAX_TILES = 600;
 const NET_TIMEOUT_MS = 3500;
 
 const PRECACHE = [
-  '/', '/app.js', '/style.css', '/manifest.webmanifest', '/icon-180.png', '/icon-192.png', '/data/places.json',
+  '/', '/app.js', '/style.css', '/manifest.webmanifest', '/icon-180.png', '/icon-192.png', '/icon.svg', '/favicon.ico', '/data/places.json',
   '/vendor/leaflet/leaflet.js', '/vendor/leaflet/leaflet.css',
   '/vendor/leaflet/images/layers.png', '/vendor/leaflet/images/layers-2x.png',
   '/vendor/leaflet/images/marker-icon.png', '/vendor/leaflet/images/marker-icon-2x.png', '/vendor/leaflet/images/marker-shadow.png'
@@ -104,6 +104,6 @@ self.addEventListener('fetch', e => {
     return;
   }
   if (url.pathname.startsWith('/img/')) { e.respondWith(cacheFirst(req, RUNTIME)); return; }
-  if (url.pathname.startsWith('/vendor/') || /\.(png|ico)$/.test(url.pathname)) { e.respondWith(cacheFirst(req, SHELL)); return; }
+  if (url.pathname.startsWith('/vendor/') || /\.(png|ico|svg)$/.test(url.pathname)) { e.respondWith(cacheFirst(req, SHELL)); return; }
   e.respondWith(networkFirst(req.url, url.pathname)); // app.js, style.css, data, routes, manifest
 });

@@ -55,8 +55,7 @@
     "source": "Place named by owner; position from OpenStreetMap (Nominatim): Mesón de Borleña, Camino de Villegar a Borleña, Barrio del Campizo",
     "gmaps": "https://maps.app.goo.gl/6FhmNWgQekxGJaNNA?g_st=iw",
     "kind": "Restaurant",
-    "area": "Borleña, Cantabria",
-    "description": "Saved from your Google Maps list."
+    "area": "Borleña, Cantabria"
   },
   {
     "name": "Atypique",
@@ -179,7 +178,8 @@
     "lat": 43.47273,
     "lon": -3.917251,
     "status": "verified",
-    "source": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres"
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres",
+    "kind": "Bar / restaurant"
   },
   {
     "name": "Casa Poli",
@@ -188,8 +188,9 @@
     "lon": -4.686083,
     "status": "verified",
     "source": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Poli, N-634, Puertas de Vidiago",
-    "description": "No reservations taken.",
-    "area": "Vidiago, Llanes (Asturias)"
+    "area": "Vidiago, Llanes (Asturias)",
+    "kind": "Restaurant",
+    "reservations": "No reservations"
   },
   {
     "name": "La Parrilla de Prellezo",

@@ -1,2 +1,17 @@
+# Link-preview fetchers and the main search engines may read pages, so shared links get a card and
+# search engines see the noindex header. Everything else stays out. Nothing here is indexed (see .htaccess).
+User-agent: Slackbot-LinkExpanding
+User-agent: Slackbot
+User-agent: Twitterbot
+User-agent: facebookexternalhit
+User-agent: meta-externalagent
+User-agent: LinkedInBot
+User-agent: WhatsApp
+User-agent: TelegramBot
+User-agent: Discordbot
+User-agent: Googlebot
+User-agent: bingbot
+Allow: /
+
 User-agent: *
 Disallow: /
