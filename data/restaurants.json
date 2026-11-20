@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "La Mano de Fátima",
+    "category": "restaurant",
+    "lat": 43.4641283,
+    "lon": -3.7998651,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/FPosCmvkCN8137mu9",
+    "area": "Santander"
+  }
+]
