@@ -201,5 +201,16 @@
     "kind": "Asador (grill)",
     "area": "Prellezo, Val de San Vicente",
     "description": "Grill house known for beef."
+  },
+  {
+    "name": "Sakura Santander",
+    "category": "restaurant",
+    "lat": 43.4385109,
+    "lon": -3.8415001,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/tRAXEzd952RkWQ6i7",
+    "kind": "Japanese",
+    "area": "Santander"
   }
 ]
