@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "places": [
   {
    "id": "acantilados-de-san-vicente-ca-enp01",
@@ -34,20 +34,24 @@
    "id": "alterna-sidreria-calle-rosal",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "OpenStreetMap node 10087427219 (ODbL); Asturias tourism listing for the address and website",
+   "locationSource": "OpenStreetMap node 10087427219 (ODbL); Asturias tourism listing for the address and website; details from venue site and web listings (check before going)",
    "name": "Alterna Sidrería (Calle Rosal)",
    "lat": 43.3600215,
    "lon": -5.8469674,
    "kind": "Sidrería",
    "area": "Oviedo, Asturias",
-   "description": "Asturian cider house (sidrería) in the El Fontán area of Oviedo, focused on meat and Asturian cooking. Wheelchair accessible per OpenStreetMap. Alterna has a second branch at Calle Puerto de Pajares 9.",
-   "link": "https://alternasidreria.com"
+   "description": "Traditional Asturian cider house opened in Oviedo in 2016 (founders Carlos Pedrouzo and Mònica Gallo), serving traditional Asturian dishes with ciders poured by escanciadores. Member of the Sidrerías de Asturias quality brand; Tripadvisor Travellers' Choice 2023.",
+   "link": "https://alternasidreria.com",
+   "address": "Calle Rosal 13, 33009 Oviedo",
+   "phone": "984 08 64 35",
+   "hours": "Tue-Sun 11:00-01:00, closed Monday; kitchen Tue-Thu 13:00-16:00 & 20:00-24:00, Fri-Sun 13:00-16:30 & 20:00-00:30 (check before going)",
+   "reservations": "Book ahead"
   },
   {
    "id": "alterna-sidreria-puerto-de-pajares",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Google Maps link supplied by owner; address confirmed against OpenStreetMap (Calle Puerto de Pajares 9)",
+   "locationSource": "Google Maps link supplied by owner; address confirmed against OpenStreetMap (Calle Puerto de Pajares 9); details from venue site and web listings (check before going)",
    "name": "Alterna Sidrería (Puerto de Pajares)",
    "lat": 43.3712341,
    "lon": -5.8360637,
@@ -55,7 +59,11 @@
    "kind": "Sidrería",
    "area": "Oviedo, Asturias",
    "link": "https://alternasidreria.com",
-   "description": "Second Alterna sidrería in Oviedo, in the Montenuño / Teatinos area. Asturian cider house focused on meat and Asturian cooking. The other branch is on Calle Rosal 13."
+   "description": "Second Alterna location (Alterna Teatinos) in Oviedo: traditional Asturian cuisine and cider poured by escanciadores; Sidrerías de Asturias quality brand.",
+   "address": "Calle Puerto Pajares 9, 33011 Oviedo",
+   "phone": "984 28 06 41",
+   "hours": "Tue-Sun 11:00-01:00, closed Monday; kitchen Tue-Thu 13:00-16:00 & 20:00-24:00, Fri-Sun 13:00-16:30 & 20:00-00:30 (check before going)",
+   "reservations": "Book ahead"
   },
   {
    "id": "alto-de-la-guarda-ca-enp03",
@@ -196,51 +204,65 @@
    "id": "asador-llorente",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Asador Llorente, 1, Calle de San Roque",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Asador Llorente, 1, Calle de San Roque; details from venue site and web listings (check before going)",
    "name": "Asador Llorente",
    "lat": 43.154093,
    "lon": -4.621832,
    "kind": "Asador (grill)",
    "area": "Potes, Liébana",
-   "description": "Meat-and-grill restaurant (asador) in Potes. Note: about 100 km from Santander, in the Picos / Liébana side."
+   "description": "Traditional Cantabrian grill restaurant in Potes with a rustic wood-paneled dining room and mountain views, known for red meat (chuletón) and its cocido lebaniego, described as the star of the menu. About 100 km from Santander, on the Picos / Liébana side.",
+   "address": "Pob. San Roque 1, 39570 Potes",
+   "phone": "942 738 165",
+   "priceLevel": "€€"
   },
   {
    "id": "atypique",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Atypique, 11, Calle de Castelar",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Atypique, 11, Calle de Castelar; details from venue site and web listings (check before going)",
    "name": "Atypique",
    "lat": 43.463228,
    "lon": -3.794985,
    "gmaps": "https://maps.app.goo.gl/eUHFZLQccPbFRLaA8?g_st=ic",
    "kind": "Café / breakfast",
    "area": "Santander (centre)",
-   "description": "Breakfast option in downtown Santander."
+   "description": "Pet-friendly specialty coffee shop in the ground floor of the Siboney building, redesigned by Zooco Estudio; pastries and international breakfast/brunch dishes (avocado toast, acai bowls, chia pudding, vegan banana bread) with a terrace over the marina.",
+   "address": "Calle Castelar 11, 39004 Santander",
+   "phone": "+34 661 17 92 56",
+   "hours": "Mon-Thu 09:00-20:00; Fri-Sat 09:00-21:00; Sun 09:00-15:00 (check before going)",
+   "priceLevel": "€€"
   },
   {
    "id": "bodega-del-riojano",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega del Riojano, 5, Calle del Río de la Pila",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega del Riojano, 5, Calle del Río de la Pila; details from venue site and web listings (check before going)",
    "name": "Bodega del Riojano",
    "lat": 43.464116,
    "lon": -3.804221,
    "kind": "Traditional Cantabrian",
    "area": "Santander",
    "priceLevel": "€€–€€€",
-   "description": "Mid-range, historic, and great for Cantabrian food."
+   "description": "Historic central Santander restaurant known as 'Museo Redondo' for its dining room of painted wine-barrel ends. Traditional product-led cooking: daily fish, spoon dishes, tripe, snails, cuttlefish in ink, cabracho pie and ensaladilla. Mid-range, historic, and great for Cantabrian food.",
+   "address": "Calle Río de la Pila, 5",
+   "phone": "942 216 750",
+   "link": "https://bodegadelriojano.com",
+   "hours": "Conflicting: Spanish Michelin page lists daily 12:00-16:00 and 20:00-00:00; other Michelin pages list 13:00-17:00 and 20:00-23:30 (check before going)"
   },
   {
    "id": "bodega-fuente-de",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega Fuente De, 5, Calle de Peña Herbosa",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Bodega Fuente De, 5, Calle de Peña Herbosa; details from venue site and web listings (check before going)",
    "name": "Bodega Fuente Dé",
    "lat": 43.463455,
    "lon": -3.799276,
    "kind": "Tapas & pintxos",
    "area": "Santander",
-   "description": "Tapas and pintxos bodega in central Santander."
+   "description": "Long-standing Santander bodega serving tapas and cheese plates with wine and beer; known for its cocido montañés, cheese and croquetas. Often packed, with standing room at the bar.",
+   "address": "Calle Peña Herbosa, 5",
+   "phone": "942 21 30 58",
+   "hours": "Mon-Sat 12:00-16:00 and 20:00-00:00; Sun closed (check before going)"
   },
   {
    "id": "brana-de-los-tejos-ca-enp06",
@@ -349,37 +371,47 @@
    "id": "casa-ajero",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Ajero, 18, Calle de Daoíz y Velarde",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Ajero, 18, Calle de Daoíz y Velarde; details from venue site and web listings (check before going)",
    "name": "Casa Ajero",
    "lat": 43.463079,
    "lon": -3.801235,
    "kind": "Tapas & pintxos",
    "area": "Santander",
-   "description": "Tapas and pintxos in central Santander."
+   "description": "Tapas and pintxos bar near Plaza del Cañadío with a lively tapeo atmosphere and a summer terrace with high tables.",
+   "address": "Daoiz y Velarde, 18",
+   "phone": "942 218 386",
+   "hours": "Daily 11:00-02:00, Monday midday closed (per Salir; Minube differs; check before going)"
   },
   {
    "id": "casa-lita",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Lita, 37, Paseo de Pereda",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Lita, 37, Paseo de Pereda; details from venue site and web listings (check before going)",
    "name": "Casa Lita",
    "lat": 43.462609,
    "lon": -3.797333,
    "kind": "Tapas & pintxos",
    "area": "Santander",
-   "description": "Tapas and pintxos spot on Paseo de Pereda."
+   "description": "Pintxo bar known as 'La Cocina del Pincho' on Paseo de Pereda, with a menu of around 300 different pinchos; queues at peak hours.",
+   "address": "Paseo de Pereda, 37",
+   "phone": "+34 942 36 48 30",
+   "link": "http://www.casalita.es/",
+   "hours": "Tue-Sun 12:00-00:00; open daily in summer (per Salir; check before going)"
   },
   {
    "id": "casa-poli",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Poli, N-634, Puertas de Vidiago",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Casa Poli, N-634, Puertas de Vidiago; details from venue site and web listings (check before going)",
    "name": "Casa Poli",
    "lat": 43.398567,
    "lon": -4.686083,
    "area": "Vidiago, Llanes (Asturias)",
    "kind": "Restaurant",
-   "reservations": "No reservations"
+   "reservations": "No reservations",
+   "description": "Traditional Asturian cooking in an 1833 manor house around a central courtyard, open since 1996. Menu: chorizo in cider, Llanes anchovies, octopus, fabada, cachopo, T-bone, entrecote, lamb chops, cheeses and homemade desserts. Ample parking.",
+   "address": "Puertas de Vidiago, Llanes, Asturias",
+   "phone": "985 41 12 17"
   },
   {
    "id": "casas-del-aguila-y-la-parra",
@@ -890,11 +922,15 @@
    "id": "el-cazurro",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): El Cazurro, Barrio La Arnía, Liencres; details from venue site and web listings (check before going)",
    "name": "El Cazurro",
    "lat": 43.47273,
    "lon": -3.917251,
-   "kind": "Bar / restaurant"
+   "kind": "Bar / restaurant",
+   "description": "Coastal bar-restaurant with sea views from the dining room and terrace; short menu with a blackboard of daily fish and off-menu dishes. Known for rice dishes (incl. black rice), mejillones en salsa, guiso marinero, sea bass, octopus, croquetas and rabas. Repsol Solete; recommended by Jesus Sanchez (Cenador de Amos).",
+   "address": "Barrio La Arnía s/n, Liencres (Piélagos), 39120",
+   "phone": "942 57 85 24",
+   "priceLevel": "€€"
   },
   {
    "id": "entorno-de-tresviso-pr-pnpe-17",
@@ -1032,27 +1068,34 @@
    "id": "kandela",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Kandela, Calle de Bonifaz, La Gándara",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Kandela, Calle de Bonifaz, La Gándara; details from venue site and web listings (check before going)",
    "name": "Kandela",
    "lat": 43.464025,
    "lon": -3.797828,
    "kind": "Restaurant",
    "area": "Santander",
    "priceLevel": "€€€",
-   "description": "Upmarket, modern and stylish; good for dinner."
+   "description": "Product-driven restaurant with a charcoal-grill focus, meat and fish as protagonists. Guests mention chuletón (especially ox), steak tartare, sweetbreads, ensaladilla rusa, chorizo brioche, flan and cheesecake. Upmarket, modern and stylish; good for dinner.",
+   "address": "C. Bonifaz, 9",
+   "phone": "942 52 65 83",
+   "link": "https://kandela.es"
   },
   {
    "id": "la-bombi",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): La Bombi, 13, Calle de Casimiro Sainz",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): La Bombi, 13, Calle de Casimiro Sainz; details from venue site and web listings (check before going)",
    "name": "La Bombi",
    "lat": 43.464369,
    "lon": -3.796926,
    "kind": "Seafood",
    "area": "Santander",
    "priceLevel": "€€€–€€€€",
-   "description": "Upmarket Santander classic for fish and seafood; for a special occasion."
+   "description": "Puertochico restaurant with about 90 years of history (formerly the sailors' tavern La Bombilla), specialising in fish and seafood. Classics: anchovies, marinated sea bass, bonito with tomato, fresh squid rabas, scorpionfish pudding. Upmarket Santander classic for fish and seafood; for a special occasion.",
+   "address": "Calle Casimiro Sainz, 15",
+   "phone": "942 213 028",
+   "link": "http://www.labombi.com",
+   "hours": "Per Michelin: Tue closed; other days 13:30-16:00 and 21:00-23:30; Sunday lunch only. Salir lists different hours (check before going)"
   },
   {
    "id": "la-garma-nacimiento-del-pisuena-ca-enp23",
@@ -1085,28 +1128,54 @@
    }
   },
   {
+   "id": "la-gruta-de-jose",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from address point Plaza de los Cabildos 9; details from venue site and web listings (check before going)",
+   "name": "La Gruta de José",
+   "lat": 43.450943,
+   "lon": -3.819992,
+   "description": "Seafood restaurant set in a sea-cave style interior in Santander's Barrio Pesquero; the star is Cantabrian centollo (spider crab), plus lobster, cigalas, percebes, daily fish and classics like rabas, croquetas and Santoña anchovies.",
+   "address": "Plaza de los Cabildos 9, Barrio Pesquero, 39009 Santander",
+   "phone": "942 13 47 18",
+   "link": "https://lagrutadejose.es",
+   "hours": "Mon, Thu-Sun 11:00-17:00 and 20:00-23:45; Wed 11:00-17:00; Tue closed (check before going; site header conflicts slightly)",
+   "priceLevel": "€€€",
+   "reservations": "Book ahead",
+   "kind": "Seafood"
+  },
+  {
    "id": "la-mano-de-fatima",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Google Maps link supplied by owner",
+   "locationSource": "Google Maps link supplied by owner; details from venue site and web listings (check before going)",
    "name": "La Mano de Fátima",
    "lat": 43.4641283,
    "lon": -3.7998651,
    "gmaps": "https://maps.app.goo.gl/FPosCmvkCN8137mu9",
    "area": "Santander",
-   "kind": "Spanish-Moroccan"
+   "kind": "Spanish-Moroccan",
+   "description": "Small, lively Moroccan and Middle Eastern restaurant in Santander with many vegan options; chef Nabil Bour-qaiba. Reviewers praise the homemade food, generous portions and couscous (beef or chicken); muhammara with Arabic bread is a vegetarian-guide pick.",
+   "address": "Calle Lope de Vega 23, 39003 Santander",
+   "phone": "+34 685 06 35 96",
+   "link": "https://www.lamanodefatimarestaurante.com/",
+   "hours": "Wed 13:30-16:30, 20:30-23:00; Thu 13:30-16:30, 20:30-23:30; Fri-Sat 13:30-17:00, 20:30-00:00; Sun 13:30-17:00, 20:30-23:00; Mon-Tue closed (check before going)"
   },
   {
    "id": "la-parrilla-de-prellezo",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): La Parrilla, Barrio Arco, Prellezo",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): La Parrilla, Barrio Arco, Prellezo; details from venue site and web listings (check before going)",
    "name": "La Parrilla de Prellezo",
    "lat": 43.380303,
    "lon": -4.439802,
    "kind": "Asador (grill)",
    "area": "Prellezo, Val de San Vicente",
-   "description": "Grill house known for beef."
+   "description": "Grill restaurant specialising in grilled meats, good wine and homemade desserts; reviewers praise the aged chuleton (30-day), parrillada, cachopo, Prellezo tomatoes, ham-and-cecina croquetas and cheesecake. Terrace; dogs admitted.",
+   "address": "Carretera General de Prellezo (N-634), 39549 Prellezo, Val de San Vicente",
+   "phone": "942 71 08 41",
+   "link": "https://laparrilladeprellezo.com/",
+   "hours": "Daily 12:30-24:00 (check before going)"
   },
   {
    "id": "laberinto-de-tilde",
@@ -1252,6 +1321,21 @@
    }
   },
   {
+   "id": "lastra-cafe",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from address point Calle Santa Clara 10; details from venue site and web listings (check before going)",
+   "name": "Lastra café",
+   "lat": 43.462593,
+   "lon": -3.807505,
+   "description": "Specialty-coffee cafe-bar in central Santander with views of the Parroquia de la Anunciación; known for pastrami and bacon sandwiches, cookies, coffee, matcha and lemonade.",
+   "address": "Calle Santa Clara 10 (Turismo de Cantabria lists no. 12; one review says 13), Santander",
+   "phone": "635 10 66 86",
+   "hours": "Mon 07:00-19:00; Tue 07:00-18:00; Wed-Fri 07:00-19:00; Sat 09:00-13:00; Sun closed (check before going)",
+   "priceLevel": "€",
+   "kind": "Café / breakfast"
+  },
+  {
    "id": "los-bosques-del-monte-corona-ca-enp33",
    "name": "Los Bosques del Monte Corona (CA-ENP33)",
    "category": "hike",
@@ -1285,13 +1369,17 @@
    "id": "mercado-de-la-esperanza",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Mercado de La Esperanza, 12, Plaza de la Esperanza",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Mercado de La Esperanza, 12, Plaza de la Esperanza; details from venue site and web listings (check before going)",
    "name": "Mercado de la Esperanza",
    "lat": 43.462788,
    "lon": -3.809979,
    "kind": "Market",
    "area": "Santander",
-   "description": "A must for local produce, seafood and a proper Santander market experience."
+   "description": "Historic Santander market opened in 1904 (architects Eduardo Reynals and Juan Moya), declared historic-artistic monument in 1977 and renovated in 2010, with about 80 stalls of meat, fish, seafood, produce, cheese, bread and coffee. A must for local produce, seafood and a proper Santander market experience.",
+   "address": "Plaza de la Esperanza s/n, 39002 Santander",
+   "phone": "942 203 087",
+   "link": "http://www.mercadodelaesperanza.com/",
+   "hours": "Mon-Fri 08:00-14:00 and 17:00-19:30; Sat 08:00-14:00; Sun closed (check before going)"
   },
   {
    "id": "meson-de-borlena",
@@ -1642,13 +1730,16 @@
    "id": "peter-pan",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Peter & Pan, 19B, Calle del Rostrío",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Peter & Pan, 19B, Calle del Rostrío; details from venue site and web listings (check before going)",
    "name": "Peter & Pan",
    "lat": 43.447412,
    "lon": -3.865888,
    "kind": "Café / breakfast",
    "area": "Santander",
-   "description": "Coffee and breakfast spot."
+   "description": "Bakery-cafe with a wide menu and attractive decor, popular with families; reviewers single out the coffee and the chocolate cookie.",
+   "address": "Calle Marqués de la Hermida 28, 39009 Santander (Peñacastillo)",
+   "phone": "942 53 62 18",
+   "link": "http://panaderiapeterypan.es/"
   },
   {
    "id": "porracolina-cordal-de-las-jorobas-y-via-normal",
@@ -1843,14 +1934,32 @@
    "id": "santa-co",
    "category": "restaurant",
    "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Santa&Co, 17, Calle de Marcelino Sanz de Sautuola",
+   "locationSource": "Place named by owner; position from OpenStreetMap (Nominatim): Santa&Co, 17, Calle de Marcelino Sanz de Sautuola; details from venue site and web listings (check before going)",
    "name": "Santa & Co",
    "lat": 43.463575,
    "lon": -3.803841,
    "gmaps": "https://maps.app.goo.gl/rmVmhKhYok8scGzw6?g_st=ic",
    "kind": "Café / breakfast",
    "area": "Santander (centre)",
-   "description": "Coffee and breakfast in downtown Santander; a maybe for breakfast."
+   "description": "Relaxed, unpretentious cafe in central Santander for breakfast, brunch or an afternoon snack; founded by an architect and an economist. Reviewers single out tomato-and-avocado toast and coffee.",
+   "address": "C. Marcelino Sanz de Sautuola, 17",
+   "phone": "+34 613 25 08 78",
+   "hours": "Mon-Wed 9:00-22:00; Thu-Fri 9:00-23:00; Sat 9:30-23:00; Sun closed (check before going)"
+  },
+  {
+   "id": "santagloria-coffee-bakery",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from address point Calle Florida 1; details from venue site and web listings (check before going)",
+   "name": "Santagloria Coffee & Bakery",
+   "lat": 43.462092,
+   "lon": -3.81359,
+   "description": "Cafe and bakery near the Town Hall Square and Cathedral with a bright indoor cafe and a large quiet terrace; wide range of sweet and savoury pastries.",
+   "address": "Calle Florida 1, 39001 Santander",
+   "phone": "942 369 430",
+   "link": "https://santagloria.com/en/our-locations/santagloria-florida-santander",
+   "hours": "Mon-Fri 07:30-21:00; Sat-Sun 08:00-21:00 (check before going)",
+   "kind": "Café / breakfast"
   },
   {
    "id": "senda-fluvial-del-nansa-ca-enp34",
@@ -2207,6 +2316,22 @@
     "circular": false,
     "note": "PR-PNPE 21 from the Pandebano track near Sotres to Vega de Urriellu, one way (10.4 km)."
    }
+  },
+  {
+   "id": "vermuteria-de-vicio",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Place named by owner; position from address point Calle Cádiz 18 (coordinates as listed on Gastroranking); details from venue site and web listings (check before going)",
+   "name": "Vermutería De Vicio",
+   "lat": 43.460192,
+   "lon": -3.807181,
+   "description": "Vermouth and tapas bar with a wide menu, interior terrace and cosy atmosphere; known for the vermouth of the week, mejillones en salsa, rabas, patatas bravas, croquetas and albóndigas.",
+   "address": "Calle Cádiz 18, Santander",
+   "phone": "942 40 35 53",
+   "link": "https://www.vermuteriadevicio.com/",
+   "priceLevel": "€€",
+   "reservations": "Book ahead",
+   "kind": "Tapas & pintxos"
   },
   {
    "id": "zoo-de-santillana",

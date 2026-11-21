@@ -173,7 +173,7 @@ function renderHike(p) {
 
 function renderPlace(p) {
   const prices = p.adult != null ? `${money(p.adult)} adult${p.child != null ? ' · ' + money(p.child) + ' child' : ''}` : '';
-  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Phone', p.phone)].filter(Boolean);
+  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Phone', p.phone), row('Address', p.address)].filter(Boolean);
   const driveQuick = p.drive && rows.length < 2;
   if (driveQuick) rows.push(row('Drive from base', p.drive));
   const facts = p.category === 'restaurant'
