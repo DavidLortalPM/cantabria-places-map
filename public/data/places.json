@@ -1711,6 +1711,20 @@
    }
   },
   {
+   "id": "pausau",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner; details from web listings (check before going)",
+   "name": "Pausau",
+   "lat": 43.4724925,
+   "lon": -3.9166883,
+   "gmaps": "https://maps.app.goo.gl/v26zf3JeghxfmhnV8",
+   "area": "Liencres, Piélagos",
+   "kind": "Seafood",
+   "phone": "+34 942 13 10 51",
+   "description": "Seafood-focused restaurant in Liencres with a panoramic terrace by the cliffs; Cantabrian sea produce, turbot, caldeirada, homemade croquettes and house desserts. Reviewers praise the views; some note it gets crowded and noisy."
+  },
+  {
    "id": "pena-oviedo",
    "name": "Peña Oviedo",
    "category": "hike",

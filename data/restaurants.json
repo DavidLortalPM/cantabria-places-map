@@ -373,5 +373,18 @@
     "gmaps": "https://maps.app.goo.gl/y3PDmWpmGWKD6rHQA",
     "area": "Espinilla, Campoo de Suso",
     "kind": "Restaurant"
+  },
+  {
+    "name": "Pausau",
+    "category": "restaurant",
+    "lat": 43.4724925,
+    "lon": -3.9166883,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; details from web listings (check before going)",
+    "gmaps": "https://maps.app.goo.gl/v26zf3JeghxfmhnV8",
+    "area": "Liencres, Piélagos",
+    "kind": "Seafood",
+    "phone": "+34 942 13 10 51",
+    "description": "Seafood-focused restaurant in Liencres with a panoramic terrace by the cliffs; Cantabrian sea produce, turbot, caldeirada, homemade croquettes and house desserts. Reviewers praise the views; some note it gets crowded and noisy."
   }
 ]
