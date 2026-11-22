@@ -1,0 +1,780 @@
+{
+  "source": "Printed routes booklet photographed by the owner; title not captured.",
+  "note": "Own-words English summaries of the 29 routes; place names kept in Spanish as printed. 'uncertain' flags doubtful readings.",
+  "regions": {
+    "Saja-Nansa": [
+      "Ruta por el Valle de Peñarrubia",
+      "Ruta del Monte Corona",
+      "Ruta por los Montes de Ucieda",
+      "Ruta por San Sebastián de Garabandal",
+      "Senda Fluvial del Nansa"
+    ],
+    "Liébana": [
+      "Camino de Piasca - Santo Toribio",
+      "Ruta del Habario de Pendes",
+      "Ruta Puertos de Áliva"
+    ],
+    "Campoo-Valderredible": [
+      "Ruta de los Menhires de Valdeolea",
+      "Ruta del Pico Tres Mares",
+      "Ruta del Monte Hijedo"
+    ],
+    "Besaya": [
+      "Ruta del Monte Tejas",
+      "Ruta del Valle de Anievas",
+      "Calzada Romana de Cildá",
+      "Ruta del Pico Jano"
+    ],
+    "Costa Central, Santander and surroundings": [
+      "Ruta de la Costa Norte de Santander",
+      "Ruta de las marismas blancas y negras de Astillero",
+      "Ruta del Astillero",
+      "Senda Ciclable Suances"
+    ],
+    "Trasmiera": [
+      "Ruta de Somo a Langre por la Costa",
+      "Ruta de las Marismas de Joyel",
+      "Ruta por Monte Cincho"
+    ],
+    "Valles Pasiegos": [
+      "Carril Bici S. Vicente de Toranzo",
+      "Ruta del Valle de Yera y Vega de Pas",
+      "Ruta de la Sierra de Somo"
+    ],
+    "Asón-Agüera": [
+      "Ruta del Pico Candiano",
+      "Ruta por la Vía verde de Castro-Traslaviña",
+      "Camino de las Cuevas de Ramales",
+      "Camino de Valdeasón"
+    ]
+  },
+  "routes": [
+    {
+      "name": "Ruta Costa Norte de Santander",
+      "mode": "walk",
+      "facts": {
+        "distance": "7.5 km, one way",
+        "time": "about 2 hours",
+        "ascent": "about 100 m of ups and downs in total",
+        "difficulty": "None as far as Mataleñas; after that a few steep descents and possible mud"
+      },
+      "summary": "A coastal walk along the northern shore of Santander. It starts at the end of the Segunda Playa de El Sardinero and climbs stairs over Cabo Menor to a flagstone path beside the cliff, the park and the golf course of Mataleñas. The road then leads to the Cabo Mayor lighthouse, with wide views of the cliffs and meadows. From the lighthouse the path becomes faint and runs downhill parallel to the cliffs, passes the Cantabria weather centre, and reaches the Panteón del Inglés, where it threads through a rocky maze. It continues over meadows to El Bocal beach, follows the sea past a coastal battery, and ends at La Maruca.",
+      "places": [
+        "Segunda Playa de El Sardinero",
+        "Cabo Menor",
+        "Mataleñas",
+        "Cabo Mayor (lighthouse)",
+        "Centro Meteorológico de Cantabria",
+        "Panteón del Inglés",
+        "El Bocal",
+        "San Pedro coastal battery",
+        "La Maruca"
+      ],
+      "notes": [],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta por San Sebastián de Garabandal",
+      "mode": "bike",
+      "facts": {
+        "distance": "20 km, circular",
+        "time": "3-4 hours",
+        "ascent": "about 600 m",
+        "difficulty": "None"
+      },
+      "summary": "A circular bike ride starting in San Sebastián de Garabandal, near Peña Sagra in the Rionansa valley. You ride down the road toward Cosío, then take the first track on the left up to the Collado de Abellán, with a moderate climb past the Invernales de Tánago. Beyond the pass a gentle slope leads to a braña, where you bear left onto another track and follow it straight back to the village. In Garabandal the pines, the site of the Marian apparitions and the chapel of the Archangel San Miguel (commissioned by writer Mercedes Salisachs) can be visited, and the traditional architecture is another attraction.",
+      "places": [
+        "San Sebastián de Garabandal",
+        "Cosío (direction)",
+        "Collado de Abellán",
+        "Invernales de Tánago",
+        "a braña",
+        "Río Vendul",
+        "San Sebastián de Garabandal"
+      ],
+      "notes": [],
+      "uncertain": [
+        "Printed name is 'Collado de Abellán' (earlier notes said Abeján)"
+      ]
+    },
+    {
+      "name": "Ruta por los Montes de Ucieda",
+      "mode": "bike",
+      "facts": {
+        "distance": "13 km",
+        "time": "2 hours",
+        "ascent": "380 m",
+        "difficulty": "Steep ramps around kilometres five and six"
+      },
+      "summary": "A mountain-bike loop that starts at the recreation area of the Saja-Besaya Natural Park. A track crosses the valley and climbs to the Ermita del Moral at Entrerríos. When that track ends you take a left fork on rougher ground that demands more effort, then keep right and later straight on, skipping a left turning. A better-surfaced track begins the descent back to the park car park, where the ride ends.",
+      "places": [
+        "Área recreativa Saja-Besaya",
+        "Ermita del Moral",
+        "Entrerríos",
+        "Fin pista de grava",
+        "Comienzo descenso",
+        "Área recreativa Saja-Besaya (car park)"
+      ],
+      "notes": [],
+      "uncertain": [
+        "Several small map labels (El Andrenoso, Mozagruco) were hard to read"
+      ]
+    },
+    {
+      "name": "Ruta del Monte Corona",
+      "mode": "walk",
+      "facts": {
+        "distance": "12 km, circular",
+        "time": "3 h 30 min",
+        "ascent": "350 m up and down",
+        "difficulty": "None; forest tracks with gentle slopes"
+      },
+      "summary": "A loop through the Monte Corona woodland inside the Oyambre Natural Park, starting at the village of La Hayuela. A signed turn leads to the forest rangers' house and the fire lookout tower, then the path drops through American oaks to a saddle with beech, cypress, pine, ash, larch and fir. It continues to a hillock with the Ermita de San Esteban and an old viewpoint over Comillas and San Vicente de la Barquera, then descends to the river Turbio at the Puente Richurichas. After a wooded stretch you head for Caviedes, pass the Ermita de San Antonio among Monterey pines, reach the Mirador de los Pintores Montañeses, and finally return to La Hayuela.",
+      "places": [
+        "La Hayuela",
+        "Casa de los guardas forestales",
+        "Torre de vigilancia",
+        "Ermita de San Esteban",
+        "Puente Richurichas (río Turbio)",
+        "Ermita de San Antonio (toward Caviedes)",
+        "Mirador de los Pintores Montañeses",
+        "La Hayuela"
+      ],
+      "notes": [],
+      "uncertain": []
+    },
+    {
+      "name": "Senda Fluvial del Nansa (Muñorrodero - Camijanes)",
+      "mode": "walk",
+      "facts": {
+        "distance": "14.27 km, out and back",
+        "time": "3 h 53 min",
+        "ascent": "111 m",
+        "difficulty": "Easy"
+      },
+      "summary": "A riverside trail that follows the Nansa between Muñorrodero and Camijanes, partly on old fishermen's paths, with wooden walkways and stone steps in the harder spots and a protected-area status. The booklet says it suits all kinds of walkers, families included. The text mentions a short airy section near the Cueva de Los Murciélagos, three anglers' shelters, ex-zipline footbridges and a waterfall near an old power station. Where the route splits you can choose a main path or a low-water variant, and staying by the river is advised unless it is high. The riverside woodland has native trees and notable wildlife such as otters, salmon and the stag beetle.",
+      "places": [
+        "Muñorrodero",
+        "Cueva de Los Murciélagos",
+        "old power station (Herrerías)",
+        "Camijanes",
+        "Río Nansa"
+      ],
+      "notes": [
+        "Getting there: A-8 exit 269 at Los Tánagos toward PuenteNansa, roundabout with the N-634, then the CA-181 for about 1 km to just past Muñorrodero; the start is a few metres further on the right-hand side, well signposted.",
+        "Take care not to slip near the Cueva de Los Murciélagos.",
+        "Follow the river path unless the river is high or it has rained a lot."
+      ],
+      "uncertain": [
+        "A place name near the old power station (read as 'Trascudia') is doubtful"
+      ]
+    },
+    {
+      "name": "Ruta por Valle de Peñarrubia",
+      "mode": "walk",
+      "facts": {
+        "distance": "10 km, one way",
+        "time": "3-4 hours",
+        "ascent": "400 m up and down through the gorge",
+        "difficulty": "Some paths can be hard to see"
+      },
+      "summary": "The start is the junction for Piñeres and Cicera on the CA-282 in the Peñarrubia valley. You go through Cicera, cross the river and follow the path down its left bank into the heart of the Desfiladero de La Hermida, then continue on a paved track to the N-621 and walk toward Unquera. Take great care on that narrow, busy road. After about two kilometres of gorge you reach the bridge over the river Navedo, where a side ravine path climbs the left bank to the village of Navedo. The return to the start goes back up the road or, as nature lovers prefer, across fields and woods to the Piñeres junction.",
+      "places": [
+        "Cruce de Piñeres y Cicera (CA-282)",
+        "Cicera",
+        "Río Cicera",
+        "Desfiladero de La Hermida",
+        "N-621",
+        "Puente sobre el río Navedo",
+        "Navedo",
+        "Piñeres"
+      ],
+      "notes": [
+        "Extreme care on the narrow, busy N-621.",
+        "Some paths can be hard to see.",
+        "The page advertises a podcast about the Hermida gorge (no link visible)."
+      ],
+      "uncertain": [
+        "Direction of travel on the N-621 and the 'almost two kilometres' figure were read from upside-down text"
+      ]
+    },
+    {
+      "name": "Ruta del Monte Hijedo",
+      "mode": "walk",
+      "facts": {
+        "distance": "12 km, circular",
+        "time": "3 h 30 min",
+        "ascent": "150 m up and down",
+        "difficulty": "The river crossings near the end get difficult when the Hijedo is in flood"
+      },
+      "summary": "A walk into one of the most striking forests of southern Cantabria, starting at Riopanero, where the Monte Hijedo interpretation centre stands. The first metres are gentle, then the route enters woods of rebollo oak, passes a gate and the meeting of the river Hijedo with the arroyo de las Breñas. A track along the left bank leads into a big stand of sessile oak and beech with a reserve of ancient yews. Shortly before the track dies out you turn left to the river and wade across, then reach the Cruz de la Raya, the boundary with Burgos province. The booklet says the path ends at Santa Gadea and that you retrace your steps to Riopanero.",
+      "places": [
+        "Riopanero",
+        "Centro de Interpretación del Monte Hijedo",
+        "Arroyo de las Breñas",
+        "Río Hijedo (ford)",
+        "Cruz de la Raya",
+        "La Corva",
+        "Santa Gadea (Burgos)"
+      ],
+      "notes": [
+        "River fords at the end are hard in floods.",
+        "Page advertises a podcast on the rock-cut hermitages of Valderredible (no link visible)."
+      ],
+      "uncertain": [
+        "Printed as circular, but the text describes going to Santa Gadea and retracing"
+      ]
+    },
+    {
+      "name": "Ruta del Pico Tres Mares",
+      "mode": "walk",
+      "facts": {
+        "distance": "a little under 3 km",
+        "time": "1 hour",
+        "ascent": "200 m up and down",
+        "difficulty": "None in good weather"
+      },
+      "summary": "A short ridge walk in the Alto Campoo ski area, best done in the middle of the year when there is little snow. A road leads to the Collado de la Fuente del Chivo, the start, which has big views of the Polaciones valleys and the Piedrasluengas pass. From the refuge you take the ridge path to the top of the Chivo chairlift and carry on to Pico Tres Mares with only a short steeper bit near the summit. From the top you see the Palencia mountains, the Picos de Europa and, on a clear day, the sea. Three rivers rise here, flowing to the Cantabrian Sea, the Mediterranean and the Atlantic, and the descent is by the same path.",
+      "places": [
+        "Collado de la Fuente del Chivo",
+        "Refugio de la Fuente del Chivo",
+        "Estación superior del telesilla de El Chivo",
+        "Pico Tres Mares (2,171 m)",
+        "Brañavieja",
+        "Estación invernal de Alto Campoo"
+      ],
+      "notes": [
+        "Best in the middle months of the year, when there is little snow."
+      ],
+      "uncertain": [
+        "Name of a nearby peak at 2,144 m on the map is doubtful"
+      ]
+    },
+    {
+      "name": "Ruta de los Menhires de Valdeolea",
+      "mode": "walk",
+      "facts": {
+        "distance": "11 km",
+        "time": "3 h 30 min",
+        "ascent": "about 250 m up and almost 400 m down",
+        "difficulty": "None, though brief cross-country stretches to reach the megaliths; many junctions, well signposted"
+      },
+      "summary": "An 11 km route linking a set of menhirs about 5,000 years old. It starts in Mataporquera at the Piedrahita menhir (3.68 m) with a view over the valley. Then come El Peñuco near Bercedo, the 5 m El Cabezudo, La Llaneda in the La Cuadra area, and the small La Puentecilla. Next are the paired La Matorra I and II, the only ones standing together. At Reinosilla you see the 'bridge menhir' (a former dolmen reused to cross a stream), and last the Peñahincada, linked to a legend of Samson throwing it.",
+      "places": [
+        "Mataporquera",
+        "Piedrahita menhir",
+        "El Peñuco (near Bercedo)",
+        "El Cabezudo",
+        "La Llaneda (La Cuadra)",
+        "La Puentecilla",
+        "Casasola",
+        "La Matorra I and II",
+        "Reinosilla (Laja megalítica / Menhir puente)",
+        "Peñahincada (Piedra de Sansón)"
+      ],
+      "notes": [
+        "Page advertises a podcast on the Valdeolea menhirs (no link visible)."
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta del Pico Jano",
+      "mode": "walk",
+      "facts": {
+        "distance": "17 km",
+        "time": "5 hours (one way)",
+        "ascent": "870 m, reaching 1,000 m if you climb Pico Jano",
+        "difficulty": "Good surface but some steep sections"
+      },
+      "summary": "Starts in Bárcena de Pie de Concha, going through the village to the 'Camino Real', for centuries the link between Cantabria and the Meseta. The path crosses a gate, runs alongside the old national road over the Hoces de Bárcena to the fuente de La Regata, then climbs a steep track and crosses the arroyo de la Regata. Past the fuente de los Cuadros it climbs steeply through hazel, oak, beech and holly woods to the braña del Cubanón, with views of the Sierra del Cordel. A final stretch leads to the foot of Pico Jano beside the Mediajo reservoir, with the summit a few metres up. The descent goes by the braña de Jano and the bends of Cuchío back to the fuente de los Cuadros and Bárcena.",
+      "places": [
+        "Bárcena de Pie de Concha",
+        "Camino Real",
+        "Hoces de Bárcena",
+        "Fuente de La Regata",
+        "Puente de la Regata",
+        "Fuente de los Cuadros",
+        "Braña del Cubanón",
+        "Embalse de Mediajo",
+        "Pico Jano (1,290 m)",
+        "Braña de Jano",
+        "Cuchío"
+      ],
+      "notes": [],
+      "uncertain": [
+        "Elevation profile ends with 'Riopanero', probably a printing slip",
+        "Printed as one-way 17 km but the text describes a loop back to Bárcena"
+      ]
+    },
+    {
+      "name": "Calzada romana de Cildá",
+      "mode": "walk",
+      "facts": {
+        "distance": "30 km, one way",
+        "time": "4-5 hours (as printed)",
+        "ascent": "815 m up and 902 m down",
+        "difficulty": "High"
+      },
+      "summary": "A long route that starts in Molledo, in the Iguña valley, and takes the old Santander-Palencia road to the Silió turning. After Silió you follow a track to the Collado de Pombo, crossing the river and climbing a steep section, with some effort because of the track's poor state. From the pass you climb the firebreak of Monte Cildá to an antenna, then take a ridge path to La Perizuela, where remains of the Roman road survive. The route follows the ridge between the Iguña and Toranzo valleys, passes the ruined Cabaña de Extremedo and a pylon, and finally uses a series of turns to reach the road to Arenas de Iguña.",
+      "places": [
+        "Molledo",
+        "Silió",
+        "Collado de Pombo",
+        "Monte Cildá (antenna)",
+        "La Perizuela",
+        "Cabaña de Extremedo",
+        "Barriopalacio",
+        "Las Fraguas",
+        "Arenas de Iguña"
+      ],
+      "notes": [
+        "The page advertises a podcast on the Roman roads (no link visible)."
+      ],
+      "uncertain": [
+        "30 km in 4-5 hours looks implausible as printed",
+        "Some of the final turn-by-turn directions are hard to follow"
+      ]
+    },
+    {
+      "name": "Ruta Valle de Anievas",
+      "mode": "walk",
+      "facts": {
+        "distance": "9 km, circular",
+        "time": "2 h 50 min",
+        "ascent": "about 300 m",
+        "difficulty": "None"
+      },
+      "summary": "A circular walk that starts in Barriopalacio, heads south with views over the valley, crosses the river and takes the left track that soon becomes a steep path past a pine wood. After leaving two farmsteads behind you bear right downhill toward Cotillo and pass its Romanesque church of San Andrés. A paved stretch leads to Villasuso, where you climb to the church, walk the road for a little over half a kilometre and turn right up to the last village of the valley, Calga. Two left forks give pasture and valley views, and the descent from Calga returns to the starting point on the main road.",
+      "places": [
+        "Barriopalacio",
+        "Cotillo (Iglesia románica de San Andrés)",
+        "Villasuso",
+        "Calga",
+        "Barriopalacio"
+      ],
+      "notes": [],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta del Monte Tejas",
+      "mode": "walk",
+      "facts": {
+        "distance": "9.5 km, circular",
+        "time": "2 h 50 min",
+        "ascent": "about 300 m",
+        "difficulty": "None, though some of the descent can be muddy"
+      },
+      "summary": "From Tarriba, passing a fine 16th-century building, an asphalt lane leads to the Tejas stream hollow. The route turns left onto a track into the forest, then a path climbs from a steep rock to the Cueva de Hornos de la Peña, which holds major Palaeolithic paintings. It continues to the Refugio de Tejas beside the river, crossing it several times through oak and beech woods. The climb goes on to views of Dobra and Ibio and further peaks, then the return takes the left branch and runs down paths and asphalt lanes to Tarriba. The booklet also mentions a children's mythological trail with carved wooden creatures and warns of loose livestock.",
+      "places": [
+        "Tarriba",
+        "Río Tejas",
+        "Cueva de Hornos de la Peña",
+        "Refugio de Tejas",
+        "Montes Dobra and Ibio (views)",
+        "Tarriba"
+      ],
+      "notes": [
+        "Cave visits: reservations on 942 59 84 25.",
+        "Loose livestock possible; some muddy parts on the descent."
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta Puertos de Áliva",
+      "mode": "walk",
+      "facts": {
+        "distance": "14.5 km (El Cable to Fuente Dé, downhill)",
+        "time": "4 h 15 min (El Cable to Fuente Dé)",
+        "ascent": "974 m, all of it descent",
+        "difficulty": "Low"
+      },
+      "summary": "Take the Fuente Dé cable car up and walk down. From the upper station (El Cable) a short climb leads to the Horcadina de Covarrobles, then a track descends across the high pastures known as the Puertos de Áliva, between the Central and Eastern massifs of the Picos de Europa. After the Áliva gates the route leaves the track for a path into beech and oak woods and then a wide track down to Fuente Dé. Alternatives: finish at Espinama (then 3.5 km uphill by road to Fuente Dé), or just walk out to the Áliva refuge hotel and back in under two hours.",
+      "places": [
+        "Fuente Dé",
+        "El Cable (upper cable-car station)",
+        "Horcadina de Covarrobles (1,925 m)",
+        "Puertos de Áliva",
+        "Refugio de Áliva",
+        "El Tesoro",
+        "Fuente de los Asturianos",
+        "Invernales de Igüedri",
+        "Espinama (alternative)"
+      ],
+      "notes": [
+        "Mist and snow can appear at any time of year; follow the signs and stay on the path.",
+        "Wear mountain boots and carry enough water.",
+        "Page advertises a podcast on the Áliva pastures (no link visible)."
+      ],
+      "uncertain": [
+        "A mountain name in the description (read as Valdecoro) is doubtful"
+      ]
+    },
+    {
+      "name": "Ruta del Habario de Pendes",
+      "mode": "walk",
+      "facts": {
+        "distance": "3.61 km",
+        "time": "3 h 24 min (as printed)",
+        "ascent": "216 m",
+        "difficulty": "Moderate"
+      },
+      "summary": "A loop through an old chestnut grove of centuries-old trees between Pendes and Cabañes, on the Camino Lebaniego, with a recreation area and views to the Picos de Europa. It begins on a dirt track going downhill from the car park, turns right at a fork beside hay meadows and reaches the arroyo Robejo, a riverside wood of alders and ash. After crossing the stream a left path climbs over scree to a viewpoint above Lebeña, then continues up to the evergreen oak wood of El Carrascal. A concrete lane leads to the village of Cabañes, and a narrower path then returns to a wooden bridge and an earth track back to El Habario.",
+      "places": [
+        "Habario de Pendes (car park)",
+        "Arroyo Robejo",
+        "Mirador over Lebeña",
+        "El Carrascal",
+        "Cabañes",
+        "Fuente Castañar Habario",
+        "Habario de Pendes"
+      ],
+      "notes": [],
+      "uncertain": [
+        "3 h 24 min for 3.61 km is likely a printing error",
+        "Stream spelled Rubejo on the map and Robejo in the text"
+      ]
+    },
+    {
+      "name": "Carril bici Astillero-Santander",
+      "mode": "bike",
+      "facts": {
+        "distance": "37.15 km, out and back",
+        "time": "2 hours",
+        "ascent": "about 44 m of ups and downs",
+        "difficulty": "Easy"
+      },
+      "summary": "A flat bike-lane ride from Astillero to Santander and back, suitable for children, retracing the same lane in both directions so you can turn round whenever you like. It sets off from the La Cantábrica car park, passes the Marismas Blancas and uses the cycle lane that goes round the airport. A newer lane takes you into Santander, an urban lane leads to the Centro Botín, and the lane continues to the Sardinero beaches. The booklet suggests an optional detour into the Magdalena peninsula, worth the climb to the palace for the bay views.",
+      "places": [
+        "El Astillero (La Cantábrica car park)",
+        "Marismas Blancas",
+        "Maliaño",
+        "Puerto de Santander",
+        "Centro Botín",
+        "Playa de Los Peligros",
+        "Playa de El Sardinero",
+        "Magdalena peninsula (optional)"
+      ],
+      "notes": [],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta de las Marismas Blancas y Negras de Astillero",
+      "mode": "walk",
+      "facts": {
+        "distance": "6 km",
+        "time": "1 h 30 min",
+        "ascent": "20 m",
+        "difficulty": "Very easy"
+      },
+      "summary": "A bird-watching walk around the wetlands in Astillero. The Marismas Blancas municipal nature reserve is a freshwater lagoon with reed beds and flooded meadows used by around 70 bird species and listed as a SEO/BirdLife ornithological reserve. The Marismas Negras, across the motorway, are tidal marsh reclaimed from old landfill and now a refuelling stop for migrating birds. The map shows bird hides 1, 2 and 3 along the Ría de Boo and the Antigua Marisma de Cacho park. The booklet gives no step-by-step directions.",
+      "places": [
+        "Marismas Blancas",
+        "Observatorio de aves 1",
+        "Observatorio de aves 2",
+        "Observatorio de aves 3",
+        "Marismas Negras",
+        "Ría de Boo",
+        "Parque de la Antigua Marisma de Cacho"
+      ],
+      "notes": [],
+      "uncertain": [
+        "No written route description; order of the hides is not stated"
+      ]
+    },
+    {
+      "name": "Senda ciclable de Suances",
+      "mode": "bike",
+      "facts": {
+        "distance": "5 km, one way",
+        "time": "57 min",
+        "ascent": "not given",
+        "difficulty": "Easy"
+      },
+      "summary": "A near-straight cycle path along the Ría de San Martín, with the ría always on your left. It starts at the Parque de la Ribera by the Riberuca beach and is mostly flat, suitable on foot or by bike. Along it are rest areas with information panels and two footbridges over the ría. You can end beside the Santo Domingo landing stage in Cortiguera, or keep going to Barros on the Vía Verde (about 20 km Barros-Suances).",
+      "places": [
+        "Parque de la Ribera (Playa de la Riberuca)",
+        "Ría de San Martín de la Arena",
+        "Punta del Hornillo (on map)",
+        "Cortiguera (embarcadero de Santo Domingo)",
+        "Barros (optional extension)"
+      ],
+      "notes": [
+        "Images and leaflet credited to the Suances town council."
+      ],
+      "uncertain": [
+        "Vía Verde name read as 'del Besaya'"
+      ]
+    },
+    {
+      "name": "Ruta de Somo a Langre por la Costa",
+      "mode": "walk",
+      "facts": {
+        "distance": "6.5 km, one way",
+        "time": "1 h 45 min",
+        "ascent": "220 m up and down",
+        "difficulty": "Easy, only steep going down to Langre beach"
+      },
+      "summary": "A coastal walk in Ribamontán al Mar from the Somo landing stage (reachable by boat from Santander) through the village to the beach, then east to Loredo. After Loredo you cross the Castanedo stream, take the path through the dunes by the pine wood, cross another gully and climb to the Los Tranquilos car park facing Santa Marina island. The path then follows high cliffs (keep away from the edges) to the Llaranza viewpoint over the rough Cantabrian sea. A cliff-top path and a stairway lead down to Langre beach. An optional extra of about 4 km goes out to El Puntal and back along the south side.",
+      "places": [
+        "Embarcadero de Somo",
+        "Playa de Somo",
+        "Loredo",
+        "Arroyo de Castanedo",
+        "Playa de Los Tranquilos",
+        "Isla de Santa Marina (in view)",
+        "Mirador de Llaranza",
+        "Playa de Langre"
+      ],
+      "notes": [
+        "Keep away from the cliff edges.",
+        "The steep part is the descent to Langre beach (there is a stairway)."
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta de las Marismas de Joyel",
+      "mode": "walk",
+      "facts": {
+        "distance": "1.5 km, one way (text says circular)",
+        "time": "40 min",
+        "ascent": "negligible",
+        "difficulty": "None"
+      },
+      "summary": "A short loop in the Joyel marshes starting at the Fuente de la Esprilla, a spring feeding the lagoons. A track runs through laurel, strawberry-tree and holm-oak vegetation beside fresh and salt lagoons rich in birds. Through reeds and rushes it reaches the Santa Olaja tide mill, a restored building that shows how tide-powered milling worked in the 17th century. The path then follows dikes and footbridges over marsh channels and meadows back to the start lagoon by its opposite bank. Winter bird numbers are around ten times higher.",
+      "places": [
+        "Fuente de la Esprilla",
+        "Molino de mareas de Santa Olaja",
+        "Arnuero",
+        "Soano",
+        "Isla",
+        "Playa de Ris"
+      ],
+      "notes": [
+        "Mill visit: advance booking through www.ecoparquedetrasmiera.com."
+      ],
+      "uncertain": [
+        "Printed 'solo ida' yet described as circular"
+      ]
+    },
+    {
+      "name": "Ruta de la Sierra de Somo",
+      "mode": "bike (Especial BTT)",
+      "facts": {
+        "distance": "26 km",
+        "time": "4-5 hours",
+        "ascent": "700 m",
+        "difficulty": "High, especially the climbs to the Collado de Edillo and to La Cantolla toward Miera; some stretches on foot"
+      },
+      "summary": "A mountain-bike loop starting and ending at the Palacio de la Rañada in Liérganes. It follows the road toward the Lunada pass through Rubalcaba, takes a right turn at a bridge toward San Roque de Riomiera and then a path through a meadow up to Mortesante, where the path becomes a track. After a right turn you reach Mirones, where a steep road climbs to La Cantolla and its tower. A hard left track leads toward Miera, then Noja, along the southern flank of the ridge to the Collado de Edillo, partly on foot. The return runs along the west side of the Loma de Noja, down the Sierra de Somo and back to Liérganes.",
+      "places": [
+        "Palacio de la Rañada (Liérganes)",
+        "Rubalcaba",
+        "Mortesante",
+        "Mirones",
+        "La Cantolla (tower)",
+        "Miera",
+        "Noja",
+        "Collado de Edillo",
+        "Loma de Noja",
+        "Liérganes"
+      ],
+      "notes": [
+        "Marked 'Especial BTT'.",
+        "Parts must be done on foot."
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Camino de Piasca - Santo Toribio",
+      "mode": "walk",
+      "facts": {
+        "distance": "20 km",
+        "time": "4 h 35 min",
+        "ascent": "300 m accumulated up and 450 m down",
+        "difficulty": "None"
+      },
+      "summary": "A walk through the Valdeprado valley, the part of Liébana closest to Castile, ending at the Santo Toribio de Liébana monastery. It starts in Lomeña, climbs the road, turns right to the lower part of Yebas, then takes a track to the ermita de San Roque and Los Cos. From there it follows the road past the Ubriezo turning to Piasca and its Romanesque monastery, then on to Aceñaba. Past Aceñaba a firebreak and a left descent give views of Frama and the Picos de Europa. Via Cabariezo and Frama along the Buyón river to Ojedo and Potes, the monastery is about 3 km more, following the signs.",
+      "places": [
+        "Lomeña",
+        "Yebas",
+        "San Roque (ermita)",
+        "Los Cos",
+        "Piasca",
+        "Aceñaba",
+        "Cabariezo",
+        "Frama",
+        "Ojedo",
+        "Potes",
+        "Santo Toribio de Liébana"
+      ],
+      "notes": [],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta por Monte Cincho",
+      "mode": "walk",
+      "facts": {
+        "distance": "3.71 km, circular",
+        "time": "1 h 5 min",
+        "ascent": "214 m",
+        "difficulty": "Moderate"
+      },
+      "summary": "A pleasant walk through the relict holm-oak wood of Monte Cincho near Arnuero, with laurels and strawberry trees along the galleries leading to the top. The hill is important to Arnuero's past and present and has the remains of a Celtic hillfort, a meeting point for the municipality's four villages. The circuit starts at the Arnuero church and cemetery, passes La Maza and reaches the Alto Cincho viewpoint. From the top there are views from the Cantabrian range in the south to the coast between Santander and Bilbao. The booklet has no step-by-step directions.",
+      "places": [
+        "Iglesia de Arnuero",
+        "Cementerio de Arnuero",
+        "La Maza",
+        "Alto Cincho (viewpoint)",
+        "Barrio Quintana"
+      ],
+      "notes": [],
+      "uncertain": []
+    },
+    {
+      "name": "Ruta por la Vía verde de Castro-Traslaviña",
+      "mode": "walk",
+      "facts": {
+        "distance": "5 km, one way",
+        "time": "1 h 9 min",
+        "ascent": "not given",
+        "difficulty": "Easy"
+      },
+      "summary": "A walk on the former mining railway meant to link the port of Castro-Urdiales with the Biscayan railways and to carry iron ore from the local mines, which worked from the late 1800s to the 1960s. It leaves Santullán through a district of grand country houses and follows the old line, passing a former station now rural lodging. The walk ends at the Túnel de Herreros, which is currently impassable but sits in lovely countryside. The map shows Otañes, Llovera and Talledo along the way.",
+      "places": [
+        "Santullán",
+        "Otañes",
+        "Llovera",
+        "Talledo",
+        "La Vieja Estación",
+        "Túnel de Herreros"
+      ],
+      "notes": [
+        "The Túnel de Herreros is currently impassable."
+      ],
+      "uncertain": [
+        "The order of the villages on the map is only approximate"
+      ]
+    },
+    {
+      "name": "Ruta del Pico Candiano",
+      "mode": "walk",
+      "facts": {
+        "distance": "7 km",
+        "time": "2 h 30 min",
+        "ascent": "325 m up and down (text says 320 m)",
+        "difficulty": "None"
+      },
+      "summary": "An easy out-and-back walk of a little over an hour to the top of Pico Candiano, with views of the Santoña, Victoria and Joyel marshes, the Alto Asón massifs, and the towns of Limpias and Ampuero. It leaves Padiérniga and climbs about 320 m to the 500 m summit. First take the road toward Carasa for about 300 m, go through the hamlet of Barriezas, then turn left up a gentle slope with holm oaks and some very large beeches. On clear days the Picos de Europa show on the horizon, and the way back is the same path.",
+      "places": [
+        "Padiérniga",
+        "Carasa",
+        "Barrio de Barriezas",
+        "Pico Candiano (about 500 m)",
+        "Padiérniga"
+      ],
+      "notes": [],
+      "uncertain": [
+        "Facts box says 325 m, text says 320 m"
+      ]
+    },
+    {
+      "name": "Ruta del Valle de Yera y Vega de Pas",
+      "mode": "walk",
+      "facts": {
+        "distance": "6 km, one way",
+        "time": "1 h 30 min",
+        "ascent": "250 m of descent",
+        "difficulty": "None; the paved ground can be slippery when wet"
+      },
+      "summary": "A downhill walk from El Campizo, an old workers' settlement, to Vega de Pas through the Pasiego cabin country. The path drops to the valley past huts near the abandoned Yera station, crosses a bridge and follows the right bank of the river to the junction with the Aján stream, then continues to El Avellanal. After a stretch back up to the road it leaves it for a path on the left to Sel de la Canal. Back on the road you walk about a kilometre to Vega de Pas, cross the river by the last stone bridge, climb a path to a track and descend to the main junction. The village square is recommended.",
+      "places": [
+        "El Campizo",
+        "Estación de Yera (abandoned)",
+        "Río Yera and Arroyo Aján",
+        "El Avellanal",
+        "Sel de la Canal",
+        "Vega de Pas"
+      ],
+      "notes": [
+        "Paved ground can be slippery when wet."
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Camino de Valdeasón",
+      "mode": "walk",
+      "facts": {
+        "distance": "10 km, one way",
+        "time": "3 hours",
+        "ascent": "535 m up and down",
+        "difficulty": "Low; avoid the river crossing before Cailagua when the Asón is in flood"
+      },
+      "summary": "This route in the Asón area runs roughly parallel to the Arredondo road up to the 70 m Cailagua waterfall at the source of the Asón. It starts at the Arredondo town hall, crosses the Bustablado river and takes the old road to Socueva. A path crosses the road and the river, follows the right bank to the Puente Nuevo road, then passes meadows and cattle huts. A narrow path to the right goes into dense vegetation to Asón village, through it and up the left bank past huts to a beech clearing. A river crossing and a thorn-and-blackthorn stretch lead to a meadow with a view of the waterfall.",
+      "places": [
+        "Arredondo",
+        "Río Bustablado",
+        "Socueva",
+        "Puente Nuevo",
+        "Asón",
+        "Barrio de San Antonio",
+        "Nacimiento del Asón",
+        "Cascada de Cailagua"
+      ],
+      "notes": [
+        "Avoid the ford before Cailagua when the river is high."
+      ],
+      "uncertain": [
+        "Facts say 10 km but the profile axis ends at 9 km"
+      ]
+    },
+    {
+      "name": "Camino de las cuevas de Ramales",
+      "mode": "walk",
+      "facts": {
+        "distance": "4 km, circular",
+        "time": "1 h 15 min",
+        "ascent": "220 m up and down",
+        "difficulty": "None"
+      },
+      "summary": "An out-and-back walk from Ramales on the old Camino Real from Laredo to Burgos, once used by Carlos V on his way to Yuste. You go up the Barrio del Mazo to the old road, pass through holm-oak wood to a metal gate closing the Cueva de la Haza (which has paintings of horses and deer). A stony left branch leads to the Mirón and Covalanas caves, with a valley view and an archaeological dig and paintings (a hind, a horse and an aurochs) at the second. Further on is the Pared del Eco climbing wall next to the Cuevamur cave, which has no known Palaeolithic art. The return is by the same route.",
+      "places": [
+        "Ramales de la Victoria",
+        "El Mazo",
+        "Cueva de la Haza",
+        "Cueva del Mirón",
+        "Cueva de Covalanas",
+        "Pared del Eco",
+        "Cueva de Cuevamur"
+      ],
+      "notes": [
+        "Covalanas visits need booking: 942 59 84 25.",
+        "The page advertises a podcast on the legend of the Asón waterfall (no link visible)."
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Carril bici San Vicente de Toranzo",
+      "mode": "bike",
+      "facts": {
+        "distance": "20 km, one way",
+        "time": "1 hour",
+        "ascent": "100 m",
+        "difficulty": "None"
+      },
+      "summary": "A beginner- and child-friendly cycle path from the Alceda park (a historic-artistic town with palaces and manor houses) along the Pas river, on the bed of the old 'Balastrera' railway between Santander and Ontaneda. A landmark is the iron bridge at San Vicente de Toranzo. The path goes on without difficulty into the next municipality, Santiurde de Toranzo, passing Corvera and Aes, and ends at Puente Viesgo, known for its UNESCO-listed cave art.",
+      "places": [
+        "Alceda",
+        "Ontaneda",
+        "Villegar",
+        "San Vicente de Toranzo (Puente de Hierro)",
+        "Corvera de Toranzo",
+        "Aes",
+        "Puente Viesgo"
+      ],
+      "notes": [
+        "Caution crossing the iron bridge over the river: the railway sleepers (traviesas) may be out of place."
+      ],
+      "uncertain": []
+    }
+  ]
+}
