@@ -2,6 +2,35 @@
  "generated": "2026-11-22",
  "places": [
   {
+   "id": "acantilados-de-san-vicente-ca-enp01",
+   "name": "Acantilados de San Vicente (CA-ENP01)",
+   "category": "hike",
+   "area": "San Vicente de la Barquera / Western Coast",
+   "lat": 43.392862,
+   "lon": -4.39159,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Official western-coast route adding a different cliff landscape from Costa Quebrada and Monte Buciero.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 8.5,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1CBw-P39JF61Uzd8GmE0cNTcu9w1UrMQn",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 8.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
+    "circular": true
+   }
+  },
+  {
    "id": "aji-limon-by-nelly",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -49,6 +78,92 @@
    "phone": "984 28 06 41",
    "hours": "Tue-Sun 11:00-01:00, closed Monday; kitchen Tue-Thu 13:00-16:00 & 20:00-24:00, Fri-Sun 13:00-16:30 & 20:00-00:30 (check before going)",
    "reservations": "Book ahead"
+  },
+  {
+   "id": "alto-de-la-guarda-ca-enp03",
+   "name": "Alto de La Guarda (CA-ENP03)",
+   "category": "hike",
+   "area": "Saja-Nansa / Los Tojos",
+   "lat": 43.146203,
+   "lon": -4.195658,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Substantial 8.5 km Saja-Besaya circuit with 650 m ascent: short in distance but a proper climbing day.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 8.5,
+    "ascentM": 650,
+    "duration": "3h 40m",
+    "difficulty": "Moderate",
+    "stage": "Build towards",
+    "routeType": "Circular",
+    "trailhead": "Bárcena Mayor",
+    "terrain": "Forest ascent with some rocky sections, then open views towards the Valle del Río Lodar and Valle del Río Queriendo.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1MtmgQbaEdvPj-_qMphjLgPppsksQt_6d",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 8.3,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
+    "circular": true
+   }
+  },
+  {
+   "id": "alto-miera-casa-del-rey-ca-enp04",
+   "name": "Alto Miera – Casa del Rey (CA-ENP04)",
+   "category": "hike",
+   "area": "Valles Pasiegos / San Roque de Riomiera",
+   "lat": 43.20883,
+   "lon": -3.702857,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 10.6,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-miera-casa-del-rey/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1MLPk4cB08U9GaQUpLVqseEHp9ICXlPGm",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10.8,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-miera-casa-del-rey/",
+    "circular": true
+   }
+  },
+  {
+   "id": "altos-de-carmona-ca-enp38",
+   "name": "Altos de Carmona (CA-ENP38)",
+   "category": "hike",
+   "area": "Carmona / Cabuérniga / Saja-Nansa",
+   "lat": 43.254524,
+   "lon": -4.357378,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Combines the historic village of Carmona with a proper climb onto the Sierra del Escudo de Cabuérniga.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 12,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1Lt_dX0Ra1s848J60c9zc4d87BApHCjeH",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 11.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
+    "circular": true
+   }
   },
   {
    "id": "antiguo-seminario-mayor-de-comillas",
@@ -200,6 +315,37 @@
    "hours": "Mon-Sat 12:00-16:00 and 20:00-00:00; Sun closed (check before going)"
   },
   {
+   "id": "brana-de-los-tejos-ca-enp06",
+   "name": "Braña de los Tejos (CA-ENP06)",
+   "category": "hike",
+   "area": "Cicera / Peñarrubia / Saja-Nansa",
+   "lat": 43.236999,
+   "lon": -4.550048,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "One of Saja-Nansa's emblematic routes: mature oak and beech forest leading to a rare high-altitude grove of ancient yews at about 1,400 m.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 14.5,
+    "difficulty": "Hard",
+    "stage": "Build towards",
+    "routeType": "Circular",
+    "conditions": "Avoid poor weather; muddy after rain and snow is possible in winter. Official shorter option turns back before the Braña for about 8.7 km.",
+    "trailhead": "Cicera",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YxoQOxgKUfWNx_sk-M1pNQ8Qbs9cVrYf",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 14.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
+    "circular": true
+   }
+  },
+  {
    "id": "branazarza-ca-enp08",
    "name": "Brañazarza (CA-ENP08)",
    "category": "hike",
@@ -244,6 +390,79 @@
    "familyFriendly": true
   },
   {
+   "id": "camino-de-los-neveros-ca-enp11",
+   "name": "Camino de los Neveros (CA-ENP11)",
+   "category": "hike",
+   "area": "Valles Pasiegos / Miera",
+   "lat": 43.294039,
+   "lon": -3.701562,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 11,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-de-los-neveros/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1OwyMq6sf3Nf8Rpx2XY1U3gEmNpgzrDqS",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-de-los-neveros/",
+    "circular": true
+   }
+  },
+  {
+   "id": "camino-real-tudanca-rozadio-ca-enp12",
+   "name": "Camino Real Tudanca – Rozadío (CA-ENP12)",
+   "category": "hike",
+   "area": "Saja-Nansa / Tudanca y Rionansa",
+   "lat": 43.152772,
+   "lon": -4.375569,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 11.5,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-real-tudanca-rozadio/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1RqmA661c-w5Cf8bB6a_u8tzaPTBqVcPX",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 11.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-real-tudanca-rozadio/",
+    "circular": false
+   }
+  },
+  {
+   "id": "camino-viejo-del-moral-ca-enp13",
+   "name": "Camino Viejo del Moral (CA-ENP13)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Arenas de Iguña",
+   "lat": 43.182789,
+   "lon": -4.106716,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 19.6,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-viejo-del-moral/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1ZZszT2_PGVCgDY4gKbtyvSxijS_Hh43A",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 9.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-viejo-del-moral/",
+    "circular": false,
+    "note": "Official GPX is one way (9.7 km, linear); the Naturea listing gives 19.6 km, which looks like out and back"
+   }
+  },
+  {
    "id": "cantina-mexicana",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -254,6 +473,38 @@
    "gmaps": "https://maps.app.goo.gl/eBsS5mP6189k5MNTA",
    "area": "Liérganes",
    "kind": "Mexican"
+  },
+  {
+   "id": "canto-pilanco-ca-enp10",
+   "name": "Canto Pilanco (CA-ENP10)",
+   "category": "hike",
+   "area": "Los Tojos / Saja-Besaya",
+   "lat": 43.129728,
+   "lon": -4.296748,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Compact forest hike through river woodland and mature beech forest, with an optional viewpoint over the south-western Saja-Besaya mountains.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 4.8,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "childSuitability": "Strong short family/progression hike; optional viewpoint climb is short but steep.",
+    "conditions": "Excellent autumn option. Check hunting calendar; avoid the steep viewpoint spur in adverse weather.",
+    "trailhead": "Puente de Bárcena Sellano / Río Saja",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1s30CRZ1DluDqchI0YbTgNIyNjM1BoJy6",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 4.8,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
+    "circular": true
+   }
   },
   {
    "id": "casa-ajero",
@@ -338,6 +589,60 @@
    "rainyDay": "Good",
    "booking": "Currently free entry; pass gives no direct admission saving at current tariff.",
    "link": "https://centros.culturadecantabria.com/casas-del-aguila-y-la-parra/"
+  },
+  {
+   "id": "cascada-del-tobazo-ca-enp-route",
+   "name": "Cascada del Tobazo (CA-ENP route)",
+   "category": "hike",
+   "area": "Valderredible / Southern Cantabria",
+   "lat": 42.830975,
+   "lon": -3.834853,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short official Naturea waterfall route; useful family-scale hike and a distinct southern Cantabria landscape.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 4,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "childSuitability": "Short family-distance route.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1h7GA8frTlryYw80LI4KvEaA8lsuTwtzA",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 3.6,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
+    "circular": true
+   }
+  },
+  {
+   "id": "cascadas-de-bustalvain-ca-enp30",
+   "name": "Cascadas de Bustalvain (CA-ENP30)",
+   "category": "hike",
+   "area": "Valles Pasiegos / Vega de Pas",
+   "lat": 43.131945,
+   "lon": -3.785675,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 4,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/viana/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1XUUSb-sL7m73vbgurUl4k9a4xHUi7_uF",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 3.6,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/viana/",
+    "circular": true
+   }
   },
   {
    "id": "casona-de-tudanca",
@@ -437,6 +742,30 @@
    "link": "https://centros.culturadecantabria.com/romanico/"
   },
   {
+   "id": "circuito-del-ebro-ca-enp15",
+   "name": "Circuito del Ebro (CA-ENP15)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Valdeprado del Río y Valderredible",
+   "lat": 42.901823,
+   "lon": -4.033418,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 15,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/circuito-del-ebro/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1rdZxqmhRFtBhXf_N_7vj9_8uoueHTdzV",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 15.1,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/circuito-del-ebro/",
+    "circular": true
+   }
+  },
+  {
    "id": "ciudad-romana-y-domus-de-juliobriga",
    "name": "Ciudad romana y Domus de Julióbriga",
    "category": "cultura",
@@ -471,6 +800,54 @@
    "rainyDay": "Mixed",
    "booking": "Check opening times before travel.",
    "link": "https://centros.culturadecantabria.com/juliobriga/"
+  },
+  {
+   "id": "cornejas-el-vigia-forestal-ca-enp18",
+   "name": "Cornejas, el vigía forestal (CA-ENP18)",
+   "category": "hike",
+   "area": "Liébana / Cabezón de Liébana y Cillorigo de Liébana",
+   "lat": 43.160527,
+   "lon": -4.553136,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 8.2,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cornejas/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1t-WPmeAKx2qCAP2qqGRPpLiRpyxsm_Tp",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 8.2,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cornejas/",
+    "circular": true
+   }
+  },
+  {
+   "id": "cuchisecos-la-serrulda-ca-enp19",
+   "name": "Cuchisecos – La Serruldá (CA-ENP19)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Arenas de Iguña",
+   "lat": 43.178423,
+   "lon": -4.094279,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 14.4,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cuchisecos-serrolda/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YXnfwrK7KIht2YzxiSmeoVeg6OqAQ9vG",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 14.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cuchisecos-serrolda/",
+    "circular": true
+   }
   },
   {
    "id": "cueva-de-chufin",
@@ -773,6 +1150,30 @@
    "priceLevel": "€€"
   },
   {
+   "id": "el-pajaro-amarillo-ca-enp20",
+   "name": "El Pájaro Amarillo (CA-ENP20)",
+   "category": "hike",
+   "area": "Saja-Nansa / San Vicente de la Barquera y Valdáliga",
+   "lat": 43.381723,
+   "lon": -4.397191,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 15.5,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pajaro-amarillo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=18cxSpzOO25U0cSx0v8icLdg_JvmQjp65",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 15.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pajaro-amarillo/",
+    "circular": true
+   }
+  },
+  {
    "id": "el-perdon",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -798,6 +1199,36 @@
    "familyFriendly": true
   },
   {
+   "id": "hayedo-de-la-zamina-ca-enp21",
+   "name": "Hayedo de La Zamina (CA-ENP21)",
+   "category": "hike",
+   "area": "San Roque de Riomiera / Valles Pasiegos",
+   "lat": 43.208956,
+   "lon": -3.703007,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Pasiego landscape, karst and a mature beech forest in one compact route.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 8.8,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "conditions": "Year-round, but avoid rainy/foggy days; particularly attractive in autumn.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=10m3faLbBOWM59EsrPCkA_SkKnrkP5nFB",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 8.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
+    "circular": true
+   }
+  },
+  {
    "id": "heladeria-creperia-santillan",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -808,6 +1239,78 @@
    "gmaps": "https://maps.app.goo.gl/6sV5KuY5xuJhVcmq8",
    "area": "Santillana del Mar",
    "kind": "Ice cream / crêperie"
+  },
+  {
+   "id": "hoyo-masayo-desde-astrana-ca-enp22",
+   "name": "Hoyo Masayo desde Astrana (CA-ENP22)",
+   "category": "hike",
+   "area": "Asón-Agüera-Trasmiera / Soba y Ruesga",
+   "lat": 43.201745,
+   "lon": -3.56187,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 14,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-astrana/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1sLFo6aPuZ7jwgIAcm4B4si87NpNg12ur",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-astrana/",
+    "circular": false
+   }
+  },
+  {
+   "id": "hoyo-masayo-desde-riva-de-ruesga-ca-enp22",
+   "name": "Hoyo Masayo desde Riva de Ruesga (CA-ENP22)",
+   "category": "hike",
+   "area": "Asón-Agüera-Trasmiera / Ruesga y Soba",
+   "lat": 43.28154,
+   "lon": -3.561694,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 14,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-ruesga/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1ZfbUANP3d4RebBR4eej61RpxlzbI7qxA",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-ruesga/",
+    "circular": false
+   }
+  },
+  {
+   "id": "invernales-de-abiada-ca-enp02",
+   "name": "Invernales de Abiada (CA-ENP02)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Campoo de Suso (page says Saja-Nansa)",
+   "lat": 43.018504,
+   "lon": -4.289984,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 13.1,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/invernales-de-abiada/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=12GD6l6kl5NYoCmsunw69_Bw9_P2sTQ_m",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13.1,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/invernales-de-abiada/",
+    "circular": true
+   }
   },
   {
    "id": "kandela",
@@ -865,6 +1368,36 @@
    "gmaps": "https://maps.app.goo.gl/GhyBU8j8mcpWJstc6",
    "area": "Miravalles, Torrelavega",
    "kind": "Restaurant"
+  },
+  {
+   "id": "la-garma-nacimiento-del-pisuena-ca-enp23",
+   "name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
+   "category": "hike",
+   "area": "Selaya / Valles Pasiegos",
+   "lat": 43.190801,
+   "lon": -3.763589,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short official Pasiego route following the Pisueña towards its headwaters through traditional cabañas and limestone scenery.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 6,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "trailhead": "Selaya / Pisueña valley",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1iilxWsa10vV05Hg_2X63v4oQ_UoI68NZ",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 5.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
+    "circular": true
+   }
   },
   {
    "id": "la-gruta-de-jose",
@@ -1034,6 +1567,131 @@
    }
   },
   {
+   "id": "las-ciguenas-de-bustamante-ca-enp17",
+   "name": "Las Cigüeñas de Bustamante (CA-ENP17)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Campoo de Yuso",
+   "lat": 43.00611,
+   "lon": -4.008256,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 6.8,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/colonia-de-ciguenas-de-bustamante/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1sH1C2akgPVrlTylNsjYVsZSIhp1aSC4D",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 6.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/colonia-de-ciguenas-de-bustamante/",
+    "circular": true
+   }
+  },
+  {
+   "id": "las-colladillas-ca-enp24",
+   "name": "Las Colladillas (CA-ENP24)",
+   "category": "hike",
+   "area": "Liébana / Pesaguero y Cabezón de Liébana",
+   "lat": 43.09811,
+   "lon": -4.559905,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 13.2,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/las-colladillas/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1rdr0QDeyzlLFy1XA51h12fPZDJx6z35n",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 13.1,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-colladillas/",
+    "circular": true
+   }
+  },
+  {
+   "id": "las-cuencas-glaciares-ca-enp05",
+   "name": "Las Cuencas Glaciares (CA-ENP05)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Campoo de Suso",
+   "lat": 43.002205,
+   "lon": -4.271074,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 12,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/las-cuencas/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1F41TO0-OVNePTFVBs0hyxLKSUBnUaT00",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 12,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-cuencas/",
+    "circular": true
+   }
+  },
+  {
+   "id": "las-nieves-ca-enp37",
+   "name": "Las Nieves (CA-ENP37)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Campoo de Yuso",
+   "lat": 43.010037,
+   "lon": -4.033654,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 6.8,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/las-nieves/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=13m9dihaRUaCRfO79po1KkhevSA5ftLwO",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 6.8,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-nieves/",
+    "circular": true
+   }
+  },
+  {
+   "id": "las-praizas-de-cucayo-ca-enp25",
+   "name": "Las Praizas de Cucayo (CA-ENP25)",
+   "category": "hike",
+   "area": "Cucayo / Vega de Liébana",
+   "lat": 43.057533,
+   "lon": -4.639037,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Compact Liébana route through traditional invernales, hayedo and views towards Peña Dobres/Pica de Casanzo.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 6.9,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1YY2ymFqpLWYyqjVxHF-Pwf1Dx_eRIyvG",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 6.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
+    "circular": true
+   }
+  },
+  {
    "id": "lastra-cafe",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -1059,6 +1717,156 @@
    "gmaps": "https://maps.app.goo.gl/gSYVPL5TEqvP5ig88",
    "area": "Santillana del Mar",
    "kind": "Restaurant"
+  },
+  {
+   "id": "los-bosques-del-monte-corona-ca-enp33",
+   "name": "Los Bosques del Monte Corona (CA-ENP33)",
+   "category": "hike",
+   "area": "Western Cantabria",
+   "lat": 43.31752,
+   "lon": -4.260802,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Turns the redwoods into a proper 13.8 km forest-and-viewpoint day through Monte Corona and the edge of Oyambre, rather than only a short stop at the sequoias.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 13.8,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "trailhead": "Parking de La Tejera / Monumento Natural de las Secuoyas",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=17h715Wb4FBezoEGEKaCQjTTZkrUBwdau",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 13.8,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
+    "circular": true
+   }
+  },
+  {
+   "id": "los-pueblos-de-lamason-ca-enp16",
+   "name": "Los pueblos de Lamasón (CA-ENP16)",
+   "category": "hike",
+   "area": "Saja-Nansa / Lamasón",
+   "lat": 43.252017,
+   "lon": -4.477148,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 10.4,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-lamason/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1iuW_bfPXXLz2_6bhdS99H86SmZEgK_Ut",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-lamason/",
+    "circular": true
+   }
+  },
+  {
+   "id": "los-pueblos-de-polaciones-etapa-1-ca-enp26",
+   "name": "Los pueblos de Polaciones, etapa 1 (CA-ENP26)",
+   "category": "hike",
+   "area": "Saja-Nansa / Polaciones",
+   "lat": 43.114721,
+   "lon": -4.407272,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 9.5,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa1/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1D2c0VMlnZi5j00jEGEUHmZZj_j-nBWt4",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 9.5,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa1/",
+    "circular": true
+   }
+  },
+  {
+   "id": "los-pueblos-de-polaciones-etapa-2-ca-enp26",
+   "name": "Los pueblos de Polaciones, etapa 2 (CA-ENP26)",
+   "category": "hike",
+   "area": "Saja-Nansa / Polaciones",
+   "lat": 43.106984,
+   "lon": -4.430339,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 12.7,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa2/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=12FyJ6-DJ_voRFugvcBEPldpKEcifPlw5",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 12.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa2/",
+    "circular": true
+   }
+  },
+  {
+   "id": "los-pueblos-de-polaciones-etapa-3-ca-enp26",
+   "name": "Los pueblos de Polaciones, etapa 3 (CA-ENP26)",
+   "category": "hike",
+   "area": "Saja-Nansa / Polaciones",
+   "lat": 43.100447,
+   "lon": -4.413237,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 10,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa3/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1lB-5FuRWnFuyY-EjsFnArZ5RLchs29ca",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa3/",
+    "circular": true
+   }
+  },
+  {
+   "id": "los-puentes-de-rucabao-ca-enp27",
+   "name": "Los puentes de Rucabao (CA-ENP27)",
+   "category": "hike",
+   "area": "Valles Pasiegos / Vega de Pas",
+   "lat": 43.164024,
+   "lon": -3.75706,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 7,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/los-puentes-de-rucabao/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1uIIEK2YyycecRto9zGFHONUgqTfJCD4m",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/los-puentes-de-rucabao/",
+    "circular": true
+   }
   },
   {
    "id": "mercado-de-la-esperanza",
@@ -1112,6 +1920,30 @@
    "gmaps": "https://maps.app.goo.gl/PeWGE33PaNgLuFAA8",
    "area": "Sarón, Santa María de Cayón",
    "kind": "Restaurant"
+  },
+  {
+   "id": "monte-sobardal-ca-enp28",
+   "name": "Monte Sobardal (CA-ENP28)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Campoo de Suso",
+   "lat": 43.001932,
+   "lon": -4.271075,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 4,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=10NOFo5zfgzpVL_fPHvf1XR9-puwm8ipW",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/",
+    "circular": true
+   }
   },
   {
    "id": "mr-wang",
@@ -1290,6 +2122,35 @@
    "description": "Seafood-focused restaurant in Liencres with a panoramic terrace by the cliffs; Cantabrian sea produce, turbot, caldeirada, homemade croquettes and house desserts. Reviewers praise the views; some note it gets crowded and noisy."
   },
   {
+   "id": "penas-de-bejes-ca-enp07",
+   "name": "Peñas de Bejes (CA-ENP07)",
+   "category": "hike",
+   "area": "Bejes / Cillorigo de Liébana",
+   "lat": 43.241304,
+   "lon": -4.645783,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Shorter Liébana limestone route that gives us a useful middle ground below the major Picos objectives.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 6.2,
+    "difficulty": "Moderate",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1spXvCPTzethmExS13ke0VdpAkequIud9",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 6.2,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
+    "circular": true
+   }
+  },
+  {
    "id": "peter-pan",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -1315,6 +2176,64 @@
    "gmaps": "https://maps.app.goo.gl/25R7B3sYXuboPta87",
    "area": "Santander",
    "kind": "Peruvian rotisserie chicken"
+  },
+  {
+   "id": "porracolina-cordal-de-las-jorobas-y-via-normal",
+   "name": "Porracolina — Cordal de las Jorobas y vía normal",
+   "category": "hike",
+   "area": "Alto Asón / Eastern Cantabria",
+   "lat": 43.28066,
+   "lon": -3.65061,
+   "locationStatus": "approximate",
+   "locationSource": "OSM: Bustablado hamlet (named as start) — hamlet, not the exact trailhead",
+   "why": "One of the defining Alto Asón summits, with a more adventurous Cordal de las Jorobas option and normal-route alternative.",
+   "familyFriendly": false,
+   "priority": "Must do",
+   "hike": {
+    "distanceKm": 13,
+    "stage": "Build towards",
+    "trailhead": "Bustablado, Arredondo",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
+    "routeGeometry": "Trailhead only",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 6.6,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bustablado-porracolina/",
+    "circular": false,
+    "note": "Official CA-ENP09 Bustablado–Porracolina: the ascent track only (6.6 km one way, return the same way = about 13 km)"
+   }
+  },
+  {
+   "id": "praderas-de-ruyemas-ca-enp29",
+   "name": "Praderas de Ruyemas (CA-ENP29)",
+   "category": "hike",
+   "area": "Vega de Pas / Valles Pasiegos",
+   "lat": 43.146025,
+   "lon": -3.722529,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short Pasiego circuit through traditional cabañales, beech woodland and views towards the Castro Valnera massif.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 5.1,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Circular",
+    "childSuitability": "Useful 5 km family progression hike with varied landscape.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1LRBFWOPhn5uGsMhvcjWmmXO0Xt43nnfn",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 5.1,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
+    "circular": true
+   }
   },
   {
    "id": "rasines-ruta-azul-balconada-de-cerreo",
@@ -1343,6 +2262,30 @@
    "familyFriendly": true,
    "priority": "Research",
    "hike": {}
+  },
+  {
+   "id": "robledal-de-cotornal-ca-enp31",
+   "name": "Robledal de Cotornal (CA-ENP31)",
+   "category": "hike",
+   "area": "Valles Pasiegos / Luena",
+   "lat": 43.115848,
+   "lon": -3.902146,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 8.2,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-cotornal/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1hJfoQ6n9FE41W2RpZehf7-SOpHgQW5ut",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 8.2,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-cotornal/",
+    "circular": true
+   }
   },
   {
    "id": "robledal-del-llano-ca-enp32",
@@ -1420,6 +2363,35 @@
    "kind": "Café / breakfast"
   },
   {
+   "id": "senda-fluvial-del-nansa-ca-enp34",
+   "name": "Senda Fluvial del Nansa (CA-ENP34)",
+   "category": "hike",
+   "area": "Val de San Vicente / Herrerías / Saja-Nansa",
+   "lat": 43.360376,
+   "lon": -4.489394,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Long but low-commitment riverside route that fills the gap between short family walks and mountain days.",
+   "familyFriendly": true,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 13.7,
+    "difficulty": "Easy",
+    "stage": "Do now",
+    "routeType": "Linear",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1f4idd-EamJZJOJ67udaKuxF_8lXF1-eL",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 13.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
+    "circular": false
+   }
+  },
+  {
    "id": "sendero-adaptado-del-rio-bayones",
    "locationStatus": "verified",
    "locationSource": "OSM: Sendero Adaptado del Río Bayones (path)",
@@ -1435,6 +2407,41 @@
     "distanceKm": 2,
     "difficulty": "Easy",
     "childSuitability": "Very suitable: short, low-difficulty adapted nature trail; part of the route is conditioned/protected with a handrail."
+   }
+  },
+  {
+   "id": "sendero-de-los-puentes-ca-enp35",
+   "name": "Sendero de los Puentes (CA-ENP35)",
+   "category": "hike",
+   "area": "Ruente / Saja-Besaya",
+   "lat": 43.235661,
+   "lon": -4.219394,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Long forest circuit through Río Bayones / Monte Río de los Vados; a proper 15.8 km Saja-Besaya day rather than a short woodland stroll.",
+   "familyFriendly": false,
+   "priority": "Worth doing",
+   "hike": {
+    "distanceKm": 15.8,
+    "ascentM": 690,
+    "duration": "5h 15m",
+    "difficulty": "Moderate",
+    "stage": "Build towards",
+    "routeType": "Circular",
+    "conditions": "Check hunting calendar before going, particularly autumn/winter weekends.",
+    "trailhead": "Casa del Monte, Ucieda",
+    "parking": "Casa del Monte / Ucieda recreation area",
+    "terrain": "Monte Río de los Vados and Río Bayones woodland; multiple river/bridge crossings and notable trees.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=16sIztAgSqLuB9KQKyajtf5E-N_VSF2qB",
+    "routeGeometry": "Full track",
+    "trackSource": "Official (Naturea GPX)"
+   },
+   "route": {
+    "km": 15.7,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
+    "circular": true
    }
   },
   {
@@ -1597,6 +2604,30 @@
    "rainyDay": "Good",
    "booking": "Check opening hours before travel.",
    "link": "https://centros.culturadecantabria.com/torre-del-infantado/"
+  },
+  {
+   "id": "turberas-de-selviejo-ca-enp36",
+   "name": "Turberas de Selviejo (CA-ENP36)",
+   "category": "hike",
+   "area": "Valles Pasiegos / Luena",
+   "lat": 43.093806,
+   "lon": -3.916463,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 7.4,
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1WNyLB8BwWLdsbpXQKio152DWFAyuBSHk",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 7.4,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/",
+    "circular": true
+   }
   },
   {
    "id": "vermuteria-de-vicio",

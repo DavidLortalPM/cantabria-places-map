@@ -26,5 +26,126 @@
   "name": "Robledal del Llano (CA-ENP32)",
   "source": "Naturea Cantabria",
   "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/"
+ },
+ "hoyo-masayo-desde-riva-de-ruesga-ca-enp22": {
+  "name": "Hoyo Masayo desde Riva de Ruesga (CA-ENP22)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-ruesga/"
+ },
+ "hoyo-masayo-desde-astrana-ca-enp22": {
+  "name": "Hoyo Masayo desde Astrana (CA-ENP22)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-astrana/"
+ },
+ "invernales-de-abiada-ca-enp02": {
+  "name": "Invernales de Abiada (CA-ENP02)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/invernales-de-abiada/"
+ },
+ "las-cuencas-glaciares-ca-enp05": {
+  "name": "Las Cuencas Glaciares (CA-ENP05)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-cuencas/"
+ },
+ "camino-viejo-del-moral-ca-enp13": {
+  "name": "Camino Viejo del Moral (CA-ENP13)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-viejo-del-moral/",
+  "note": "Official GPX is one way (9.7 km, linear); the Naturea listing gives 19.6 km, which looks like out and back"
+ },
+ "circuito-del-ebro-ca-enp15": {
+  "name": "Circuito del Ebro (CA-ENP15)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/circuito-del-ebro/"
+ },
+ "las-ciguenas-de-bustamante-ca-enp17": {
+  "name": "Las Cigüeñas de Bustamante (CA-ENP17)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/colonia-de-ciguenas-de-bustamante/"
+ },
+ "cuchisecos-la-serrulda-ca-enp19": {
+  "name": "Cuchisecos – La Serruldá (CA-ENP19)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cuchisecos-serrolda/"
+ },
+ "monte-sobardal-ca-enp28": {
+  "name": "Monte Sobardal (CA-ENP28)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/"
+ },
+ "las-nieves-ca-enp37": {
+  "name": "Las Nieves (CA-ENP37)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-nieves/"
+ },
+ "cornejas-el-vigia-forestal-ca-enp18": {
+  "name": "Cornejas, el vigía forestal (CA-ENP18)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cornejas/"
+ },
+ "las-colladillas-ca-enp24": {
+  "name": "Las Colladillas (CA-ENP24)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-colladillas/"
+ },
+ "camino-real-tudanca-rozadio-ca-enp12": {
+  "name": "Camino Real Tudanca – Rozadío (CA-ENP12)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-real-tudanca-rozadio/"
+ },
+ "los-pueblos-de-lamason-ca-enp16": {
+  "name": "Los pueblos de Lamasón (CA-ENP16)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-lamason/"
+ },
+ "el-pajaro-amarillo-ca-enp20": {
+  "name": "El Pájaro Amarillo (CA-ENP20)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pajaro-amarillo/"
+ },
+ "los-pueblos-de-polaciones-etapa-1-ca-enp26": {
+  "name": "Los pueblos de Polaciones, etapa 1 (CA-ENP26)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa1/"
+ },
+ "los-pueblos-de-polaciones-etapa-2-ca-enp26": {
+  "name": "Los pueblos de Polaciones, etapa 2 (CA-ENP26)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa2/"
+ },
+ "los-pueblos-de-polaciones-etapa-3-ca-enp26": {
+  "name": "Los pueblos de Polaciones, etapa 3 (CA-ENP26)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa3/"
+ },
+ "alto-miera-casa-del-rey-ca-enp04": {
+  "name": "Alto Miera – Casa del Rey (CA-ENP04)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-miera-casa-del-rey/"
+ },
+ "camino-de-los-neveros-ca-enp11": {
+  "name": "Camino de los Neveros (CA-ENP11)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-de-los-neveros/"
+ },
+ "los-puentes-de-rucabao-ca-enp27": {
+  "name": "Los puentes de Rucabao (CA-ENP27)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/los-puentes-de-rucabao/"
+ },
+ "cascadas-de-bustalvain-ca-enp30": {
+  "name": "Cascadas de Bustalvain (CA-ENP30)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/viana/"
+ },
+ "robledal-de-cotornal-ca-enp31": {
+  "name": "Robledal de Cotornal (CA-ENP31)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-cotornal/"
+ },
+ "turberas-de-selviejo-ca-enp36": {
+  "name": "Turberas de Selviejo (CA-ENP36)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/"
  }
 }
