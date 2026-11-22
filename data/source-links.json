@@ -64,6 +64,13 @@
       "type": "paper leaflet",
       "url": "https://cuevas.culturadecantabria.com",
       "notes": "Covers El Castillo, Las Monedas, Covalanas, Cullalvera, El Pendo, Hornos de la Peña, Chufín, Julióbriga, Camesa-Rebolledo, Centro de Interpretación del Románico and Torre de Pero Niño. All are already Pasaporte Cultura pins; the leaflet only adds visit information (data/details.extra.en.json)."
+    },
+    {
+      "id": "alltrails-ermita-san-esteban-monte-corona",
+      "title": "AllTrails: Ermita San Esteban - Monte Corona - Regato de Bichurichas (link shared by the owner)",
+      "type": "web page",
+      "url": "https://www.alltrails.com/en-gb/trail/spain/cantabria/ermita-san-esteban-monte-corona-regato-de-bichurichas",
+      "notes": "AllTrails refuses automated reading (HTTP 403), so no figures captured yet. Owner says: good barbecue spot, a church (the ermita), and a nearby viewpoint over the Picos de Europa. The pin Ermita de San Esteban (Monte Corona) already carries the picnic/barbecue and viewpoint note. Needs the trail figures from the owner or a track export."
     }
   ],
   "guidePdfs": [
