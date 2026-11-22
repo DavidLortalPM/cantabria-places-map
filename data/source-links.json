@@ -1,38 +1,147 @@
 {
   "_comment": "Every source the owner has given us, kept so we can revisit them. Raw copies of CANTUR text are kept locally in data/_raw (not published); the site shows our own English summaries with a link back to the source.",
   "sources": [
-    { "id": "costa-central-leaflet", "title": "Costa Central visitor leaflet (Gobierno de Cantabria / Cantabria tourism), photographed by the owner", "type": "paper leaflet", "notes": "Heritage, nature, family plans, local festivals (festivals deliberately not used), gastronomy; QR codes to the CANTUR pages below. Photos are not stored in the public repo." },
-    { "id": "naturea-leaflets", "title": "Naturea Cantabria leaflets: Brañazarza (CA-ENP08) and Robledal del Llano (CA-ENP32)", "type": "paper leaflet", "url": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/" },
-    { "id": "cantur-qr-landing", "title": "CANTUR landing page from the leaflet QR code (Rutas turísticas / Web de turismo de Cantabria)", "url": "https://cantur.net/santander/infoToolsPublic/?id=NTI=" },
-    { "id": "cantur-routes-costa-central", "title": "CANTUR Rutas turísticas, Costa Central: Secuoyas loop, Puerto Escondido literary route, Santillana del Mar", "url": "https://cantur.net/santander/infoToolsPublic/views/rutasTuristicasITP.php?lang=1&id=NTI=" },
-    { "id": "cantur-activities-107", "title": "CANTUR directory: activity providers around Suances and Comillas", "url": "https://cantur.net/santander/infoTools/views/contactes.php?idPare=107&lang=1" },
-    { "id": "cantur-experiences-116", "title": "CANTUR directory: experiences (winery, distillery, photo walks, lemon farm)", "url": "https://cantur.net/santander/infoTools/views/contactes.php?idPare=116&lang=1" },
-    { "id": "cantur-pois-64", "title": "CANTUR points of interest, Costa Central (57 entries)", "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64", "notes": "Spanish text; official English exists for only 2 entries (lang=48)." },
-    { "id": "cantur-guides", "title": "CANTUR guides and documents library (22 PDFs: town guides, maps, hiking and cycling routes)", "url": "https://cantur.net/santander/infoTools/views/index.php?nameFile=linkInfoTools_1690544491.txt", "notes": "Direct list at https://cantur.net/santander/infoTools/views/guias.php?lang=1&pi=0 ; PDFs live under https://cantur.net/santander/web_php/imatges/guias/<file>.pdf" }
+    {
+      "id": "costa-central-leaflet",
+      "title": "Costa Central visitor leaflet (Gobierno de Cantabria / Cantabria tourism), photographed by the owner",
+      "type": "paper leaflet",
+      "notes": "Heritage, nature, family plans, local festivals (festivals deliberately not used), gastronomy; QR codes to the CANTUR pages below. Photos are not stored in the public repo."
+    },
+    {
+      "id": "naturea-leaflets",
+      "title": "Naturea Cantabria leaflets: Brañazarza (CA-ENP08) and Robledal del Llano (CA-ENP32)",
+      "type": "paper leaflet",
+      "url": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/"
+    },
+    {
+      "id": "cantur-qr-landing",
+      "title": "CANTUR landing page from the leaflet QR code (Rutas turísticas / Web de turismo de Cantabria)",
+      "url": "https://cantur.net/santander/infoToolsPublic/?id=NTI="
+    },
+    {
+      "id": "cantur-routes-costa-central",
+      "title": "CANTUR Rutas turísticas, Costa Central: Secuoyas loop, Puerto Escondido literary route, Santillana del Mar",
+      "url": "https://cantur.net/santander/infoToolsPublic/views/rutasTuristicasITP.php?lang=1&id=NTI="
+    },
+    {
+      "id": "cantur-activities-107",
+      "title": "CANTUR directory: activity providers around Suances and Comillas",
+      "url": "https://cantur.net/santander/infoTools/views/contactes.php?idPare=107&lang=1"
+    },
+    {
+      "id": "cantur-experiences-116",
+      "title": "CANTUR directory: experiences (winery, distillery, photo walks, lemon farm)",
+      "url": "https://cantur.net/santander/infoTools/views/contactes.php?idPare=116&lang=1"
+    },
+    {
+      "id": "cantur-pois-64",
+      "title": "CANTUR points of interest, Costa Central (57 entries)",
+      "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+      "notes": "Spanish text; official English exists for only 2 entries (lang=48)."
+    },
+    {
+      "id": "cantur-guides",
+      "title": "CANTUR guides and documents library (22 PDFs: town guides, maps, hiking and cycling routes)",
+      "url": "https://cantur.net/santander/infoTools/views/index.php?nameFile=linkInfoTools_1690544491.txt",
+      "notes": "Direct list at https://cantur.net/santander/infoTools/views/guias.php?lang=1&pi=0 ; PDFs live under https://cantur.net/santander/web_php/imatges/guias/<file>.pdf"
+    },
+    {
+      "id": "juliobriga-leaflet",
+      "title": "La Cité romaine et la Domus de Julióbriga (Retortillo) visitor leaflet, French edition, photographed by the owner; also covers the Camesa-Rebolledo villa",
+      "type": "paper leaflet",
+      "url": "https://centros.culturadecantabria.com",
+      "notes": "Booking phone +34 942 598 425, reservascentros@culturadecantabria.es. Photos are not stored in the public repo; our English summary is in data/details.extra.en.json."
+    }
   ],
   "guidePdfs": [
-    ["Santillana Del Mar, un lugar para admirar", "25528641dd99bdf7b8310237847.pdf"],
-    ["Santillana, mapa turístico", "24553641de1a92a596567867719.pdf"],
-    ["Bosque de Secuoyas", "14682641c9a7b98994917272983.pdf"],
-    ["Santillana del Mar, guía turística", "5049641dd813d0f23856506758.pdf"],
-    ["Costa Central", "3866745ee5e13800982942452.pdf"],
-    ["Palacio de Sobrellano", "6317641de3451dfd3027365171.pdf"],
-    ["Miengo, Rutas de Senderismo y Cicloturismo", "26158641c88ed655e0814319851.pdf"],
-    ["Comillas, guía turística", "19189675adff0aa2c2641563512.pdf"],
-    ["Suances, senda ciclable", "1136696bc22a3920d131621919.pdf"],
-    ["Santillana del Mar", "24677641ca840da04f375344498.pdf"],
-    ["Alfoz de Lloredo, Tierra de Sensaciones", "2903641dd89d9dd4d804306945.pdf"],
-    ["Neocueva Altamira", "30583641db8e2b9a5b795183667.pdf"],
-    ["Comillas, Guía de rutas a pie y en bicicleta", "13126675adf7b6c3d9184352899.pdf"],
-    ["Comillas, plano turístico", "19654675adfb139398900968173.pdf"],
-    ["Buceo Miengo", "12262641dd517496b9329557381.pdf"],
-    ["Miengo Cicloturismo", "30469641c915b983e2939928403.pdf"],
-    ["Miengo, Senderismo", "16224641c9177de670301435313.pdf"],
-    ["Neocueva y Museo Altamira", "1217561bc87700b16c048732271.pdf"],
-    ["Miengo cerca de todo", "12849641ddaaebc704055264187.pdf"],
-    ["Suances, plano", "30575641dde2fb1897955563697.pdf"],
-    ["Suances, tríptico playas", "26645696bc2739626d193194298.pdf"],
-    ["Suances Ruta Ornitológica", "31477696bc24dd3d3b580851130.pdf"]
+    [
+      "Santillana Del Mar, un lugar para admirar",
+      "25528641dd99bdf7b8310237847.pdf"
+    ],
+    [
+      "Santillana, mapa turístico",
+      "24553641de1a92a596567867719.pdf"
+    ],
+    [
+      "Bosque de Secuoyas",
+      "14682641c9a7b98994917272983.pdf"
+    ],
+    [
+      "Santillana del Mar, guía turística",
+      "5049641dd813d0f23856506758.pdf"
+    ],
+    [
+      "Costa Central",
+      "3866745ee5e13800982942452.pdf"
+    ],
+    [
+      "Palacio de Sobrellano",
+      "6317641de3451dfd3027365171.pdf"
+    ],
+    [
+      "Miengo, Rutas de Senderismo y Cicloturismo",
+      "26158641c88ed655e0814319851.pdf"
+    ],
+    [
+      "Comillas, guía turística",
+      "19189675adff0aa2c2641563512.pdf"
+    ],
+    [
+      "Suances, senda ciclable",
+      "1136696bc22a3920d131621919.pdf"
+    ],
+    [
+      "Santillana del Mar",
+      "24677641ca840da04f375344498.pdf"
+    ],
+    [
+      "Alfoz de Lloredo, Tierra de Sensaciones",
+      "2903641dd89d9dd4d804306945.pdf"
+    ],
+    [
+      "Neocueva Altamira",
+      "30583641db8e2b9a5b795183667.pdf"
+    ],
+    [
+      "Comillas, Guía de rutas a pie y en bicicleta",
+      "13126675adf7b6c3d9184352899.pdf"
+    ],
+    [
+      "Comillas, plano turístico",
+      "19654675adfb139398900968173.pdf"
+    ],
+    [
+      "Buceo Miengo",
+      "12262641dd517496b9329557381.pdf"
+    ],
+    [
+      "Miengo Cicloturismo",
+      "30469641c915b983e2939928403.pdf"
+    ],
+    [
+      "Miengo, Senderismo",
+      "16224641c9177de670301435313.pdf"
+    ],
+    [
+      "Neocueva y Museo Altamira",
+      "1217561bc87700b16c048732271.pdf"
+    ],
+    [
+      "Miengo cerca de todo",
+      "12849641ddaaebc704055264187.pdf"
+    ],
+    [
+      "Suances, plano",
+      "30575641dde2fb1897955563697.pdf"
+    ],
+    [
+      "Suances, tríptico playas",
+      "26645696bc2739626d193194298.pdf"
+    ],
+    [
+      "Suances Ruta Ornitológica",
+      "31477696bc24dd3d3b580851130.pdf"
+    ]
   ],
   "guidePdfBase": "https://cantur.net/santander/web_php/imatges/guias/"
 }

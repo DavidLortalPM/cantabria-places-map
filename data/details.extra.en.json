@@ -1,0 +1,30 @@
+{
+  "ciudad-romana-y-domus-de-juliobriga": {
+    "summary": "Julióbriga was a Roman city of the Campoo area, tied to the administrative takeover of the Cantabrian lands after the Cantabrian Wars. The leaflet dates its founding to the reign of Augustus, between 15 and 13 BC, and says it became the Cantabrians' capital in the 1st and 2nd centuries AD, with decline starting in the 3rd century.\n\nThe visit centres on the domus, a house of the late 1st century AD rebuilt from \"Los Morillos\": a columned dining room, a bedroom, a kitchen and a shop, with an upper floor. Outdoors, a signposted route has nine stops: the entrance, the forum, the Romanesque church built over part of it, the surrounding territory, the colonnaded street, La Llanuca housing quarter, the Los Morillos houses with mosaics, the southern sector, and a view of the Ebro reservoir.",
+    "facts": [
+      ["Visit", "Guided visits of the domus last about 45 minutes. In high season there are also guided visits of the Roman city; the leaflet says outdoor access to the site is free all year."],
+      ["Tickets", "Buying or reserving ahead is recommended. On the day, tickets are sold only at the ticket office, subject to availability and in order of arrival. Visiting the Julióbriga domus and the Camesa-Rebolledo villa on the same day gives a reduction on the second ticket."],
+      ["Reservations phone", "+34 942 598 425"],
+      ["Reservations email", "reservascentros@culturadecantabria.es"],
+      ["Website", "centros.culturadecantabria.com"]
+    ],
+    "sources": [
+      { "label": "Centros de Cultura de Cantabria (website printed on the leaflet)", "url": "https://centros.culturadecantabria.com" }
+    ],
+    "uncertain": "From a photographed visitor leaflet (French edition), so check access, prices and opening times with the centre before you go."
+  },
+  "arqueositio-cantabro-romano-de-camesa-rebolledo": {
+    "summary": "A luxurious Roman villa about 20 km from Julióbriga, in Mataporquera (Valdeolea), built at the end of the 3rd century AD. It had an underfloor-heated bath suite with four rooms: a cold room, a warm room, a hot room and a changing room, plus a hot-air heating system below the floors.\n\nThe villa was abandoned around the middle of the 5th century. From the 6th century the site was used as a burial ground, and the tombs and sarcophagi found around the foundations of a rectangular church with a single nave and an apse belong to that period.",
+    "facts": [
+      ["Visit", "Guided visits last about 45 minutes."],
+      ["Tickets", "Buying or reserving ahead is recommended. Visiting this villa and the Julióbriga domus on the same day gives a reduction on the second ticket."],
+      ["Reservations phone", "+34 942 598 425"],
+      ["Reservations email", "reservascentros@culturadecantabria.es"],
+      ["Website", "centros.culturadecantabria.com"]
+    ],
+    "sources": [
+      { "label": "Centros de Cultura de Cantabria (website printed on the leaflet)", "url": "https://centros.culturadecantabria.com" }
+    ],
+    "uncertain": "From a photographed visitor leaflet (French edition), so check access, prices and opening times with the centre before you go."
+  }
+}
