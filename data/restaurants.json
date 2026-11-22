@@ -446,5 +446,52 @@
     "address": "Calle Santa Lucía 3, 39003 Santander",
     "phone": "942 69 08 38",
     "description": "Asian restaurant in central Santander serving Thai, Chinese and Japanese dishes, with sushi fusion. Rated 8.1 on Gastroranking (about 250 opinions); reviewers praise the fresh food and varied menu."
+  },
+  {
+    "name": "Mr. Wang",
+    "category": "restaurant",
+    "lat": 43.4630508,
+    "lon": -3.8042647,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; details from web listings (check before going)",
+    "gmaps": "https://maps.app.goo.gl/UD6w38Mi9gbYh5zQ7",
+    "area": "Santander",
+    "kind": "Chinese",
+    "priceLevel": "€",
+    "description": "Simple, casual Chinese restaurant with homemade cooking and an open kitchen. Reviewers recommend the arroz Mr. Wang, mapo tofu and dumplings; about €15 per person per one guide. Rated 8.2 on Gastroranking (about 340 opinions)."
+  },
+  {
+    "name": "El Bulín de la Tasca",
+    "category": "restaurant",
+    "lat": 43.4628827,
+    "lon": -3.7984261,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; details from web listing (check before going)",
+    "gmaps": "https://maps.app.goo.gl/8gvPB8tjPbpNrybf8",
+    "area": "Santander",
+    "kind": "Pizza (Argentine-style)",
+    "description": "Argentine-style pizza place with vegan options (including vegan cheese and customisable toppings) and outdoor seating. Rated 4.4 on one guide (about 930 reviews); reviewers praise the friendly service and generous portions."
+  },
+  {
+    "name": "Montaña de Oro Sarón",
+    "category": "restaurant",
+    "lat": 43.3249189,
+    "lon": -3.853821,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/PeWGE33PaNgLuFAA8",
+    "area": "Sarón, Santa María de Cayón",
+    "kind": "Restaurant"
+  },
+  {
+    "name": "Cantina Mexicana",
+    "category": "restaurant",
+    "lat": 43.345343,
+    "lon": -3.7422698,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/eBsS5mP6189k5MNTA",
+    "area": "Liérganes",
+    "kind": "Mexican"
   }
 ]

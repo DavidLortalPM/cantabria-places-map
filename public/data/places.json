@@ -350,6 +350,18 @@
    }
   },
   {
+   "id": "cantina-mexicana",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Cantina Mexicana",
+   "lat": 43.345343,
+   "lon": -3.7422698,
+   "gmaps": "https://maps.app.goo.gl/eBsS5mP6189k5MNTA",
+   "area": "Liérganes",
+   "kind": "Mexican"
+  },
+  {
    "id": "canto-pilanco-ca-enp10",
    "name": "Canto Pilanco (CA-ENP10)",
    "category": "hike",
@@ -945,6 +957,19 @@
    }
   },
   {
+   "id": "el-bulin-de-la-tasca",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner; details from web listing (check before going)",
+   "name": "El Bulín de la Tasca",
+   "lat": 43.4628827,
+   "lon": -3.7984261,
+   "gmaps": "https://maps.app.goo.gl/8gvPB8tjPbpNrybf8",
+   "area": "Santander",
+   "kind": "Pizza (Argentine-style)",
+   "description": "Argentine-style pizza place with vegan options (including vegan cheese and customisable toppings) and outdoor seating. Rated 4.4 on one guide (about 930 reviews); reviewers praise the friendly service and generous portions."
+  },
+  {
    "id": "el-carmelo",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -1487,6 +1512,18 @@
    "familyFriendly": true
   },
   {
+   "id": "montana-de-oro-saron",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Montaña de Oro Sarón",
+   "lat": 43.3249189,
+   "lon": -3.853821,
+   "gmaps": "https://maps.app.goo.gl/PeWGE33PaNgLuFAA8",
+   "area": "Sarón, Santa María de Cayón",
+   "kind": "Restaurant"
+  },
+  {
    "id": "monte-buciero-faros-y-acantilados",
    "name": "Monte Buciero — Faros y Acantilados",
    "category": "hike",
@@ -1545,6 +1582,20 @@
     "circular": true,
     "note": "PR-PNPE 20 Monte Camba, a circuit from Tielve (passes Sotres)."
    }
+  },
+  {
+   "id": "mr-wang",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner; details from web listings (check before going)",
+   "name": "Mr. Wang",
+   "lat": 43.4630508,
+   "lon": -3.8042647,
+   "gmaps": "https://maps.app.goo.gl/UD6w38Mi9gbYh5zQ7",
+   "area": "Santander",
+   "kind": "Chinese",
+   "priceLevel": "€",
+   "description": "Simple, casual Chinese restaurant with homemade cooking and an open kitchen. Reviewers recommend the arroz Mr. Wang, mapo tofu and dumplings; about €15 per person per one guide. Rated 8.2 on Gastroranking (about 340 opinions)."
   },
   {
    "id": "museo-de-la-naturaleza-de-cantabria",
