@@ -195,9 +195,9 @@ function rememberView() { if (!prevView) { prevView = { c: map.getCenter(), z: m
 
 function openSheet(p) {
   rememberView();
-  if (selected && markers[selected]) markers[selected].setIcon(pinIcon(byId[selected], false));
+  if (selected && markers[selected]) markers[selected].setIcon(pinIcon(byId[selected], false)).setZIndexOffset(0);
   selected = p.id;
-  markers[p.id].setIcon(pinIcon(p, true));
+  markers[p.id].setIcon(pinIcon(p, true)).setZIndexOffset(2000); // above other pins and a searched town's label
   const h = p.hike || {};
   const im = p.image;
   const [quick, more] = p.category === 'hike' || p.category === 'walk' ? renderHike(p) : renderPlace(p);
@@ -208,6 +208,7 @@ function openSheet(p) {
     ${quick}
     <div class="actions">
       ${link(p.gmaps || gmapsLink(p), p.category === 'hike' || p.category === 'walk' ? 'Google Maps (start)' : 'Google Maps', true)}
+      <button class="near-btn" type="button">What's nearby</button>
       <button class="more-btn" type="button" aria-expanded="false">Details ▴</button>
     </div>
     <div class="sh-more">
@@ -275,7 +276,7 @@ function layoutSheet(reveal) {
   if (reveal) requestAnimationFrame(() => {
     if (!selected || s.hidden || (phone() && s.classList.contains('exp'))) return; // an expanded sheet never moves the map
     const p = byId[selected], pt = map.latLngToContainerPoint([p.lat, p.lon]), size = map.getSize(), r = s.getBoundingClientRect();
-    const t = $('cats').getBoundingClientRect().bottom + 12; // keep clear of the category strip
+    const t = topClear(); // keep clear of the category strip and the search pill
     const box = phone() ? { l: 24, t, r: size.x - 24, b: r.top - 28 } : { l: r.right + 24, t, r: size.x - 70, b: size.y - $('tabs').getBoundingClientRect().height - 36 };
     autoUntil = Date.now() + 1200;
     if (routeBounds) { // fit the whole route into the map area not covered by the sheet
@@ -293,7 +294,10 @@ window.addEventListener('resize', () => { // only a real layout change (breakpoi
   const ph = phone(), land = innerWidth > innerHeight, cross = ph !== lastPhone || land !== lastLand;
   lastPhone = ph; lastLand = land; syncZoom(); layoutSheet(cross); // syncZoom again: some embedded webviews skip the media-query change event
 });
-$('sheet-body').addEventListener('click', e => { if (e.target.closest('.more-btn')) setExpanded(!$('sheet').classList.contains('exp')); });
+$('sheet-body').addEventListener('click', e => {
+  if (e.target.closest('.more-btn')) setExpanded(!$('sheet').classList.contains('exp'));
+  else if (e.target.closest('.near-btn') && selected) { const p = byId[selected]; showNear({ lat: p.lat, lon: p.lon, name: p.name, sub: [typeLabel(p), p.area].filter(Boolean).join(' · '), exclude: p.id }); }
+});
 $('sheet-grab').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpanded(!$('sheet').classList.contains('exp')); } });
 // Swipe up/down on the handle (or up on the compact sheet); tap the handle to toggle. Only the handle (or the x) closes the compact sheet by swiping down.
 (() => {
@@ -332,13 +336,14 @@ function buildLegend(places, unplaced, generated) {
     <p class="credit">${places.length} places${generated ? ' · updated ' + esc(fmtDate(generated)) : ''}</p>
     ${unplaced.length ? `<details class="unplaced"><summary>${unplaced.length} not on the map yet (no start point found)</summary><ul>${unplaced.map(u => `<li>${esc(u.name)}</li>`).join('')}</ul></details>` : ''}
     <button class="about" type="button">About this map</button>
-    <p class="credit">Map data © OpenStreetMap contributors</p>`;
+    <p class="credit">Map data © OpenStreetMap contributors</p>
+    <p class="credit">Town search sends only the text you type to OpenStreetMap's Nominatim service, and searches are not saved.</p>`;
 }
 $('about-info').addEventListener('click', e => { if (e.target.closest('.about')) openIntro(); });
 
 // Filters and More are native modal dialogs (bottom sheets on phones). Esc and the back gesture close them natively.
 function closePanels() { for (const d of document.querySelectorAll('dialog[open]')) d.close(); }
-for (const d of document.querySelectorAll('dialog.bsheet')) d.addEventListener('click', e => { if (e.target.closest('[data-close]')) d.close(); });
+for (const d of document.querySelectorAll('dialog.bsheet, #dlg-search')) d.addEventListener('click', e => { if (e.target.closest('[data-close]')) d.close(); });
 // Tap outside closes (closedby="any"); Safari has no closedby yet, so do it by hand there
 if (!('closedBy' in HTMLDialogElement.prototype)) {
   for (const d of document.querySelectorAll('dialog[closedby="any"]')) {
@@ -369,20 +374,87 @@ $('tabs').addEventListener('click', e => { const b = e.target.closest('[data-tab
 
 // List view: search + Nearest / A-Z over the places the current filters show
 let sortBy = safeStore.get('sort') === 'near' ? 'near' : 'az', here = null; // here = L.LatLng of the last locate
+const fold = s => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); // case- and accent-blind
+const hay = new Map(); // id -> folded text a search matches against (name, area, type, category); filled in init
+const fmtKm = km => km.toFixed(km < 10 ? 1 : 0) + ' km';
+const placeRow = (p, right) => { const c = catOf(p); return `<span class="gl" style="--c:${c.color}" aria-hidden="true">${glyphOf(p)}</span>
+      <span><span class="nm">${esc(p.name)}</span><br><span class="mt">${esc([typeLabel(p), p.area].filter(Boolean).join(' · '))}</span></span>${right != null ? `<span class="rt">${esc(right)}</span>` : ''}`; };
 function renderList() {
-  const q = $('q').value.trim().toLowerCase();
-  const l = Object.values(byId).filter(p => isVisible(p) && (!q || (p.name + ' ' + (p.area || '') + ' ' + typeLabel(p)).toLowerCase().includes(q)));
+  $('lv-near').hidden = !near; $('lv-head').hidden = !!near;
+  if (near) { renderNear(); return; }
+  const q = fold($('q').value.trim());
+  const l = Object.values(byId).filter(p => isVisible(p) && (!q || hay.get(p.id).includes(q)));
   const d = p => here ? here.distanceTo([p.lat, p.lon]) / 1000 : null;
   l.sort(sortBy === 'near' && here ? (a, b) => d(a) - d(b) : (a, b) => a.name.localeCompare(b.name, 'es'));
   for (const x of $('seg-sort').children) x.setAttribute('aria-pressed', String(x.dataset.sort === sortBy));
   $('lv-count').textContent = l.length + (l.length === 1 ? ' place' : ' places') + (sortBy === 'near' && !here ? ' · allow location to sort by distance' : '');
   $('lv').innerHTML = l.map(p => {
-    const c = catOf(p), s = openStatus(p), km = d(p);
-    return `<li><a href="#${encodeURIComponent(p.id)}" data-id="${esc(p.id)}"><span class="gl" style="--c:${c.color}" aria-hidden="true">${glyphOf(p)}</span>
-      <span><span class="nm">${esc(p.name)}</span><br><span class="mt">${esc([typeLabel(p), p.area].filter(Boolean).join(' · '))}</span></span>
-      <span class="rt">${km != null ? km.toFixed(km < 10 ? 1 : 0) + ' km' : s.open === false ? 'Closed today' : ''}</span></a></li>`;
+    const s = openStatus(p), km = d(p);
+    return `<li><a href="#${encodeURIComponent(p.id)}" data-id="${esc(p.id)}">${placeRow(p, km != null ? fmtKm(km) : s.open === false ? 'Closed today' : '')}</a></li>`;
   }).join('') || '<li class="lv-count">No places match. Try clearing the search or filters.</li>';
 }
+
+// Nearby: our places within a radius of a town (from the search) or of a place (its sheet's "What's nearby"), nearest first.
+// Shown in the List view; respects the category toggles and filters. Distances are straight lines.
+let near = null, nearR = 15, nearCat = '', nearMarker = null, nearCircle = null; // near = { lat, lon, name, sub, exclude?, town? }
+function kmBetween(a, b) { // haversine
+  const r = Math.PI / 180, dLa = (b.lat - a.lat) * r, dLo = (b.lon - a.lon) * r;
+  const h = Math.sin(dLa / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLo / 2) ** 2;
+  return 12742 * Math.asin(Math.min(1, Math.sqrt(h)));
+}
+function renderNear() {
+  const inR = Object.values(byId).filter(p => p.id !== near.exclude).map(p => ({ p, d: kmBetween(near, p) })).filter(x => x.d <= nearR);
+  const vis = inR.filter(x => isVisible(x.p)), hidden = inR.length - vis.length, counts = {};
+  for (const x of vis) counts[x.p.category] = (counts[x.p.category] || 0) + 1;
+  if (nearCat && !counts[nearCat]) nearCat = '';
+  const l = vis.filter(x => !nearCat || x.p.category === nearCat).sort((a, b) => a.d - b.d);
+  $('ln-title').textContent = 'Near ' + near.name;
+  $('ln-sub').textContent = near.sub || '';
+  for (const b of $('seg-r').children) b.setAttribute('aria-pressed', String(+b.dataset.r === nearR));
+  const cats = Object.keys(CATEGORIES).filter(k => counts[k]);
+  const chip = (k, label, n, c) => `<button type="button" data-cat="${k}" aria-pressed="${nearCat === k}" style="--c:${c}"${k ? ` title="${esc(CATEGORIES[k].label)}"` : ''}>${label} <span class="n">${n}</span></button>`;
+  $('ln-cats').innerHTML = cats.length > 1 ? chip('', 'All', vis.length, 'var(--accent)') + cats.map(k => chip(k, `<span aria-hidden="true">${CATEGORIES[k].glyph}</span><span class="cl">${esc(CATEGORIES[k].label)}</span>`, counts[k], CATEGORIES[k].color)).join('') : '';
+  $('lv-count').textContent = `${l.length} ${l.length === 1 ? 'place' : 'places'} within ${nearR} km, as the crow flies` + (hidden ? ` · ${hidden} more hidden by filters` : '');
+  $('lv').innerHTML = l.map(x => `<li><a href="#${encodeURIComponent(x.p.id)}" data-id="${esc(x.p.id)}">${placeRow(x.p, fmtKm(x.d))}</a></li>`).join('')
+    || `<li class="lv-count">None of our places are within ${nearR} km${nearR < 30 ? '. Try a wider radius.' : '.'}${hidden ? ' Some are hidden by your filters.' : ''}</li>`;
+}
+const nearStyle = { color: '#1f4d3a', weight: 1.5, dashArray: '6 6', fillColor: '#1f4d3a', fillOpacity: 0.05, interactive: false };
+function clearNearLayers() { for (const l of [nearMarker, nearCircle]) if (l) map.removeLayer(l); nearMarker = nearCircle = null; }
+function syncNearPill() {
+  $('near-pill').hidden = !near;
+  $('find').classList.toggle('has-near', !!near);
+  if (near) { $('near-name').textContent = 'Near ' + near.name; $('near-x').setAttribute('aria-label', 'Clear nearby ' + near.name); }
+}
+function fitNear() {
+  const b = L.latLng(near.lat, near.lon).toBounds(nearR * 2000), t = topClear(), tabsH = $('tabs').getBoundingClientRect().height;
+  map.fitBounds(b, phone() ? { paddingTopLeft: [16, t], paddingBottomRight: [16, tabsH + 16], ...A }
+    : { paddingTopLeft: [$('listview').getBoundingClientRect().right + 24, t], paddingBottomRight: [70, tabsH + 36], ...A });
+}
+function showNear(n) {
+  clearNearLayers();
+  near = n; nearCat = '';
+  if (n.town) nearMarker = L.marker([n.lat, n.lon], { icon: L.divIcon({ className: 'townwrap', html: `<div class="townpin"><b>${esc(n.name)}</b></div>`, iconSize: [0, 0], iconAnchor: [0, 0] }), title: n.name + ': show what is nearby', zIndexOffset: 1000 })
+    .on('click', e => { L.DomEvent.stopPropagation(e); setTab('list'); }).addTo(map);
+  nearCircle = L.circle([n.lat, n.lon], { ...nearStyle, radius: nearR * 1000 }).addTo(map);
+  syncNearPill();
+  setTab('list');
+  fitNear();
+  $('ln-title').focus({ preventScroll: true });
+}
+function clearNear() {
+  clearNearLayers(); near = null; nearCat = '';
+  syncNearPill();
+  if (!$('listview').hidden) renderList();
+}
+$('seg-r').addEventListener('click', e => {
+  const b = e.target.closest('[data-r]'); if (!b || !near) return;
+  nearR = +b.dataset.r; nearCircle?.setRadius(nearR * 1000);
+  renderList(); fitNear();
+});
+$('ln-cats').addEventListener('click', e => { const b = e.target.closest('[data-cat]'); if (b) { nearCat = nearCat === b.dataset.cat ? '' : b.dataset.cat; renderList(); } });
+$('ln-x').addEventListener('click', () => { clearNear(); setTab('map'); });
+$('near-x').addEventListener('click', () => { clearNear(); $('btn-search').focus(); });
+$('near-open').addEventListener('click', () => { setTab('list'); $('ln-title').focus({ preventScroll: true }); });
 $('q').addEventListener('input', renderList);
 $('seg-sort').addEventListener('click', e => {
   const b = e.target.closest('[data-sort]'); if (!b) return;
@@ -398,7 +470,7 @@ function closeSheet(restoreFocus) {
   const was = selected;
   $('sheet').hidden = true;
   $('sheet').classList.remove('exp'); document.body.classList.remove('sheet-exp');
-  if (selected && markers[selected]) markers[selected].setIcon(pinIcon(byId[selected], false));
+  if (selected && markers[selected]) markers[selected].setIcon(pinIcon(byId[selected], false)).setZIndexOffset(0);
   selected = null;
   clearRoute();
   if (location.hash) history.replaceState(null, '', location.pathname + location.search);
@@ -451,6 +523,116 @@ function openFromHash() {
   openSheet(p);
 }
 window.addEventListener('hashchange', openFromHash);
+// Top edge of the free map area: below the category strip and the search pill
+function topClear() { return Math.max($('cats').getBoundingClientRect().bottom, $('find').getBoundingClientRect().bottom) + 12; }
+
+// Search (native modal dialog): our places match instantly as you type; towns and villages come from OpenStreetMap
+// Nominatim (only the typed text is sent; debounced, max 1 request a second, previous request aborted, cached in memory only).
+const NOMINATIM = 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=6&countrycodes=es&accept-language=en&viewbox=-6.4,42.7,-3.0,43.8&bounded=0&q=';
+const TOWN_TYPE = { city: 'City', town: 'Town', village: 'Village', hamlet: 'Hamlet', isolated_dwelling: 'Hamlet', suburb: 'District', quarter: 'District', neighbourhood: 'Neighbourhood', municipality: 'Municipality', county: 'County', province: 'Province', state: 'Region', locality: 'Locality', peak: 'Peak', beach: 'Beach' };
+const SETTLEMENT = new Set(['City', 'Town', 'Village', 'Hamlet', 'District', 'Neighbourhood', 'Municipality', 'Locality']);
+const sdlg = $('dlg-search'), sq = $('sq');
+const town = { cache: new Map(), ctl: null, timer: 0, last: 0, state: '', list: [] }; // state: '' | 'wait' | 'ok' | 'err'
+let sayT = 0;
+
+function localMatches(q) {
+  const words = q.split(/\s+/).filter(Boolean);
+  if (!words.length) return [];
+  const rank = p => { const n = fold(p.name); return n.startsWith(q) ? 0 : n.includes(q) ? 1 : 2; };
+  return Object.values(byId).filter(p => words.every(w => hay.get(p.id).includes(w)))
+    .map(p => ({ p, r: rank(p) })).sort((a, b) => a.r - b.r || a.p.name.localeCompare(b.p.name, 'es')).slice(0, 40).map(x => x.p);
+}
+function parseTowns(arr) {
+  const seen = new Set();
+  return (Array.isArray(arr) ? arr : []).map((r, i) => {
+    const parts = String(r.display_name || '').split(',').map(s => s.trim()).filter(Boolean);
+    const t = String(r.addresstype || r.type || '');
+    const x = { name: r.name || parts[0] || '', lat: +r.lat, lon: +r.lon, i,
+      where: parts.slice(1).filter(s => !/^\d/.test(s) && !/^(spain|españa)$/i.test(s)).slice(-2).join(', '),
+      type: TOWN_TYPE[t] || (t ? t[0].toUpperCase() + t.slice(1).replace(/_/g, ' ') : 'Place') };
+    x.inBox = x.lon >= -6.4 && x.lon <= -3.0 && x.lat >= 42.7 && x.lat <= 43.8; // Cantabria, Asturias and around
+    return x;
+  }).filter(x => x.name && Number.isFinite(x.lat) && Number.isFinite(x.lon))
+    .sort((a, b) => (b.inBox - a.inBox) || a.i - b.i)
+    .filter(x => { const k = fold(x.name + '|' + x.where); if (seen.has(k)) return false; seen.add(k); return true; });
+}
+function queueTowns(now) {
+  clearTimeout(town.timer);
+  town.ctl?.abort();
+  const q = sq.value.trim(), key = fold(q);
+  if (key.length < 3) { town.state = ''; town.list = []; return; }
+  if (town.cache.has(key)) { town.state = 'ok'; town.list = town.cache.get(key); return; }
+  if (!navigator.onLine) { town.state = 'err'; town.list = []; return; }
+  town.state = 'wait'; town.list = [];
+  town.timer = setTimeout(() => fetchTowns(q, key), Math.max(now ? 0 : 700, 1000 - (Date.now() - town.last)));
+}
+async function fetchTowns(q, key) {
+  const ctl = town.ctl = new AbortController();
+  let timedOut = false;
+  const to = setTimeout(() => { timedOut = true; ctl.abort(); }, 8000);
+  town.last = Date.now();
+  try {
+    const res = await fetch(NOMINATIM + encodeURIComponent(q), { signal: ctl.signal, credentials: 'omit' });
+    if (!res.ok) throw new Error(res.status);
+    const list = parseTowns(await res.json());
+    town.cache.set(key, list);
+    if (fold(sq.value.trim()) !== key) return;
+    town.state = 'ok'; town.list = list;
+  } catch {
+    if ((ctl.signal.aborted && !timedOut) || fold(sq.value.trim()) !== key) return; // superseded by newer typing
+    town.state = 'err'; town.list = [];
+  } finally { clearTimeout(to); }
+  if (sdlg.open) renderSearch();
+}
+
+function renderSearch() {
+  const raw = sq.value.trim(), q = fold(raw), local = localMatches(q);
+  let html = '';
+  if (!q) html = '<p class="s-hint">Find one of our places, or a town or village to see what is nearby.</p>';
+  for (const [k, c] of Object.entries(CATEGORIES)) {
+    const l = local.filter(p => p.category === k);
+    if (l.length) html += `<h3 class="s-h"><span class="sw" style="background:${c.color}"></span>${esc(c.label)}</h3><ul class="res" role="list">${l.map(p => `<li><button type="button" data-id="${esc(p.id)}">${placeRow(p)}</button></li>`).join('')}</ul>`;
+  }
+  if (q && !local.length) html += '<p class="s-hint">None of our places match.</p>';
+  if (q.length >= 3) {
+    html += '<h3 class="s-h">Towns &amp; places</h3>';
+    if (town.state === 'wait') html += '<p class="s-hint">Searching towns…</p>';
+    else if (town.state === 'err') html += '<p class="s-hint">Town search unavailable</p>';
+    else if (town.state === 'ok') html += town.list.length
+      ? `<ul class="res" role="list">${town.list.map((t, i) => `<li><button type="button" data-town="${i}"><span class="gl town" aria-hidden="true">${SETTLEMENT.has(t.type) ? '🏘️' : '📌'}</span><span><span class="nm">${esc(t.name)}</span><br><span class="mt">${esc([t.type, t.where].filter(Boolean).join(' · '))}</span></span></button></li>`).join('')}</ul><p class="s-credit">Towns: © OpenStreetMap contributors, via Nominatim</p>`
+      : '<p class="s-hint">No towns or places found.</p>';
+  } else if (q) html += '<p class="s-hint">Type 3 or more letters to look up towns and villages.</p>';
+  $('s-res').innerHTML = html;
+  clearTimeout(sayT); // announce the counts once typing pauses
+  sayT = setTimeout(() => {
+    const n = local.length, tn = town.state === 'ok' ? town.list.length : 0;
+    $('s-status').textContent = !q ? '' : `${n} of our ${n === 1 ? 'place' : 'places'}` + (q.length < 3 ? '' : town.state === 'wait' ? ', searching towns' : town.state === 'err' ? ', town search unavailable' : `, ${tn} ${tn === 1 ? 'town' : 'towns'}`);
+  }, 500);
+}
+function openSearch() {
+  if (sdlg.open) return;
+  sdlg.showModal();
+  sq.select();
+  queueTowns(false);
+  renderSearch();
+}
+$('btn-search').addEventListener('click', openSearch);
+sq.addEventListener('input', () => { queueTowns(false); renderSearch(); });
+$('s-form').addEventListener('submit', e => { e.preventDefault(); if (town.state !== 'ok') { queueTowns(true); renderSearch(); } });
+sq.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { const b = $('s-res').querySelector('button'); if (b) { e.preventDefault(); b.focus(); } } });
+sdlg.addEventListener('close', () => { clearTimeout(town.timer); town.ctl?.abort(); if (town.state === 'wait') town.state = ''; });
+$('s-res').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.id) {
+    sdlg.close();
+    const h = '#' + encodeURIComponent(b.dataset.id);
+    if (location.hash === h) openFromHash(); else location.hash = h; // the same place twice gives no hashchange
+  } else if (b.dataset.town) {
+    const t = town.list[+b.dataset.town]; if (!t) return;
+    sdlg.close();
+    showNear({ lat: t.lat, lon: t.lon, name: t.name, sub: [t.type, t.where].filter(Boolean).join(' · '), town: true });
+  }
+});
 
 async function init() {
   let data;
@@ -470,6 +652,7 @@ async function init() {
 
   for (const p of places) {
     byId[p.id] = p;
+    hay.set(p.id, fold([p.name, p.area, p.kind, typeLabel(p), catOf(p).label, catOf(p).single].join(' ')));
     const g = groups[p.category] || (groups[p.category] = L.layerGroup());
     const m = L.marker([p.lat, p.lon], { icon: pinIcon(p, false), title: p.name + ', ' + typeLabel(p), riseOnHover: true })
       .on('click', e => { L.DomEvent.stopPropagation(e); openSheet(p); })
@@ -594,7 +777,7 @@ async function init() {
   // restaurants can be anywhere (e.g. Oviedo), so they do not stretch the opening view.
   // Pad only for the bars that cover the map, so Cantabria fills a phone screen.
   const core = places.filter(p => p.category !== 'restaurant');
-  const top = $('cats').getBoundingClientRect().bottom, tabsH = $('tabs').getBoundingClientRect().height;
+  const top = topClear() - 12, tabsH = $('tabs').getBoundingClientRect().height;
   if (core.length) map.fitBounds(L.latLngBounds(core.map(p => [p.lat, p.lon])), phone()
     ? { paddingTopLeft: [16, top + 8], paddingBottomRight: [16, tabsH + 16], maxZoom: 10, animate: false }
     : { paddingTopLeft: [70, top + 20], paddingBottomRight: [70, tabsH + 40], maxZoom: 9, animate: false });

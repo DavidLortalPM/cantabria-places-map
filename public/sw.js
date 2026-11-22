@@ -3,7 +3,7 @@
 //   If the network is slow (> NET_TIMEOUT_MS), fails, or the site is blocked by an ISP (e.g. LaLiga match windows
 //   in Spain), the saved copy is used instead, so the map still opens. A slow request keeps going and refreshes the copy.
 // - Libraries and icons: cache first. Photos: cached as you view them. Map tiles: cached as you view them (capped).
-const VERSION = 'v7';
+const VERSION = 'v8';
 const SHELL = `shell-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
 const TILES = `tiles-${VERSION}`;
@@ -97,7 +97,7 @@ self.addEventListener('fetch', e => {
     e.respondWith(tile(req));
     return;
   }
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin) return; // other sites (e.g. the Nominatim town search) go straight to the network, never cached
 
   if (req.mode === 'navigate') { // the page itself
     e.respondWith(networkFirst('/', '/'));

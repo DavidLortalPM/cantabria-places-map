@@ -42,6 +42,11 @@
 
 <nav id="cats" aria-label="Show categories"></nav>
 
+<div id="find">
+  <button id="btn-search" class="pill" type="button" aria-haspopup="dialog" aria-label="Search places or towns"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="t">Search places or towns</span></button>
+  <span id="near-pill" class="pill" hidden><button id="near-open" type="button"><span aria-hidden="true">📍</span><span id="near-name"></span></button><button id="near-x" type="button" class="nx">×</button></span>
+</div>
+
 <div class="ctrl-stack">
   <button id="btn-base" class="ctrl" type="button" aria-label="Switch map style" title="Switch map style"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5zM3 12l9 5 9-5M3 16l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></button>
   <button id="btn-locate" class="ctrl" type="button" aria-label="Show my location" title="Show my location"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="1.8" fill="currentColor"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
@@ -49,7 +54,17 @@
 
 <section id="listview" hidden aria-labelledby="list-h">
   <h2 id="list-h" class="sr-only">Places list</h2>
-  <div class="lv-head">
+  <div id="lv-near" class="lv-near" hidden>
+    <div class="ln-top">
+      <div class="ln-t"><h3 id="ln-title" tabindex="-1"></h3><span id="ln-sub" class="mt"></span></div>
+      <div class="seg" id="seg-r" role="group" aria-label="Radius">
+        <button type="button" data-r="5" aria-pressed="false">5 km</button><button type="button" data-r="15" aria-pressed="true">15 km</button><button type="button" data-r="30" aria-pressed="false">30 km</button>
+      </div>
+      <button id="ln-x" class="x" type="button" aria-label="Close nearby view">×</button>
+    </div>
+    <div id="ln-cats" role="group" aria-label="Show category"></div>
+  </div>
+  <div class="lv-head" id="lv-head">
     <input id="q" type="search" placeholder="Search places" aria-label="Search places" autocomplete="off" enterkeyhint="search">
     <div class="seg" id="seg-sort" role="group" aria-label="Sort">
       <button type="button" data-sort="near" aria-pressed="false">Nearest</button>
@@ -84,7 +99,19 @@
   <div id="about-info"></div>
 </dialog>
 
-<dialog id="intro" aria-labelledby="intro-title" closedby="any">
+<dialog id="dlg-search" closedby="any" aria-labelledby="s-h">
+  <div class="s-top">
+    <div class="bs-head"><h2 id="s-h">Search</h2><button class="x" type="button" data-close aria-label="Close">×</button></div>
+    <form id="s-form" role="search">
+      <label for="sq" class="sr-only">Search places, towns or villages</label>
+      <input id="sq" type="search" placeholder="Places, towns or villages" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-describedby="s-status" autofocus>
+    </form>
+  </div>
+  <p id="s-status" class="sr-only" aria-live="polite"></p>
+  <div id="s-res"></div>
+</dialog>
+
+<dialog id="intro"aria-labelledby="intro-title" closedby="any">
   <form method="dialog">
     <svg class="mark" viewBox="0 0 512 512" width="40" height="40" aria-hidden="true"><rect width="512" height="512" rx="112" fill="#1f4d3a"/><path fill="#fff" fill-rule="evenodd" d="M256 92a124 124 0 0 0-50 237.5L256 412l50-82.5A124 124 0 0 0 256 92Zm0 77a46 46 0 1 1 0 92a46 46 0 0 1 0-92Z"/></svg>
     <h2 id="intro-title">Cantabria Map</h2>

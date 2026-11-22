@@ -28,6 +28,66 @@ body{font:15px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--fg)
 #cats button[aria-pressed="false"]::after{background:var(--line)}
 .cats-err{margin:0;padding:12px;font-weight:600}
 
+/* Search pill (and the "Near <town>" pill) just under the category strip: centred on phones, right-aligned under the strip on wider screens */
+#find{position:fixed;z-index:1000;top:calc(var(--sa-t) + var(--cats-h) + 2px);left:var(--sa-l);right:var(--sa-r);max-width:560px;margin-inline:auto;display:flex;justify-content:center;gap:8px;pointer-events:none}
+#find>*{pointer-events:auto}
+.pill{display:inline-flex;align-items:center;min-width:0;min-height:44px;border:0;border-radius:999px;background:var(--card);color:var(--fg);box-shadow:var(--shadow);font:600 14px/1.2 system-ui,-apple-system,"Segoe UI",sans-serif}
+#btn-search{flex:none;gap:8px;padding:0 16px 0 12px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#btn-search svg{flex:none;color:var(--muted)}
+#near-pill[hidden]{display:none}
+#near-pill{overflow:hidden;background:var(--accent);color:var(--bg)}
+#near-pill button{min-height:44px;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
+#near-open{display:flex;align-items:center;gap:6px;min-width:0;padding:0 4px 0 12px}
+#near-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#near-pill .nx{flex:none;width:44px;font-size:22px;line-height:1}
+@media (max-width:719px){
+  #find.has-near #btn-search{padding:0;width:44px;justify-content:center}
+  #find.has-near #btn-search .t{display:none}
+  body.sheet-exp #find{display:none}
+}
+@media (min-width:720px){#find{right:64px;justify-content:flex-end;top:calc(var(--sa-t) + var(--cats-h) + 8px)}}
+
+/* Search dialog (native modal): a card at the top of the screen so the keyboard never covers the field */
+#dlg-search{width:min(560px,calc(100% - 16px));max-height:calc(100dvh - var(--sa-t) - 24px);margin:var(--sa-t) auto auto;padding:0 12px 12px;border:0;border-radius:16px;background:var(--card);color:var(--fg);box-shadow:var(--shadow);overflow-y:auto;font-size:14px}
+#dlg-search:modal{overscroll-behavior:contain}
+#dlg-search::backdrop{background:rgb(12 24 18 / .45);overflow:hidden;overscroll-behavior:contain}
+.s-top{position:sticky;top:0;z-index:1;background:var(--card);padding-bottom:6px}
+.s-top .bs-head{position:static;padding-top:4px}
+#sq{width:100%;min-height:48px;font:16px system-ui,-apple-system,"Segoe UI",sans-serif;padding:0 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg)}
+.s-h{display:flex;align-items:center;gap:8px;margin:14px 4px 2px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.s-h .sw{width:10px;height:10px}
+.s-hint{margin:10px 4px;color:var(--muted)}
+.s-credit{margin:6px 4px 0;font-size:12px;color:var(--muted)}
+.res{list-style:none;margin:0;padding:0}
+.res button{width:100%;text-align:left;background:none;border:0;font:inherit;font-size:15px;cursor:pointer}
+.gl.town{--c:#4a5568}
+@media (hover:hover){.res button:hover{background:var(--line)}}
+@media (prefers-reduced-motion:no-preference){#dlg-search[open]{animation:intro-in .18s ease-out}}
+
+/* Nearby mode of the List view */
+.lv-near{padding:8px 12px 2px}
+.lv-near[hidden],.lv-head[hidden]{display:none}
+.ln-top{display:flex;align-items:center;gap:8px}
+.ln-t{flex:1;min-width:0;padding:4px 0 0 4px}
+.ln-t h3{margin:0;font-size:17px;line-height:1.25;overflow-wrap:anywhere}
+.ln-t h3:focus{outline:none}
+.ln-t .mt{display:block;font-size:13px;color:var(--muted)}
+#ln-cats{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+#ln-cats:empty{display:none}
+#ln-cats button{display:flex;align-items:center;gap:4px;min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--fg);font:600 13px system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
+#ln-cats button[aria-pressed="true"]{background:color-mix(in srgb,var(--c) 18%,var(--card));border-color:var(--c)}
+#ln-cats .n{font-weight:500;color:var(--muted)}
+#seg-r button{padding:0 9px}
+#ln-cats .cl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap} /* glyph + count only; the name stays for screen readers and the tooltip */
+#ln-cats button{padding:0 11px}
+
+/* Temporary marker for a searched town */
+.townwrap{overflow:visible}
+.townpin{position:absolute;left:0;top:0;translate:-50% calc(-100% - 7px);padding:5px 10px;border-radius:8px;background:#1c2421;color:#fff;font:700 13px/1.2 system-ui,-apple-system,"Segoe UI",sans-serif;white-space:nowrap;box-shadow:0 0 0 2px #fff,0 2px 8px rgba(0,0,0,.5)}
+.townpin::after{content:"";position:absolute;left:50%;bottom:-7px;translate:-50% 0;border:7px solid transparent;border-bottom:0;border-top-color:#1c2421}
+.townpin::before{content:"";position:absolute;left:50%;bottom:-13px;width:8px;height:8px;translate:-50% 0;border-radius:50%;background:#1c2421;box-shadow:0 0 0 2px #fff}
+.leaflet-marker-icon:focus-visible .townpin{box-shadow:0 0 0 3px #fff,0 0 0 6px #1f4d3a}
+
 /* Bottom tab bar */
 #tabs{position:fixed;z-index:1250;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);min-height:var(--tabs-b);padding:0 env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px);background:var(--card);border-top:1px solid var(--line)}
 #tabs button{display:grid;justify-items:center;align-content:center;gap:2px;min-height:var(--tab-h);border:0;background:none;color:var(--muted);font:600 12px/1 system-ui,-apple-system,"Segoe UI",sans-serif;position:relative;cursor:pointer;-webkit-tap-highlight-color:transparent}
@@ -43,10 +103,10 @@ body{font:15px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--fg)
 .lv-count{margin:0 16px 4px;font-size:13px;color:var(--muted)}
 #lv{list-style:none;margin:0;padding:0 0 12px;overflow-y:auto;overscroll-behavior:contain;flex:1}
 #lv li.lv-count{margin:16px}
-#lv a{display:grid;grid-template-columns:36px 1fr auto;gap:10px;align-items:center;min-height:60px;padding:8px 16px;color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
-#lv .gl{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--c);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35);font-size:17px}
-#lv .nm{font-weight:600;overflow-wrap:anywhere}
-#lv .mt{font-size:13px;color:var(--muted)}
+#lv a,.res button{display:grid;grid-template-columns:36px 1fr auto;gap:10px;align-items:center;min-height:60px;padding:8px 16px;color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+:is(#lv,.res) .gl{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--c);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35);font-size:17px}
+:is(#lv,.res) .nm{font-weight:600;overflow-wrap:anywhere}
+:is(#lv,.res) .mt{font-size:13px;color:var(--muted)}
 #lv .rt{font-size:13px;color:var(--muted);text-align:right;white-space:nowrap}
 .seg{display:inline-flex;flex:none;border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .seg button{min-height:44px;padding:0 12px;border:0;background:var(--card);color:var(--muted);font:600 14px system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
@@ -84,7 +144,9 @@ dialog.bsheet h3{margin:16px 0 6px;font-size:12px;text-transform:uppercase;lette
 }
 
 /* Focus, press and hover states */
-:where(.chip,.ctrl,#sheet-close,.x,.actions a,.more-btn,summary,select,.links a,#freset,#sheet-grab,.hero figcaption a,#cats button,#tabs button,.seg button,#lv a,.primary-btn,.about,#q):focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+:where(.chip,.ctrl,#sheet-close,.x,.actions a,.more-btn,.near-btn,summary,select,.links a,#freset,#sheet-grab,.hero figcaption a,#cats button,#tabs button,.seg button,#lv a,.primary-btn,.about,#q,#sq,#btn-search,.res button,#ln-cats button):focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+:where(#near-pill button):focus-visible{outline:3px solid var(--fg);outline-offset:-4px}
+#lv a:focus-visible,.res button:focus-visible{outline-offset:-3px}
 #sheet h2:focus{outline:none}
 .leaflet-marker-icon:focus,.leaflet-marker-icon:focus-visible{outline:none}
 .leaflet-marker-icon:focus-visible .pin{box-shadow:0 0 0 3px #fff,0 0 0 6px #1f4d3a}
@@ -112,7 +174,7 @@ dialog.bsheet h3{margin:16px 0 6px;font-size:12px;text-transform:uppercase;lette
 #fpanel .chip[aria-pressed="true"] .n{color:inherit;opacity:.8}
 /* Stage toggles: all on = nothing filtered, so "on" is a soft tick and "off" is struck through (solid read as "only these") */
 #stages .chip[aria-pressed="true"]{background:var(--okbg);color:var(--ok);border-color:currentColor}
-#stages .chip[aria-pressed="true"]::before{content:"✓"}
+#stages .chip[aria-pressed="true"]::before{content:"âœ“"}
 #stages .chip[aria-pressed="false"]{text-decoration:line-through}
 #fpanel select.chip{font-size:16px;padding-right:34px;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23808a85' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center;color:var(--fg)}
 #freset{margin-top:12px;border:0;background:none;color:var(--accent);font:inherit;font-weight:600;padding:12px 0;min-height:44px;cursor:pointer}
@@ -139,7 +201,7 @@ dialog.bsheet h3{margin:16px 0 6px;font-size:12px;text-transform:uppercase;lette
 #sheet-close{position:absolute;top:6px;right:8px;width:44px;height:44px;border:0;border-radius:50%;background:var(--line);color:var(--fg);font-size:26px;line-height:1;cursor:pointer;z-index:2}
 #sheet-body{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding-bottom:12px}
 .actions{display:flex;gap:8px;margin:12px 0 2px}
-.actions a,.more-btn{flex:1 1 0;display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 14px;border-radius:12px;border:0;background:var(--line);color:var(--fg);font:inherit;font-weight:600;text-decoration:none;cursor:pointer}
+.actions a,.more-btn,.near-btn{flex:1 1 0;display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 14px;border-radius:12px;border:0;background:var(--line);color:var(--fg);font:inherit;font-weight:600;text-decoration:none;cursor:pointer}
 .actions a.primary{flex:1.4 1 0;background:var(--accent);color:#fff}
 @media (max-width:719px){
   #sheet{bottom:var(--tabs-b);padding-bottom:0;max-height:calc(68dvh - var(--tabs-b))}
@@ -217,7 +279,7 @@ summary{cursor:pointer;color:var(--muted);font-weight:600;padding:12px 0;min-hei
 #intro .layers{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 12px;padding:0;list-style:none;font-size:14px;font-weight:600}
 #intro .layers i{display:inline-block;width:10px;height:10px;margin-right:6px;border-radius:50%;background:var(--c)}
 #intro .meta{font-size:13px;color:var(--muted)}
-#intro .meta span::after{content:" · "}
+#intro .meta span::after{content:" Â· "}
 #intro .meta span:empty::after{content:none}
 #intro .go{display:block;width:100%;min-height:48px;margin-top:4px;border:0;border-radius:999px;background:var(--accent);color:var(--bg);font:inherit;font-weight:700;cursor:pointer}
 #intro .go:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
