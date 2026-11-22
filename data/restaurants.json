@@ -386,5 +386,29 @@
     "kind": "Seafood",
     "phone": "+34 942 13 10 51",
     "description": "Seafood-focused restaurant in Liencres with a panoramic terrace by the cliffs; Cantabrian sea produce, turbot, caldeirada, homemade croquettes and house desserts. Reviewers praise the views; some note it gets crowded and noisy."
+  },
+  {
+    "name": "El Carmelo",
+    "category": "restaurant",
+    "lat": 43.4661759,
+    "lon": -3.7994963,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/1Qsysu6fS5n9FAEN6",
+    "area": "Santander",
+    "kind": "Restaurant"
+  },
+  {
+    "name": "Ají Limón by Nelly",
+    "category": "restaurant",
+    "lat": 43.4691113,
+    "lon": -3.7984119,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; details from web listing (check before going)",
+    "gmaps": "https://maps.app.goo.gl/sgpokoteUTUyuAAX8",
+    "area": "Santander",
+    "kind": "Peruvian / Asian fusion",
+    "priceLevel": "€€",
+    "description": "Small neighbourhood restaurant (about four tables) blending Peruvian and Asian flavours. Dishes named by one listing: corvina ceviche, Korean potatoes, chaufa rice, steak tartare and the Peruanito shredded-beef sandwich. About €30 per person before drinks."
   }
 ]
