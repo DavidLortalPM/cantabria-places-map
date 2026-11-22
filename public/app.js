@@ -33,6 +33,27 @@ const safeStore = {
   set(k, v) { try { localStorage.setItem(k, v); } catch { /* private mode */ } }
 };
 
+// Languages of the "More details" texts. A new language = public/data/details.<lang>.json (scripts/build-details.mjs)
+// + its code in LANGS + its strings in STRINGS. A language picker appears in More once there is more than one.
+const LANGS = ['en'];
+const LANG_NAMES = { en: 'English', es: 'Español', fr: 'Français', de: 'Deutsch' };
+const STRINGS = {
+  en: {
+    moreDetails: 'More details',
+    sources: 'Sources',
+    note: 'Translated from Spanish tourism sources (CANTUR / Turismo de Cantabria). Check opening times before you go.',
+    uncertain: 'Some of these details could not be confirmed.',
+    language: 'Language'
+  }
+};
+let lang = (() => {
+  const saved = safeStore.get('lang');
+  if (LANGS.includes(saved)) return saved;
+  const nav = String(navigator.language || '').slice(0, 2).toLowerCase();
+  return LANGS.includes(nav) ? nav : 'en';
+})();
+const t = k => STRINGS[lang]?.[k] ?? STRINGS.en[k] ?? k;
+
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const A = reduce ? { animate: false } : {}; // passed to every programmatic map move
 const wide = matchMedia('(min-width:720px)');
@@ -195,6 +216,74 @@ function renderPlace(p) {
     ${p.hours ? `<details><summary>Opening hours</summary><p>${esc(p.hours)}</p></details>` : ''}`];
 }
 
+// "More details": longer texts per place from /data/details.<lang>.json, fetched once on first need and kept in memory.
+// A failed fetch is silent (no section shown) and is retried the next time it is needed.
+const details = { lang: null, data: null, req: null };
+function loadDetails() {
+  if (details.lang === lang && details.data) return Promise.resolve(details.data);
+  if (details.lang === lang && details.req) return details.req;
+  const my = lang;
+  details.lang = my; details.data = null;
+  details.req = fetch('/data/details.' + encodeURIComponent(my) + '.json')
+    .then(res => { if (!res.ok) throw new Error(res.status); return res.json(); })
+    .then(d => {
+      if (details.lang !== my) return details.req;
+      details.data = d && typeof d === 'object' ? d : {};
+      for (const [id, x] of Object.entries(details.data)) if (hay.has(id) && x?.summary) hay.set(id, hay.get(id).split('\u0001')[0] + '\u0001' + fold(x.summary)); // search also matches the summary
+      return details.data;
+    })
+    .catch(() => { if (details.lang === my) details.req = null; return null; });
+  return details.req;
+}
+// Phone numbers (Spanish 9-digit, optional +34), emails and URLs inside a fact value become links; the rest is escaped text
+const LINKY = /(https?:\/\/[^\s<>"]+|www\.[^\s<>"]+)|([\w.+-]+@[\w-]+(?:\.[\w-]+)+)|((?:\+34[\s.]?)?[6789]\d{2}(?:[\s.]?\d{3}[\s.]?\d{3}|[\s.]?\d{2}[\s.]?\d{2}[\s.]?\d{2}))(?!\d)/g;
+function linkify(s) {
+  let out = '', i = 0;
+  for (const m of String(s).matchAll(LINKY)) {
+    let [all, url, mail, tel] = m, tail = '';
+    if (url) { const k = url.match(/[.,;:!?)\]]+$/); if (k) { tail = k[0]; url = url.slice(0, -tail.length); } }
+    const text = url || mail || tel;
+    const href = url ? (/^www\./i.test(url) ? 'https://' + url : url) : mail ? 'mailto:' + mail : 'tel:' + tel.replace(/[\s.]/g, '');
+    out += esc(s.slice(i, m.index)) + `<a href="${esc(href)}"${url ? ' target="_blank" rel="noopener"' : ''}>${esc(text)}</a>` + esc(tail);
+    i = m.index + all.length;
+  }
+  return out + esc(s.slice(i));
+}
+function renderDetails(d) {
+  const paras = String(d.summary || '').split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+  const facts = (d.facts || []).filter(f => Array.isArray(f) && f[0] && f[1]);
+  const srcs = (d.sources || []).filter(s => /^https?:\/\//i.test(s?.url || ''));
+  return `<details class="xd" lang="${esc(lang)}">
+      <summary>${esc(t('moreDetails'))}</summary>
+      ${d.uncertain ? `<div class="callout">${esc(typeof d.uncertain === 'string' ? d.uncertain : t('uncertain'))}</div>` : ''}
+      ${paras.map(p => `<p>${esc(p)}</p>`).join('')}
+      ${facts.length ? `<dl class="kv">${facts.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${linkify(v)}</dd>`).join('')}</dl>` : ''}
+      ${srcs.length ? `<h3 class="xd-h">${esc(t('sources'))}</h3><ul class="xd-src">${srcs.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.url)}</a></li>`).join('')}</ul>` : ''}
+      <p class="xd-note">${esc(t('note'))}</p>
+    </details>`;
+}
+async function showDetails(p) {
+  const d = await loadDetails();
+  const slot = $('sheet-xd');
+  if (!slot || selected !== p.id || $('sheet').hidden) return; // another place was picked meanwhile
+  const x = d?.[p.id];
+  slot.innerHTML = x && (x.summary || x.facts?.length) ? renderDetails(x) : '';
+}
+// Language picker (More dialog), only when there is more than one language
+if (LANGS.length > 1) {
+  const h = document.createElement('h3'); h.textContent = t('language');
+  const seg = document.createElement('div');
+  seg.className = 'seg'; seg.id = 'seg-lang'; seg.setAttribute('role', 'group'); seg.setAttribute('aria-label', t('language'));
+  seg.innerHTML = LANGS.map(l => `<button type="button" data-lang="${esc(l)}" lang="${esc(l)}" aria-pressed="${l === lang}">${esc(LANG_NAMES[l] || l)}</button>`).join('');
+  seg.addEventListener('click', e => {
+    const b = e.target.closest('[data-lang]'); if (!b || b.dataset.lang === lang) return;
+    lang = b.dataset.lang; safeStore.set('lang', lang);
+    for (const x of seg.children) x.setAttribute('aria-pressed', String(x.dataset.lang === lang));
+    if (selected && !$('sheet').hidden) showDetails(byId[selected]);
+  });
+  $('seg-base').after(h, seg);
+}
+
 function rememberView() { if (!prevView) { prevView = { c: map.getCenter(), z: map.getZoom() }; autoView = null; } }
 
 function openSheet(p) {
@@ -218,6 +307,7 @@ function openSheet(p) {
     <div class="sh-more">
       ${im ? `<figure class="hero"><img src="${esc(im.src)}" alt="${esc(p.name)}" loading="lazy"><figcaption>Photo: ${esc(im.credit)} · ${im.page && /^https?:\/\//i.test(im.page) ? `<a href="${esc(im.page)}" target="_blank" rel="noopener">${esc(im.license || 'Wikimedia Commons')}</a>` : esc(im.license || '')}</figcaption></figure>` : ''}
       ${more}
+      <div id="sheet-xd"></div>
       <div class="links">
         ${link(h.officialUrl, 'Official route')}
         ${link(h.allTrailsUrl, 'AllTrails')}
@@ -235,6 +325,7 @@ function openSheet(p) {
   history.replaceState(null, '', '#' + p.id);
   layoutSheet(true);
   showRoute(p);
+  showDetails(p);
   $('sheet-title').focus({ preventScroll: true });
 }
 
@@ -372,7 +463,11 @@ function setTab(t) {
   for (const b of document.querySelectorAll('#tabs [data-tab]')) {
     if (b.dataset.tab === t) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
   }
-  if (list) { if (!$('sheet').hidden) closeSheet(); renderList(); }
+  if (list) {
+    if (!$('sheet').hidden) closeSheet();
+    renderList();
+    loadDetails().then(d => { if (d && !$('listview').hidden && $('q').value.trim()) renderList(); });
+  }
 }
 $('tabs').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) setTab(b.dataset.tab); });
 
@@ -617,6 +712,7 @@ function openSearch() {
   if (sdlg.open) return;
   sdlg.showModal();
   sq.select();
+  loadDetails().then(d => { if (d && sdlg.open && sq.value.trim()) renderSearch(); }); // summaries join the search once loaded
   queueTowns(false);
   renderSearch();
 }

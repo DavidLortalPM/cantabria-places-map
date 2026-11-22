@@ -29,6 +29,21 @@ Hike records use the same file with `category: "hike"` and a `hike` object
 (`distanceKm, ascentM, duration, difficulty, stage, routeType, childSuitability, conditions, exposure, trailhead, parking, plannedVersion, officialUrl, allTrailsUrl, gpxUrl, routeGeometry, trackSource`).
 `routeGeometry: "Full track"` only when a usable GPX/geometry URL is actually held.
 
+### More details (longer descriptions, per language)
+
+```
+data/details/*.<lang>.json        translated CANTUR entries ({ canturId, summary, facts, skip, duplicateOf, uncertain })
+data/details.map.json             { "<canturId>": "<placeId>" }
+data/details.extra.<lang>.json    hand-written entries { "<placeId>": { summary, facts, sources } } (e.g. from a paper leaflet)
+        └─ node scripts/build-details.mjs (also run by npm run data) ─▶ public/data/details.<lang>.json
+```
+
+Run it after `build-data.mjs` (it checks place ids against `public/data/places.json`). `skip: true` entries are dropped;
+a `duplicateOf` entry adds its facts to the target place and the longer summary wins; an extra entry's summary wins and its
+sources are added after the CANTUR link (`cantur-pois-64` in `data/source-links.json`). The sheet shows a "More details"
+disclosure only for places in the file, fetched once when first needed. To add a language: produce `details.<lang>.json`,
+add the code to `LANGS` and its strings to `STRINGS` in `public/app.js` (a language picker appears in More once there are two).
+
 ## Hike routes
 
 `data/gpx/<hike-id>/track.gpx` (raw tracks) + `data/gpx/sources.json` --`node scripts/build-routes.mjs`--> `public/routes/<hike-id>.json` (simplified line, a few KB each).

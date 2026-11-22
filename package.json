@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "data": "node scripts/build-data.mjs",
+    "data": "node scripts/build-data.mjs && node scripts/build-details.mjs",
+    "details": "node scripts/build-details.mjs",
     "deploy": "echo \"Deploy by uploading public/ to Hostinger (see README)\"",
     "brand": "node scripts/build-brand.mjs public"
   },

@@ -144,7 +144,7 @@ dialog.bsheet h3{margin:16px 0 6px;font-size:12px;text-transform:uppercase;lette
 }
 
 /* Focus, press and hover states */
-:where(.chip,.ctrl,#sheet-close,.x,.actions a,.more-btn,.near-btn,summary,select,.links a,#freset,#sheet-grab,.hero figcaption a,#cats button,#tabs button,.seg button,#lv a,.primary-btn,.about,#q,#sq,#btn-search,.res button,#ln-cats button):focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+:where(.chip,.ctrl,#sheet-close,.x,.actions a,.more-btn,.near-btn,summary,select,.links a,#freset,#sheet-grab,.hero figcaption a,#cats button,#tabs button,.seg button,#lv a,.primary-btn,.about,#q,#sq,#btn-search,.res button,#ln-cats button,.xd a):focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 :where(#near-pill button):focus-visible{outline:3px solid var(--fg);outline-offset:-4px}
 #lv a:focus-visible,.res button:focus-visible{outline-offset:-3px}
 #sheet h2:focus{outline:none}
@@ -253,6 +253,20 @@ summary{cursor:pointer;color:var(--muted);font-weight:600;padding:12px 0;min-hei
 .row{display:flex;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
 .row span{color:var(--muted);flex:none}
 .row b{text-align:right;font-weight:600;min-width:0}
+/* "More details" (longer translated text, facts and sources): a native disclosure, shown only when the place has details */
+#sheet-xd:empty{display:none}
+.xd{margin:10px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.xd>summary{display:flex;align-items:center;color:var(--accent)}
+.xd[open]>summary{margin-bottom:2px}
+.xd p{margin:0 0 10px;font-size:14.5px;overflow-wrap:anywhere}
+.xd .kv{margin:4px 0 10px}
+.xd .kv dd{overflow-wrap:anywhere}
+.xd a{color:var(--accent);font-weight:600;overflow-wrap:anywhere}
+.xd .kv a{display:inline-block;padding:4px 0}
+.xd-h{margin:12px 0 2px;font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+.xd-src{margin:0 0 6px;padding:0 0 0 18px;font-size:14px}
+.xd-src a{display:inline-block;min-height:36px;padding:8px 0;line-height:1.3}
+.xd .xd-note{font-size:13px;color:var(--muted)}
 
 /* Key and About (inside the More dialog) */
 #legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px 16px}

@@ -1,0 +1,1410 @@
+[
+ {
+  "canturId": 133,
+  "name": "Ayuntamiento de Santillana del Mar",
+  "skip": true,
+  "skipReason": "Administrative building (town hall), not a visitor attraction.",
+  "kind": "Town hall",
+  "town": "Santillana del Mar",
+  "lat": 43.39056488425808,
+  "lon": -4.10836655767211,
+  "summary": "One of the most stately buildings in the town, built in the early 18th century of yellowish sandstone ashlar. From 1833 it was altered to serve as the seat of the town council, and a major interior refurbishment in 1987 adapted it to its administrative role.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Mayor, 1, Santillana del Mar"
+   ],
+   [
+    "Phone",
+    "942 81 80 75"
+   ],
+   [
+    "Website",
+    "http://www.santillanadelmar.es"
+   ]
+  ]
+ },
+ {
+  "canturId": 671,
+  "name": "Capricho de Gaudí",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Comillas",
+  "lat": 43.38373316343426,
+  "lon": -4.292714595794678,
+  "summary": "Originally named Villa Quijano, El Capricho is one of the most representative works of Spanish Modernisme. Designed by the Catalan architect Antoni Gaudí and built in 1883–1885, it is one of his very few buildings outside Catalonia. It was commissioned as a summer house by Máximo Díaz de Quijano, a music-loving indiano enriched in Cuba and brother-in-law of the Marquis of Comillas. Music runs through it: iron railings shaped like treble clefs and semiquavers, and tubular window counterweights that chimed like bells. Bands of exposed brick alternate with sunflower-tile friezes, porch capitals show palm leaves and swallows, and the Persian-minaret-style tower blends Arab, Mudéjar and Gothic influences.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Sobrellano s/n, Comillas"
+   ],
+   [
+    "Hours",
+    "2026. January, February, November and December: Monday to Sunday 10:00–17:30. March, April, May, June, September and October: Monday to Sunday 10:00–20:00 (last entry 19:30). July and August: Monday to Sunday 10:00–21:00 (last entry 20:30). Guided tours (about 45 min) at set times every day; check availability at the ticket office or on the website (booking ahead recommended). Closed 24, 25 and 31 December and 1 and 6 January. Entrance via the Plazuela Fuente Real; recommended minimum visit 30 min."
+   ],
+   [
+    "Price",
+    "Entry with self-guided visit: €7; reduced €5 (over-65s, students, large families, accredited disability, unemployed; card required); ages 13–18 €5; ages 7–12 €3; under 7 free. Entry with guided tour: €10; reduced €8; ages 13–18 €8; ages 7–12 €6; under 7 free. Audio guide on your phone included; physical audio guide with headphones €1 extra."
+   ],
+   [
+    "Phone",
+    "942 720 365"
+   ],
+   [
+    "Email",
+    "visitas@elcaprichodegaudi.com"
+   ],
+   [
+    "Website",
+    "http://elcaprichodegaudi.com/"
+   ],
+   [
+    "Tickets",
+    "https://tickets.elcaprichodegaudi.com"
+   ]
+  ]
+ },
+ {
+  "canturId": 264,
+  "name": "Casa de Leonor de la Vega",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Santillana del Mar",
+  "lat": 43.39067449631138,
+  "lon": -4.107067358895488,
+  "summary": "Built at the end of the 15th century and substantially remodelled in the 16th, this house is attributed to Leonor de la Vega, mother of the Marquis of Santillana, Íñigo López de Mendoza. It has been restored and now houses the Hotel Casa del Marqués. The interior is not open to visitors.",
+  "facts": [
+   [
+    "Address",
+    "C/ Cantón, 10, Santillana del Mar"
+   ]
+  ]
+ },
+ {
+  "canturId": 130,
+  "name": "Casa de los Abades",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Santillana del Mar",
+  "lat": 43.39187453300494,
+  "lon": -4.106194428207015,
+  "summary": "Probably built at the end of the 17th century, this house originally belonged to the abbots of the Colegiata. Today it is known as the Casa de la Archiduquesa, having been the residence of Archduchess Margarita of Austria-Bourbon. The coats of arms are modern, made by local artist Jesús Otero, and show the emblems of Santillana's most notable lineages (Barreda, Velarde, Cossío, Villa, Bracho, Peredo and others), with the archduchess's arms beside them.",
+  "facts": [
+   [
+    "Address",
+    "C/ Río, 19, Santillana del Mar"
+   ],
+   [
+    "Phone",
+    "942 81 88 98"
+   ]
+  ]
+ },
+ {
+  "canturId": 125,
+  "name": "Casa de los Hombrones",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Santillana del Mar",
+  "lat": 43.39102343093007,
+  "lon": -4.106632422090157,
+  "summary": "A Baroque house from the end of the 17th century. It is named after the two soldiers who hold up its coat of arms, whose motto reads \"A good death honours a whole life\" (\"Un buen morir es honra de la vida\").",
+  "facts": [
+   [
+    "Address",
+    "C/ Río, 4, Santillana del Mar"
+   ]
+  ],
+  "uncertain": "The source hours field just says \"Restaurante Casa Miguel\" (presumably the current occupant); not used as hours."
+ },
+ {
+  "canturId": 126,
+  "name": "Casa de los Quevedo y Cossío",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Santillana del Mar",
+  "lat": 43.39137904408448,
+  "lon": -4.106192632506187,
+  "summary": "Two late-17th-century houses now joined into one home, with an unusual layout: a tunnel runs through the building as a drain for the drinking trough. The southern house belonged to the Quevedo family, whose coat of arms sits on a parapet of the north front; here you can try the classic glass of milk with sobao or sponge cake. Its curiosity is the door lintel, carved with a mask of Tláloc, the Aztec rain god, common on the doors of indianos' and conquistadors' houses to seek his protection, and featured in María Oruña's novel \"Puerto escondido\". Attached to the north front is the Cossío house, with one of the town's finest coats of arms.",
+  "facts": [
+   [
+    "Address",
+    "C/ Río, 8, Santillana del Mar"
+   ],
+   [
+    "Phone",
+    "688 91 24 26"
+   ]
+  ],
+  "uncertain": "Source web field is \"Obrador Casa Quevedo\" (a name, not a URL); dropped."
+ },
+ {
+  "canturId": 136,
+  "name": "Casa de los Villa",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Santillana del Mar",
+  "lat": 43.389417612637835,
+  "lon": -4.1087292042991574,
+  "summary": "A typical example of 18th-century town architecture, with pulpit-style balconies. In the mid-18th century it belonged to Francisco Antonio Pantaleón de Villa. The Villa arms share the quarters of its shield with those of the Cos, Bracho and Bustamante families.",
+  "facts": [
+   [
+    "Address",
+    "C/ Santo Domingo, 7, Santillana del Mar"
+   ]
+  ]
+ },
+ {
+  "canturId": 736,
+  "name": "Casa del Duque de Almodóvar del Río (Comillas)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Mansion",
+  "town": "Comillas",
+  "lat": 43.38775648475814,
+  "lon": -4.291534423828125,
+  "summary": "A magnificent 19th-century mansion, unique in Comillas because it is one of the few still owned by the original family, and it is still lived in: the owners spend their summer holidays there. It is shown on guided tours (mansion only, about 1 hour); availability must be checked and a booking made in advance.",
+  "facts": [
+   [
+    "Address",
+    "Prado San José 7, Comillas"
+   ],
+   [
+    "Hours",
+    "Closed until April 2027. In season: guided tours every Saturday and Sunday from Easter to September (inclusive), and in July every day except Monday; check public holidays and special dates. Start times: Saturdays 11:00, 12:00, 16:00 and 17:00; Sundays 11:00 and 12:00."
+   ],
+   [
+    "Price",
+    "Mansion only: adults €11; children 7–12 €7; under 6: ask."
+   ],
+   [
+    "Phone",
+    "609 131 298"
+   ],
+   [
+    "Website",
+    "https://visitacantabria.es/visitas/comillas/comillas-mansion/"
+   ],
+   [
+    "Tickets",
+    "https://visitacantabria.es/visitas/comillas/casa-del-duque-de-almodovar-del-rio-comillas/"
+   ]
+  ]
+ },
+ {
+  "canturId": 366,
+  "name": "Casas del Águila y la Parra",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Exhibition centre",
+  "town": "Santillana del Mar",
+  "lat": 43.3907119,
+  "lon": -4.1079782,
+  "summary": "These two houses stand in the heart of historic Santillana del Mar, on the Plaza Ramón Pelayo (Plaza Mayor), next to the town hall and opposite the Barreda-Bracho house, now the Parador Gil Blas. Fine examples of civil architecture from the 17th and 16th centuries respectively, they belong to the Government of Cantabria and were restored at the end of the 1980s. Between 1988 and 1991 they hosted exhibitions on the ethnography of Cantabria, and since then a number of art exhibitions. Entry is free.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Mayor s/n, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "1 October–31 May: closed Monday and Tuesday; Wednesday to Sunday 10:00–14:00 and 15:00–18:00. 1 June–30 September (and national long weekends and Easter): closed Monday and Tuesday; Wednesday to Sunday 10:00–14:00 and 15:00–19:00. Last visit 30 min before closing; the centre starts clearing 10 min before closing. Closed 1 and 6 January and 24, 25 and 31 December."
+   ],
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 818 398"
+   ],
+   [
+    "Website",
+    "https://centros.culturadecantabria.com/casas-del-aguila-y-la-parra/"
+   ]
+  ],
+  "uncertain": "Official English page gives different hours (low season 1 Oct–30 Apr, Tuesday–Sunday 10:00–14:00 and 16:00–18:30; high season 1 May–30 Sep, Wednesday–Sunday 10:00–14:00 and 16:00–19:00). Hours above follow the Spanish page."
+ },
+ {
+  "canturId": 242,
+  "name": "Cementerio de Comillas (El Ángel del cementerio)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Cemetery",
+  "town": "Comillas",
+  "lat": 43.3899496,
+  "lon": -4.2941029,
+  "summary": "Lluís Domènech i Montaner designed the remodelling of the cemetery, building the ruins of the old Gothic chapel into its structure and adding a new enclosure wall full of picturesque features (pinnacles, crosses pattée, an entrance arch). His design deliberately heightens the look of a ruin, setting off its outline with the marble Guardian Angel by sculptor Josep Llimona, placed on the walls above the nave of the old church.",
+  "facts": [
+   [
+    "Address",
+    "Paseo Manuel Noriega, 25, Comillas"
+   ]
+  ],
+  "duplicateOf": 539,
+  "uncertain": "Source gives \"(1894-1985)\" after Llimona's name; unclear what the dates refer to, so omitted."
+ },
+ {
+  "canturId": 532,
+  "name": "Centro Cultural El Espolón",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Cultural centre",
+  "town": "Comillas",
+  "lat": 43.386762374967695,
+  "lon": -4.289442300796509,
+  "summary": "In the late 18th century Juan Domingo González de la Reguera, Archbishop of Lima and a native of Comillas, had El Espolón built to house a Chair of Latin Grammar, established by royal decree of King Charles IV in 1789; in 1802 the Real Seminario Cántabro was founded here. Designed by architect Cosme Antonio Bustamante, it was restored in 2009 by Peridis. It now hosts cultural tourism, training, workshops, associations, a library and a telecentre; note its central courtyard and temporary exhibitions. Nearby are the Plaza de la Constitución (old town hall, San Cristóbal church), the Plaza del Corro, the Fuente de los Tres Caños and the Sacred Heart monument.",
+  "facts": [
+   [
+    "Address",
+    "C/ Antonio López 3, Comillas"
+   ],
+   [
+    "Hours",
+    "Monday to Friday 10:00–14:00 and 16:00–20:00. Closed Saturdays, Sundays and public holidays."
+   ],
+   [
+    "Phone",
+    "942 720 276"
+   ],
+   [
+    "Email",
+    "centrocultural.espolon@comillas.es"
+   ],
+   [
+    "Website",
+    "http://www.aytocomillas.es/comillas/opencms/contenido/ServiciosMunicipales/Cultura/CentroCulturalEspolon.html"
+   ]
+  ]
+ },
+ {
+  "canturId": 534,
+  "name": "Centro de Recursos, Interpretación y Estudios de la Escuela (CRIEME)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Museum",
+  "town": "Polanco",
+  "lat": 43.385222868155644,
+  "lon": -4.017273682997642,
+  "summary": "CRIEME is an institution of Cantabria's Education Department for conserving and recovering school heritage. It is based in Polanco, in the house of writer José María de Pereda, who built it in 1872 on the Trascolina meadow because his birthplace was in a poor state. Admired for its modernity, it had three floors, stairs on all four sides, a chapel, a service floor, a laundry and a bathroom. Pereda spent every summer there until 1905. In 1945 the State bought it for the Sección Femenina's school for leaders, which taught there until 1988. After years of decay it was restored in the late 1990s and opened as CRIEME on 28 September 2005.",
+  "facts": [
+   [
+    "Address",
+    "Barrio La Iglesia K-1"
+   ],
+   [
+    "Hours",
+    "Low season (25 October–28 February): closed Monday; Tuesday to Friday and Sunday 9:30–15:30; Saturdays and 7 and 8 December 9:30–14:30 and 15:30–17:30. Mid season (1 March–14 June and 16 September–24 October): closed Monday; Tuesday to Saturday 9:30–14:00 and 15:00–18:30; Sunday 9:30–15:00. High season (15 June–15 September): closed Monday; Tuesday to Saturday 10:00–14:00 and 15:00–19:00; Sunday 10:00–15:30. Last visit 30 min before closing. Groups by appointment (phone or email); individual visitors are also advised to book."
+   ],
+   [
+    "Phone",
+    "942 825 840"
+   ],
+   [
+    "Email",
+    "dinamizacion@muesca.es"
+   ],
+   [
+    "Website",
+    "http://www.muesca.es/"
+   ]
+  ],
+  "uncertain": "The text also says the centre is open every working day 9:00–14:00, which conflicts with the seasonal hours; the seasonal hours are used."
+ },
+ {
+  "canturId": 238,
+  "name": "Chalet del Duque de Almodóvar del Río (El Duque)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic house",
+  "town": "Comillas",
+  "lat": 43.3884404,
+  "lon": -4.2919489,
+  "summary": "Designed at the end of the 19th century by Francisco Hernández Rubio for the Prado de San José, this house takes its name from Swiss chalets and its forms from the much-admired English architecture, stressing every typical feature of those supposedly rustic styles: asymmetry, multiple axes, and woodwork and brickwork. It contrasts with the eclecticism of the Palacio de Sobrellano and the Modernisme of Gaudí's Capricho.",
+  "facts": [
+   [
+    "Address",
+    "Paseo de Juan Martínez Noriega, Comillas"
+   ]
+  ],
+  "duplicateOf": 736,
+  "uncertain": "Probably the same building as entry 736 (Casa del Duque de Almodóvar del Río, Prado San José, about 80 m away), which has the visiting details; this entry has the architectural description. Not confirmed."
+ },
+ {
+  "canturId": 398,
+  "name": "Colegiata de Santa Juliana",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Church",
+  "town": "Santillana del Mar",
+  "lat": 43.3924245,
+  "lon": -4.104420699999999,
+  "summary": "The Colegiata de Santa Juliana grew out of the expansion of the earlier monastery of the same name in the mid-12th century. It was founded by a group of monks to help repopulate the area, with a small hermitage to display the relics of the martyr Juliana that they had brought with them. The village took the monastery's name, \"Sancta Iuliana\", which evolved into today's Santillana. Its high altarpiece, made between the late 15th and early 16th centuries, blends Flamboyant Gothic and Plateresque elements. Declared a Site of Cultural Interest (BIC) in 1889.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Las Arenas, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "From April: 10:00–13:00 and 16:00–19:00, closed Monday. Summer: open every day. Low season (October to March): 10:00–13:00 and 16:00–18:00, closed Monday. Mass: summer Monday to Saturday 20:00, Sunday 12:00; winter Monday to Saturday 19:00, Sunday 12:00."
+   ],
+   [
+    "Price",
+    "€3; under 11 free."
+   ],
+   [
+    "Phone",
+    "639 830 520"
+   ]
+  ]
+ },
+ {
+  "canturId": 139,
+  "name": "Convento de San Ildefonso",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Convent",
+  "town": "Santillana del Mar",
+  "lat": 43.38825921738098,
+  "lon": -4.107906981575771,
+  "summary": "Built in 1667 in Baroque style, this convent was richer in income and property than Regina Coeli, and its community often took in young women from the region's leading families and great lineages. After the Dominican nuns left, the Poor Clares, who had lived in the neighbouring convent, took it over. The nuns sell their sweets here.",
+  "facts": [
+   [
+    "Address",
+    "Avda. Le Dorat, 4, Santillana del Mar"
+   ],
+   [
+    "Phone",
+    "942 81 80 36"
+   ]
+  ]
+ },
+ {
+  "canturId": 234,
+  "name": "Convento de San Ildefonso (Convento de las Clarisas)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Convent",
+  "town": "Santillana del Mar",
+  "lat": 43.3884734,
+  "lon": -4.1076977,
+  "summary": "Built in 1667 in Baroque style, this convent was richer in income and property than Regina Coeli, and its community often took in young women from the region's leading families and great lineages. After the Dominican nuns left, the Poor Clares, who had lived in the neighbouring convent, took it over. The nuns sell their sweets here.",
+  "facts": [
+   [
+    "Address",
+    "Avda. Le Dorat, 4"
+   ],
+   [
+    "Phone",
+    "942 81 80 36"
+   ]
+  ],
+  "duplicateOf": 139
+ },
+ {
+  "canturId": 228,
+  "name": "El Hombre de los Vientos",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Monument",
+  "town": "Suances",
+  "lat": 43.43941,
+  "lon": -4.0453449,
+  "summary": "Also called \"Alma de Costa\", this bronze by sculptor Jesús González de la Vega was unveiled in October 2010. Standing on a stone pedestal, the three-metre statue shows a man meeting the sea wind with open arms.",
+  "facts": [
+   [
+    "Address",
+    "C/ Acacio Gutiérrez, 151"
+   ]
+  ]
+ },
+ {
+  "canturId": 482,
+  "name": "Ermita de San Esteban",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Viewpoint",
+  "town": "Ruiseñada",
+  "lat": 43.346796022080426,
+  "lon": -4.294632918276439,
+  "summary": "The panoramic views from the top are spectacular: a small viewpoint looks out over the sea, San Vicente de la Barquera and, on clear days, the Picos de Europa. Just before you reach it there is a picnic area with tables and a barbecue.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Ruiseñada, 122C, 39528, Cantabria"
+   ],
+   [
+    "Website",
+    "http://www.comillas.es"
+   ]
+  ],
+  "uncertain": "The text describes only the views and picnic area, nothing about the hermitage itself."
+ },
+ {
+  "canturId": 539,
+  "name": "Fachada principal del Cementerio de Comillas",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Cemetery",
+  "town": "Comillas",
+  "lat": 43.3899496,
+  "lon": -4.2941029,
+  "summary": "Comillas cemetery has an original Modernista front: a round arch flanked by small paired columns and crowned by a decorated cornice, with a highly ornamental iron gate. A rubble-stone wall topped with decorative pinnacles encloses it, all designed by Domènech. The cemetery reuses the late-Gothic parish church (late 15th–early 16th century), whose ruin is crowned by a marble angel by sculptor Josep Llimona i Bruguera. Some notable mausoleums survive, above all the Piélago family's, designed by Domènech and made by Llimona. It is reached via the approaches to the harbour and beach from the centre of Comillas.",
+  "facts": [
+   [
+    "Address",
+    "Paseo Manuel Noriega 25, Comillas"
+   ],
+   [
+    "Hours",
+    "Free access"
+   ]
+  ]
+ },
+ {
+  "canturId": 703,
+  "name": "Iglesia de San Pedro ad Víncula (Cóbreces)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Church",
+  "town": "Cóbreces",
+  "lat": 43.38514447515712,
+  "lon": -4.211223721504211,
+  "summary": "The parish church of Cóbreces is a fine neo-Gothic building (1910), with two imposing towers on its façade and a lantern (cimborrio) over the crossing.",
+  "facts": [
+   [
+    "Hours",
+    "Summer 2024: Tuesday to Saturday 10:30–14:00 and 17:00–20:00; Sunday 12:00–14:00 and 17:00–20:00."
+   ],
+   [
+    "Phone",
+    "942 71 62 03"
+   ]
+  ],
+  "uncertain": "Hours are labelled \"Summer 2024\"; current schedule unknown."
+ },
+ {
+  "canturId": 739,
+  "name": "Iglesia parroquial de San Cristóbal (Comillas)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Church",
+  "town": "Comillas",
+  "lat": 43.38587110070115,
+  "lon": -4.290680611375286,
+  "summary": "The listing has only visiting details: in October 2025 the church was open from 1 to 4 October, Monday to Saturday, with guided visits lasting 20–30 minutes and no visits on Sundays.",
+  "facts": [
+   [
+    "Hours",
+    "1–4 October (2025), Monday to Saturday: mornings 10:00–13:30, guided visits at 10:00, 11:00 and 12:00; afternoons 16:00–19:00, guided visits at 16:00, 17:00 and 18:00. No visits on Sundays."
+   ],
+   [
+    "Price",
+    "General €2; groups €1; free for under-14s, pilgrims, registered residents and priests."
+   ]
+  ],
+  "uncertain": "No description of the church; hours cover only 1–4 October 2025."
+ },
+ {
+  "canturId": 699,
+  "name": "Jardín Histórico de Puente San Miguel",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Garden",
+  "town": "Puente San Miguel",
+  "lat": 43.3635911,
+  "lon": -4.0834218,
+  "summary": "Owned by the Botín family, this estate was declared a Site of Cultural Interest in the Historic Garden category in 1986. It grew out of the lifelong interest in botany of Marcelino Sanz de Sautuola, better known as the discoverer of the Altamira cave in neighbouring Santillana del Mar. It can be visited free of charge by prior arrangement.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Puente San Miguel 16"
+   ],
+   [
+    "Hours",
+    "General public: 1 May–15 September, first and third Wednesday of each month, two visits at 9:30 and 11:30; booking required (942 820 115). Rest of the year: groups only, by prior booking."
+   ],
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 820 115"
+   ],
+   [
+    "Website",
+    "https://ayto-reocin.com/jardin-historico-de-puente-san-miguel/"
+   ]
+  ]
+ },
+ {
+  "canturId": 118,
+  "name": "Laberinto de Villapresente",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Maze",
+  "town": "Villapresente",
+  "lat": 43.3652905,
+  "lon": -4.1174784,
+  "summary": "An intricate Victorian-style maze of cypress hedges covering 5,625 m², with varying levels of difficulty and suitable for the whole family. Under-13s must stay with an adult (18 or over) throughout the route. Dogs are welcome on a lead, with bags for their mess. Umbrellas are not allowed inside the maze; in rain, raincoats only (ponchos on sale for €0.50). The right of admission is reserved.",
+  "facts": [
+   [
+    "Address",
+    "Lloseras, Villapresente"
+   ],
+   [
+    "Hours",
+    "2025 season, 12 April–12 October. 12–30 April and June: closed Monday (except 21 April), 10:30–20:00, last entry 19:00. May: closed Monday and Tuesday, 10:30–20:00, last entry 19:00. July and August: every day 10:30–20:00, last entry 19:00. 1 September–12 October: closed Monday and Tuesday, 10:30–19:30, last entry 18:30 (a \"sweeper\" goes through at 19:00)."
+   ],
+   [
+    "Price",
+    "2025: general €4 (13 and over); reduced €3 (ages 7–12 inclusive); 6 and under free."
+   ],
+   [
+    "Phone",
+    "636836785"
+   ],
+   [
+    "Email",
+    "contacto@laverintovillapresente.es"
+   ]
+  ],
+  "uncertain": "Hours and prices are for 2025. The umbrella rule is garbled in the source (\"No se paraguas paraguas\") and read as \"no umbrellas\". Email domain is spelled \"laverinto\" in the source; kept as given."
+ },
+ {
+  "canturId": 230,
+  "name": "Mirador Playa de la Tablía",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Viewpoint",
+  "town": "Suances",
+  "lat": 43.4348362,
+  "lon": -4.0497917,
+  "summary": "This viewpoint stands above the beach of the same name, one of the wildest in Suances. It lies midway between Punta del Dichoso and Punta Ballota, with lovely views of the horizon and the cliffs.",
+  "facts": [
+   [
+    "Address",
+    "C/ Madrid, Suances"
+   ]
+  ]
+ },
+ {
+  "canturId": 220,
+  "name": "Montaña La Masera de Castío",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Hill",
+  "town": "Hinojedo",
+  "lat": 43.402160412988174,
+  "lon": -4.040002284594721,
+  "summary": "Its north face looked towards the hamlet of Cortiguera, while its south side touched the village of Hinojedo. This singular flat-topped hill rises as a rectangular promontory, solid at its base, an expression of the earth's energy, like a huge, wide stool without a back.",
+  "facts": [
+   [
+    "Address",
+    "C/ San Pedro, Hinojedo"
+   ]
+  ],
+  "uncertain": "Source text is poetic and gives no practical information (access, route)."
+ },
+ {
+  "canturId": 240,
+  "name": "Monumento al Marqués de Comillas",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Monument",
+  "town": "Comillas",
+  "lat": 43.3890641,
+  "lon": -4.2912028,
+  "summary": "Raised by the town of Comillas in memory of Antonio López y López, whose economic and social rise after returning from Cuba and setting up his businesses in Barcelona culminated in 1878, when Alfonso XII made him Marquis of his native Comillas in recognition of his financial and material support against the Cuban insurrection. It stands on a meadow that López's friend Ángel Pérez gave to the town for the monument. Cascante's design, respected by Domènech, has an original ship's-prow pedestal and a column carrying the marquis's statue. Maritime themes abound, and its bronze statues of allegories of the Antilles and the Philippines were especially notable.",
+  "facts": [
+   [
+    "Address",
+    "Paseo Manuel Noriega, 18"
+   ]
+  ]
+ },
+ {
+  "canturId": 373,
+  "name": "Mural de Okuda a José María de Pereda",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Mural",
+  "town": "Polanco",
+  "lat": 43.3821508,
+  "lon": -4.013374,
+  "summary": "A mural by Okuda on a wall in the La Cochera neighbourhood, at the entrance to the village, featuring the Cantabrian writer José María de Pereda. The work brings together a full set of imagery to portray the Polanco-born author.",
+  "facts": [
+   [
+    "Address",
+    "Barrio La Cochera, Polanco"
+   ]
+  ],
+  "uncertain": "Source text starts mid-thought (\"La misma pared...\") and seems excerpted from a longer article about Okuda in Cantabria."
+ },
+ {
+  "canturId": 117,
+  "name": "Museo de Altamira",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Museum",
+  "town": "Santillana del Mar",
+  "lat": 43.37774435566104,
+  "lon": -4.122361153533944,
+  "summary": "The museum lies 2 km from the centre of Santillana del Mar. Its history starts with a management board set up in 1924. The first building serving the cave was a traditional mountain house for displaying and conserving finds from the excavations and housing the first guard. Rising visitor numbers led to three pavilions in the 1970s, and in 1979 the Ministry of Culture created the National Museum and Research Centre of Altamira to better manage and conserve the cave. The current building by architect Juan Navarro Baldeweg opened in 2001, its siting and design driven by protecting the cave. It is a state museum of the Ministry of Culture and Sport.",
+  "facts": [
+   [
+    "Address",
+    "Avenida Marcelino Sanz de Sautuola, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "2026. November to April: Tuesday to Saturday 9:30–18:00; Sundays and public holidays 9:30–15:00. May to October: Tuesday to Saturday 9:30–20:00; Sundays and public holidays 9:30–15:00. Open on the holidays of 2 and 3 April, 28 July, 15 August, 16 September and 8 December. Closed every Monday, 1 and 6 January, 1 May, 16 September, 24, 25 and 31 December. Easter: Thursday 2 April 9:30–15:00; Friday 3 April 9:30–20:00; Saturday 4 and Sunday 5 April 9:30–18:00. Ticket office closes 30 min before the museum."
+   ],
+   [
+    "Price",
+    "General €3; reduced €1.50; Altamira annual pass €25; State Museums annual pass €36.06. Free for everyone on Saturdays from 14:00, all day Sunday, 18 April, 18 May, 12 October and 6 December; the price field also lists free entry for under-18s and over-65s. Other reductions on the website."
+   ],
+   [
+    "Phone",
+    "942 81 80 05; group bookings 942 818 102"
+   ],
+   [
+    "Email",
+    "informacion.maltamira@cultura.gob.es"
+   ],
+   [
+    "Website",
+    "http://www.culturaydeporte.gob.es/mnaltamira/home.html"
+   ],
+   [
+    "Tickets",
+    "https://www.cultura.gob.es/mnaltamira/visita/compra-entradas.html"
+   ]
+  ],
+  "uncertain": "Source lists 16 September both as an open holiday and as a closing day."
+ },
+ {
+  "canturId": 432,
+  "name": "Museo de la Tortura",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Museum",
+  "town": "Santillana del Mar",
+  "lat": 43.39049722029532,
+  "lon": -4.107243476721192,
+  "summary": "A museum displaying more than 70 European instruments of torture and capital punishment, from the Middle Ages to the industrial era. Dogs are allowed.",
+  "facts": [
+   [
+    "Address",
+    "C/ Bertrand Clisson 1, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Monday to Sunday, every day of the year except New Year's Day (1 January) and Christmas Day (25 December). Summer (22 March–24 October and Easter): 10:00–21:00. Winter (24 October–21 March): 10:30–19:30."
+   ],
+   [
+    "Price",
+    "Adults €6; reduced €4 (groups of 15 or more, over-65s, young people aged 8–14); under-8s free, with their companion's approval and under supervision."
+   ],
+   [
+    "Phone",
+    "942 840 273"
+   ],
+   [
+    "Email",
+    "museotorturasantillana@gmail.com"
+   ],
+   [
+    "Website",
+    "https://museodelatortura.com/"
+   ]
+  ]
+ },
+ {
+  "canturId": 367,
+  "name": "Museo Diocesano Regina Coeli",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Museum",
+  "town": "Santillana del Mar",
+  "lat": 43.38877007011115,
+  "lon": -4.109069108963013,
+  "summary": "Housed in the former Dominican friary of Regina Coeli (\"Queen of Heaven\"), the museum holds over 800 works from parishes across the region, notable for their popular character and dominated by sculpture, which with stonemasonry was the region's traditional craft. Besides the iconography of popular local saints, it shows Flemish, American and Castilian (mainly Burgos and Valladolid) influences of the Baroque era. Highlights include Gothic sculpture, the San Roque and San Sebastián groups, Hispano-Philippine silks and ivories, enamels and silverwork, especially from America. It also studies and catalogues the Diocese of Santander's heritage and, with the regional government, opens about 50 religious monuments free of charge.",
+  "facts": [
+   [
+    "Address",
+    "Avda. Le Dorat s/n, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Summer (1 June–30 September): 10:00–13:30 and 16:00–19:30. Winter (1 October–30 May): 10:00–13:30 and 16:00–18:30. Closed Mondays and Sunday afternoons. Closed 1–28 February and 15–30 October."
+   ],
+   [
+    "Price",
+    "€2; parish and school groups €1.50."
+   ],
+   [
+    "Phone",
+    "942 840 317"
+   ],
+   [
+    "Website",
+    "http://www.santillanamuseodiocesano.net/"
+   ]
+  ]
+ },
+ {
+  "canturId": 428,
+  "name": "Museo Jesús Otero",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Museum",
+  "town": "Santillana del Mar",
+  "lat": 43.39183411353178,
+  "lon": -4.1056787967681885,
+  "summary": "Sculptor Jesús Otero Oreña left his legacy to his home town in this museum and foundation beside the Colegiata de Santa Juliana. Opened in 1994 with works he donated in 1993, it holds about fifty sculptures, many from his last years, plus the tools, implements and drawings he used. Born in Santillana in 1908, Otero first exhibited in a group show in Santander; a scholarship holder at the San Fernando Academy of Fine Arts, he was strongly influenced by Emiliano Barral and Victorio Macho. Months before his death he donated all his remaining works, and friends and admirers set up the museum in the former Guardia Civil barracks and workshop-school.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Abad Francisco Navarro s/n, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Tuesday to Saturday 10:00–13:30 and 16:00–20:00. Closed Sunday and Monday."
+   ],
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 840 198"
+   ],
+   [
+    "Email",
+    "museotero@aytosantillana.org"
+   ],
+   [
+    "Website",
+    "https://santillanadelmarturismo.com/museo-y-fundacion-jesus-otero/"
+   ]
+  ]
+ },
+ {
+  "canturId": 121,
+  "name": "Oficina de Turismo Regional de Santillana del Mar",
+  "skip": true,
+  "skipReason": "Tourist information office (administrative), no description.",
+  "kind": "Tourist office",
+  "town": "Santillana del Mar",
+  "lat": 43.389063933286124,
+  "lon": -4.107637013324356,
+  "summary": "",
+  "facts": [
+   [
+    "Address",
+    "C/ Jesús Otero, 20"
+   ],
+   [
+    "Hours",
+    "Mid season: Monday to Sunday 10:00–18:00; 17 and 18 April 10:00–19:00."
+   ],
+   [
+    "Phone",
+    "942 81 88 12/ 94281 82 51"
+   ],
+   [
+    "Email",
+    "turismosantillana@cantur.com"
+   ],
+   [
+    "Website",
+    "http://www.turismodecantabria.com"
+   ]
+  ]
+ },
+ {
+  "canturId": 128,
+  "name": "Palacio de Velarde",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "Santillana del Mar",
+  "lat": 43.392298979896125,
+  "lon": -4.105314613491813,
+  "summary": "The finest example of Renaissance architecture in the town, built in the mid-16th century for Alonso de Velarde and also known as the Palacio de las Arenas. Its most important restoration was carried out in 1934. The visit tells the story of Santillana and of the palace itself through holograms of the people who lived there and of its decorative features. Dogs are allowed.",
+  "facts": [
+   [
+    "Address",
+    "Plaza de las Arenas, 8, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Every day 11:00–15:00 and 16:00–21:00. Open until 17 November."
+   ],
+   [
+    "Price",
+    "Adults €10; children 3–14 €6; under 3 free."
+   ],
+   [
+    "Phone",
+    "942 140 524 / 653618069"
+   ],
+   [
+    "Email",
+    "reservas@palaciodevelarde.com"
+   ],
+   [
+    "Website",
+    "https://palaciodevelarde.com/"
+   ],
+   [
+    "Tickets",
+    "https://palaciodevelarde.com/tickets/"
+   ]
+  ]
+ },
+ {
+  "canturId": 579,
+  "name": "Palacio de la familia Corro",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "San Vicente de la Barquera",
+  "lat": 43.3845,
+  "lon": -4.4017,
+  "summary": "This Renaissance palace, now the town hall of San Vicente de la Barquera, was commissioned in the 16th century by the inquisitor Antonio del Corro to shelter the town's sick poor. Its classical façade with Plateresque decoration bears two coats of arms linked to the founder.",
+  "facts": [
+   [
+    "Address",
+    "Calle Alta, 10, San Vicente de la Barquera"
+   ],
+   [
+    "Website",
+    "http://www.turismodecantabria.com"
+   ]
+  ]
+ },
+ {
+  "canturId": 135,
+  "name": "Palacio de los Barreda-Bracho",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "Santillana del Mar",
+  "lat": 43.39027970280191,
+  "lon": -4.1081727802871715,
+  "summary": "Built at the end of the 17th century by a member of the Bracho family, it has a plainer exterior than the town's other palaces. In 1944 it joined the national network of Paradores (it is now the Parador Gil Blas).",
+  "facts": [
+   [
+    "Address",
+    "Plaza Ramón Pelayo, 11, Santillana del Mar"
+   ]
+  ],
+  "uncertain": "Source web field is \"Parador Gil Blas\" (a name, not a URL); dropped, name used in the summary."
+ },
+ {
+  "canturId": 712,
+  "name": "Palacio de Peredo-Barreda",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "Santillana del Mar",
+  "lat": 43.3897435,
+  "lon": -4.1085503,
+  "summary": "One of the town's most elegant and singular buildings, the ensemble comprises the palace, its annexed houses and their splendid garden. It stands on an older Gothic tower or house of the Barreda family and was built around 1700 by Francisco Miguel de Peredo, whose lineage also owned the palaces of Mijares and Viveda. It is also called the Palacio de los Benemejís, as descendants of the Marchioness of Benemejís owned it until Caja Cantabria bought it. A modern cultural centre in the adjoining Velarde and Quijano houses runs a regular exhibition programme, and the restored palace, with its library and decorative and fine arts collections, is a new cultural space.",
+  "facts": [
+   [
+    "Address",
+    "Santo Domingo 8, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Currently closed."
+   ],
+   [
+    "Phone",
+    "942 818 171"
+   ],
+   [
+    "Website",
+    "https://santillanadelmarturismo.com/palacio-peredo-barreda/"
+   ]
+  ]
+ },
+ {
+  "canturId": 137,
+  "name": "Palacio de Peredo-Barreda",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "Santillana del Mar",
+  "lat": 43.3892969418822,
+  "lon": -4.1089968878009815,
+  "summary": "Of Italian inspiration and built over a Gothic tower or house of the Barreda family, it is the most elegant palace in the town. It was built in 1700 by Francisco Miguel de Peredo, who married into the Barreda family of Santillana and was made a knight of the Order of Calatrava in 1694.",
+  "facts": [
+   [
+    "Address",
+    "C/ Santo Domingo, 8, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Closed."
+   ],
+   [
+    "Phone",
+    "942 81 81 71"
+   ]
+  ],
+  "duplicateOf": 712,
+  "uncertain": "Source web field is \"Sala de exposiciones de Caja Cantabria\" (a name, not a URL); dropped."
+ },
+ {
+  "canturId": 690,
+  "name": "Palacio de Sobrellano y Capilla Panteón",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "Comillas",
+  "lat": 43.38363959464484,
+  "lon": -4.294366836547852,
+  "summary": "Joan Martorell designed the Palacio de Sobrellano and its Chapel-Pantheon for the first Marquis of Comillas, Antonio López López, as a summer residence for the Marquis and the royal family: a neo-Gothic jewel with a Modernista aesthetic. The palace, begun in 1882 after the chapel, opened years after the second Marquis died. Octagonal, it has a central hall, a monumental stone staircase and a great salon with eight panels painted by Llorens. The chapel, a cathedral in miniature, has the pantheon below, a seat, prie-dieux and benches by Gaudí, paintings by Llorens and Masdeu, sculpture by Joan Roig and marble tombs by Llimona and Vallmitjana. BIC since 1981. The Chapel-Pantheon is closed for restoration.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Sobrellano s/n, Comillas"
+   ],
+   [
+    "Hours",
+    "2026. Low season (21 October–28 February): closed Monday; Tuesday to Friday and Sunday 9:30–15:30; Saturday 9:30–14:00 and 15:00–16:30. Mid season (1 March–14 June and 16 September–20 October): closed Monday; Tuesday to Saturday 9:30–13:30 and 14:30–18:30; Sunday 10:00–15:00. High season (15 June–15 September): closed Monday; Tuesday to Saturday 10:00–14:00 and 15:00–19:00; Sunday 10:00–14:30 and 15:30–18:00. Closed 1 and 6 January and 24, 25 and 31 December. Ticket office opens 20 min before each visit; max 25 people per session; the gardens are cleared 30 min before closing. Book online or by phone (about 24 h ahead) to see the interiors."
+   ],
+   [
+    "Price",
+    "Standard €7 (13 and over); reduced €5 (ages 4–12, large families, over-65s or pensioners, unemployed, student card, 65% disability)*; groups €5 (11 people or more); school groups €2; free for ages 0–3, ICOMOS members, official Cantabria guides and Pasaporte Cultural holders*. *Proof required."
+   ],
+   [
+    "Phone",
+    "942 59 84 25"
+   ],
+   [
+    "Email",
+    "reservascentros@culturadecantabria.es"
+   ],
+   [
+    "Website",
+    "http://centros.culturadecantabria.com/palacio-de-sobrellano/"
+   ],
+   [
+    "Tickets",
+    "https://centros.culturadecantabria.com/palacio-de-sobrellano/comprar/"
+   ]
+  ]
+ },
+ {
+  "canturId": 124,
+  "name": "Palacio de Valdivieso",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Palace",
+  "town": "Santillana del Mar",
+  "lat": 43.39043226225327,
+  "lon": -4.107484415344245,
+  "summary": "Built in the first half of the 18th century, it displays its coat of arms on a corner. Today it houses the Hotel Altamira.",
+  "facts": [
+   [
+    "Address",
+    "C/ Cantón, 1, Santillana del Mar"
+   ]
+  ],
+  "uncertain": "Source email field is \"Hotel Altamira\" (not an email); dropped."
+ },
+ {
+  "canturId": 146,
+  "name": "Parque de la Ribera",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Park",
+  "town": "Suances",
+  "lat": 43.42888315122248,
+  "lon": -4.034713495518549,
+  "summary": "A pretty park with impressive views over the Playa de la Ribera and the ría de San Martín.",
+  "facts": []
+ },
+ {
+  "canturId": 165,
+  "name": "Paseo por Novales y degustación de limonada",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Walk",
+  "town": "Novales",
+  "lat": 43.37821043362102,
+  "lon": -4.172613244244585,
+  "summary": "A stroll through this charming village, full of little channels. The walk is not complete without the obligatory lemonade or gin and tonic made with the area's prized lemons.",
+  "facts": [
+   [
+    "Address",
+    "39526 (postcode)"
+   ],
+   [
+    "Hours",
+    "Outdoors"
+   ],
+   [
+    "Website",
+    "https://www.alfozdelloredo.net/novales"
+   ]
+  ]
+ },
+ {
+  "canturId": 59,
+  "name": "Picos de Europa – Mar Cantábrico, 162 m",
+  "skip": true,
+  "skipReason": "Wikiloc waypoint with no usable content and no distinctive name.",
+  "kind": "Viewpoint",
+  "town": "",
+  "lat": 43.387128,
+  "lon": -4.427631,
+  "summary": "",
+  "facts": []
+ },
+ {
+  "canturId": 509,
+  "name": "Playa de Covachos",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Beach",
+  "town": "Santa Cruz de Bezana",
+  "lat": 43.47267722284485,
+  "lon": -3.9115123487699464,
+  "summary": "A beach on the coast near Santander, about 3 km from Soto de la Marina, with a final stretch reached on foot. Very distinctive and beautiful, it has an islet, the Castro de Covachos, a tombolo joined to the land at low tide. Length 690 m; fine golden sand; deep slope; steep drop.",
+  "facts": [
+   [
+    "Address",
+    "39110, Cantabria"
+   ],
+   [
+    "Website",
+    "https://www.turismodecantabria.com/disfrutala/playas/33-playa-de-covachos"
+   ]
+  ]
+ },
+ {
+  "canturId": 222,
+  "name": "Playa de la Concha",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Beach",
+  "town": "Suances",
+  "lat": 43.433859,
+  "lon": -4.0406406,
+  "summary": "A beach on Cantabria's central coast, beside the town of Suances at the mouth of the ría de San Martín de la Arena. It is the most accessible and busiest of the Suances beaches.",
+  "facts": [
+   [
+    "Address",
+    "Paseo de la Marina Española, Suances"
+   ]
+  ]
+ },
+ {
+  "canturId": 226,
+  "name": "Playa de los Locos",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Beach",
+  "town": "Suances",
+  "lat": 43.4374128,
+  "lon": -4.045901499999999,
+  "summary": "Los Locos beach in Suances is one of the best surfing spots in the whole of Spain, on one of the most popular stretches of the Cantabrian coast for visitors.",
+  "facts": [
+   [
+    "Address",
+    "C/ Acacio Gutiérrez, Suances"
+   ]
+  ]
+ },
+ {
+  "canturId": 507,
+  "name": "Playa de San Juan de la Canal",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Beach",
+  "town": "Santa Cruz de Bezana",
+  "lat": 43.47530886870769,
+  "lon": -3.894356586610338,
+  "summary": "A beach on the coast near Santander, 1 km from Soto de la Marina. It is well known for the busy party held nearby on the night of San Juan. Length 580 m; fine golden sand; deep slope; gentle drop.",
+  "facts": [
+   [
+    "Address",
+    "Av. San Juan de la Canal, 85, 39110 Santa Cruz de Bezana, Cantabria"
+   ],
+   [
+    "Website",
+    "http://www.aytobezana.com/"
+   ]
+  ]
+ },
+ {
+  "canturId": 232,
+  "name": "Playa de Santa Justa (La Casa Azul)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Beach",
+  "town": "Ubiarco",
+  "lat": 43.4146453,
+  "lon": -4.1022391,
+  "summary": "In the village of Ubiarco, the highlight is the Ermita de Santa Justa, a hermitage partly carved into the cliff rock, declared a Site of Local Interest in 2010. The present building dates from the 16th century and was consecrated thanks to relics of Saints Justa and Rufina; over time it became a pilgrimage centre for the region, one of the first on the Cantabrian coast. The remains of the Torre de San Telmo rise on the cliff above.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Ubiarco, Santillana del Mar"
+   ]
+  ],
+  "uncertain": "\"La Casa Azul\" in the name is not explained in the source."
+ },
+ {
+  "canturId": 236,
+  "name": "Puerto de Comillas (El Muelle)",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Harbour",
+  "town": "Comillas",
+  "lat": 43.3908026,
+  "lon": -4.290728,
+  "summary": "Comillas men seem to have taken up fishing on a significant scale only in the 16th century, because San Vicente de la Barquera held the exclusive right to fish the coast for two leagues east and west of its harbour. The oldest known ordinances of the Comillas fishermen's guild, the Cofradía de Pescadores del Santo Cristo del Amparo, date from 1522 and were revised in 1611. In the 17th century Comillas became the whaling capital of the Cantabrian Sea, and this wealth paid for its picturesque quays, its splendid parish church and its town hall.",
+  "facts": [
+   [
+    "Address",
+    "Paseo El Muelle, 1, Comillas"
+   ]
+  ]
+ },
+ {
+  "canturId": 224,
+  "name": "Ría de San Martín de la Arena",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Estuary",
+  "town": "Suances",
+  "lat": 43.4307094,
+  "lon": -4.0361388,
+  "summary": "An estuary on Cantabria's central coast, between the municipalities of Suances, Polanco and Miengo, where the river Saja reaches the sea.",
+  "facts": [
+   [
+    "Address",
+    "C/ El Muelle, Suances"
+   ]
+  ]
+ },
+ {
+  "canturId": 164,
+  "name": "Ruta Cascadas de Toñanes",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Walk",
+  "town": "Toñanes",
+  "lat": 43.40046127606476,
+  "lon": -4.1986959939235025,
+  "summary": "An easy walk that starts by the village of Toñanes, with just one tricky part: the final descent to the waterfall, which can be a little slippery for small children.",
+  "facts": [
+   [
+    "Hours",
+    "Outdoors"
+   ]
+  ]
+ },
+ {
+  "canturId": 732,
+  "name": "Seminario Mayor de Comillas",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic building",
+  "town": "Comillas",
+  "lat": 43.3864116,
+  "lon": -4.2988582,
+  "summary": "After the first Marquis died on 17 January 1883, his son Claudio López Bru had the plans drawn up, and the first stone was laid on 20 May 1883. The design was by Catalan architect Joan Martorell i Montells, who worked for the marquis in Barcelona and on the Sobrellano complex in Comillas. The Seminary belongs to late-19th-century Historicism, using Gothic and Mudéjar styles, then considered the true Spanish architecture. The visit can be combined with the Palacio and Chapel-Pantheon of Sobrellano; if buying online, leave at least 90–120 minutes between the two start times. Private parking costs €2, with €1 off for Seminary visitors.",
+  "facts": [
+   [
+    "Address",
+    "Avda. de la Universidad Pontificia s/n, Comillas"
+   ],
+   [
+    "Hours",
+    "Closed 1 and 6 January and 24, 25 and 31 December. Low season (21 October–28 February): Monday to Friday and Sunday 9:30–15:30 (last session 14:20); Saturday 9:30–14:00 and 15:00–16:30. Mid season (1 March–14 June and 16 September–20 October): Monday to Saturday 9:30–13:30 and 14:30–18:30 (last session 17:15); Sunday 10:00–15:00 (last session 13:40). High season (15 June–15 September): Monday to Saturday 10:00–14:00 and 15:00–19:00 (last session 17:45); Sunday 10:00–14:30 and 15:30–18:00 (last session 17:00). Ticket office opens 20 min before each visit; max 40 people per session. Grounds (outside visit): every day 9:30–18:00."
+   ],
+   [
+    "Price",
+    "Standard €7 (13 and over); reduced €5 (ages 4–12, large families, over-65s or pensioners, unemployed, student card, 65% functional disability)*; groups €5 (11 people or more); school groups €2; free for ages 0–3, ICOMOS members, official Cantabria guides and Pasaporte Cultural holders*. *Proof required. Parking €2 (€1 off for Seminary visitors), paid on entry."
+   ],
+   [
+    "Phone",
+    "942 598 425"
+   ],
+   [
+    "Website",
+    "https://centros.culturadecantabria.com/seminario-mayor-de-comillas/"
+   ]
+  ],
+  "uncertain": "Text says same-day tickets are sold only at the ticket office, first come first served, but also mentions buying in advance online."
+ },
+ {
+  "canturId": 111,
+  "name": "Torre de Don Borja",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Tower house",
+  "town": "Santillana del Mar",
+  "lat": 43.39078414821117,
+  "lon": -4.108100044215006,
+  "summary": "A 15th-century Gothic tower-house: two blocks joined by an unusual 16th-century courtyard. Declared a Site of Cultural Interest in 1943 with the whole town, it is named after Borja Barreda, holder of the entailed estate in 1844, and was also called Torre de don Borja-Bracho, La Torrona and Torre de la Infanta, after its owner Infanta Paz de Borbón. Ruined by the late 1970s, it was bought by Jesús Polanco and Pancho Pérez González for the Fundación Santillana; Luis Castillo's restoration won a Europa Nostra award, and he restored it again in 2019. It now holds a major private collection of contemporary Spanish art, a large Ibero-American library and the Infanta's historic library.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Mayor 7, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Guided visits only (about 1 hour), by advance booking (several days ahead) by phone or email. No entry for under-12s for safety reasons; the building is not adapted for people with reduced mobility."
+   ],
+   [
+    "Phone",
+    "699265469"
+   ],
+   [
+    "Email",
+    "contacto@torrededonborja.es"
+   ],
+   [
+    "Website",
+    "http://www.torrededonborja.es"
+   ]
+  ],
+  "uncertain": "Group size is given as max 5 people (with masks compulsory) in one passage and 10 per group in another. The text also says the tower was restored in 1981. One phone number in the text is mistyped (6992654569); the phone field is used."
+ },
+ {
+  "canturId": 122,
+  "name": "Torre de los Velarde",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Tower",
+  "town": "Santillana del Mar",
+  "lat": 43.39030370479751,
+  "lon": -4.10751376808814,
+  "summary": "A Gothic tower built in the mid-15th century by García de Velarde, head of one of the town's great lineages. It was substantially remodelled in the early 17th century.",
+  "facts": [
+   [
+    "Address",
+    "C/ Carrera, 5, Santillana del Mar, Cantabria"
+   ]
+  ]
+ },
+ {
+  "canturId": 131,
+  "name": "Torre del Merino",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Tower",
+  "town": "Santillana del Mar",
+  "lat": 43.39057283562903,
+  "lon": -4.107915190178308,
+  "summary": "A medieval Gothic tower of military character, built in the 14th century. It was the residence of the merino, the king's representative, after Santillana was made capital of the Asturias de Santillana in 1209, the largest jurisdiction in medieval Cantabria.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Mayor, 8, Santillana del Mar"
+   ]
+  ]
+ },
+ {
+  "canturId": 713,
+  "name": "Universidad Pontificia",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Historic building",
+  "town": "Comillas",
+  "lat": 43.38659771163145,
+  "lon": -4.298513482031254,
+  "summary": "An impressive neo-Gothic–Mudéjar building with Modernista decorative touches. Architect Miguel Alcoado led the first phase, and from 1884 the great Catalan architect Joan Martorell i Montells took over, with Cascante directing the works. Other leading masters collaborated too, among them Domènech i Montaner, who made the entrance portico and other ornamental features. Declared a Site of Cultural Interest (BIC) in 1985. The visit is to the Seminario Mayor (see that entry). Private parking costs €2, with €1 off for Seminary visitors.",
+  "facts": [
+   [
+    "Address",
+    "Avda. de la Universidad Pontificia, Comillas"
+   ],
+   [
+    "Hours",
+    "Closed 1 and 6 January and 24, 25 and 31 December. Low season (21 October–28 February): Monday to Friday and Sunday 9:30–15:30 (last session 14:40); Saturdays, 1 November and 6 December 9:30–14:30 (last session 13:40) and 15:30–16:30 (last session 15:40). Mid season (1 March–14 June and 16 September–20 October): Monday to Saturday 10:00–14:30 (last session 13:30) and 15:30–18:30 (last session 17:50); Sunday 9:50–16:00 (last session 15:00). High season (15 June–15 September): Monday to Sunday 10:30–14:30 (last session 13:15) and 15:30–19:30 (last session 18:15). Ticket office opens 15 min before the visit; max 40 people per session. Book online or by phone (about 24 h ahead) to see the interiors."
+   ],
+   [
+    "Price",
+    "Standard €5 (13 and over); reduced €3 (large families, over-65s or pensioners, student card, 65% functional disability)*; children/school groups €1.50 (ages 4–12); free for ages 0–3; free access for ICOMOS members, official Cantabria guides and Pasaporte Cultural holders*. *Proof required."
+   ],
+   [
+    "Phone",
+    "942 59 84 25"
+   ],
+   [
+    "Email",
+    "reservascentros@culturadecantabria.es"
+   ],
+   [
+    "Website",
+    "https://centros.culturadecantabria.com/seminario-mayor-de-comillas/"
+   ]
+  ],
+  "duplicateOf": 732,
+  "uncertain": "Same visit as the Seminario Mayor (732), but prices (€5 vs €7) and hours differ, so this entry is probably outdated; its own hours field also gives 9:30–15:00 for low-season weekdays."
+ },
+ {
+  "canturId": 145,
+  "name": "Vistas carril bici",
+  "skip": true,
+  "skipReason": "No content and no distinctive name (\"bike lane views\").",
+  "kind": "Viewpoint",
+  "town": "",
+  "lat": 43.412491291892835,
+  "lon": -4.03409752818768,
+  "summary": "",
+  "facts": []
+ },
+ {
+  "canturId": 116,
+  "name": "Zoo de Santillana",
+  "skip": false,
+  "skipReason": "",
+  "kind": "Zoo",
+  "town": "Santillana del Mar",
+  "lat": 43.381755,
+  "lon": -4.1031609,
+  "summary": "Covering 60,000 m², this private zoo has been rated by ADENA/WWF one of the four best zoos in Spain. It focuses on four main attractions: primates, big cats, tropical butterflies and waterfowl. Its 30,000 m² Parque Cuaternario themed area takes visitors back 14,000 years to when Altamira's people roamed these lands, with European bison, reindeer, Iberian wolves, roe deer, bears, deer, Przewalski's horses, European otters, capercaillie and a wide collection of northern waterfowl.",
+  "facts": [
+   [
+    "Address",
+    "Avenida del Zoo 2, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Every day of the year, from 9:30 until dusk."
+   ],
+   [
+    "Price",
+    "Adults €30; children 4–12 €15."
+   ],
+   [
+    "Phone",
+    "942 81 81 25"
+   ],
+   [
+    "Website",
+    "http://www.zoosantillanadelmar.com"
+   ]
+  ],
+  "uncertain": "The separate price field gives adults €25 and children €10; the (apparently newer) rates in the text are used."
+ }
+]
