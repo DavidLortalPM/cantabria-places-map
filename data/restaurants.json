@@ -65,11 +65,11 @@
   {
     "name": "Mesón de Borleña",
     "category": "restaurant",
-    "lat": 43.235577,
-    "lon": -3.948268,
+    "lat": 43.2355973,
+    "lon": -3.9482536,
     "status": "verified",
-    "source": "Place named by owner; position from OpenStreetMap (Nominatim): Mesón de Borleña, Camino de Villegar a Borleña, Barrio del Campizo",
-    "gmaps": "https://maps.app.goo.gl/6FhmNWgQekxGJaNNA?g_st=iw",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/5icKZb2Uor7iCoaD8",
     "kind": "Restaurant",
     "area": "Borleña, Cantabria"
   },
@@ -272,7 +272,7 @@
     "lon": -3.8415001,
     "status": "verified",
     "source": "Google Maps link supplied by owner",
-    "gmaps": "https://maps.app.goo.gl/tRAXEzd952RkWQ6i7",
+    "gmaps": "https://maps.app.goo.gl/xdFZMm5S8c1ePRdCA",
     "kind": "Japanese",
     "area": "Santander"
   },
