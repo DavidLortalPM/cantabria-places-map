@@ -581,7 +581,7 @@
   },
   {
     "Name": "Acantilados de San Vicente (CA-ENP01)",
-    "Type": "Hike",
+    "Type": "Walk",
     "Area": "San Vicente de la Barquera / Western Coast",
     "Google Maps": null,
     "Family Friendly": "__YES__",
@@ -606,7 +606,7 @@
     "Track Source": "Official",
     "Track Match": "Verified",
     "Route Geometry Status": "Trailhead only",
-    "Notes": "MIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5."
+    "Notes": "MIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 1/5, 240 m climb, 180 min."
   },
   {
     "Name": "Altos de Carmona (CA-ENP38)",
@@ -697,7 +697,7 @@
   },
   {
     "Name": "Cascada del Tobazo (CA-ENP route)",
-    "Type": "Hike",
+    "Type": "Walk",
     "Area": "Valderredible / Southern Cantabria",
     "Google Maps": null,
     "Family Friendly": "__YES__",
@@ -722,7 +722,7 @@
     "Track Source": "Official",
     "Track Match": "Verified",
     "Route Geometry Status": "Trailhead only",
-    "Notes": "MIDE (Naturea): severity 2/5, orientation 2/5, movement 2/5, effort 2/5."
+    "Notes": "MIDE (Naturea): severity 2/5, orientation 2/5, movement 2/5, effort 2/5.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 2/5, 233 m climb, 80 min."
   },
   {
     "Name": "Costa Quebrada — coastal walking route",
@@ -842,10 +842,10 @@
   },
   {
     "Name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
-    "Type": "Hike",
+    "Type": "Walk",
     "Area": "Selaya / Valles Pasiegos",
     "Google Maps": null,
-    "Family Friendly": "__NO__",
+    "Family Friendly": "__YES__",
     "Distance (km)": 6,
     "Elevation Gain (m)": 220,
     "Duration": "2h",
@@ -867,7 +867,7 @@
     "Track Source": "Official",
     "Track Match": "Verified",
     "Route Geometry Status": "Trailhead only",
-    "Notes": "MIDE (Naturea): severity 2/5, orientation 2/5, movement 2/5, effort 2/5."
+    "Notes": "MIDE (Naturea): severity 2/5, orientation 2/5, movement 2/5, effort 2/5.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 2/5, 220 m climb, 120 min."
   },
   {
     "Name": "Lagos de Covadonga circuit",
@@ -1537,9 +1537,9 @@
     "Notes": "Naturea CA-ENP08, leaflet picked up at tourist information (Campoo Los Valles). Official GPX is a closed loop starting at the recreational area. Leaflet gives 9.8 km, 3 h 30 min, 570 m up/down.\nMIDE (Naturea): severity 2/5, orientation 2/5, movement 2/5, effort 3/5. Difficulty derived from the MIDE effort rating."
   },
   {
-    "Type": "Hike",
+    "Type": "Walk",
     "Google Maps": null,
-    "Family Friendly": "__NO__",
+    "Family Friendly": "__YES__",
     "Difficulty": "Easy",
     "Status": "Want to do",
     "Priority": null,
@@ -1563,7 +1563,7 @@
     "Parking": "Parking marked at the start in Llano (per leaflet map)",
     "Official Route": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/",
     "Track / GPX": "https://drive.google.com/uc?export=download&id=1aae61hsz6pYji6Moz6oKK0Q7gFTRFIkq",
-    "Notes": "Naturea CA-ENP32, leaflet picked up at tourist information (Campoo Los Valles). Official GPX is a closed loop. Leaflet gives 7.4 km, 2 h 15 min, 119 m up/down, high point 828 m.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating."
+    "Notes": "Naturea CA-ENP32, leaflet picked up at tourist information (Campoo Los Valles). Official GPX is a closed loop. Leaflet gives 7.4 km, 2 h 15 min, 119 m up/down, high point 828 m.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 1/5, 119 m climb, 135 min."
   },
   {
     "Type": "Hike",
@@ -1740,9 +1740,9 @@
     "Notes": "Naturea CA-ENP15. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 3/5. Difficulty derived from the MIDE effort rating."
   },
   {
-    "Type": "Hike",
+    "Type": "Walk",
     "Google Maps": null,
-    "Family Friendly": "__NO__",
+    "Family Friendly": "__YES__",
     "Difficulty": "Easy",
     "Status": "Want to do",
     "Priority": null,
@@ -1766,7 +1766,7 @@
     "Distance (km)": 6.8,
     "Official Route": "https://natureacantabria.com/rutas-autoguiadas/colonia-de-ciguenas-de-bustamante/",
     "Track / GPX": "https://drive.google.com/uc?export=download&id=1sH1C2akgPVrlTylNsjYVsZSIhp1aSC4D",
-    "Notes": "Naturea CA-ENP17. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating."
+    "Notes": "Naturea CA-ENP17. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 1/5, 194 m climb, 100 min."
   },
   {
     "Type": "Hike",
@@ -1798,9 +1798,9 @@
     "Notes": "Naturea CA-ENP19. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 3/5, orientation 2/5, movement 3/5, effort 3/5. Difficulty derived from the MIDE effort rating."
   },
   {
-    "Type": "Hike",
+    "Type": "Walk",
     "Google Maps": null,
-    "Family Friendly": "__NO__",
+    "Family Friendly": "__YES__",
     "Difficulty": "Easy",
     "Status": "Want to do",
     "Priority": null,
@@ -1824,12 +1824,12 @@
     "Distance (km)": 4,
     "Official Route": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/",
     "Track / GPX": "https://drive.google.com/uc?export=download&id=10NOFo5zfgzpVL_fPHvf1XR9-puwm8ipW",
-    "Notes": "Naturea CA-ENP28. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating."
+    "Notes": "Naturea CA-ENP28. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 1/5, 158 m climb, 80 min."
   },
   {
-    "Type": "Hike",
+    "Type": "Walk",
     "Google Maps": null,
-    "Family Friendly": "__NO__",
+    "Family Friendly": "__YES__",
     "Difficulty": "Easy",
     "Status": "Want to do",
     "Priority": null,
@@ -1853,7 +1853,7 @@
     "Distance (km)": 6.8,
     "Official Route": "https://natureacantabria.com/rutas-autoguiadas/las-nieves/",
     "Track / GPX": "https://drive.google.com/uc?export=download&id=13m9dihaRUaCRfO79po1KkhevSA5ftLwO",
-    "Notes": "Naturea CA-ENP37. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating."
+    "Notes": "Naturea CA-ENP37. Official track and leaflet on the Naturea site. Listed on the Naturea self-guided routes page.\nMIDE (Naturea): severity 1/5, orientation 2/5, movement 2/5, effort 2/5. Difficulty derived from the MIDE effort rating.\nFamily walk (owner rule: if kids or granny could not do it, it is a hike): Naturea MIDE effort 2/5, path difficulty 2/5, severity 1/5, 270 m climb, 135 min."
   },
   {
     "Type": "Hike",

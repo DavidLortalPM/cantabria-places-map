@@ -43,7 +43,9 @@ if (fs.existsSync('data/hikes.notion.json')) {
   const hc = fs.existsSync('data/hike-coords.json') ? read('data/hike-coords.json') : {};
   const ov = fs.existsSync('data/hike-overrides.json') ? read('data/hike-overrides.json') : {};
   const num = v => (v === null || v === undefined || v === '' ? undefined : v);
+  const hidden = new Set(fs.existsSync('data/hidden-hikes.json') ? read('data/hidden-hikes.json').names : []);
   for (const h of hikes) {
+    if (hidden.has(h.Name)) continue; // kept in Notion and data/, off the map until re-added (data/hidden-hikes.json)
     const c = hc[h.Name];
     if (!c || c.lat == null) { unplaced.push({ name: h.Name, category: 'hike', stage: h['Hiking Stage'] }); continue; }
     const o = ov[h.Name] || {};
@@ -61,7 +63,7 @@ if (fs.existsSync('data/hikes.notion.json')) {
     };
     for (const k of Object.keys(hike)) if (hike[k] === undefined) delete hike[k];
     places.push({
-      id: slug(h.Name), name: o.name || h.Name, category: 'hike', area: h.Area,
+      id: slug(h.Name), name: o.name || h.Name, category: h.Type === 'Walk' ? 'walk' : 'hike', area: h.Area,
       lat: c.lat, lon: c.lon, locationStatus: c.status, locationSource: c.source + (c.note ? ` — ${c.note}` : ''),
       why: num(h['Why do it?']), familyFriendly: h['Family Friendly'] === '__YES__', priority: num(h.Priority),
       schemes: schemesOf(h), hike
@@ -95,7 +97,7 @@ const HIDE = new Set((process.env.HIDE_CATEGORIES ?? '').split(',').map(s => s.t
 const routeFile = id => 'public/routes/' + id + '.json';
 for (let i = places.length - 1; i >= 0; i--) {
   const p = places[i];
-  if (p.category === 'hike' && fs.existsSync(routeFile(p.id))) {
+  if ((p.category === 'hike' || p.category === 'walk') && fs.existsSync(routeFile(p.id))) {
     const r = read(routeFile(p.id));
     p.route = { km: r.km, source: r.source, sourceUrl: r.sourceUrl, circular: r.circular, ...(r.note ? { note: r.note } : {}) };
   }
