@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "places": [
   {
    "id": "acantilados-de-san-vicente-ca-enp01",
@@ -397,6 +397,18 @@
    "phone": "+34 942 36 48 30",
    "link": "http://www.casalita.es/",
    "hours": "Tue-Sun 12:00-00:00; open daily in summer (per Salir; check before going)"
+  },
+  {
+   "id": "casa-luisa",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Casa Luisa",
+   "lat": 43.3434696,
+   "lon": -3.7448486,
+   "gmaps": "https://maps.app.goo.gl/hDb6jnv9HpLVby7NA",
+   "area": "Liérganes",
+   "kind": "Restaurant"
   },
   {
    "id": "casa-poli",

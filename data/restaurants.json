@@ -334,5 +334,16 @@
     "hours": "Mon 07:00-19:00; Tue 07:00-18:00; Wed-Fri 07:00-19:00; Sat 09:00-13:00; Sun closed (check before going)",
     "priceLevel": "€",
     "kind": "Café / breakfast"
+  },
+  {
+    "name": "Casa Luisa",
+    "category": "restaurant",
+    "lat": 43.3434696,
+    "lon": -3.7448486,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/hDb6jnv9HpLVby7NA",
+    "area": "Liérganes",
+    "kind": "Restaurant"
   }
 ]
