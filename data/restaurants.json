@@ -410,5 +410,27 @@
     "kind": "Peruvian / Asian fusion",
     "priceLevel": "€€",
     "description": "Small neighbourhood restaurant (about four tables) blending Peruvian and Asian flavours. Dishes named by one listing: corvina ceviche, Korean potatoes, chaufa rice, steak tartare and the Peruanito shredded-beef sandwich. About €30 per person before drinks."
+  },
+  {
+    "name": "La Alpaquita",
+    "category": "restaurant",
+    "lat": 43.4542155,
+    "lon": -3.8217109,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/zWJhdQ8qmRcQ568h9",
+    "area": "Santander",
+    "kind": "Restaurant"
+  },
+  {
+    "name": "Pollos a la Brasa Sabor Peruano",
+    "category": "restaurant",
+    "lat": 43.4554637,
+    "lon": -3.8163396,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/25R7B3sYXuboPta87",
+    "area": "Santander",
+    "kind": "Peruvian rotisserie chicken"
   }
 ]

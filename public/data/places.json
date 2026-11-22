@@ -1119,6 +1119,18 @@
    "link": "https://kandela.es"
   },
   {
+   "id": "la-alpaquita",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "La Alpaquita",
+   "lat": 43.4542155,
+   "lon": -3.8217109,
+   "gmaps": "https://maps.app.goo.gl/zWJhdQ8qmRcQ568h9",
+   "area": "Santander",
+   "kind": "Restaurant"
+  },
+  {
    "id": "la-bombi",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -1822,6 +1834,18 @@
    "address": "Calle Marqués de la Hermida 28, 39009 Santander (Peñacastillo)",
    "phone": "942 53 62 18",
    "link": "http://panaderiapeterypan.es/"
+  },
+  {
+   "id": "pollos-a-la-brasa-sabor-peruano",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Pollos a la Brasa Sabor Peruano",
+   "lat": 43.4554637,
+   "lon": -3.8163396,
+   "gmaps": "https://maps.app.goo.gl/25R7B3sYXuboPta87",
+   "area": "Santander",
+   "kind": "Peruvian rotisserie chicken"
   },
   {
    "id": "porracolina-cordal-de-las-jorobas-y-via-normal",
