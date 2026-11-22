@@ -327,5 +327,19 @@
   "status": "verified",
   "source": "first point of OpenStreetMap PR-PNPE 6 track (relation 5680683)",
   "note": "Moferos, km 3 of the Covadonga to Lagos road"
+ },
+ "Brañazarza (CA-ENP08)": {
+  "lat": 43.225211,
+  "lon": -4.150992,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
+ },
+ "Robledal del Llano (CA-ENP32)": {
+  "lat": 42.98734,
+  "lon": -3.984479,
+  "status": "verified",
+  "source": "First point of the official Naturea Cantabria GPX for this route",
+  "note": ""
  }
 }

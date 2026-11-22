@@ -16,5 +16,15 @@
   "source": "OpenStreetMap contributors",
   "sourceUrl": "https://www.openstreetmap.org/relation/6036134",
   "note": "OSM \"Senda Lunada al Castro Valnera\": ascent only, about 5.3 km one way; return the same way"
+ },
+ "branazarza-ca-enp08": {
+  "name": "Brañazarza (CA-ENP08)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branazarza/"
+ },
+ "robledal-del-llano-ca-enp32": {
+  "name": "Robledal del Llano (CA-ENP32)",
+  "source": "Naturea Cantabria",
+  "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/"
  }
 }

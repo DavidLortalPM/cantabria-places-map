@@ -322,6 +322,37 @@
    }
   },
   {
+   "id": "branazarza-ca-enp08",
+   "name": "Brañazarza (CA-ENP08)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Saja-Besaya",
+   "lat": 43.225211,
+   "lon": -4.150992,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Quiet Saja-Besaya circuit through oak and beech woods to an open braña, with ridge views to the Picos de Europa on clear days; the leaflet calls it perhaps the least-known part of the park.",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 9.8,
+    "ascentM": 570,
+    "duration": "3h 30m",
+    "routeType": "Circular",
+    "conditions": "Crosses the Reserva Regional de Caza de Saja: check the hunting calendar (drives are usually at weekends in autumn and winter). Last drinking water is in Villasuso.",
+    "trailhead": "Área recreativa de Tamburrios (name as read from the leaflet map)",
+    "terrain": "Riverside forest along the Río Cieza, then oak wood with beech higher up, to the open Brañazarza braña and a descent by the Arroyo El Cardanoso.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/branazarza/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=109TWzSc4aavv7rf228gllNv8wm-aMW6f",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 10,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branazarza/",
+    "circular": true
+   }
+  },
+  {
    "id": "camaleno",
    "locationStatus": "approximate",
    "locationSource": "OSM: Camaleño municipality centre",
@@ -2101,6 +2132,38 @@
    "familyFriendly": true,
    "priority": "Research",
    "hike": {}
+  },
+  {
+   "id": "robledal-del-llano-ca-enp32",
+   "name": "Robledal del Llano (CA-ENP32)",
+   "category": "hike",
+   "area": "Campoo Los Valles / Las Rozas de Valdearroyo",
+   "lat": 42.98734,
+   "lon": -3.984479,
+   "locationStatus": "verified",
+   "locationSource": "First point of the official Naturea Cantabria GPX for this route",
+   "why": "Short, gentle oak-wood loop above the Embalse del Ebro with the Mirador del Puente de La Robla; the village church has a centuries-old yew worth a visit.",
+   "familyFriendly": false,
+   "hike": {
+    "distanceKm": 7.4,
+    "ascentM": 119,
+    "duration": "2h 15m",
+    "routeType": "Circular",
+    "conditions": "Part of the route is used for hunting: drives may happen at weekends between September and February.",
+    "trailhead": "Fuente de Llano (village of Llano, by the Embalse del Ebro)",
+    "parking": "Parking marked at the start in Llano (per leaflet map)",
+    "terrain": "Mostly rebollo oak wood with holly, with ponds that suit amphibians, ending in a view over the protected Ebro reservoir.",
+    "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/",
+    "gpxUrl": "https://drive.google.com/uc?export=download&id=1aae61hsz6pYji6Moz6oKK0Q7gFTRFIkq",
+    "routeGeometry": "Full track",
+    "trackSource": "Official"
+   },
+   "route": {
+    "km": 6.9,
+    "source": "Naturea Cantabria",
+    "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/",
+    "circular": true
+   }
   },
   {
    "id": "ruta-del-cares",
