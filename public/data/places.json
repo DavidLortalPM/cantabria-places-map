@@ -3339,7 +3339,13 @@
    "area": "Santillana del Mar",
    "lat": 43.39057283562903,
    "lon": -4.107915190178308,
-   "description": "A medieval Gothic tower of military character, built in the 14th century. It was the residence of the merino, the king's representative, after Santillana was made capital of the Asturias de Santillana in 1209, the largest jurisdiction in medieval Cantabria."
+   "description": "A medieval Gothic tower of military character, built in the 14th century. It was the residence of the merino, the king's representative, after Santillana was made capital of the Asturias de Santillana in 1209, the largest jurisdiction in medieval Cantabria.",
+   "image": {
+    "src": "/img/torre-del-merino.jpg",
+    "credit": "Lothar Wilhelm",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Torre_del_Merino.jpg"
+   }
   },
   {
    "id": "turberas-de-selviejo-ca-enp36",
