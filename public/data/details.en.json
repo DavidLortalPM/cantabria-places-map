@@ -51,6 +51,95 @@
   ],
   "uncertain": "Text says same-day tickets are sold only at the ticket office, first come first served, but also mentions buying in advance online."
  },
+ "casa-de-leonor-de-la-vega": {
+  "summary": "Built at the end of the 15th century and substantially remodelled in the 16th, this house is attributed to Leonor de la Vega, mother of the Marquis of Santillana, Íñigo López de Mendoza. It has been restored and now houses the Hotel Casa del Marqués. The interior is not open to visitors.",
+  "facts": [
+   [
+    "Address",
+    "C/ Cantón, 10, Santillana del Mar"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "casa-de-los-abades": {
+  "summary": "Probably built at the end of the 17th century, this house originally belonged to the abbots of the Colegiata. Today it is known as the Casa de la Archiduquesa, having been the residence of Archduchess Margarita of Austria-Bourbon. The coats of arms are modern, made by local artist Jesús Otero, and show the emblems of Santillana's most notable lineages (Barreda, Velarde, Cossío, Villa, Bracho, Peredo and others), with the archduchess's arms beside them.",
+  "facts": [
+   [
+    "Address",
+    "C/ Río, 19, Santillana del Mar"
+   ],
+   [
+    "Phone",
+    "942 81 88 98"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "casa-de-los-villa": {
+  "summary": "A typical example of 18th-century town architecture, with pulpit-style balconies. In the mid-18th century it belonged to Francisco Antonio Pantaleón de Villa. The Villa arms share the quarters of its shield with those of the Cos, Bracho and Bustamante families.",
+  "facts": [
+   [
+    "Address",
+    "C/ Santo Domingo, 7, Santillana del Mar"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "casa-del-duque-de-almodovar-del-rio": {
+  "summary": "Designed at the end of the 19th century by Francisco Hernández Rubio for the Prado de San José, this house takes its name from Swiss chalets and its forms from the much-admired English architecture, stressing every typical feature of those supposedly rustic styles: asymmetry, multiple axes, and woodwork and brickwork. It contrasts with the eclecticism of the Palacio de Sobrellano and the Modernisme of Gaudí's Capricho.",
+  "facts": [
+   [
+    "Address",
+    "Prado San José 7, Comillas"
+   ],
+   [
+    "Hours",
+    "Closed until April 2027. In season: guided tours every Saturday and Sunday from Easter to September (inclusive), and in July every day except Monday; check public holidays and special dates. Start times: Saturdays 11:00, 12:00, 16:00 and 17:00; Sundays 11:00 and 12:00."
+   ],
+   [
+    "Price",
+    "Mansion only: adults €11; children 7–12 €7; under 6: ask."
+   ],
+   [
+    "Phone",
+    "609 131 298"
+   ],
+   [
+    "Website",
+    "https://visitacantabria.es/visitas/comillas/comillas-mansion/"
+   ],
+   [
+    "Tickets",
+    "https://visitacantabria.es/visitas/comillas/casa-del-duque-de-almodovar-del-rio-comillas/"
+   ],
+   [
+    "Address",
+    "Paseo de Juan Martínez Noriega, Comillas"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ],
+  "uncertain": "Probably the same building as entry 736 (Casa del Duque de Almodóvar del Río, Prado San José, about 80 m away), which has the visiting details; this entry has the architectural description. Not confirmed."
+ },
  "casas-del-aguila-y-la-parra": {
   "summary": "These two houses stand in the heart of historic Santillana del Mar, on the Plaza Ramón Pelayo (Plaza Mayor), next to the town hall and opposite the Barreda-Bracho house, now the Parador Gil Blas. Fine examples of civil architecture from the 17th and 16th centuries respectively, they belong to the Government of Cantabria and were restored at the end of the 1980s. Between 1988 and 1991 they hosted exhibitions on the ethnography of Cantabria, and since then a number of art exhibitions. Entry is free.",
   "facts": [
@@ -107,6 +196,37 @@
   ],
   "uncertain": "Source gives \"(1894-1985)\" after Llimona's name; unclear what the dates refer to, so omitted."
  },
+ "centro-cultural-el-espolon": {
+  "summary": "In the late 18th century Juan Domingo González de la Reguera, Archbishop of Lima and a native of Comillas, had El Espolón built to house a Chair of Latin Grammar, established by royal decree of King Charles IV in 1789; in 1802 the Real Seminario Cántabro was founded here. Designed by architect Cosme Antonio Bustamante, it was restored in 2009 by Peridis. It now hosts cultural tourism, training, workshops, associations, a library and a telecentre; note its central courtyard and temporary exhibitions. Nearby are the Plaza de la Constitución (old town hall, San Cristóbal church), the Plaza del Corro, the Fuente de los Tres Caños and the Sacred Heart monument.",
+  "facts": [
+   [
+    "Address",
+    "C/ Antonio López 3, Comillas"
+   ],
+   [
+    "Hours",
+    "Monday to Friday 10:00–14:00 and 16:00–20:00. Closed Saturdays, Sundays and public holidays."
+   ],
+   [
+    "Phone",
+    "942 720 276"
+   ],
+   [
+    "Email",
+    "centrocultural.espolon@comillas.es"
+   ],
+   [
+    "Website",
+    "http://www.aytocomillas.es/comillas/opencms/contenido/ServiciosMunicipales/Cultura/CentroCulturalEspolon.html"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
  "colegiata-de-santa-juliana": {
   "summary": "The Colegiata de Santa Juliana grew out of the expansion of the earlier monastery of the same name in the mid-12th century. It was founded by a group of monks to help repopulate the area, with a small hermitage to display the relics of the martyr Juliana that they had brought with them. The village took the monastery's name, \"Sancta Iuliana\", which evolved into today's Santillana. Its high altarpiece, made between the late 15th and early 16th centuries, blends Flamboyant Gothic and Plateresque elements. Declared a Site of Cultural Interest (BIC) in 1889.",
   "facts": [
@@ -125,6 +245,29 @@
    [
     "Phone",
     "639 830 520"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "convento-de-san-ildefonso": {
+  "summary": "Built in 1667 in Baroque style, this convent was richer in income and property than Regina Coeli, and its community often took in young women from the region's leading families and great lineages. After the Dominican nuns left, the Poor Clares, who had lived in the neighbouring convent, took it over. The nuns sell their sweets here.",
+  "facts": [
+   [
+    "Address",
+    "Avda. Le Dorat, 4, Santillana del Mar"
+   ],
+   [
+    "Phone",
+    "942 81 80 36"
+   ],
+   [
+    "Address",
+    "Avda. Le Dorat, 4"
    ]
   ],
   "sources": [
@@ -173,6 +316,72 @@
    }
   ]
  },
+ "el-hombre-de-los-vientos": {
+  "summary": "Also called \"Alma de Costa\", this bronze by sculptor Jesús González de la Vega was unveiled in October 2010. Standing on a stone pedestal, the three-metre statue shows a man meeting the sea wind with open arms.",
+  "facts": [
+   [
+    "Address",
+    "C/ Acacio Gutiérrez, 151"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "ermita-de-san-esteban-monte-corona": {
+  "summary": "The panoramic views from the top are spectacular: a small viewpoint looks out over the sea, San Vicente de la Barquera and, on clear days, the Picos de Europa. Just before you reach it there is a picnic area with tables and a barbecue.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Ruiseñada, 122C, 39528, Cantabria"
+   ],
+   [
+    "Website",
+    "http://www.comillas.es"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ],
+  "uncertain": "The text describes only the views and picnic area, nothing about the hermitage itself."
+ },
+ "jardin-historico-de-puente-san-miguel": {
+  "summary": "Owned by the Botín family, this estate was declared a Site of Cultural Interest in the Historic Garden category in 1986. It grew out of the lifelong interest in botany of Marcelino Sanz de Sautuola, better known as the discoverer of the Altamira cave in neighbouring Santillana del Mar. It can be visited free of charge by prior arrangement.",
+  "facts": [
+   [
+    "Address",
+    "Barrio Puente San Miguel 16"
+   ],
+   [
+    "Hours",
+    "General public: 1 May–15 September, first and third Wednesday of each month, two visits at 9:30 and 11:30; booking required (942 820 115). Rest of the year: groups only, by prior booking."
+   ],
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 820 115"
+   ],
+   [
+    "Website",
+    "https://ayto-reocin.com/jardin-historico-de-puente-san-miguel/"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
  "laberinto-de-villapresente": {
   "summary": "An intricate Victorian-style maze of cypress hedges covering 5,625 m², with varying levels of difficulty and suitable for the whole family. Under-13s must stay with an adult (18 or over) throughout the route. Dogs are welcome on a lead, with bags for their mess. Umbrellas are not allowed inside the maze; in rain, raincoats only (ponchos on sale for €0.50). The right of admission is reserved.",
   "facts": [
@@ -204,6 +413,36 @@
    }
   ],
   "uncertain": "Hours and prices are for 2025. The umbrella rule is garbled in the source (\"No se paraguas paraguas\") and read as \"no umbrellas\". Email domain is spelled \"laverinto\" in the source; kept as given."
+ },
+ "mirador-playa-de-la-tablia": {
+  "summary": "This viewpoint stands above the beach of the same name, one of the wildest in Suances. It lies midway between Punta del Dichoso and Punta Ballota, with lovely views of the horizon and the cliffs.",
+  "facts": [
+   [
+    "Address",
+    "C/ Madrid, Suances"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "monumento-al-marques-de-comillas": {
+  "summary": "Raised by the town of Comillas in memory of Antonio López y López, whose economic and social rise after returning from Cuba and setting up his businesses in Barcelona culminated in 1878, when Alfonso XII made him Marquis of his native Comillas in recognition of his financial and material support against the Cuban insurrection. It stands on a meadow that López's friend Ángel Pérez gave to the town for the monument. Cascante's design, respected by Domènech, has an original ship's-prow pedestal and a column carrying the marquis's statue. Maritime themes abound, and its bronze statues of allegories of the Antilles and the Philippines were especially notable.",
+  "facts": [
+   [
+    "Address",
+    "Paseo Manuel Noriega, 18"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
  },
  "museo-de-altamira": {
   "summary": "The museum lies 2 km from the centre of Santillana del Mar. Its history starts with a management board set up in 1924. The first building serving the cave was a traditional mountain house for displaying and conserving finds from the excavations and housing the first guard. Rising visitor numbers led to three pavilions in the 1970s, and in 1979 the Ministry of Culture created the National Museum and Research Centre of Altamira to better manage and conserve the cave. The current building by architect Juan Navarro Baldeweg opened in 2001, its siting and design driven by protecting the cave. It is a state museum of the Ministry of Culture and Sport.",
@@ -245,6 +484,205 @@
   ],
   "uncertain": "Source lists 16 September both as an open holiday and as a closing day."
  },
+ "museo-de-la-tortura": {
+  "summary": "A museum displaying more than 70 European instruments of torture and capital punishment, from the Middle Ages to the industrial era. Dogs are allowed.",
+  "facts": [
+   [
+    "Address",
+    "C/ Bertrand Clisson 1, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Monday to Sunday, every day of the year except New Year's Day (1 January) and Christmas Day (25 December). Summer (22 March–24 October and Easter): 10:00–21:00. Winter (24 October–21 March): 10:30–19:30."
+   ],
+   [
+    "Price",
+    "Adults €6; reduced €4 (groups of 15 or more, over-65s, young people aged 8–14); under-8s free, with their companion's approval and under supervision."
+   ],
+   [
+    "Phone",
+    "942 840 273"
+   ],
+   [
+    "Email",
+    "museotorturasantillana@gmail.com"
+   ],
+   [
+    "Website",
+    "https://museodelatortura.com/"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "museo-diocesano-regina-coeli": {
+  "summary": "Housed in the former Dominican friary of Regina Coeli (\"Queen of Heaven\"), the museum holds over 800 works from parishes across the region, notable for their popular character and dominated by sculpture, which with stonemasonry was the region's traditional craft. Besides the iconography of popular local saints, it shows Flemish, American and Castilian (mainly Burgos and Valladolid) influences of the Baroque era. Highlights include Gothic sculpture, the San Roque and San Sebastián groups, Hispano-Philippine silks and ivories, enamels and silverwork, especially from America. It also studies and catalogues the Diocese of Santander's heritage and, with the regional government, opens about 50 religious monuments free of charge.",
+  "facts": [
+   [
+    "Address",
+    "Avda. Le Dorat s/n, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Summer (1 June–30 September): 10:00–13:30 and 16:00–19:30. Winter (1 October–30 May): 10:00–13:30 and 16:00–18:30. Closed Mondays and Sunday afternoons. Closed 1–28 February and 15–30 October."
+   ],
+   [
+    "Price",
+    "€2; parish and school groups €1.50."
+   ],
+   [
+    "Phone",
+    "942 840 317"
+   ],
+   [
+    "Website",
+    "http://www.santillanamuseodiocesano.net/"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "museo-jesus-otero": {
+  "summary": "Sculptor Jesús Otero Oreña left his legacy to his home town in this museum and foundation beside the Colegiata de Santa Juliana. Opened in 1994 with works he donated in 1993, it holds about fifty sculptures, many from his last years, plus the tools, implements and drawings he used. Born in Santillana in 1908, Otero first exhibited in a group show in Santander; a scholarship holder at the San Fernando Academy of Fine Arts, he was strongly influenced by Emiliano Barral and Victorio Macho. Months before his death he donated all his remaining works, and friends and admirers set up the museum in the former Guardia Civil barracks and workshop-school.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Abad Francisco Navarro s/n, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Tuesday to Saturday 10:00–13:30 and 16:00–20:00. Closed Sunday and Monday."
+   ],
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 840 198"
+   ],
+   [
+    "Email",
+    "museotero@aytosantillana.org"
+   ],
+   [
+    "Website",
+    "https://santillanadelmarturismo.com/museo-y-fundacion-jesus-otero/"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "palacio-de-la-familia-corro": {
+  "summary": "This Renaissance palace, now the town hall of San Vicente de la Barquera, was commissioned in the 16th century by the inquisitor Antonio del Corro to shelter the town's sick poor. Its classical façade with Plateresque decoration bears two coats of arms linked to the founder.",
+  "facts": [
+   [
+    "Address",
+    "Calle Alta, 10, San Vicente de la Barquera"
+   ],
+   [
+    "Website",
+    "http://www.turismodecantabria.com"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "palacio-de-peredo-barreda": {
+  "summary": "One of the town's most elegant and singular buildings, the ensemble comprises the palace, its annexed houses and their splendid garden. It stands on an older Gothic tower or house of the Barreda family and was built around 1700 by Francisco Miguel de Peredo, whose lineage also owned the palaces of Mijares and Viveda. It is also called the Palacio de los Benemejís, as descendants of the Marchioness of Benemejís owned it until Caja Cantabria bought it. A modern cultural centre in the adjoining Velarde and Quijano houses runs a regular exhibition programme, and the restored palace, with its library and decorative and fine arts collections, is a new cultural space.",
+  "facts": [
+   [
+    "Address",
+    "Santo Domingo 8, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Currently closed."
+   ],
+   [
+    "Phone",
+    "942 818 171"
+   ],
+   [
+    "Website",
+    "https://santillanadelmarturismo.com/palacio-peredo-barreda/"
+   ],
+   [
+    "Address",
+    "C/ Santo Domingo, 8, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Closed."
+   ],
+   [
+    "Phone",
+    "942 81 81 71"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ],
+  "uncertain": "Source web field is \"Sala de exposiciones de Caja Cantabria\" (a name, not a URL); dropped."
+ },
+ "palacio-de-velarde": {
+  "summary": "The finest example of Renaissance architecture in the town, built in the mid-16th century for Alonso de Velarde and also known as the Palacio de las Arenas. Its most important restoration was carried out in 1934. The visit tells the story of Santillana and of the palace itself through holograms of the people who lived there and of its decorative features. Dogs are allowed.",
+  "facts": [
+   [
+    "Address",
+    "Plaza de las Arenas, 8, Santillana del Mar"
+   ],
+   [
+    "Hours",
+    "Every day 11:00–15:00 and 16:00–21:00. Open until 17 November."
+   ],
+   [
+    "Price",
+    "Adults €10; children 3–14 €6; under 3 free."
+   ],
+   [
+    "Phone",
+    "942 140 524 / 653618069"
+   ],
+   [
+    "Email",
+    "reservas@palaciodevelarde.com"
+   ],
+   [
+    "Website",
+    "https://palaciodevelarde.com/"
+   ],
+   [
+    "Tickets",
+    "https://palaciodevelarde.com/tickets/"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
  "palacio-y-capilla-panteon-de-sobrellano": {
   "summary": "Joan Martorell designed the Palacio de Sobrellano and its Chapel-Pantheon for the first Marquis of Comillas, Antonio López López, as a summer residence for the Marquis and the royal family: a neo-Gothic jewel with a Modernista aesthetic. The palace, begun in 1882 after the chapel, opened years after the second Marquis died. Octagonal, it has a central hall, a monumental stone staircase and a great salon with eight panels painted by Llorens. The chapel, a cathedral in miniature, has the pantheon below, a seat, prie-dieux and benches by Gaudí, paintings by Llorens and Masdeu, sculpture by Joan Roig and marble tombs by Llimona and Vallmitjana. BIC since 1981. The Chapel-Pantheon is closed for restoration.",
   "facts": [
@@ -284,6 +722,58 @@
    }
   ]
  },
+ "parque-de-la-ribera": {
+  "summary": "A pretty park with impressive views over the Playa de la Ribera and the ría de San Martín.",
+  "facts": [],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "paseo-por-novales-y-degustacion-de-limonada": {
+  "summary": "A stroll through this charming village, full of little channels. The walk is not complete without the obligatory lemonade or gin and tonic made with the area's prized lemons.",
+  "facts": [
+   [
+    "Address",
+    "39526 (postcode)"
+   ],
+   [
+    "Hours",
+    "Outdoors"
+   ],
+   [
+    "Website",
+    "https://www.alfozdelloredo.net/novales"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "playa-de-covachos": {
+  "summary": "A beach on the coast near Santander, about 3 km from Soto de la Marina, with a final stretch reached on foot. Very distinctive and beautiful, it has an islet, the Castro de Covachos, a tombolo joined to the land at low tide. Length 690 m; fine golden sand; deep slope; steep drop.",
+  "facts": [
+   [
+    "Address",
+    "39110, Cantabria"
+   ],
+   [
+    "Website",
+    "https://www.turismodecantabria.com/disfrutala/playas/33-playa-de-covachos"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
  "playa-de-la-concha": {
   "summary": "A beach on Cantabria's central coast, beside the town of Suances at the mouth of the ría de San Martín de la Arena. It is the most accessible and busiest of the Suances beaches.",
   "facts": [
@@ -305,6 +795,100 @@
    [
     "Address",
     "C/ Acacio Gutiérrez, Suances"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "playa-de-san-juan-de-la-canal": {
+  "summary": "A beach on the coast near Santander, 1 km from Soto de la Marina. It is well known for the busy party held nearby on the night of San Juan. Length 580 m; fine golden sand; deep slope; gentle drop.",
+  "facts": [
+   [
+    "Address",
+    "Av. San Juan de la Canal, 85, 39110 Santa Cruz de Bezana, Cantabria"
+   ],
+   [
+    "Website",
+    "http://www.aytobezana.com/"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "puerto-de-comillas-el-muelle": {
+  "summary": "Comillas men seem to have taken up fishing on a significant scale only in the 16th century, because San Vicente de la Barquera held the exclusive right to fish the coast for two leagues east and west of its harbour. The oldest known ordinances of the Comillas fishermen's guild, the Cofradía de Pescadores del Santo Cristo del Amparo, date from 1522 and were revised in 1611. In the 17th century Comillas became the whaling capital of the Cantabrian Sea, and this wealth paid for its picturesque quays, its splendid parish church and its town hall.",
+  "facts": [
+   [
+    "Address",
+    "Paseo El Muelle, 1, Comillas"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "ria-de-san-martin-de-la-arena": {
+  "summary": "An estuary on Cantabria's central coast, between the municipalities of Suances, Polanco and Miengo, where the river Saja reaches the sea.",
+  "facts": [
+   [
+    "Address",
+    "C/ El Muelle, Suances"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "ruta-cascadas-de-tonanes": {
+  "summary": "An easy walk that starts by the village of Toñanes, with just one tricky part: the final descent to the waterfall, which can be a little slippery for small children.",
+  "facts": [
+   [
+    "Hours",
+    "Outdoors"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "torre-de-los-velarde": {
+  "summary": "A Gothic tower built in the mid-15th century by García de Velarde, head of one of the town's great lineages. It was substantially remodelled in the early 17th century.",
+  "facts": [
+   [
+    "Address",
+    "C/ Carrera, 5, Santillana del Mar, Cantabria"
+   ]
+  ],
+  "sources": [
+   {
+    "label": "CANTUR points of interest, Costa Central",
+    "url": "https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64"
+   }
+  ]
+ },
+ "torre-del-merino": {
+  "summary": "A medieval Gothic tower of military character, built in the 14th century. It was the residence of the merino, the king's representative, after Santillana was made capital of the Asturias de Santillana in 1209, the largest jurisdiction in medieval Cantabria.",
+  "facts": [
+   [
+    "Address",
+    "Plaza Mayor, 8, Santillana del Mar"
    ]
   ],
   "sources": [

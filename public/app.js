@@ -155,7 +155,9 @@ function openStatus(p, day, when = new Date()) {
   return res;
 }
 const money = n => (n === 0 ? 'Free' : '€' + String(n).replace(/\.5$/, '.50'));
-const gmapsLink = p => `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`;
+const gmapsLink = p => `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`;          // exact pin
+const gmapsDir = p => `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}&travelmode=driving`; // directions to the pin / trailhead
+const gmapsName = p => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([p.name, p.area || 'Cantabria'].join(', '))}`; // place card with photos, reviews, hours
 
 function row(label, value) { return value || value === 0 ? `<div class="row"><span>${esc(label)}</span><b>${esc(value)}</b></div>` : ''; }
 function stat(label, value) { return value || value === 0 ? `<div class="stat"><b>${esc(value)}</b><span>${esc(label)}</span></div>` : ''; }
@@ -309,6 +311,8 @@ function openSheet(p) {
       ${more}
       <div id="sheet-xd"></div>
       <div class="links">
+        ${link(gmapsDir(p), p.category === 'hike' || p.category === 'walk' ? 'Directions to the start' : 'Directions')}
+        ${p.category === 'hike' || p.category === 'walk' ? '' : link(gmapsName(p), 'Search by name in Google Maps')}
         ${link(h.officialUrl, 'Official route')}
         ${link(h.allTrailsUrl, 'AllTrails')}
         ${link(h.gpxUrl, 'GPX / track')}
@@ -430,6 +434,7 @@ function buildLegend(places, unplaced, generated) {
   $('about-info').innerHTML = `
     <p class="credit">${places.length} places${generated ? ' · updated ' + esc(fmtDate(generated)) : ''}</p>
     ${unplaced.length ? `<details class="unplaced"><summary>${unplaced.length} not on the map yet (no start point found)</summary><ul>${unplaced.map(u => `<li>${esc(u.name)}</li>`).join('')}</ul></details>` : ''}
+    <p class="credit"><a href="/cantabria-places.kml" download>Download all places and routes (KML)</a> to open them in Google Maps: go to mymaps.google.com, create a new map, choose Import and pick the file. Every place also has Google Maps and Directions links in its details.</p>
     <button class="about" type="button">About this map</button>
     <p class="credit">Map data © OpenStreetMap contributors</p>
     <p class="credit">Town search sends only the text you type to OpenStreetMap's Nominatim service, and searches are not saved.</p>`;

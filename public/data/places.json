@@ -15,6 +15,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 8.5,
+    "ascentM": 240,
+    "duration": "3h",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Circular",
@@ -124,6 +126,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 10.6,
+    "ascentM": 480,
+    "duration": "3h 30m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-miera-casa-del-rey/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1MLPk4cB08U9GaQUpLVqseEHp9ICXlPGm",
     "routeGeometry": "Full track",
@@ -150,6 +156,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 12,
+    "ascentM": 750,
+    "duration": "5h",
     "difficulty": "Moderate",
     "stage": "Do now",
     "routeType": "Circular",
@@ -334,6 +342,8 @@
    "priority": "Must do",
    "hike": {
     "distanceKm": 14.5,
+    "ascentM": 1060,
+    "duration": "6h",
     "difficulty": "Hard",
     "stage": "Build towards",
     "routeType": "Circular",
@@ -366,6 +376,7 @@
     "distanceKm": 9.8,
     "ascentM": 570,
     "duration": "3h 30m",
+    "difficulty": "Moderate",
     "routeType": "Circular",
     "conditions": "Crosses the Reserva Regional de Caza de Saja: check the hunting calendar (drives are usually at weekends in autumn and winter). Last drinking water is in Villasuso.",
     "trailhead": "Área recreativa de Tamburrios (name as read from the leaflet map)",
@@ -407,6 +418,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 11,
+    "ascentM": 650,
+    "duration": "4h 45m",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-de-los-neveros/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1OwyMq6sf3Nf8Rpx2XY1U3gEmNpgzrDqS",
     "routeGeometry": "Full track",
@@ -431,6 +446,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 11.5,
+    "ascentM": 320,
+    "duration": "3h 40m",
+    "difficulty": "Moderate",
+    "routeType": "Linear",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-real-tudanca-rozadio/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1RqmA661c-w5Cf8bB6a_u8tzaPTBqVcPX",
     "routeGeometry": "Full track",
@@ -455,6 +474,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 19.6,
+    "ascentM": 870,
+    "duration": "6h 30m",
+    "difficulty": "Moderate",
+    "routeType": "Out and back",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-viejo-del-moral/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1ZZszT2_PGVCgDY4gKbtyvSxijS_Hh43A",
     "routeGeometry": "Full track",
@@ -494,6 +517,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 4.8,
+    "ascentM": 300,
+    "duration": "1h 50m",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Circular",
@@ -526,6 +551,57 @@
    "address": "Daoiz y Velarde, 18",
    "phone": "942 218 386",
    "hours": "Daily 11:00-02:00, Monday midday closed (per Salir; Minube differs; check before going)"
+  },
+  {
+   "id": "casa-de-leonor-de-la-vega",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Casa de Leonor de la Vega",
+   "category": "attraction",
+   "kind": "Historic house",
+   "area": "Santillana del Mar",
+   "lat": 43.39067449631138,
+   "lon": -4.107067358895488,
+   "description": "Built at the end of the 15th century and substantially remodelled in the 16th, this house is attributed to Leonor de la Vega, mother of the Marquis of Santillana, Íñigo López de Mendoza."
+  },
+  {
+   "id": "casa-de-los-abades",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Casa de los Abades",
+   "category": "attraction",
+   "kind": "Historic house",
+   "area": "Santillana del Mar",
+   "lat": 43.39187453300494,
+   "lon": -4.106194428207015,
+   "description": "Probably built at the end of the 17th century, this house originally belonged to the abbots of the Colegiata. Today it is known as the Casa de la Archiduquesa, having been the residence of Archduchess Margarita of Austria-Bourbon.",
+   "phone": "942 81 88 98"
+  },
+  {
+   "id": "casa-de-los-villa",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Casa de los Villa",
+   "category": "attraction",
+   "kind": "Historic house",
+   "area": "Santillana del Mar",
+   "lat": 43.389417612637835,
+   "lon": -4.1087292042991574,
+   "description": "A typical example of 18th-century town architecture, with pulpit-style balconies. In the mid-18th century it belonged to Francisco Antonio Pantaleón de Villa."
+  },
+  {
+   "id": "casa-del-duque-de-almodovar-del-rio",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Casa del Duque de Almodóvar del Río",
+   "category": "attraction",
+   "kind": "Mansion",
+   "area": "Comillas",
+   "lat": 43.38775648475814,
+   "lon": -4.291534423828125,
+   "description": "A magnificent 19th-century mansion, unique in Comillas because it is one of the few still owned by the original family, and it is still lived in: the owners spend their summer holidays there.",
+   "phone": "609 131 298",
+   "link": "https://visitacantabria.es/visitas/comillas/comillas-mansion/"
   },
   {
    "id": "casa-lita",
@@ -613,6 +689,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 4,
+    "ascentM": 233,
+    "duration": "1h 20m",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Circular",
@@ -641,6 +719,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 4,
+    "ascentM": 250,
+    "duration": "2h 15m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/viana/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1XUUSb-sL7m73vbgurUl4k9a4xHUi7_uF",
     "routeGeometry": "Full track",
@@ -693,6 +775,20 @@
    "lat": 43.390122,
    "lon": -4.293863,
    "description": "Modernist cemetery on a hill facing the sea, set among the ruins of a former Gothic church and with an angel sculpture by Josep Llimona. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+   "id": "centro-cultural-el-espolon",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Centro Cultural El Espolón",
+   "category": "attraction",
+   "kind": "Cultural centre",
+   "area": "Comillas",
+   "lat": 43.386762374967695,
+   "lon": -4.289442300796509,
+   "description": "Built in the late 18th century for Juan Domingo González de la Reguera, Archbishop of Lima and a native of Comillas, to house a Chair of Latin Grammar; the Real Seminario Cántabro was founded here in 1802.",
+   "phone": "942 720 276",
+   "link": "http://www.aytocomillas.es/comillas/opencms/contenido/ServiciosMunicipales/Cultura/CentroCulturalEspolon.html"
   },
   {
    "id": "centro-de-arte-rupestre-de-cantabria",
@@ -783,6 +879,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 15,
+    "ascentM": 460,
+    "duration": "5h",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/circuito-del-ebro/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1rdZxqmhRFtBhXf_N_7vj9_8uoueHTdzV",
     "routeGeometry": "Full track",
@@ -847,6 +947,19 @@
    "description": "Romanesque collegiate church from the 12th century, the heart of Santillana del Mar. Listed in the Cantabria Costa Central visitor leaflet."
   },
   {
+   "id": "convento-de-san-ildefonso",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Convento de San Ildefonso",
+   "category": "attraction",
+   "kind": "Convent",
+   "area": "Santillana del Mar",
+   "lat": 43.38825921738098,
+   "lon": -4.107906981575771,
+   "description": "Built in 1667 in Baroque style, this convent was richer in income and property than Regina Coeli, and its community often took in young women from the region's leading families and great lineages.",
+   "phone": "942 81 80 36"
+  },
+  {
    "id": "cornejas-el-vigia-forestal-ca-enp18",
    "name": "Cornejas, el vigía forestal (CA-ENP18)",
    "category": "hike",
@@ -858,6 +971,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 8.2,
+    "ascentM": 420,
+    "duration": "3h 15m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cornejas/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1t-WPmeAKx2qCAP2qqGRPpLiRpyxsm_Tp",
     "routeGeometry": "Full track",
@@ -882,6 +999,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 14.4,
+    "ascentM": 830,
+    "duration": "5h 20m",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/cuchisecos-serrolda/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1YXnfwrK7KIht2YzxiSmeoVeg6OqAQ9vG",
     "routeGeometry": "Full track",
@@ -1229,6 +1350,18 @@
    "priceLevel": "€€"
   },
   {
+   "id": "el-hombre-de-los-vientos",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "El Hombre de los Vientos",
+   "category": "attraction",
+   "kind": "Monument",
+   "area": "Suances",
+   "lat": 43.43941,
+   "lon": -4.0453449,
+   "description": "Also called \"Alma de Costa\", this bronze by sculptor Jesús González de la Vega was unveiled in October 2010. Standing on a stone pedestal, the three-metre statue shows a man meeting the sea wind with open arms."
+  },
+  {
    "id": "el-pajaro-amarillo-ca-enp20",
    "name": "El Pájaro Amarillo (CA-ENP20)",
    "category": "hike",
@@ -1240,6 +1373,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 15.5,
+    "ascentM": 290,
+    "duration": "5h",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pajaro-amarillo/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=18cxSpzOO25U0cSx0v8icLdg_JvmQjp65",
     "routeGeometry": "Full track",
@@ -1303,6 +1440,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 8.8,
+    "ascentM": 465,
+    "duration": "4h",
     "difficulty": "Moderate",
     "stage": "Do now",
     "routeType": "Circular",
@@ -1343,6 +1482,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 14,
+    "ascentM": 635,
+    "duration": "5h 15m",
+    "difficulty": "Moderate",
+    "routeType": "Linear",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-astrana/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1sLFo6aPuZ7jwgIAcm4B4si87NpNg12ur",
     "routeGeometry": "Full track",
@@ -1367,6 +1510,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 14,
+    "ascentM": 1085,
+    "duration": "5h 45m",
+    "difficulty": "Hard",
+    "routeType": "Linear",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-ruesga/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1ZfbUANP3d4RebBR4eej61RpxlzbI7qxA",
     "routeGeometry": "Full track",
@@ -1391,6 +1538,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 13.1,
+    "ascentM": 600,
+    "duration": "4h 30m",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/invernales-de-abiada/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=12GD6l6kl5NYoCmsunw69_Bw9_P2sTQ_m",
     "routeGeometry": "Full track",
@@ -1402,6 +1553,20 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/invernales-de-abiada/",
     "circular": true
    }
+  },
+  {
+   "id": "jardin-historico-de-puente-san-miguel",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Jardín Histórico de Puente San Miguel",
+   "category": "attraction",
+   "kind": "Garden",
+   "area": "Puente San Miguel",
+   "lat": 43.3635911,
+   "lon": -4.0834218,
+   "description": "Owned by the Botín family, this estate was declared a Site of Cultural Interest in the Historic Garden category in 1986.",
+   "phone": "942 820 115",
+   "link": "https://ayto-reocin.com/jardin-historico-de-puente-san-miguel/"
   },
   {
    "id": "kandela",
@@ -1474,6 +1639,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 6,
+    "ascentM": 220,
+    "duration": "2h",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Circular",
@@ -1669,6 +1836,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 6.8,
+    "ascentM": 194,
+    "duration": "1h 40m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/colonia-de-ciguenas-de-bustamante/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1sH1C2akgPVrlTylNsjYVsZSIhp1aSC4D",
     "routeGeometry": "Full track",
@@ -1693,6 +1864,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 13.2,
+    "ascentM": 810,
+    "duration": "4h 45m",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/las-colladillas/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1rdr0QDeyzlLFy1XA51h12fPZDJx6z35n",
     "routeGeometry": "Full track",
@@ -1741,6 +1916,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 6.8,
+    "ascentM": 270,
+    "duration": "2h 15m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/las-nieves/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=13m9dihaRUaCRfO79po1KkhevSA5ftLwO",
     "routeGeometry": "Full track",
@@ -1767,6 +1946,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 6.9,
+    "ascentM": 415,
+    "duration": "2h 45m",
     "difficulty": "Moderate",
     "stage": "Do now",
     "routeType": "Circular",
@@ -1808,6 +1989,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 13.8,
+    "ascentM": 275,
+    "duration": "4h",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Circular",
@@ -1836,6 +2019,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 10.4,
+    "ascentM": 510,
+    "duration": "3h 40m",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-lamason/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1iuW_bfPXXLz2_6bhdS99H86SmZEgK_Ut",
     "routeGeometry": "Full track",
@@ -1860,6 +2047,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 9.5,
+    "ascentM": 500,
+    "duration": "3h 10m",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa1/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1D2c0VMlnZi5j00jEGEUHmZZj_j-nBWt4",
     "routeGeometry": "Full track",
@@ -1884,6 +2075,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 12.7,
+    "ascentM": 660,
+    "duration": "4h",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa2/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=12FyJ6-DJ_voRFugvcBEPldpKEcifPlw5",
     "routeGeometry": "Full track",
@@ -1908,6 +2103,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 10,
+    "ascentM": 390,
+    "duration": "3h",
+    "difficulty": "Moderate",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa3/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1lB-5FuRWnFuyY-EjsFnArZ5RLchs29ca",
     "routeGeometry": "Full track",
@@ -1932,6 +2131,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 7,
+    "ascentM": 415,
+    "duration": "3h 30m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/los-puentes-de-rucabao/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1uIIEK2YyycecRto9zGFHONUgqTfJCD4m",
     "routeGeometry": "Full track",
@@ -1986,6 +2189,18 @@
    "familyFriendly": true
   },
   {
+   "id": "mirador-playa-de-la-tablia",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Mirador Playa de la Tablía",
+   "category": "attraction",
+   "kind": "Viewpoint",
+   "area": "Suances",
+   "lat": 43.4348362,
+   "lon": -4.0497917,
+   "description": "This viewpoint stands above the beach of the same name, one of the wildest in Suances. It lies midway between Punta del Dichoso and Punta Ballota, with lovely views of the horizon and the cliffs."
+  },
+  {
    "id": "montana-de-oro-saron",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -2009,6 +2224,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 4,
+    "ascentM": 158,
+    "duration": "1h 20m",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=10NOFo5zfgzpVL_fPHvf1XR9-puwm8ipW",
     "routeGeometry": "Full track",
@@ -2020,6 +2239,18 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/",
     "circular": true
    }
+  },
+  {
+   "id": "monumento-al-marques-de-comillas",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Monumento al Marqués de Comillas",
+   "category": "attraction",
+   "kind": "Monument",
+   "area": "Comillas",
+   "lat": 43.3890641,
+   "lon": -4.2912028,
+   "description": "Raised by the town of Comillas in memory of Antonio López y López, who returned from Cuba, set up his businesses in Barcelona and was made Marquis of his native Comillas by Alfonso XII in 1878."
   },
   {
    "id": "monumento-natural-de-las-secuoyas-del-monte-cabezon",
@@ -2090,6 +2321,20 @@
    "link": "https://www.museosdecantabria.es/"
   },
   {
+   "id": "museo-de-la-tortura",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Museo de la Tortura",
+   "category": "attraction",
+   "kind": "Museum",
+   "area": "Santillana del Mar",
+   "lat": 43.39049722029532,
+   "lon": -4.107243476721192,
+   "description": "A museum displaying more than 70 European instruments of torture and capital punishment, from the Middle Ages to the industrial era. Dogs are allowed.",
+   "phone": "942 840 273",
+   "link": "https://museodelatortura.com/"
+  },
+  {
    "id": "museo-de-prehistoria-y-arqueologia-de-cantabria-mupac",
    "name": "Museo de Prehistoria y Arqueología de Cantabria (MUPAC)",
    "category": "cultura",
@@ -2117,6 +2362,20 @@
    "rainyDay": "Good",
    "booking": "Check current reservation requirements; Sunday late afternoon may be free without the pass.",
    "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "museo-diocesano-regina-coeli",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Museo Diocesano Regina Coeli",
+   "category": "attraction",
+   "kind": "Museum",
+   "area": "Santillana del Mar",
+   "lat": 43.38877007011115,
+   "lon": -4.109069108963013,
+   "description": "Housed in the former Dominican friary of Regina Coeli (\"Queen of Heaven\"), the museum holds over 800 works from parishes across the region, notable for their popular character and dominated by sculpture, which with stonemasonry was the region's traditional craft.",
+   "phone": "942 840 317",
+   "link": "http://www.santillanamuseodiocesano.net/"
   },
   {
    "id": "museo-etnografico-de-cantabria",
@@ -2148,6 +2407,20 @@
    "link": "https://www.museosdecantabria.es/"
   },
   {
+   "id": "museo-jesus-otero",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Museo Jesús Otero",
+   "category": "attraction",
+   "kind": "Museum",
+   "area": "Santillana del Mar",
+   "lat": 43.39183411353178,
+   "lon": -4.1056787967681885,
+   "description": "Sculptor Jesús Otero Oreña left his legacy to his home town in this museum and foundation beside the Colegiata de Santa Juliana.",
+   "phone": "942 840 198",
+   "link": "https://santillanadelmarturismo.com/museo-y-fundacion-jesus-otero/"
+  },
+  {
    "id": "museo-maritimo-del-cantabrico",
    "name": "Museo Marítimo del Cantábrico",
    "category": "cultura",
@@ -2175,6 +2448,47 @@
    "rainyDay": "Good",
    "booking": "2026 published tariff: adult €8; child 5–12 €5; under 5 free.",
    "link": "https://www.museosdecantabria.es/"
+  },
+  {
+   "id": "palacio-de-la-familia-corro",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Palacio de la familia Corro",
+   "category": "attraction",
+   "kind": "Palace",
+   "area": "San Vicente de la Barquera",
+   "lat": 43.3845,
+   "lon": -4.4017,
+   "description": "This Renaissance palace, now the town hall of San Vicente de la Barquera, was commissioned in the 16th century by the inquisitor Antonio del Corro to shelter the town's sick poor.",
+   "link": "http://www.turismodecantabria.com"
+  },
+  {
+   "id": "palacio-de-peredo-barreda",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Palacio de Peredo-Barreda",
+   "category": "attraction",
+   "kind": "Palace",
+   "area": "Santillana del Mar",
+   "lat": 43.3897435,
+   "lon": -4.1085503,
+   "description": "One of the town's most elegant and singular buildings, the ensemble comprises the palace, its annexed houses and their splendid garden.",
+   "phone": "942 818 171",
+   "link": "https://santillanadelmarturismo.com/palacio-peredo-barreda/"
+  },
+  {
+   "id": "palacio-de-velarde",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Palacio de Velarde",
+   "category": "attraction",
+   "kind": "Palace",
+   "area": "Santillana del Mar",
+   "lat": 43.392298979896125,
+   "lon": -4.105314613491813,
+   "description": "The finest example of Renaissance architecture in the town, built in the mid-16th century for Alonso de Velarde and also known as the Palacio de las Arenas. Its most important restoration was carried out in 1934.",
+   "phone": "942 140 524 / 653618069",
+   "link": "https://palaciodevelarde.com/"
   },
   {
    "id": "palacio-y-capilla-panteon-de-sobrellano",
@@ -2224,6 +2538,31 @@
    "link": "https://parquedecabarceno.com/"
   },
   {
+   "id": "parque-de-la-ribera",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Parque de la Ribera",
+   "category": "attraction",
+   "kind": "Park",
+   "area": "Suances",
+   "lat": 43.42888315122248,
+   "lon": -4.034713495518549,
+   "description": "A pretty park with impressive views over the Playa de la Ribera and the ría de San Martín."
+  },
+  {
+   "id": "paseo-por-novales-y-degustacion-de-limonada",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Paseo por Novales y degustación de limonada",
+   "category": "attraction",
+   "kind": "Walk",
+   "area": "Novales",
+   "lat": 43.37821043362102,
+   "lon": -4.172613244244585,
+   "description": "A stroll through this charming village, full of little channels. The walk is not complete without the obligatory lemonade or gin and tonic made with the area's prized lemons.",
+   "link": "https://www.alfozdelloredo.net/novales"
+  },
+  {
    "id": "pausau",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -2251,6 +2590,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 6.2,
+    "ascentM": 450,
+    "duration": "3h",
     "difficulty": "Moderate",
     "stage": "Do now",
     "routeType": "Circular",
@@ -2294,6 +2635,19 @@
    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
   },
   {
+   "id": "playa-de-covachos",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Playa de Covachos",
+   "category": "attraction",
+   "kind": "Beach",
+   "area": "Santa Cruz de Bezana",
+   "lat": 43.47267722284485,
+   "lon": -3.9115123487699464,
+   "description": "A beach on the coast near Santander, about 3 km from Soto de la Marina, with a final stretch reached on foot.",
+   "link": "https://www.turismodecantabria.com/disfrutala/playas/33-playa-de-covachos"
+  },
+  {
    "id": "playa-de-la-concha",
    "locationStatus": "verified",
    "locationSource": "OSM: Playa de la Concha",
@@ -2330,6 +2684,19 @@
    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
   },
   {
+   "id": "playa-de-san-juan-de-la-canal",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Playa de San Juan de la Canal",
+   "category": "attraction",
+   "kind": "Beach",
+   "area": "Santa Cruz de Bezana",
+   "lat": 43.47530886870769,
+   "lon": -3.894356586610338,
+   "description": "A beach on the coast near Santander, 1 km from Soto de la Marina. It is well known for the busy party held nearby on the night of San Juan.",
+   "link": "http://www.aytobezana.com/"
+  },
+  {
    "id": "pollos-a-la-brasa-sabor-peruano",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -2355,7 +2722,11 @@
    "priority": "Must do",
    "hike": {
     "distanceKm": 13,
+    "ascentM": 1290,
+    "duration": "5h 30m",
+    "difficulty": "Moderate",
     "stage": "Build towards",
+    "routeType": "Linear",
     "trailhead": "Bustablado, Arredondo",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas-naturea-cantabria/",
     "routeGeometry": "Trailhead only",
@@ -2383,6 +2754,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 5.1,
+    "ascentM": 390,
+    "duration": "3h 10m",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Circular",
@@ -2398,6 +2771,18 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
     "circular": true
    }
+  },
+  {
+   "id": "puerto-de-comillas-el-muelle",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Puerto de Comillas (El Muelle)",
+   "category": "attraction",
+   "kind": "Harbour",
+   "area": "Comillas",
+   "lat": 43.3908026,
+   "lon": -4.290728,
+   "description": "Comillas men seem to have taken up fishing on a significant scale only in the 16th century, because San Vicente de la Barquera held the exclusive right to fish the coast for two leagues east and west of its harbour."
   },
   {
    "id": "rasines-ruta-azul-balconada-de-cerreo",
@@ -2428,6 +2813,18 @@
    "hike": {}
   },
   {
+   "id": "ria-de-san-martin-de-la-arena",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Ría de San Martín de la Arena",
+   "category": "attraction",
+   "kind": "Estuary",
+   "area": "Suances",
+   "lat": 43.4307094,
+   "lon": -4.0361388,
+   "description": "An estuary on Cantabria's central coast, between the municipalities of Suances, Polanco and Miengo, where the river Saja reaches the sea."
+  },
+  {
    "id": "robledal-de-cotornal-ca-enp31",
    "name": "Robledal de Cotornal (CA-ENP31)",
    "category": "hike",
@@ -2439,6 +2836,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 8.2,
+    "ascentM": 510,
+    "duration": "3h",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-cotornal/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1hJfoQ6n9FE41W2RpZehf7-SOpHgQW5ut",
     "routeGeometry": "Full track",
@@ -2466,6 +2867,7 @@
     "distanceKm": 7.4,
     "ascentM": 119,
     "duration": "2h 15m",
+    "difficulty": "Easy",
     "routeType": "Circular",
     "conditions": "Part of the route is used for hunting: drives may happen at weekends between September and February.",
     "trailhead": "Fuente de Llano (village of Llano, by the Embalse del Ebro)",
@@ -2482,6 +2884,18 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/",
     "circular": true
    }
+  },
+  {
+   "id": "ruta-cascadas-de-tonanes",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Ruta Cascadas de Toñanes",
+   "category": "attraction",
+   "kind": "Walk",
+   "area": "Toñanes",
+   "lat": 43.40046127606476,
+   "lon": -4.1986959939235025,
+   "description": "An easy walk that starts by the village of Toñanes, with just one tricky part: the final descent to the waterfall, which can be a little slippery for small children."
   },
   {
    "id": "sakura-santander",
@@ -2540,6 +2954,8 @@
    "priority": "Worth doing",
    "hike": {
     "distanceKm": 13.7,
+    "ascentM": 430,
+    "duration": "4h 15m",
     "difficulty": "Easy",
     "stage": "Do now",
     "routeType": "Linear",
@@ -2698,6 +3114,18 @@
    "phone": "985 327 448"
   },
   {
+   "id": "torre-de-los-velarde",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Torre de los Velarde",
+   "category": "attraction",
+   "kind": "Tower",
+   "area": "Santillana del Mar",
+   "lat": 43.39030370479751,
+   "lon": -4.10751376808814,
+   "description": "A Gothic tower built in the mid-15th century by García de Velarde, head of one of the town's great lineages. It was substantially remodelled in the early 17th century."
+  },
+  {
    "id": "torre-de-pero-nino",
    "name": "Torre de Pero Niño",
    "category": "cultura",
@@ -2776,6 +3204,18 @@
    "link": "https://centros.culturadecantabria.com/torre-del-infantado/"
   },
   {
+   "id": "torre-del-merino",
+   "locationStatus": "verified",
+   "locationSource": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
+   "name": "Torre del Merino",
+   "category": "attraction",
+   "kind": "Tower",
+   "area": "Santillana del Mar",
+   "lat": 43.39057283562903,
+   "lon": -4.107915190178308,
+   "description": "A medieval Gothic tower of military character, built in the 14th century. It was the residence of the merino, the king's representative, after Santillana was made capital of the Asturias de Santillana in 1209, the largest jurisdiction in medieval Cantabria."
+  },
+  {
    "id": "turberas-de-selviejo-ca-enp36",
    "name": "Turberas de Selviejo (CA-ENP36)",
    "category": "hike",
@@ -2787,6 +3227,10 @@
    "familyFriendly": false,
    "hike": {
     "distanceKm": 7.4,
+    "ascentM": 450,
+    "duration": "3h",
+    "difficulty": "Easy",
+    "routeType": "Circular",
     "officialUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/",
     "gpxUrl": "https://drive.google.com/uc?export=download&id=1WNyLB8BwWLdsbpXQKio152DWFAyuBSHk",
     "routeGeometry": "Full track",

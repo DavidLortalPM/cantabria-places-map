@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "data": "node scripts/build-data.mjs && node scripts/build-details.mjs",
+    "data": "node scripts/build-data.mjs && node scripts/build-details.mjs && node scripts/build-kml.mjs",
     "details": "node scripts/build-details.mjs",
     "deploy": "echo \"Deploy by uploading public/ to Hostinger (see README)\"",
-    "brand": "node scripts/build-brand.mjs public"
+    "brand": "node scripts/build-brand.mjs public",
+    "kml": "node scripts/build-kml.mjs"
   },
   "devDependencies": {
     "leaflet": "^1.9.4",
