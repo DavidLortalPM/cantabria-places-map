@@ -10,6 +10,14 @@ const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').repla
 
 const places = [];
 const unplaced = [];
+// Scheme memberships (e.g. 'Pasaporte Cultura') are extra tags on top of the one category: an optional `schemes` array
+// or a Notion-style 'Pass / Scheme' field (array or comma-separated text) on any row. Returns undefined when there are none.
+const PASS = 'Pasaporte Cultura';
+const schemesOf = (o, ...extra) => {
+  const v = [o.schemes, o['Pass / Scheme']].flat().flatMap(s => String(s ?? '').split(','));
+  const a = [...new Set([...extra, ...v].map(s => s.trim()).filter(Boolean))];
+  return a.length ? a : undefined;
+};
 
 // ---- Pasaporte Cultura
 const cultura = read('data/cultura.notion.json');
@@ -21,7 +29,7 @@ for (const n of cultura) {
   const c = coords[n.name];
   if (!c) { unplaced.push({ name: n.name, category: 'cultura' }); continue; }
   places.push({
-    id: slug(n.name), name: n.name, category: 'cultura', kind: c.kind, area: n.area,
+    id: slug(n.name), name: n.name, category: 'cultura', schemes: schemesOf(n, PASS), kind: c.kind, area: n.area,
     description: desc[n.name], image: images[n.name],
     lat: c.lat, lon: c.lon, locationStatus: c.status, locationSource: c.source,
     drive: n.drive, visitTime: n.visit, hours: n.hours, adult: n.adult, child: n.child,
@@ -56,7 +64,7 @@ if (fs.existsSync('data/hikes.notion.json')) {
       id: slug(h.Name), name: o.name || h.Name, category: 'hike', area: h.Area,
       lat: c.lat, lon: c.lon, locationStatus: c.status, locationSource: c.source + (c.note ? ` — ${c.note}` : ''),
       why: num(h['Why do it?']), familyFriendly: h['Family Friendly'] === '__YES__', priority: num(h.Priority),
-      hike
+      schemes: schemesOf(h), hike
     });
   }
 }
@@ -64,8 +72,8 @@ if (fs.existsSync('data/hikes.notion.json')) {
 // ---- Family activities, places and easy walks (hand-transcribed from Notion into data/other.json)
 if (fs.existsSync('data/other.json')) {
   for (const o of read('data/other.json')) {
-    const { status, source, ...rest } = o;
-    places.push({ id: slug(o.name), locationStatus: status, locationSource: source, ...rest });
+    const { status, source, 'Pass / Scheme': _, ...rest } = o;
+    places.push({ id: slug(o.name), locationStatus: status, locationSource: source, ...rest, schemes: schemesOf(o) });
   }
   unplaced.push({ name: 'Sendero de Castrejón', category: 'walk' });
 }
@@ -75,9 +83,9 @@ if (fs.existsSync('data/other.json')) {
 const RESERVATIONS = new Set(['No reservations', 'Book ahead']);
 if (fs.existsSync('data/restaurants.json')) {
   for (const o of read('data/restaurants.json')) {
-    const { status, source, ...rest } = o;
+    const { status, source, 'Pass / Scheme': _, ...rest } = o;
     if (o.reservations && !RESERVATIONS.has(o.reservations)) console.warn('warning:', o.name, 'has unknown reservations value', JSON.stringify(o.reservations));
-    places.push({ id: slug(o.name), category: 'restaurant', locationStatus: status, locationSource: source, ...rest });
+    places.push({ id: slug(o.name), category: 'restaurant', locationStatus: status, locationSource: source, ...rest, schemes: schemesOf(o) });
   }
 }
 

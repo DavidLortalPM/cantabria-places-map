@@ -88,6 +88,10 @@ let isVisible = () => true;                              // set in init: does th
 const catOf = p => CATEGORIES[p.category] || CATEGORIES.attraction;
 const typeLabel = p => p.kind || catOf(p).single;        // the one name for a place's type (sheet, list, Key, pin title)
 const glyphOf = p => KIND_GLYPH[p.kind] || catOf(p).glyph;
+// Scheme memberships are extra tags on top of the one category (pin colour); a place can be in several
+const PASS = 'Pasaporte Cultura';
+const inPass = p => !!p.schemes?.includes(PASS);
+let passOk = () => true;                                 // set in init: does the "Cultural Pass sites only" filter allow this place?
 // Restaurants, cafés and markets have no rain rating: the rainy-day filter does not rule them out
 const rainOk = p => p.rainyDay === 'Good' || (p.category === 'restaurant' && !p.rainyDay);
 
@@ -139,7 +143,7 @@ function link(href, text, primary) { return href && /^https?:\/\//i.test(href) ?
 // Sheet tags: the category (in its pin colour) first, then up to 4 short facts
 const tags = (p, list) => {
   const c = catOf(p), l = list.filter(Boolean).slice(0, 4);
-  return `<div class="tags"><span class="tag cat" style="--c:${c.color}">${esc(c.label)}</span>${l.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>`;
+  return `<div class="tags"><span class="tag cat" style="--c:${c.color}">${esc(c.label)}</span>${(p.schemes || []).map(s => `<span class="tag scheme">${s === PASS ? '<span aria-hidden="true">🎫 </span>' : ''}${esc(s)}</span>`).join('')}${l.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>`;
 };
 const statusLine = p => { const s = openStatus(p); return s.open === null ? '' : `<div class="status ${s.open ? 'ok' : 'warn'}">${esc(s.text)}</div>`; };
 const nbHyphen = s => s.replace(/\b[A-Z]{2,}-(?=[A-Z0-9])/g, m => m.slice(0, -1) + '‑'); // keep codes like CA-ENP35 on one line
@@ -378,7 +382,7 @@ const fold = s => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLow
 const hay = new Map(); // id -> folded text a search matches against (name, area, type, category); filled in init
 const fmtKm = km => km.toFixed(km < 10 ? 1 : 0) + ' km';
 const placeRow = (p, right) => { const c = catOf(p); return `<span class="gl" style="--c:${c.color}" aria-hidden="true">${glyphOf(p)}</span>
-      <span><span class="nm">${esc(p.name)}</span><br><span class="mt">${esc([typeLabel(p), p.area].filter(Boolean).join(' · '))}</span></span>${right != null ? `<span class="rt">${esc(right)}</span>` : ''}`; };
+      <span><span class="nm">${esc(p.name)}</span>${inPass(p) ? ' <span class="pp" role="img" aria-label="Pasaporte Cultura" title="Pasaporte Cultura">🎫</span>' : ''}<br><span class="mt">${esc([typeLabel(p), p.area].filter(Boolean).join(' · '))}</span></span>${right != null ? `<span class="rt">${esc(right)}</span>` : ''}`; };
 function renderList() {
   $('lv-near').hidden = !near; $('lv-head').hidden = !!near;
   if (near) { renderNear(); return; }
@@ -539,7 +543,7 @@ function localMatches(q) {
   const words = q.split(/\s+/).filter(Boolean);
   if (!words.length) return [];
   const rank = p => { const n = fold(p.name); return n.startsWith(q) ? 0 : n.includes(q) ? 1 : 2; };
-  return Object.values(byId).filter(p => words.every(w => hay.get(p.id).includes(w)))
+  return Object.values(byId).filter(p => passOk(p) && words.every(w => hay.get(p.id).includes(w)))
     .map(p => ({ p, r: rank(p) })).sort((a, b) => a.r - b.r || a.p.name.localeCompare(b.p.name, 'es')).slice(0, 40).map(x => x.p);
 }
 function parseTowns(arr) {
@@ -593,7 +597,7 @@ function renderSearch() {
     const l = local.filter(p => p.category === k);
     if (l.length) html += `<h3 class="s-h"><span class="sw" style="background:${c.color}"></span>${esc(c.label)}</h3><ul class="res" role="list">${l.map(p => `<li><button type="button" data-id="${esc(p.id)}">${placeRow(p)}</button></li>`).join('')}</ul>`;
   }
-  if (q && !local.length) html += '<p class="s-hint">None of our places match.</p>';
+  if (q && !local.length) html += `<p class="s-hint">None of our places match${passOk({}) ? '' : ' (Filters: Cultural Pass sites only is on)'}.</p>`;
   if (q.length >= 3) {
     html += '<h3 class="s-h">Towns &amp; places</h3>';
     if (town.state === 'wait') html += '<p class="s-hint">Searching towns…</p>';
@@ -652,7 +656,7 @@ async function init() {
 
   for (const p of places) {
     byId[p.id] = p;
-    hay.set(p.id, fold([p.name, p.area, p.kind, typeLabel(p), catOf(p).label, catOf(p).single].join(' ')));
+    hay.set(p.id, fold([p.name, p.area, p.kind, typeLabel(p), catOf(p).label, catOf(p).single, ...(p.schemes || []), inPass(p) ? 'cultural pass passport' : ''].join(' ')));
     const g = groups[p.category] || (groups[p.category] = L.layerGroup());
     const m = L.marker([p.lat, p.lon], { icon: pinIcon(p, false), title: p.name + ', ' + typeLabel(p), riseOnHover: true })
       .on('click', e => { L.DomEvent.stopPropagation(e); openSheet(p); })
@@ -662,9 +666,10 @@ async function init() {
   }
 
   const stageOn = Object.fromEntries(STAGES.map(s => [s, true]));
-  const opt = { rainy: false, day: 'any' };
+  const opt = { rainy: false, day: 'any', pass: false };
+  passOk = p => !opt.pass || inPass(p);
   const visible = p => {
-    if (!on[p.category]) return false;
+    if (!on[p.category] || !passOk(p)) return false;
     if (p.category === 'hike' && stageOn[p.hike?.stage] === false) return false;
     if (opt.rainy && !rainOk(p)) return false;
     if (opt.day !== 'any' && openStatus(p, +opt.day).open === false) return false;
@@ -675,6 +680,7 @@ async function init() {
     for (const k in ui.layer) ui.layer[k].setAttribute('aria-pressed', String(on[k]));
     for (const s in ui.stage) ui.stage[s].setAttribute('aria-pressed', String(stageOn[s]));
     ui.rb?.setAttribute('aria-pressed', String(opt.rainy));
+    ui.pb?.setAttribute('aria-pressed', String(opt.pass));
     if (ui.sel) ui.sel.value = opt.day;
   };
   const refresh = () => {
@@ -685,7 +691,7 @@ async function init() {
       if (visible(p)) { g.addLayer(m); n++; shown[p.category] = (shown[p.category] || 0) + 1; } else g.removeLayer(m);
     }
     // the badge counts only what is inside the Filters dialog; the category toggles are on screen already
-    const nf = STAGES.filter(s => stageOn[s] === false).length + (opt.rainy ? 1 : 0) + (opt.day !== 'any' ? 1 : 0);
+    const nf = STAGES.filter(s => stageOn[s] === false).length + (opt.rainy ? 1 : 0) + (opt.day !== 'any' ? 1 : 0) + (opt.pass ? 1 : 0);
     const badge = document.querySelector('#tabs [data-tab=filters] .badge');
     badge.hidden = !nf; badge.textContent = nf;
     $('fcount').innerHTML = `Showing ${n} of ${places.length} places<div class="lc">${Object.keys(on).map(k => `${esc(CATEGORIES[k].label)} ${shown[k] || 0}/${places.filter(p => p.category === k).length}`).join(' · ')}</div>`;
@@ -703,6 +709,7 @@ async function init() {
     on[p.category] = true;
     if (p.hike?.stage) stageOn[p.hike.stage] = true;
     if (opt.rainy && !rainOk(p)) opt.rainy = false;
+    if (!passOk(p)) opt.pass = false;
     if (opt.day !== 'any' && openStatus(p, +opt.day).open === false) opt.day = 'any';
     refresh();
   };
@@ -743,9 +750,18 @@ async function init() {
     panel.append(stageHead, stageBar);
   }
   // Planning filters: rainy-day options and "open on" a weekday (only places with opening data can be ruled out)
-  if (places.some(p => p.rainyDay || p.open)) {
+  // plus "Cultural Pass sites only", across every category (the category toggles still apply on top)
+  const nPass = places.filter(inPass).length;
+  if (places.some(p => p.rainyDay || p.open) || nPass) {
     const bar = document.createElement('div');
     bar.id = 'planbar'; bar.className = 'frow';
+    if (nPass) {
+      const pb = document.createElement('button');
+      pb.className = 'chip small'; pb.type = 'button'; pb.title = 'Only places in the Pasaporte Cultura (Cantabria cultural pass), in any category';
+      pb.innerHTML = `<span aria-hidden="true">🎫</span> Cultural Pass sites only <span class="n">${nPass}</span>`;
+      pb.addEventListener('click', () => { opt.pass = !opt.pass; refresh(); });
+      ui.pb = pb; bar.append(pb);
+    }
     const rb = document.createElement('button');
     rb.className = 'chip small rainy'; rb.type = 'button';
     rb.textContent = '☔ Rainy-day options';
@@ -767,7 +783,7 @@ async function init() {
   rs.addEventListener('click', () => {
     STAGES.forEach(s => { stageOn[s] = true; });
     for (const k in on) on[k] = true;
-    opt.rainy = false; opt.day = 'any';
+    opt.rainy = false; opt.day = 'any'; opt.pass = false;
     refresh();
   });
   panel.appendChild(rs);

@@ -289,17 +289,6 @@
   },
   {
     "status": "verified",
-    "name": "Playa de Usil (Mogro)",
-    "category": "attraction",
-    "kind": "Beach",
-    "area": "Mogro, Miengo",
-    "lat": 43.438674,
-    "lon": -3.972382,
-    "source": "OSM: Playa de Mogro (the leaflet calls it Usil)",
-    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
-  },
-  {
-    "status": "verified",
     "name": "Playa de los Locos",
     "category": "attraction",
     "kind": "Beach",
@@ -307,17 +296,6 @@
     "lat": 43.438687,
     "lon": -4.046788,
     "source": "OSM: Playa de los Locos",
-    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
-  },
-  {
-    "status": "verified",
-    "name": "Playa de Tagle (El Sable)",
-    "category": "attraction",
-    "kind": "Beach",
-    "area": "Suances",
-    "lat": 43.427843,
-    "lon": -4.093985,
-    "source": "OSM: Playa El Sable (assumed to be the Tagle beach)",
     "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
   },
   {

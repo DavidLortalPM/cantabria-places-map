@@ -1,0 +1,64 @@
+{
+  "_comment": "Entries taken off the map until the owner confirms them in Notion (Needs checking). Put the entry back into the file named in heldFrom (without heldBackReason/heldFrom) to show it again.",
+  "entries": [
+    {
+      "status": "verified",
+      "name": "Playa de Usil (Mogro)",
+      "category": "attraction",
+      "kind": "Beach",
+      "area": "Mogro, Miengo",
+      "lat": 43.438674,
+      "lon": -3.972382,
+      "source": "OSM: Playa de Mogro (the leaflet calls it Usil)",
+      "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+      "heldBackReason": "Leaflet says Usil (Mogro); OpenStreetMap only has \"Playa de Mogro\", so the match is assumed",
+      "heldFrom": "other.json"
+    },
+    {
+      "status": "verified",
+      "name": "Playa de Tagle (El Sable)",
+      "category": "attraction",
+      "kind": "Beach",
+      "area": "Suances",
+      "lat": 43.427843,
+      "lon": -4.093985,
+      "source": "OSM: Playa El Sable (assumed to be the Tagle beach)",
+      "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+      "heldBackReason": "Leaflet says Tagle; OpenStreetMap only has \"Playa El Sable\" in Suances, so the match is assumed",
+      "heldFrom": "other.json"
+    },
+    {
+      "name": "Vermutería De Vicio",
+      "category": "restaurant",
+      "lat": 43.460192,
+      "lon": -3.807181,
+      "status": "verified",
+      "source": "Place named by owner; position from address point Calle Cádiz 18 (coordinates as listed on Gastroranking); details from venue site and web listings (check before going)",
+      "description": "Vermouth and tapas bar with a wide menu, interior terrace and cosy atmosphere; known for the vermouth of the week, mejillones en salsa, rabas, patatas bravas, croquetas and albóndigas.",
+      "address": "Calle Cádiz 18, Santander",
+      "phone": "942 40 35 53",
+      "link": "https://www.vermuteriadevicio.com/",
+      "priceLevel": "€€",
+      "reservations": "Book ahead",
+      "kind": "Tapas & pintxos",
+      "heldBackReason": "Position comes from a single source (Gastroranking); no map link or second source",
+      "heldFrom": "restaurants.json"
+    },
+    {
+      "name": "Lastra café",
+      "category": "restaurant",
+      "lat": 43.462593,
+      "lon": -3.807505,
+      "status": "verified",
+      "source": "Place named by owner; position from address point Calle Santa Clara 10; details from venue site and web listings (check before going)",
+      "description": "Specialty-coffee cafe-bar in central Santander with views of the Parroquia de la Anunciación; known for pastrami and bacon sandwiches, cookies, coffee, matcha and lemonade.",
+      "address": "Calle Santa Clara 10 (Turismo de Cantabria lists no. 12; one review says 13), Santander",
+      "phone": "635 10 66 86",
+      "hours": "Mon 07:00-19:00; Tue 07:00-18:00; Wed-Fri 07:00-19:00; Sat 09:00-13:00; Sun closed (check before going)",
+      "priceLevel": "€",
+      "kind": "Café / breakfast",
+      "heldBackReason": "Sources disagree on the street number (Calle Santa Clara 10, 12 or 13); pin is at no. 10",
+      "heldFrom": "restaurants.json"
+    }
+  ]
+}

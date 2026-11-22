@@ -174,7 +174,7 @@ dialog.bsheet h3{margin:16px 0 6px;font-size:12px;text-transform:uppercase;lette
 #fpanel .chip[aria-pressed="true"] .n{color:inherit;opacity:.8}
 /* Stage toggles: all on = nothing filtered, so "on" is a soft tick and "off" is struck through (solid read as "only these") */
 #stages .chip[aria-pressed="true"]{background:var(--okbg);color:var(--ok);border-color:currentColor}
-#stages .chip[aria-pressed="true"]::before{content:"âœ“"}
+#stages .chip[aria-pressed="true"]::before{content:"\2713"}
 #stages .chip[aria-pressed="false"]{text-decoration:line-through}
 #fpanel select.chip{font-size:16px;padding-right:34px;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23808a85' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center;color:var(--fg)}
 #freset{margin-top:12px;border:0;background:none;color:var(--accent);font:inherit;font-weight:600;padding:12px 0;min-height:44px;cursor:pointer}
@@ -220,6 +220,8 @@ dialog.bsheet h3{margin:16px 0 6px;font-size:12px;text-transform:uppercase;lette
 /* flat, squarer tags so they don't read as buttons; the first one carries the category colour */
 .tag{font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;background:var(--line);color:var(--fg)}
 .tag.cat{font-weight:600;background:color-mix(in srgb,var(--c) 16%,transparent);box-shadow:inset 3px 0 0 var(--c)}
+.tag.scheme{font-weight:600;background:var(--card);box-shadow:inset 0 0 0 1px var(--muted)} /* scheme membership (e.g. Pasaporte Cultura), any category */
+:is(#lv,.res) .pp{font-size:13px}
 .status{font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px;margin:8px 0;background:var(--line)}
 .status.ok{background:light-dark(#d6f0dd,#1d4a2c);color:light-dark(#14532d,#c6f3d3)}
 .status.warn{background:light-dark(#fde8c8,#5a3a12);color:light-dark(#7a3b00,#ffd9a0)}
@@ -279,7 +281,7 @@ summary{cursor:pointer;color:var(--muted);font-weight:600;padding:12px 0;min-hei
 #intro .layers{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 12px;padding:0;list-style:none;font-size:14px;font-weight:600}
 #intro .layers i{display:inline-block;width:10px;height:10px;margin-right:6px;border-radius:50%;background:var(--c)}
 #intro .meta{font-size:13px;color:var(--muted)}
-#intro .meta span::after{content:" Â· "}
+#intro .meta span::after{content:" \00B7 "}
 #intro .meta span:empty::after{content:none}
 #intro .go{display:block;width:100%;min-height:48px;margin-top:4px;border:0;border-radius:999px;background:var(--accent);color:var(--bg);font:inherit;font-weight:700;cursor:pointer}
 #intro .go:focus-visible{outline:3px solid var(--fg);outline-offset:2px}

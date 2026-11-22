@@ -307,35 +307,6 @@
     "kind": "Café / breakfast"
   },
   {
-    "name": "Vermutería De Vicio",
-    "category": "restaurant",
-    "lat": 43.460192,
-    "lon": -3.807181,
-    "status": "verified",
-    "source": "Place named by owner; position from address point Calle Cádiz 18 (coordinates as listed on Gastroranking); details from venue site and web listings (check before going)",
-    "description": "Vermouth and tapas bar with a wide menu, interior terrace and cosy atmosphere; known for the vermouth of the week, mejillones en salsa, rabas, patatas bravas, croquetas and albóndigas.",
-    "address": "Calle Cádiz 18, Santander",
-    "phone": "942 40 35 53",
-    "link": "https://www.vermuteriadevicio.com/",
-    "priceLevel": "€€",
-    "reservations": "Book ahead",
-    "kind": "Tapas & pintxos"
-  },
-  {
-    "name": "Lastra café",
-    "category": "restaurant",
-    "lat": 43.462593,
-    "lon": -3.807505,
-    "status": "verified",
-    "source": "Place named by owner; position from address point Calle Santa Clara 10; details from venue site and web listings (check before going)",
-    "description": "Specialty-coffee cafe-bar in central Santander with views of the Parroquia de la Anunciación; known for pastrami and bacon sandwiches, cookies, coffee, matcha and lemonade.",
-    "address": "Calle Santa Clara 10 (Turismo de Cantabria lists no. 12; one review says 13), Santander",
-    "phone": "635 10 66 86",
-    "hours": "Mon 07:00-19:00; Tue 07:00-18:00; Wed-Fri 07:00-19:00; Sat 09:00-13:00; Sun closed (check before going)",
-    "priceLevel": "€",
-    "kind": "Café / breakfast"
-  },
-  {
     "name": "Casa Luisa",
     "category": "restaurant",
     "lat": 43.3434696,

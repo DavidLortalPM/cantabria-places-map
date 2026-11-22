@@ -169,6 +169,9 @@
    "id": "antiguo-seminario-mayor-de-comillas",
    "name": "Antiguo Seminario Mayor de Comillas",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "Comillas",
    "description": "A vast Neo-Gothic former seminary overlooking Comillas, designed by Joan Martorell and later home to a pontifical university. Guided visits explore its church, halls and grounds.",
@@ -206,6 +209,9 @@
    "id": "arqueositio-cantabro-romano-de-camesa-rebolledo",
    "name": "Arqueositio Cántabro-Romano de Camesa-Rebolledo",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "Camesa-Rebolledo",
    "description": "Two archaeological sites near Mataporquera linked to a Roman settlement founded after the Cantabrian Wars, close to a Roman road. A quiet stop that shows how Rome settled inland Cantabria.",
@@ -568,6 +574,9 @@
    "id": "casas-del-aguila-y-la-parra",
    "name": "Casas del Águila y la Parra",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "Santillana del Mar",
    "description": "Two neighbouring historic stone mansions on the main square of Santillana del Mar, open to visitors and free to enter. Easy to combine with a wander around the medieval town.",
@@ -648,6 +657,9 @@
    "id": "casona-de-tudanca",
    "name": "Casona de Tudanca",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Tudanca",
    "description": "The family home of the writer and scholar José María de Cossío (until 1977), now a house-museum and library in the mountain village of Tudanca, famous for its cattle breed.",
@@ -686,6 +698,9 @@
    "id": "centro-de-arte-rupestre-de-cantabria",
    "name": "Centro de Arte Rupestre de Cantabria",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Puente Viesgo",
    "description": "An exhibition centre at the foot of Monte Castillo explaining Cantabria's cave art, through displays and guided visits. Free on the same day as a ticket for El Castillo or Las Monedas.",
@@ -722,6 +737,9 @@
    "id": "centro-de-interpretacion-del-romanico",
    "name": "Centro de Interpretación del Románico",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "Villacantid",
    "description": "A small interpretation centre in Villacantid, near Reinosa, explaining the Romanesque churches of southern Cantabria.",
@@ -781,6 +799,9 @@
    "id": "ciudad-romana-y-domus-de-juliobriga",
    "name": "Ciudad romana y Domus de Julióbriga",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "Retortillo",
    "description": "The most important Roman city in Cantabria, founded in 26 BC after the Cantabrian Wars on a hilltop near Retortillo. You can walk the streets and see the excavated Roman house, the Domus.",
@@ -877,6 +898,9 @@
    "id": "cueva-de-chufin",
    "name": "Cueva de Chufín",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "Riclones",
    "description": "A cave above the meeting of the Lamasón and Nansa rivers with Palaeolithic paintings, listed by UNESCO. Open only seasonally, with very small groups and a short approach on foot.",
@@ -924,6 +948,9 @@
    "id": "cueva-de-covalanas",
    "name": "Cueva de Covalanas",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "Ramales de la Victoria",
    "description": "A Palaeolithic cave known for its red paintings of hinds (female deer), outlined in dots. It is part of the UNESCO World Heritage listing for the cave art of northern Spain, and only tiny groups are admitted.",
@@ -959,6 +986,9 @@
    "id": "cueva-de-cullalvera",
    "name": "Cueva de Cullalvera",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "Ramales de la Victoria",
    "description": "One of Cantabria's largest cave systems, with a walkway into the cave and Palaeolithic drawings on the walls. It is also the ticket office for nearby Covalanas.",
@@ -995,6 +1025,9 @@
    "id": "cueva-de-el-castillo",
    "name": "Cueva de El Castillo",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "Puente Viesgo",
    "description": "One of the oldest known cave-art sites in Europe, including a red disc dated to over 40,000 years ago. Guided visits of about an hour, and the ticket includes the Rock Art Centre.",
@@ -1031,6 +1064,9 @@
    "id": "cueva-de-el-pendo",
    "name": "Cueva de El Pendo",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "Escobedo de Camargo",
    "description": "A large prehistoric cave near Santander with a rich excavated record and Palaeolithic art, listed by UNESCO. Visited on a 45-minute guided tour.",
@@ -1067,6 +1103,9 @@
    "id": "cueva-de-hornos-de-la-pena",
    "name": "Cueva de Hornos de la Peña",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "San Felices de Buelna",
    "description": "A cave lived in for more than 30,000 years, from the Middle Palaeolithic to the Neolithic, with rock art and a UNESCO listing. Only four visitors per session.",
@@ -1102,6 +1141,9 @@
    "id": "cueva-de-las-monedas",
    "name": "Cueva de Las Monedas",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cave",
    "area": "Puente Viesgo",
    "description": "A cave in the Monte Castillo group, named after coins found there, decorated with black drawings of animals. Timed guided visits of small groups; the ticket includes the Rock Art Centre.",
@@ -1741,21 +1783,6 @@
    }
   },
   {
-   "id": "lastra-cafe",
-   "category": "restaurant",
-   "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from address point Calle Santa Clara 10; details from venue site and web listings (check before going)",
-   "name": "Lastra café",
-   "lat": 43.462593,
-   "lon": -3.807505,
-   "description": "Specialty-coffee cafe-bar in central Santander with views of the Parroquia de la Anunciación; known for pastrami and bacon sandwiches, cookies, coffee, matcha and lemonade.",
-   "address": "Calle Santa Clara 10 (Turismo de Cantabria lists no. 12; one review says 13), Santander",
-   "phone": "635 10 66 86",
-   "hours": "Mon 07:00-19:00; Tue 07:00-18:00; Wed-Fri 07:00-19:00; Sat 09:00-13:00; Sun closed (check before going)",
-   "priceLevel": "€",
-   "kind": "Café / breakfast"
-  },
-  {
    "id": "los-blasones",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -2037,6 +2064,9 @@
    "id": "museo-de-la-naturaleza-de-cantabria",
    "name": "Museo de la Naturaleza de Cantabria",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Carrejo",
    "description": "A natural-history museum in an 18th-century mansion in Carrejo, near Cabezón de la Sal, with exhibits on Cantabria's wildlife and landscapes. Free on Sundays.",
@@ -2063,6 +2093,9 @@
    "id": "museo-de-prehistoria-y-arqueologia-de-cantabria-mupac",
    "name": "Museo de Prehistoria y Arqueología de Cantabria (MUPAC)",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Santander",
    "description": "Cantabria's main archaeology museum in Santander, built around finds from the region's famous prehistoric caves, with further collections from the ancient and medieval worlds.",
@@ -2089,6 +2122,9 @@
    "id": "museo-etnografico-de-cantabria",
    "name": "Museo Etnográfico de Cantabria",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Muriedas",
    "description": "A museum in Muriedas about traditional Cantabrian life and culture, with guided visits and family workshops.",
@@ -2115,6 +2151,9 @@
    "id": "museo-maritimo-del-cantabrico",
    "name": "Museo Marítimo del Cantábrico",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Santander",
    "description": "A museum and aquarium on the edge of Santander bay, covering marine life and the people of the Cantabrian Sea. A good rainy-day option for children.",
@@ -2141,6 +2180,9 @@
    "id": "palacio-y-capilla-panteon-de-sobrellano",
    "name": "Palacio y Capilla-Panteón de Sobrellano",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "Comillas",
    "description": "A Neo-Gothic palace built in the 1880s for the Marquess of Comillas, designed by Joan Martorell. The neighbouring chapel-pantheon, the family mausoleum, is a showpiece of Catalan Modernisme.",
@@ -2285,30 +2327,6 @@
    "area": "Cóbreces",
    "lat": 43.394027,
    "lon": -4.221225,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
-  },
-  {
-   "id": "playa-de-tagle-el-sable",
-   "locationStatus": "verified",
-   "locationSource": "OSM: Playa El Sable (assumed to be the Tagle beach)",
-   "name": "Playa de Tagle (El Sable)",
-   "category": "attraction",
-   "kind": "Beach",
-   "area": "Suances",
-   "lat": 43.427843,
-   "lon": -4.093985,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
-  },
-  {
-   "id": "playa-de-usil-mogro",
-   "locationStatus": "verified",
-   "locationSource": "OSM: Playa de Mogro (the leaflet calls it Usil)",
-   "name": "Playa de Usil (Mogro)",
-   "category": "attraction",
-   "kind": "Beach",
-   "area": "Mogro, Miengo",
-   "lat": 43.438674,
-   "lon": -3.972382,
    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
   },
   {
@@ -2683,6 +2701,9 @@
    "id": "torre-de-pero-nino",
    "name": "Torre de Pero Niño",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Cultural site",
    "area": "San Felices de Buelna",
    "description": "A medieval tower (the Torre de la Aguilera) in San Felices de Buelna, now a museum about the life and times of the knight and naval commander Pero Niño.",
@@ -2718,6 +2739,9 @@
    "id": "torre-del-infantado",
    "name": "Torre del Infantado",
    "category": "cultura",
+   "schemes": [
+    "Pasaporte Cultura"
+   ],
    "kind": "Museum",
    "area": "Potes",
    "description": "A medieval fortified tower in the centre of Potes, at the foot of the Picos de Europa. A short visit that fits well with a walk around the town.",
@@ -2774,22 +2798,6 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/",
     "circular": true
    }
-  },
-  {
-   "id": "vermuteria-de-vicio",
-   "category": "restaurant",
-   "locationStatus": "verified",
-   "locationSource": "Place named by owner; position from address point Calle Cádiz 18 (coordinates as listed on Gastroranking); details from venue site and web listings (check before going)",
-   "name": "Vermutería De Vicio",
-   "lat": 43.460192,
-   "lon": -3.807181,
-   "description": "Vermouth and tapas bar with a wide menu, interior terrace and cosy atmosphere; known for the vermouth of the week, mejillones en salsa, rabas, patatas bravas, croquetas and albóndigas.",
-   "address": "Calle Cádiz 18, Santander",
-   "phone": "942 40 35 53",
-   "link": "https://www.vermuteriadevicio.com/",
-   "priceLevel": "€€",
-   "reservations": "Book ahead",
-   "kind": "Tapas & pintxos"
   },
   {
    "id": "ylis",
