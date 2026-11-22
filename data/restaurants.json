@@ -493,5 +493,16 @@
     "gmaps": "https://maps.app.goo.gl/eBsS5mP6189k5MNTA",
     "area": "Liérganes",
     "kind": "Mexican"
+  },
+  {
+    "name": "La Casuca del Gorbea",
+    "category": "restaurant",
+    "lat": 43.3470764,
+    "lon": -4.0471576,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/GhyBU8j8mcpWJstc6",
+    "area": "Miravalles, Torrelavega",
+    "kind": "Restaurant"
   }
 ]

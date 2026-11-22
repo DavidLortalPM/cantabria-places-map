@@ -1173,6 +1173,18 @@
    "hours": "Per Michelin: Tue closed; other days 13:30-16:00 and 21:00-23:30; Sunday lunch only. Salir lists different hours (check before going)"
   },
   {
+   "id": "la-casuca-del-gorbea",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "La Casuca del Gorbea",
+   "lat": 43.3470764,
+   "lon": -4.0471576,
+   "gmaps": "https://maps.app.goo.gl/GhyBU8j8mcpWJstc6",
+   "area": "Miravalles, Torrelavega",
+   "kind": "Restaurant"
+  },
+  {
    "id": "la-garma-nacimiento-del-pisuena-ca-enp23",
    "name": "La Garma — Nacimiento del Pisueña (CA-ENP23)",
    "category": "hike",
