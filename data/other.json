@@ -245,17 +245,6 @@
   },
   {
     "status": "verified",
-    "name": "Monumento Natural de las Secuoyas del Monte Cabezón",
-    "category": "walk",
-    "kind": "Forest walk",
-    "area": "Cabezón de la Sal",
-    "lat": 43.319598,
-    "lon": -4.259381,
-    "source": "OSM: Monumento Natural de las Secuoyas del Monte Cabezón",
-    "description": "Natural monument of giant sequoias beside the CA-135 road between Cabezón de la Sal and Comillas; the trees can reach over 50 m. A pleasant short outing with a choice of walking routes. Listed in the Cantabria Costa Central visitor leaflet."
-  },
-  {
-    "status": "verified",
     "name": "Playa de Comillas",
     "category": "attraction",
     "kind": "Beach",
@@ -308,5 +297,16 @@
     "lon": -4.097628,
     "source": "OSM: Ermita de Santa Justa",
     "description": "Small cove with the hermitage of Santa Justa built into the rock; the start of the coastal route to Puerto Calderón. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Monumento Natural de las Secuoyas del Monte Cabezón",
+    "category": "walk",
+    "kind": "Forest walk",
+    "area": "Cabezón de la Sal",
+    "lat": 43.319598,
+    "lon": -4.259381,
+    "source": "OSM: Monumento Natural de las Secuoyas del Monte Cabezón",
+    "description": "Natural monument of giant sequoias beside the CA-135 road between Cabezón de la Sal and Comillas; the trees can reach over 50 m. A pleasant short outing with a choice of walking routes. Listed in the Cantabria Costa Central visitor leaflet."
   }
 ]

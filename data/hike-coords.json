@@ -112,11 +112,11 @@
   "note": "start of the circuit at Fuente De, about 700 m from the cable car pin; keep the cable car pin if preferred"
  },
  "Bosque de Secuoyas de Monte Cabezón": {
-  "lat": 43.3196,
-  "lon": -4.25938,
-  "status": "approximate",
-  "source": "OSM: Monumento Natural de las Secuoyas del Monte Cabezón",
-  "note": "centre of the protected area, not the car park"
+  "lat": 43.320727,
+  "lon": -4.257713,
+  "status": "verified",
+  "source": "First point of the track published on the CANTUR / Turismo de Cantabria routes page",
+  "note": ""
  },
  "Canto Pilanco (CA-ENP10)": {
   "lat": 43.129728,

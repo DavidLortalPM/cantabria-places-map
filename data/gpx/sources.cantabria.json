@@ -147,5 +147,11 @@
   "name": "Turberas de Selviejo (CA-ENP36)",
   "source": "Naturea Cantabria",
   "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/"
+ },
+ "bosque-de-secuoyas-de-monte-cabezon": {
+  "name": "Bosque de Secuoyas de Monte Cabezón",
+  "source": "CANTUR / Turismo de Cantabria (Rutas turísticas, Costa Central)",
+  "sourceUrl": "https://cantur.net/santander/infoToolsPublic/?id=NTI=",
+  "note": "Rebuilt from the route points shown on the page; the page lists the distance as unknown, the leaflet says about 2 km"
  }
 }
