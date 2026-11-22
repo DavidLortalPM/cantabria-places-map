@@ -345,5 +345,22 @@
     "gmaps": "https://maps.app.goo.gl/hDb6jnv9HpLVby7NA",
     "area": "Liérganes",
     "kind": "Restaurant"
+  },
+  {
+    "name": "La Vinoteca",
+    "category": "restaurant",
+    "lat": 43.4631328,
+    "lon": -3.7977731,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; details from venue site and web listings (check before going)",
+    "gmaps": "https://maps.app.goo.gl/kvhEYbM37gcsAqce8",
+    "kind": "Restaurant",
+    "area": "Santander",
+    "description": "Wine-focused restaurant in Puertochico, Santander, praised for staff, food and wine selection; Spanish/Mediterranean/fusion cooking. Rated 4.6 on Tripaligner (1,626 reviews).",
+    "address": "Calle Hernán Cortés 38, 39003 Santander",
+    "phone": "942 07 57 41",
+    "link": "http://www.restaurantelavinoteca.com/",
+    "reservations": "Book ahead",
+    "priceLevel": "€€€"
   }
 ]

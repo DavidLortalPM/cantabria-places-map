@@ -1190,6 +1190,24 @@
    "hours": "Daily 12:30-24:00 (check before going)"
   },
   {
+   "id": "la-vinoteca",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner; details from venue site and web listings (check before going)",
+   "name": "La Vinoteca",
+   "lat": 43.4631328,
+   "lon": -3.7977731,
+   "gmaps": "https://maps.app.goo.gl/kvhEYbM37gcsAqce8",
+   "kind": "Restaurant",
+   "area": "Santander",
+   "description": "Wine-focused restaurant in Puertochico, Santander, praised for staff, food and wine selection; Spanish/Mediterranean/fusion cooking. Rated 4.6 on Tripaligner (1,626 reviews).",
+   "address": "Calle Hernán Cortés 38, 39003 Santander",
+   "phone": "942 07 57 41",
+   "link": "http://www.restaurantelavinoteca.com/",
+   "reservations": "Book ahead",
+   "priceLevel": "€€€"
+  },
+  {
    "id": "laberinto-de-tilde",
    "locationStatus": "approximate",
    "locationSource": "OSM: Entrambasaguas hamlet (Notion area); the maze itself is not in OSM",
