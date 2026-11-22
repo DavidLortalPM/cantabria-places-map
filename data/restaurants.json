@@ -504,5 +504,49 @@
     "gmaps": "https://maps.app.goo.gl/GhyBU8j8mcpWJstc6",
     "area": "Miravalles, Torrelavega",
     "kind": "Restaurant"
+  },
+  {
+    "name": "Heladería Crepería Santillán",
+    "category": "restaurant",
+    "lat": 43.3900822,
+    "lon": -4.1079071,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/6sV5KuY5xuJhVcmq8",
+    "area": "Santillana del Mar",
+    "kind": "Ice cream / crêperie"
+  },
+  {
+    "name": "El Perdón",
+    "category": "restaurant",
+    "lat": 43.389776,
+    "lon": -4.1081178,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/C4kZGALTDR6SGhUu8",
+    "area": "Santillana del Mar",
+    "kind": "Restaurant"
+  },
+  {
+    "name": "Los Blasones",
+    "category": "restaurant",
+    "lat": 43.3893177,
+    "lon": -4.1078363,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/gSYVPL5TEqvP5ig88",
+    "area": "Santillana del Mar",
+    "kind": "Restaurant"
+  },
+  {
+    "name": "Azabache",
+    "category": "restaurant",
+    "lat": 43.4330936,
+    "lon": -3.919483,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/VXVyKdEz8nKz3dtx8",
+    "area": "Mompía, Santa Cruz de Bezana",
+    "kind": "Restaurant"
   }
 ]

@@ -247,6 +247,18 @@
    "priceLevel": "€€"
   },
   {
+   "id": "azabache",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Azabache",
+   "lat": 43.4330936,
+   "lon": -3.919483,
+   "gmaps": "https://maps.app.goo.gl/VXVyKdEz8nKz3dtx8",
+   "area": "Mompía, Santa Cruz de Bezana",
+   "kind": "Restaurant"
+  },
+  {
    "id": "bodega-del-riojano",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -996,6 +1008,18 @@
    "priceLevel": "€€"
   },
   {
+   "id": "el-perdon",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "El Perdón",
+   "lat": 43.389776,
+   "lon": -4.1081178,
+   "gmaps": "https://maps.app.goo.gl/C4kZGALTDR6SGhUu8",
+   "area": "Santillana del Mar",
+   "kind": "Restaurant"
+  },
+  {
    "id": "entorno-de-tresviso-pr-pnpe-17",
    "name": "Entorno de Tresviso (PR-PNPE 17)",
    "category": "hike",
@@ -1064,6 +1088,18 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
     "circular": true
    }
+  },
+  {
+   "id": "heladeria-creperia-santillan",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Heladería Crepería Santillán",
+   "lat": 43.3900822,
+   "lon": -4.1079071,
+   "gmaps": "https://maps.app.goo.gl/6sV5KuY5xuJhVcmq8",
+   "area": "Santillana del Mar",
+   "kind": "Ice cream / crêperie"
   },
   {
    "id": "horcados-rojos",
@@ -1451,6 +1487,18 @@
    "hours": "Mon 07:00-19:00; Tue 07:00-18:00; Wed-Fri 07:00-19:00; Sat 09:00-13:00; Sun closed (check before going)",
    "priceLevel": "€",
    "kind": "Café / breakfast"
+  },
+  {
+   "id": "los-blasones",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "Los Blasones",
+   "lat": 43.3893177,
+   "lon": -4.1078363,
+   "gmaps": "https://maps.app.goo.gl/gSYVPL5TEqvP5ig88",
+   "area": "Santillana del Mar",
+   "kind": "Restaurant"
   },
   {
    "id": "los-bosques-del-monte-corona-ca-enp33",
