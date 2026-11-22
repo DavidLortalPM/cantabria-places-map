@@ -15,19 +15,6 @@
       "heldFrom": "other.json"
     },
     {
-      "status": "verified",
-      "name": "Playa de Tagle (El Sable)",
-      "category": "attraction",
-      "kind": "Beach",
-      "area": "Suances",
-      "lat": 43.427843,
-      "lon": -4.093985,
-      "source": "OSM: Playa El Sable (assumed to be the Tagle beach)",
-      "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
-      "heldBackReason": "Leaflet says Tagle; OpenStreetMap only has \"Playa El Sable\" in Suances, so the match is assumed",
-      "heldFrom": "other.json"
-    },
-    {
       "name": "Vermutería De Vicio",
       "category": "restaurant",
       "lat": 43.460192,

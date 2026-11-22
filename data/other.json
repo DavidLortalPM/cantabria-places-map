@@ -605,5 +605,16 @@
     "status": "verified",
     "source": "CANTUR / Turismo de Cantabria points of interest (official coordinates): https://cantur.net/santander/infoTools/views/gesPoi.php?idCat=64",
     "description": "A medieval Gothic tower of military character, built in the 14th century. It was the residence of the merino, the king's representative, after Santillana was made capital of the Asturias de Santillana in 1209, the largest jurisdiction in medieval Cantabria."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de Tagle (El Sable)",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Suances",
+    "lat": 43.427843,
+    "lon": -4.093985,
+    "source": "OSM: Playa El Sable; the CANTUR Suances street plan names the beach \"Playa El Sable (Tagle)\", confirming they are the same beach",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
   }
 ]

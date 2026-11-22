@@ -2697,6 +2697,18 @@
    "link": "http://www.aytobezana.com/"
   },
   {
+   "id": "playa-de-tagle-el-sable",
+   "locationStatus": "verified",
+   "locationSource": "OSM: Playa El Sable; the CANTUR Suances street plan names the beach \"Playa El Sable (Tagle)\", confirming they are the same beach",
+   "name": "Playa de Tagle (El Sable)",
+   "category": "attraction",
+   "kind": "Beach",
+   "area": "Suances",
+   "lat": 43.427843,
+   "lon": -4.093985,
+   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
    "id": "pollos-a-la-brasa-sabor-peruano",
    "category": "restaurant",
    "locationStatus": "verified",

@@ -1,0 +1,1697 @@
+[
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 2,
+  "name": "Casona de Sánchez de Tagle",
+  "kind": "historic house",
+  "town": "Santillana del Mar",
+  "summary": "Late-17th-century mansion in the old town of Santillana, listed among the buildings of interest on the official town map and in the municipal guide. Seen from the street.",
+  "facts": [
+   [
+    "Built",
+    "End of the 17th century"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 1,
+  "name": "Ermita de San Roque (Santillana del Mar)",
+  "kind": "chapel",
+  "town": "Santillana del Mar",
+  "summary": "Small chapel marked as a building of interest on the official Santillana town map. The town's San Roque festivity falls on 16 August.",
+  "facts": [
+   [
+    "Festivity",
+    "San Roque, 16 August (Santillana)"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Only named on the map legend; no description in the guide."
+ },
+ {
+  "guide": "Santillana Del Mar, un lugar para admirar",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/25528641dd99bdf7b8310237847.pdf",
+  "page": 2,
+  "name": "Antigua Cárcel (Santillana del Mar)",
+  "kind": "exhibition space",
+  "town": "Santillana del Mar",
+  "summary": "The old jail of Santillana, marked on the 'un lugar para admirar' monuments map as an exhibition space in the historic centre, near the town hall.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Map label only; opening times and current use not stated."
+ },
+ {
+  "guide": "Santillana Del Mar, un lugar para admirar",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/25528641dd99bdf7b8310237847.pdf",
+  "page": 2,
+  "name": "Salón del Tiempo (Santillana del Mar)",
+  "kind": "exhibition space",
+  "town": "Santillana del Mar",
+  "summary": "An exhibition space shown on the official illustrated monuments map of Santillana, in the lower part of the town near the Barreda-Bracho house (Parador).",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Map label only; no description, hours or prices."
+ },
+ {
+  "guide": "Santillana Del Mar, un lugar para admirar",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/25528641dd99bdf7b8310237847.pdf",
+  "page": 2,
+  "name": "Casa de Doña Paz de Borbón",
+  "kind": "historic house",
+  "town": "Santillana del Mar",
+  "summary": "Historic house in central Santillana, marked as a building of interest on the official illustrated monuments map, close to the Torre del Merino and the Plaza Mayor.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Map label only; no description in the guide."
+ },
+ {
+  "guide": "Santillana Del Mar, un lugar para admirar",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/25528641dd99bdf7b8310237847.pdf",
+  "page": 2,
+  "name": "Casa de los Bustamante (Santillana del Mar)",
+  "kind": "historic house",
+  "town": "Santillana del Mar",
+  "summary": "Noble house in Santillana marked on the illustrated monuments map and given its own entry in the municipal tourist guide's civil-heritage chapter; one of the family houses whose arms appear around the town.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Guide section text was largely unreadable (font encoding); only the name and map position label confirmed."
+ },
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 2,
+  "name": "Aparcamiento Plaza del Rey (Santillana del Mar)",
+  "kind": "parking",
+  "town": "Santillana del Mar",
+  "summary": "One of the two public car parks for visitors to Santillana: cars are restricted to residents inside the old town, so visitors leave the car here. Reached from the CA-133.",
+  "facts": [
+   [
+    "Access",
+    "From the CA-133"
+   ],
+   [
+    "Note",
+    "Old town traffic restricted to residents; cobbled streets, wear comfortable shoes"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": 43.388961,
+  "lon": -4.107722,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 2,
+  "name": "Aparcamiento de Rolaceña (Santillana del Mar)",
+  "kind": "parking",
+  "town": "Santillana del Mar",
+  "summary": "Public car park next to the tourist office, the second official parking area for visitors to the car-free historic centre of Santillana. Reached from the CA-131.",
+  "facts": [
+   [
+    "Access",
+    "From the CA-131, beside the tourist office"
+   ],
+   [
+    "Tourist office",
+    "C/ Jesús Otero 20, tel. 942 818 251 / 942 818 812"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": 43.390139,
+  "lon": -4.105992,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 20,
+  "name": "Torre de Don Beltrán de la Cueva",
+  "kind": "tower",
+  "town": "Queveda (Santillana del Mar)",
+  "summary": "Battlemented three-storey stone tower from the late 15th or early 16th century, with a 17th-century mansion attached, a few metres from Queveda's parish church. Listed as a heritage site in 1981. A 5 km circular walk from Queveda via Mijares passes it.",
+  "facts": [
+   [
+    "Protection",
+    "Bien de Interés Cultural, 1981"
+   ],
+   [
+    "Distance",
+    "About 3 km east of Santillana"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 20,
+  "name": "Ermita de la Virgen de las Nieves (de las Quintas)",
+  "kind": "chapel",
+  "town": "Queveda (Santillana del Mar)",
+  "summary": "18th-century chapel in Queveda with rubble walls and dressed-stone corners, keeping a Solomonic-style altarpiece with its original images. Its festivity, Nuestra Señora de las Quintas, is on 5 August.",
+  "facts": [
+   [
+    "Festivity",
+    "Las Quintas, 5 August"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 16,
+  "name": "Ermita de San Sebastián y lavadero (Herrán)",
+  "kind": "chapel",
+  "town": "Herrán (Santillana del Mar)",
+  "summary": "Small late-Gothic chapel (14th century) in Herrán, the village that also holds the zoo and Altamira. A Roman-inscribed tombstone was found here. Nearby are a restored old washing place and a small, very old bridge. A 5.5 km walk from Santillana via the Altamira meadows ends here.",
+  "facts": [
+   [
+    "Built",
+    "14th century, over an earlier 9th-10th century chapel"
+   ],
+   [
+    "Festivity",
+    "San Sebastián, 20 May (Herrán)"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 15,
+  "name": "Ermita de San Cipriano y San Cornelio (Camplengo)",
+  "kind": "chapel",
+  "town": "Camplengo (Santillana del Mar)",
+  "summary": "Small 17th-century chapel in Camplengo, built over a 10th-century church. The village lies on the coastal Way of St James just before Santillana.",
+  "facts": [
+   [
+    "Festivity",
+    "San Cipriano, 16 September"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 18,
+  "name": "Palacio de Peredo (Mijares)",
+  "kind": "historic house",
+  "town": "Mijares (Santillana del Mar)",
+  "summary": "Sober 16th-century dressed-stone palace in Mijares, also called the Mijares Palace, with a large Peredo coat of arms and a round-arched doorway carved with plant motifs. Nearby is the 17th-century parish church of San Andrés y Santa María.",
+  "facts": [
+   [
+    "Protection",
+    "Bien de Interés Cultural, 1995"
+   ],
+   [
+    "Distance",
+    "About 3 km south of Santillana"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 24,
+  "name": "Castillo de Vispieres (Pico Vispieres / Monte Castillo)",
+  "kind": "viewpoint",
+  "town": "Vispieres (Santillana del Mar)",
+  "summary": "Hilltop south-east of Santillana with ruins of a 15th-century fortress (an almost square rubble building) and possibly an older Cantabrian hill fort. A 2.5 km climb from Santillana towards Torrelavega reaches the summit, a natural viewpoint over the whole municipality.",
+  "facts": [
+   [
+    "Walk",
+    "2.5 km from Santillana (direction Torrelavega)"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Not the same as the 'Monte Castillo' hike already in Notion (that one is in Central Cantabria / Puente Viesgo)."
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 24,
+  "name": "Ermita de San Jorge (Vispieres)",
+  "kind": "chapel",
+  "town": "Vispieres (Santillana del Mar)",
+  "summary": "17th-century chapel in Vispieres with a rectangular nave, square apse and geometric decoration on its round entrance arch. The village also has 17th-century houses with coats of arms (Pérez Bustamante, Bustamante, La Malata).",
+  "facts": [
+   [
+    "Festivity",
+    "San Jorge, 23 April"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 26,
+  "name": "Casa-Torre de los Calderón de la Barca (Viveda)",
+  "kind": "tower",
+  "town": "Viveda (Santillana del Mar)",
+  "summary": "Medieval tower-house dated to the 13th-15th centuries, among the oldest civil buildings in Cantabria, with battlements and legends of underground passages and a stay by St Francis of Assisi on his pilgrimage. A 5.2 km circular walk from Viveda passes it.",
+  "facts": [
+   [
+    "Protection",
+    "Historic-Artistic Monument 1982; Bien de Interés Local 2002"
+   ],
+   [
+    "Size",
+    "1,417 m2"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 27,
+  "name": "Palacio de Peredo (Viveda)",
+  "kind": "historic house",
+  "town": "Viveda (Santillana del Mar)",
+  "summary": "17th-century mountain-style mansion in Viveda with a dressed-stone facade and the Peredo y Velarde arms, nicknamed locally the 'palace of the golden pig'. Start and end of a circular walk via the Calderón tower and the Suances-Los Corrales path.",
+  "facts": [
+   [
+    "Protection",
+    "Bien de Interés Cultural, 1982"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 26,
+  "name": "Iglesia de San Salvador (Viveda)",
+  "kind": "church",
+  "town": "Viveda (Santillana del Mar)",
+  "summary": "Parish church of Viveda, rebuilt in the 16th century over a 10th-century building, keeping a Romanesque doorway with carved capitals and a Gothic arch. Its feast (San Salvador) is on 6 August.",
+  "facts": [
+   [
+    "Festivity",
+    "San Salvador, 6 August"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 27,
+  "name": "Ermita de la Virgen de la Consolación (Yuso)",
+  "kind": "chapel",
+  "town": "Yuso (Santillana del Mar)",
+  "summary": "17th-century chapel in Yuso, a small village 2 km north-west of Santillana noted in the guide for its wide views over the municipality and its traditional Cantabrian houses.",
+  "facts": [
+   [
+    "Festivity",
+    "La Consolación, 4 September"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 14,
+  "name": "Arroyo: Capilla de Nuestra Señora y Cueva de Arroyo",
+  "kind": "village",
+  "town": "Arroyo (Santillana del Mar)",
+  "summary": "The smallest village of the municipality, 2 km north-west of Santillana, with 17th-18th-century vernacular houses, a 17th-century chapel and a cave with prehistoric occupation. The long circular walk from Santillana stops at its old fountain and washing place.",
+  "facts": [
+   [
+    "Festivity",
+    "La Santuca, 8 September"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Cave access is not described; probably not visitable."
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 22,
+  "name": "Torre de San Telmo (Ubiarco)",
+  "kind": "ruin",
+  "town": "Ubiarco (Santillana del Mar)",
+  "summary": "A lone 14th-century wall, all that remains of a watchtower that guarded this coast, standing on the cliffs near Santa Justa beach and chapel. Reachable on the cliff path from the beach.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 124,
+  "name": "Calas de La Jerrona y Onzaperas",
+  "kind": "coast",
+  "town": "Ubiarco (Santillana del Mar)",
+  "summary": "Two wild coves on the Ubiarco cliffs with numerous 'bufones', narrow channels where waves force out jets of air and spray. Cormorants and gulls are the usual seabirds. La Jerrona is passed on the long walk from Santillana to Santa Justa.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 124,
+  "name": "Ensenada / Puerto de Calderón",
+  "kind": "coast",
+  "town": "Ubiarco (Santillana del Mar)",
+  "summary": "A sheltered inlet among steep cliffs, used as a port since Roman times. A green path with oaks and yews runs from here to Santa Justa beach; it is the highlight of the 10.5/14.5 km circular walk from Santillana.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Notion already has the hike 'Acantilados de Santa Justa – Puerto Calderón'; this is the point itself."
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 132,
+  "name": "Parque de La Alianza",
+  "kind": "park",
+  "town": "Viveda / Suances",
+  "summary": "A 32,000 m2 park shared by Santillana and Suances municipalities, reached from Barrio Peredo on the Way of St James, with a children's play area, barbecues and rustic picnic furniture.",
+  "facts": [
+   [
+    "Size",
+    "32,000 m2"
+   ],
+   [
+    "Facilities",
+    "Play area, barbecues, picnic furniture"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 131,
+  "name": "Santillana circular: Rubaña, Arroyo, Calderón and Santa Justa",
+  "kind": "walk",
+  "town": "Santillana del Mar",
+  "summary": "The longest of four routes suggested by Santillana's tourism website: circular from the town over Rubaña hill to Arroyo, then to the coast past the Calderón inlet, La Jerrona cove and Tresvalle to Ubiarco, returning by the CA-351 and an old cart track past El Cuco and the El Silo barns.",
+  "facts": [
+   [
+    "Distance",
+    "10.5 km, or 14.5 km including Santa Justa chapel"
+   ],
+   [
+    "Type",
+    "Circular"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 132,
+  "name": "Camino de Santiago: Viveda to Santillana and Arroyo",
+  "kind": "walk",
+  "town": "Santillana del Mar",
+  "summary": "9.7 km section of the Way of St James, also fine by bike, from the Puente de la Barca in Viveda past La Alianza park and Camplengo to Santillana, then on towards Arroyo with a view of Oreña. Waymarked with shells and yellow arrows.",
+  "facts": [
+   [
+    "Distance",
+    "9.7 km"
+   ],
+   [
+    "Bikes",
+    "Suitable"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 132,
+  "name": "Santillana to Altamira and Herrán loop",
+  "kind": "walk",
+  "town": "Santillana del Mar",
+  "summary": "5.5 km walk from the Revolgo park up through meadows to near the Altamira caves, returning through a eucalyptus wood to the San Sebastián chapel in Herrán and back.",
+  "facts": [
+   [
+    "Distance",
+    "5.5 km"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 133,
+  "name": "Queveda and Mijares loop",
+  "kind": "walk",
+  "town": "Santillana del Mar",
+  "summary": "5 km circular walk from Queveda up a eucalyptus hill with views of the village, down to Mijares for the palace and church, and back past the Torre de Don Beltrán de la Cueva.",
+  "facts": [
+   [
+    "Distance",
+    "5 km"
+   ],
+   [
+    "Type",
+    "Circular"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 133,
+  "name": "Viveda loop: Calderón tower and old railway",
+  "kind": "walk",
+  "town": "Santillana del Mar",
+  "summary": "Circular walk of about 5.2 km starting and ending at the Peredo palace in Viveda, via the Calderón de la Barca tower and Riaño along the old railway, returning on the Suances-Los Corrales foot and cycle path under plane trees.",
+  "facts": [
+   [
+    "Distance",
+    "About 5.2 km (300 m shorter than the 5.5 km route)"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "English text says 'only 300 mts'; Spanish says 300 m shorter than the previous 5.5 km route."
+ },
+ {
+  "guide": "Palacio de Sobrellano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/6317641de3451dfd3027365171.pdf",
+  "page": 1,
+  "name": "Casa de Ocejo",
+  "kind": "historic house",
+  "town": "Comillas",
+  "summary": "Indiano-style house bought in 1865 by the first Marquis of Comillas for his mother. King Alfonso XII stayed here in 1881 and 1882; on 5 September 1881 he chaired a cabinet meeting, making Comillas capital of Spain for a day. Gaudí designed a (lost) Chinese kiosk for its garden. Private property.",
+  "facts": [
+   [
+    "Access",
+    "Private property, exterior only"
+   ],
+   [
+    "Sobrellano estate panel",
+    "No. 8"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Palacio de Sobrellano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/6317641de3451dfd3027365171.pdf",
+  "page": 1,
+  "name": "Casa de La Portilla",
+  "kind": "historic house",
+  "town": "Comillas",
+  "summary": "Neoclassical summer house of Claudio López, brother of the first marquis, designed in 1871 by Josep Oriol Mestres, with an exterior stair, columned porch and a south gallery painted with Japanese-influenced decoration. The infantas stayed here during the royal visits of 1881-82. Private property.",
+  "facts": [
+   [
+    "Access",
+    "Private property, exterior only"
+   ],
+   [
+    "Sobrellano estate panel",
+    "No. 7"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Palacio de Sobrellano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/6317641de3451dfd3027365171.pdf",
+  "page": 1,
+  "name": "Casa de las Cavaducas",
+  "kind": "historic house",
+  "town": "Comillas",
+  "summary": "Summer residence built in 1875 for Isabel López Bru, designed by her husband Eusebi Güell, Gaudí's patron. Burnt in 1987 and since rebuilt. Private property within the Sobrellano garden-city ensemble.",
+  "facts": [
+   [
+    "Access",
+    "Private property, exterior only"
+   ],
+   [
+    "Sobrellano estate panel",
+    "No. 5"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Palacio de Sobrellano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/6317641de3451dfd3027365171.pdf",
+  "page": 1,
+  "name": "Casa del Llano",
+  "kind": "historic house",
+  "town": "Comillas",
+  "summary": "Rectangular prism-shaped summer house of Patricio de Satrústegui, the first marquis's business partner, similar to the Ocejo and La Portilla houses. Private property on the edge of the Sobrellano estate.",
+  "facts": [
+   [
+    "Access",
+    "Private property, exterior only"
+   ],
+   [
+    "Sobrellano estate panel",
+    "No. 6"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Mirador y Ermita de Santa Lucía",
+  "kind": "viewpoint",
+  "town": "Comillas",
+  "summary": "Simple chapel on a headland above Comillas beach, where fishermen prayed before going to sea. Two small lighthouses stand where whale-spotting lookouts once warned the harpooners. A fine viewpoint over the coast.",
+  "facts": [
+   [
+    "Map grid",
+    "11-D"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Corro San Pedro",
+  "kind": "square",
+  "town": "Comillas",
+  "summary": "Traditional square of Comillas framed by noble houses, including an 18th-century mansion with a large coat of arms and the former Parador (later Hotel San Pedro), where the saint's image is kept. On 29 June it is carried in procession with dancers and tambourines.",
+  "facts": [
+   [
+    "Festivity",
+    "San Pedruco, 29 June"
+   ],
+   [
+    "Map grid",
+    "9-E"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Monumento al Sagrado Corazón de Jesús (Comillas)",
+  "kind": "monument",
+  "town": "Comillas",
+  "summary": "Statue of the Sacred Heart on a hill above the town, commissioned by the second marquis; destroyed in the Civil War and rebuilt in the 1940s. Behind it is the Casa Rectoral (about 1770) with its pulpit-like balcony.",
+  "facts": [
+   [
+    "Map grid",
+    "8-E"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "La Cárcel – Albergue de Peregrinos La Peña",
+  "kind": "historic building",
+  "town": "Comillas",
+  "summary": "Austere building of 1879 in the La Peña quarter, paid for by neighbours as the town jail with two cells and a courtyard; now a hostel for pilgrims on the Camino de Santiago and the Santo Toribio route.",
+  "facts": [
+   [
+    "Use",
+    "Pilgrims' hostel"
+   ],
+   [
+    "Map grid",
+    "8-E"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Ayuntamiento Antiguo (Comillas)",
+  "kind": "historic building",
+  "town": "Comillas",
+  "summary": "Former town hall built on the site of the old hospital and San Juan chapel, with sandstone arcades open to the street on three sides, the shields of the archbishops born in Comillas, and a small market bell on the roof.",
+  "facts": [
+   [
+    "Map grid",
+    "8-F"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Built 1780 per the town map; the Comillas guide says 1775."
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Corro Campíos",
+  "kind": "square",
+  "town": "Comillas",
+  "summary": "The lively main square of Comillas beside the parish church, historically used for bowls, dances and fiestas and still the meeting point of the town, with cafés and restaurants. It opens into the traditional Campíos quarter.",
+  "facts": [
+   [
+    "Map grid",
+    "9-F"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Ayuntamiento Nuevo y Plaza del Ángel (Comillas)",
+  "kind": "historic building",
+  "town": "Comillas",
+  "summary": "Late-19th-century building paid for by Manuela del Piélago as a free infant school run by the Daughters of Charity; since 2003 the town hall. The Plaza del Ángel lies on its south side and a Virgin and Child possibly by Josep Llimona decorates one corner.",
+  "facts": [
+   [
+    "Map grid",
+    "8-F"
+   ],
+   [
+    "Town hall phone",
+    "942 720 033"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Fuente de los Tres Caños",
+  "kind": "monument",
+  "town": "Comillas",
+  "summary": "Monumental stone fountain and lamp post by Lluís Domènech i Montaner (1899) in the centre of Comillas, honouring Joaquín del Piélago who funded the town's water supply. Shaped like a baroque candelabrum; its light recalls Comillas being the first Spanish town with electric light.",
+  "facts": [
+   [
+    "Built",
+    "1899"
+   ],
+   [
+    "Map grid",
+    "8-F"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Puerta de los Pájaros (Portada Casa Moro)",
+  "kind": "monument",
+  "town": "Comillas",
+  "summary": "Gateway of 1900 attributed to Gaudí, built of irregular stone with rounded corners, with three openings: one for carriages, one for people and a small round one for birds, hence its name.",
+  "facts": [
+   [
+    "Built",
+    "1900"
+   ],
+   [
+    "Map grid",
+    "11-E"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "La Coteruca",
+  "kind": "historic house",
+  "town": "Comillas",
+  "summary": "Castle-like summer house on a hill above the sea, built to French plans for the Riera family and later the Marquis of Movellán; a gala ball for the royal family was held here in 1882. Rebuilt as apartments in 1990.",
+  "facts": [
+   [
+    "Access",
+    "Private apartments, exterior only"
+   ],
+   [
+    "Map grid",
+    "12-G"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, plano turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19654675adfb139398900968173.pdf",
+  "page": 2,
+  "name": "Asilo-Hospital de Comillas",
+  "kind": "historic building",
+  "town": "Comillas",
+  "summary": "Modernist hospital-asylum of 1888 by Cristóbal Cascante, modelled on Sobrellano palace around a central courtyard, with a stepped porch, chapel and wooden mountain-style gallery. Still in use, run by the Daughters of St Joseph.",
+  "facts": [
+   [
+    "Map grid",
+    "12-G"
+   ],
+   [
+    "Access",
+    "Working care home; exterior"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 13,
+  "name": "Playa de los Muertos (Comillas)",
+  "kind": "beach",
+  "town": "Comillas",
+  "summary": "A tiny bay just beyond the Comillas cemetery, outside the town centre, named in the official guide as Comillas's second beach after the main town beach.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Name read from a faint scanned page; location only described as 'beyond the cemetery'."
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 13,
+  "name": "Ría de la Rabia",
+  "kind": "nature",
+  "town": "Comillas",
+  "summary": "Tidal estuary west of Comillas, part of the Oyambre Natural Park marshes, with alder, hazel and willow groves and an exceptional bird-watching area where many species feed and winter.",
+  "facts": [
+   [
+    "Protection",
+    "Within Parque Natural de Oyambre"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 13,
+  "name": "Club de Golf Rovacías",
+  "kind": "sport",
+  "town": "Comillas",
+  "summary": "Golf course in Comillas, set into the landscape and adapted to the terrain, recommended in the official guide.",
+  "facts": [
+   [
+    "Phone",
+    "942 722 543"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 15,
+  "name": "Arboretum del Joyuco (Rubárcena)",
+  "kind": "garden",
+  "town": "Rubárcena (Comillas)",
+  "summary": "Arboretum between Trasvía and Comillas, near the cycle lane, on the flat land in the bend of the Bárcena river: a rest area planted with a variety of native tree species.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 15,
+  "name": "Ermita de San Miguel (Rioturbio)",
+  "kind": "chapel",
+  "town": "Rioturbio (Comillas)",
+  "summary": "Chapel in Rioturbio, a hamlet inside the Oyambre Natural Park at the edge of the Monte Corona forest, reached along the road across the marshes; the village keeps traditional houses.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 15,
+  "name": "Ermita de San Andrés (Trasvía)",
+  "kind": "chapel",
+  "town": "Trasvía (Comillas)",
+  "summary": "Chapel in Trasvía, a hamlet on a hill west of Comillas with panoramic views over the Rabia estuary and the Oyambre dunes.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 15,
+  "name": "Iglesia de San Adrián (Sopeña, Ruiseñada)",
+  "kind": "church",
+  "town": "Ruiseñada (Comillas)",
+  "summary": "Church in the Sopeña quarter of Ruiseñada with 15th-century Gothic details and a columned portico, in a village of rural houses at the foot of Monte Corona.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 15,
+  "name": "Ermita de Santa Apolonia (La Molina)",
+  "kind": "chapel",
+  "town": "La Molina (Ruiseñada, Comillas)",
+  "summary": "Council chapel on the square of Barrio de la Molina in Ruiseñada. Nearby is the Cueva de la Meaza, a listed cave with a single wavy red painted sign, which is not open to visits.",
+  "facts": [
+   [
+    "Nearby",
+    "Cueva de la Meaza (Bien de Interés Cultural, not visitable)"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 15,
+  "name": "Ermita de Santa Ana (Pirgo)",
+  "kind": "chapel",
+  "town": "Pirgo (Ruiseñada, Comillas)",
+  "summary": "Neo-Gothic chapel in Pirgo, in Ruiseñada parish on the slopes of Monte Corona.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Costa Central",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/3866745ee5e13800982942452.pdf",
+  "page": 1,
+  "name": "Casa de Juntas de Puente San Miguel",
+  "kind": "historic building",
+  "town": "Puente San Miguel (Reocín)",
+  "summary": "The meeting house where the Province of Cantabria was founded in 1778, remembered every 28 July with the Festival of the Cantabrian Institutions at the nearby Ermita de los Valles.",
+  "facts": [
+   [
+    "Event",
+    "Fiesta de las Instituciones de Cantabria, 28 July"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Costa Central",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/3866745ee5e13800982942452.pdf",
+  "page": 1,
+  "name": "Casa natal de José María de Pereda (Polanco)",
+  "kind": "historic house",
+  "town": "Polanco",
+  "summary": "Birthplace of the novelist José María de Pereda in Polanco, named in the leaflet as a key place in Cantabrian identity.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Leaflet only mentions it; no visiting details."
+ },
+ {
+  "guide": "Costa Central",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/3866745ee5e13800982942452.pdf",
+  "page": 1,
+  "name": "Abadía de Santa María de Viaceli (Cóbreces)",
+  "kind": "monastery",
+  "town": "Cóbreces (Alfoz de Lloredo)",
+  "summary": "Trappist abbey in Cóbreces where the monks make a well-known cheese; Cóbreces also holds a cheese fair on the first weekend of July.",
+  "facts": [
+   [
+    "Event",
+    "Feria del Queso, first weekend of July (Cóbreces)"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Costa Central",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/3866745ee5e13800982942452.pdf",
+  "page": 1,
+  "name": "Ría de Mogro (Abra del Pas)",
+  "kind": "nature",
+  "town": "Mogro (Miengo)",
+  "summary": "The estuary where the river Pas meets the sea, the eastern starting point of the Costa Central.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Costa Central",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/3866745ee5e13800982942452.pdf",
+  "page": 2,
+  "name": "Playa de Usgo",
+  "kind": "beach",
+  "town": "Miengo",
+  "summary": "Wild, secluded beach on the Miengo coast, on the Costa Quebrada coastal path between Robayera and Cuchía.",
+  "facts": [],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Costa Central",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/3866745ee5e13800982942452.pdf",
+  "page": 2,
+  "name": "Costa Quebrada path: Robayera to Cuchía",
+  "kind": "walk",
+  "town": "Miengo",
+  "summary": "Coastal walk of about 7 km one way from Robayera beach via Punta del Águila, Usgo beach, Punta del Cuerno and Los Caballos beach to Cuchía. More routes on the Miengo council website.",
+  "facts": [
+   [
+    "Distance",
+    "About 7 km one way"
+   ],
+   [
+    "More info",
+    "www.aytomiengo.org"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "Same route as \"Ruta Costa Quebrada (Robayera – Cuchía)\" in cantur-routes.en.json; not added to Notion here to avoid a duplicate row."
+ },
+ {
+  "guide": "Suances, plano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/30575641dde2fb1897955563697.pdf",
+  "page": 2,
+  "name": "Playa de la Ribera (Suances)",
+  "kind": "beach",
+  "town": "Suances",
+  "summary": "Small urban beach on the Ría de San Martín next to the fishing and sports port, with calm water, ideal for young children. Gentle slope into the water.",
+  "facts": [
+   [
+    "Size",
+    "120 m long, 20 m wide"
+   ],
+   [
+    "Lifeguards",
+    "Red Cross, with boat; danger zone marked by buoys"
+   ],
+   [
+    "Services",
+    "Promenade, parking nearby, bins, showers, first-aid post, seasonal kiosks"
+   ],
+   [
+    "Dogs",
+    "Not allowed"
+   ],
+   [
+    "Access",
+    "On foot and by wheeled access"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Suances, plano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/30575641dde2fb1897955563697.pdf",
+  "page": 2,
+  "name": "Playa de la Riberuca (Suances)",
+  "kind": "beach",
+  "town": "Suances",
+  "summary": "Quiet estuary beach inside La Ribera landscape park, linked to the foot and cycle path, good for a gentle walk. Calm water with an anchorage; easy, gentle access.",
+  "facts": [
+   [
+    "Size",
+    "650 m long, about 5 m wide"
+   ],
+   [
+    "Crowds",
+    "Low"
+   ],
+   [
+    "Services",
+    "Parking, bins, showers, first-aid post, picnic area"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Suances, plano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/30575641dde2fb1897955563697.pdf",
+  "page": 2,
+  "name": "Playa de la Tablía (Suances)",
+  "kind": "beach",
+  "town": "Suances",
+  "summary": "Perhaps Suances's most unspoilt beach, open to the sea with big cliffs and strong waves, popular with surfers. Not lifeguarded; reached by a steep path down the cliff. Small car park nearby and a clifftop viewpoint; the Suances-Tagle cycle lane passes by.",
+  "facts": [
+   [
+    "Size",
+    "80 m"
+   ],
+   [
+    "Lifeguards",
+    "None"
+   ],
+   [
+    "Access",
+    "Steep cliff path"
+   ],
+   [
+    "Bathing",
+    "Strong waves"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": "The 'Mirador Playa de la Tablía' is already on the map; this is the beach below it."
+ },
+ {
+  "guide": "Buceo Miengo",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/12262641dd517496b9329557381.pdf",
+  "page": 1,
+  "name": "Centro de Buceo Calypso (Playa de Usil, Mogro)",
+  "kind": "experience",
+  "town": "Mogro (Miengo)",
+  "summary": "Dive centre on Usil beach offering boat and shore dives, snorkelling, try-dives (pool or sea), courses and boat trips. Dive sites include the five Islas Conejeras (a protected bird reserve), Faro de Suances, Roca Blanca and Punta Ballota, where the wreck of the mail ship Isla de Cuba lies. Estuary trips pass osprey nesting platforms.",
+  "facts": [
+   [
+    "Address",
+    "Paseo Marítimo 192, Playa de Usil, Mogro"
+   ],
+   [
+    "Phone",
+    "685 30 92 47"
+   ],
+   [
+    "Email",
+    "infobuceocantabria@gmail.com"
+   ],
+   [
+    "Web",
+    "www.buceocalypso.es"
+   ]
+  ],
+  "matchesExistingPlace": null,
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Palacio de Sobrellano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/6317641de3451dfd3027365171.pdf",
+  "page": 1,
+  "name": "Palacio y Capilla-Panteón de Sobrellano",
+  "kind": "practical info",
+  "town": "Comillas",
+  "summary": "Official leaflet for the Sobrellano estate: guided visits to the palace or the chapel-pantheon should be bought or booked well ahead; on the day, tickets are sold only at the ticket office subject to space. The gardens are not guided and have no capacity limit. Info panels mark 8 points around the estate.",
+  "facts": [
+   [
+    "Bookings",
+    "942 598 425, reservascentros@culturadecantabria.es"
+   ],
+   [
+    "Online",
+    "centros.culturadecantabria.com/reservas"
+   ],
+   [
+    "Gardens",
+    "Free-roaming, not guided, no capacity limit"
+   ],
+   [
+    "Phone (Comillas guide)",
+    "942 720 339"
+   ]
+  ],
+  "matchesExistingPlace": "Palacio y Capilla-Panteón de Sobrellano",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Neocueva y Museo Altamira",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/1217561bc87700b16c048732271.pdf",
+  "page": 1,
+  "name": "Museo de Altamira – guided Neocueva + museum visit",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Guided visit to the Neocueva and the Altamira museum, entry included, for all ages, at 15:30 every day except Sundays, holidays and Mondays. Booking essential. Ticket desk at the museum.",
+  "facts": [
+   [
+    "Price",
+    "15.00 euros; free for children up to 8"
+   ],
+   [
+    "Time",
+    "15:30"
+   ],
+   [
+    "Days",
+    "Daily except Sundays, public holidays and Mondays"
+   ],
+   [
+    "Booking",
+    "Essential; 609 131 298, www.visitacantabria.es"
+   ],
+   [
+    "Museum phone",
+    "942 818 005 / 942 818 815"
+   ],
+   [
+    "Address",
+    "Av. Sanz de Sautuola s/n, Santillana"
+   ],
+   [
+    "Also",
+    "Birch and hazel grove near the Neocueva recreating the Ice Age vegetation"
+   ]
+  ],
+  "matchesExistingPlace": "Museo de Altamira",
+  "lat": 43.379158,
+  "lon": -4.122156,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24677641ca840da04f375344498.pdf",
+  "page": 2,
+  "name": "Casas del Águila y la Parra – visit details",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Temporary exhibitions in two 16th-17th-century houses on the Plaza Mayor next to the town hall. Closed on Mondays; visits are free.",
+  "facts": [
+   [
+    "Closed",
+    "Mondays"
+   ],
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 818 398"
+   ]
+  ],
+  "matchesExistingPlace": "Casas del Águila y la Parra",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 2,
+  "name": "Zoo de Santillana – details",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "60,000 m2 zoo with primates, big cats, a tropical butterfly house and waterfowl, a botanical collection of 300+ trees, a Quaternary Park recreating Altamira-era species, and a farm where children can touch domestic animals.",
+  "facts": [
+   [
+    "Address",
+    "Avda. del Zoo 2, Santillana"
+   ],
+   [
+    "Phone",
+    "942 818 125"
+   ],
+   [
+    "Web",
+    "zoosantillanadelmar.com"
+   ]
+  ],
+  "matchesExistingPlace": "Zoo de Santillana",
+  "lat": 43.382869,
+  "lon": -4.101819,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 139,
+  "name": "Museo Jesús Otero – visit details",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Municipal cultural centre opened in 1994 beside the Colegiata, with the María Sanz de Sautuola library, archive and exhibition rooms. Free visit includes the garden with six large sculptures, two rooms and a covered patio.",
+  "facts": [
+   [
+    "Price",
+    "Free"
+   ],
+   [
+    "Phone",
+    "942 840 198"
+   ]
+  ],
+  "matchesExistingPlace": "Museo Jesús Otero",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 138,
+  "name": "Museo Diocesano Regina Coeli – collection",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Opened in 1967 in the Regina Coeli convent, with over 800 works from Cantabrian parishes (popular and Gothic sculpture, silks, ivories, enamels, silverwork) and a nationally known book-restoration workshop.",
+  "facts": [
+   [
+    "Phone",
+    "942 840 317"
+   ],
+   [
+    "Address (directory)",
+    "El Cruce s/n"
+   ]
+  ],
+  "matchesExistingPlace": "Museo Diocesano Regina Coeli",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 2,
+  "name": "Colegiata de Santa Juliana – contact",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Romanesque collegiate church with cloister; listed Bien de Interés Cultural in 1889. Separate cloister entrance marked on the town map.",
+  "facts": [
+   [
+    "Phone",
+    "639 830 520"
+   ],
+   [
+    "Address",
+    "Plaza Abad Francisco Navarro s/n"
+   ]
+  ],
+  "matchesExistingPlace": "Colegiata de Santa Juliana",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 127,
+  "name": "Palacio de Peredo-Barreda – garden and museum",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Exhibition centre (Caja Cantabria) since 2000 with original furniture, art and a notable library. Its walled garden holds a 25 m ginkgo and a horse chestnut nearly 4 m round.",
+  "facts": [
+   [
+    "Phone",
+    "942 818 171"
+   ],
+   [
+    "Directory name",
+    "Museo de Caja Cantabria, C/ Santo Domingo 8"
+   ]
+  ],
+  "matchesExistingPlace": "Palacio de Peredo-Barreda",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana, mapa turístico",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/24553641de1a92a596567867719.pdf",
+  "page": 2,
+  "name": "Museo de la Tortura – alternative name",
+  "kind": "practical info",
+  "town": "Santillana del Mar",
+  "summary": "Listed in the official town map as the 'Museo de la Inquisición El Solar' and in the guide directory as Museo de la Tortura, C/ Bertrand Clisson 1.",
+  "facts": [
+   [
+    "Phone",
+    "942 840 273"
+   ],
+   [
+    "Web",
+    "www.museodelatortura.com"
+   ]
+  ],
+  "matchesExistingPlace": "Museo de la Tortura",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Santillana Del Mar, un lugar para admirar",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/25528641dd99bdf7b8310237847.pdf",
+  "page": 2,
+  "name": "Museo del Barquillero (Casa de los Abades)",
+  "kind": "museum",
+  "town": "Santillana del Mar",
+  "summary": "The illustrated monuments map marks the Casa de la Archiduquesa / de los Abades as an exhibition space housing the 'Museo del Barquillero'.",
+  "facts": [],
+  "matchesExistingPlace": "Casa de los Abades",
+  "lat": null,
+  "lon": null,
+  "uncertain": "Map label only; no hours or prices."
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 11,
+  "name": "Antiguo Seminario Mayor – Fundación Comillas",
+  "kind": "practical info",
+  "town": "Comillas",
+  "summary": "The restored former Pontifical University on La Cardosa hill now houses the CIESE-Comillas university centre (Spanish language and Hispanic studies); its noble rooms are open to visitors. The 1892 entrance gate by Domènech has pages holding the papal arms.",
+  "facts": [
+   [
+    "Phone",
+    "942 715 500 (Fundación Comillas)"
+   ],
+   [
+    "Web",
+    "fundacioncomillas.es"
+   ]
+  ],
+  "matchesExistingPlace": "Antiguo Seminario Mayor de Comillas",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 19,
+  "name": "El Capricho de Gaudí – phone",
+  "kind": "practical info",
+  "town": "Comillas",
+  "summary": "Listed in the Comillas guide's useful numbers; stands inside the Sobrellano park next to the palace and chapel.",
+  "facts": [
+   [
+    "Phone",
+    "942 720 365"
+   ]
+  ],
+  "matchesExistingPlace": "El Capricho de Gaudí",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Comillas, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/19189675adff0aa2c2641563512.pdf",
+  "page": 9,
+  "name": "Puerto de Comillas – history",
+  "kind": "practical info",
+  "town": "Comillas",
+  "summary": "Paid for by the townspeople and finished in 1716; the last Cantabrian port to keep whaling. Three sentry boxes, a small fort and cannons survive; a timber floodgate can close the inner basin in storms.",
+  "facts": [
+   [
+    "Built",
+    "Finished 1716"
+   ]
+  ],
+  "matchesExistingPlace": "Puerto de Comillas (El Muelle)",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Suances, plano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/30575641dde2fb1897955563697.pdf",
+  "page": 2,
+  "name": "Playa de la Concha (Suances) – beach facts",
+  "kind": "practical info",
+  "town": "Suances",
+  "summary": "Suances's busiest, most accessible beach with all services, host of summer volleyball, handball, football and rugby tournaments.",
+  "facts": [
+   [
+    "Size",
+    "1 km"
+   ],
+   [
+    "Lifeguards",
+    "Red Cross, with rescue boat"
+   ],
+   [
+    "Accessible",
+    "Yes"
+   ],
+   [
+    "Services",
+    "1.5 km promenade from La Ribera, parking nearby, first aid, drinking water, showers, surfboard hire, picnic area"
+   ],
+   [
+    "Dogs",
+    "Not allowed"
+   ]
+  ],
+  "matchesExistingPlace": "Playa de la Concha",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Suances, plano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/30575641dde2fb1897955563697.pdf",
+  "page": 2,
+  "name": "Playa de los Locos – beach facts",
+  "kind": "practical info",
+  "town": "Suances",
+  "summary": "Declared a Natural Surf Reserve; one of Spain's best-known surf spots. Open beach with strong waves.",
+  "facts": [
+   [
+    "Size",
+    "500 m"
+   ],
+   [
+    "Lifeguards",
+    "Red Cross, with rescue boat"
+   ],
+   [
+    "Services",
+    "Parking nearby, first aid, drinking water, showers, picnic area"
+   ],
+   [
+    "Dogs",
+    "Not allowed"
+   ]
+  ],
+  "matchesExistingPlace": "Playa de los Locos",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ },
+ {
+  "guide": "Suances, plano",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/30575641dde2fb1897955563697.pdf",
+  "page": 2,
+  "name": "Playa El Sable (Tagle) – beach facts",
+  "kind": "practical info",
+  "town": "Suances",
+  "summary": "Small sandy beach between cliffs, rustic and quiet; walkers can follow the cliffs to Punta Ballota. Confirms that 'Tagle' and 'El Sable' are the same beach.",
+  "facts": [
+   [
+    "Size",
+    "200 m long, about 50 m wide"
+   ],
+   [
+    "Lifeguards",
+    "Red Cross, danger flags"
+   ],
+   [
+    "Accessible",
+    "Yes"
+   ],
+   [
+    "Services",
+    "Parking, first aid, drinking water, showers, picnic area"
+   ],
+   [
+    "Dogs",
+    "Not allowed"
+   ]
+  ],
+  "matchesExistingPlace": "Playa de Tagle (El Sable)",
+  "lat": null,
+  "lon": null,
+  "uncertain": "This place is held back (data/held-back.json), not on the map."
+ },
+ {
+  "guide": "Santillana del Mar, guía turística",
+  "guideUrl": "https://cantur.net/santander/web_php/imatges/guias/5049641dd813d0f23856506758.pdf",
+  "page": 122,
+  "name": "Playa de Santa Justa (Ubiarco) – facilities",
+  "kind": "practical info",
+  "town": "Ubiarco (Santillana del Mar)",
+  "summary": "Small cove beach with restored surroundings, a children's playground, a hotel and picnic benches; paths along the cliffs lead to the San Telmo wall. The chapel was listed as local heritage in 2010.",
+  "facts": [
+   [
+    "Facilities",
+    "Playground, picnic tables, hotel"
+   ],
+   [
+    "Chapel protection",
+    "Bien de Interés Local, 2010"
+   ]
+  ],
+  "matchesExistingPlace": "Ermita de Santa Justa",
+  "lat": null,
+  "lon": null,
+  "uncertain": ""
+ }
+]
