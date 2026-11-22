@@ -432,5 +432,19 @@
     "gmaps": "https://maps.app.goo.gl/25R7B3sYXuboPta87",
     "area": "Santander",
     "kind": "Peruvian rotisserie chicken"
+  },
+  {
+    "name": "Ylis",
+    "category": "restaurant",
+    "lat": 43.4640768,
+    "lon": -3.8035702,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner; details from web listings (check before going)",
+    "gmaps": "https://maps.app.goo.gl/C9XdsGfvi55SbrEu8",
+    "area": "Santander",
+    "kind": "Asian (Thai / Chinese / Japanese)",
+    "address": "Calle Santa Lucía 3, 39003 Santander",
+    "phone": "942 69 08 38",
+    "description": "Asian restaurant in central Santander serving Thai, Chinese and Japanese dishes, with sushi fusion. Rated 8.1 on Gastroranking (about 250 opinions); reviewers praise the fresh food and varied menu."
   }
 ]
