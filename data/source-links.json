@@ -51,6 +51,19 @@
       "type": "paper leaflet",
       "url": "https://centros.culturadecantabria.com",
       "notes": "Booking phone +34 942 598 425, reservascentros@culturadecantabria.es. Photos are not stored in the public repo; our English summary is in data/details.extra.en.json."
+    },
+    {
+      "id": "routes-booklet-ubicacion",
+      "title": "Cantabria walking and cycling routes booklet, page \"Ubicación en el mapa\" (29 routes by comarca, 26 numbered markers), photographed by the owner",
+      "type": "paper booklet",
+      "notes": "Booklet title not captured: ask the owner for the cover. Comarcas covered: Saja-Nansa, Besaya, Costa Central/Santander, Trasmiera, Asón-Agüera, Valles Pasiegos, Campoo-Valderredible, Liébana. Cross-referenced against Notion on 22 Nov 2026; missing routes added to Notion as suggestions (no map)."
+    },
+    {
+      "id": "caves-network-leaflet",
+      "title": "Network of Prehistoric Caves and Cultural Centres in Cantabria (English leaflet, Gobierno de Cantabria), photographed by the owner",
+      "type": "paper leaflet",
+      "url": "https://cuevas.culturadecantabria.com",
+      "notes": "Covers El Castillo, Las Monedas, Covalanas, Cullalvera, El Pendo, Hornos de la Peña, Chufín, Julióbriga, Camesa-Rebolledo, Centro de Interpretación del Románico and Torre de Pero Niño. All are already Pasaporte Cultura pins; the leaflet only adds visit information (data/details.extra.en.json)."
     }
   ],
   "guidePdfs": [

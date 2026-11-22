@@ -2,29 +2,373 @@
   "ciudad-romana-y-domus-de-juliobriga": {
     "summary": "Julióbriga was a Roman city of the Campoo area, tied to the administrative takeover of the Cantabrian lands after the Cantabrian Wars. The leaflet dates its founding to the reign of Augustus, between 15 and 13 BC, and says it became the Cantabrians' capital in the 1st and 2nd centuries AD, with decline starting in the 3rd century.\n\nThe visit centres on the domus, a house of the late 1st century AD rebuilt from \"Los Morillos\": a columned dining room, a bedroom, a kitchen and a shop, with an upper floor. Outdoors, a signposted route has nine stops: the entrance, the forum, the Romanesque church built over part of it, the surrounding territory, the colonnaded street, La Llanuca housing quarter, the Los Morillos houses with mosaics, the southern sector, and a view of the Ebro reservoir.",
     "facts": [
-      ["Visit", "Guided visits of the domus last about 45 minutes. In high season there are also guided visits of the Roman city; the leaflet says outdoor access to the site is free all year."],
-      ["Tickets", "Buying or reserving ahead is recommended. On the day, tickets are sold only at the ticket office, subject to availability and in order of arrival. Visiting the Julióbriga domus and the Camesa-Rebolledo villa on the same day gives a reduction on the second ticket."],
-      ["Reservations phone", "+34 942 598 425"],
-      ["Reservations email", "reservascentros@culturadecantabria.es"],
-      ["Website", "centros.culturadecantabria.com"]
+      [
+        "Visit",
+        "Guided visits of the domus last about 45 minutes. In high season there are also guided visits of the Roman city; the leaflet says outdoor access to the site is free all year."
+      ],
+      [
+        "Tickets",
+        "Buying or reserving ahead is recommended. On the day, tickets are sold only at the ticket office, subject to availability and in order of arrival. Visiting the Julióbriga domus and the Camesa-Rebolledo villa on the same day gives a reduction on the second ticket."
+      ],
+      [
+        "Reservations phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Reservations email",
+        "reservascentros@culturadecantabria.es"
+      ],
+      [
+        "Website",
+        "centros.culturadecantabria.com"
+      ]
     ],
     "sources": [
-      { "label": "Centros de Cultura de Cantabria (website printed on the leaflet)", "url": "https://centros.culturadecantabria.com" }
+      {
+        "label": "Centros de Cultura de Cantabria (website printed on the leaflet)",
+        "url": "https://centros.culturadecantabria.com"
+      }
     ],
     "uncertain": "From a photographed visitor leaflet (French edition), so check access, prices and opening times with the centre before you go."
   },
   "arqueositio-cantabro-romano-de-camesa-rebolledo": {
     "summary": "A luxurious Roman villa about 20 km from Julióbriga, in Mataporquera (Valdeolea), built at the end of the 3rd century AD. It had an underfloor-heated bath suite with four rooms: a cold room, a warm room, a hot room and a changing room, plus a hot-air heating system below the floors.\n\nThe villa was abandoned around the middle of the 5th century. From the 6th century the site was used as a burial ground, and the tombs and sarcophagi found around the foundations of a rectangular church with a single nave and an apse belong to that period.",
     "facts": [
-      ["Visit", "Guided visits last about 45 minutes."],
-      ["Tickets", "Buying or reserving ahead is recommended. Visiting this villa and the Julióbriga domus on the same day gives a reduction on the second ticket."],
-      ["Reservations phone", "+34 942 598 425"],
-      ["Reservations email", "reservascentros@culturadecantabria.es"],
-      ["Website", "centros.culturadecantabria.com"]
+      [
+        "Visit",
+        "Guided visits last about 45 minutes."
+      ],
+      [
+        "Tickets",
+        "Buying or reserving ahead is recommended. Visiting this villa and the Julióbriga domus on the same day gives a reduction on the second ticket."
+      ],
+      [
+        "Reservations phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Reservations email",
+        "reservascentros@culturadecantabria.es"
+      ],
+      [
+        "Website",
+        "centros.culturadecantabria.com"
+      ]
     ],
     "sources": [
-      { "label": "Centros de Cultura de Cantabria (website printed on the leaflet)", "url": "https://centros.culturadecantabria.com" }
+      {
+        "label": "Centros de Cultura de Cantabria (website printed on the leaflet)",
+        "url": "https://centros.culturadecantabria.com"
+      }
     ],
     "uncertain": "From a photographed visitor leaflet (French edition), so check access, prices and opening times with the centre before you go."
+  },
+  "cueva-de-el-castillo": {
+    "summary": "One of the oldest occupation sequences in northern Spain: people lived here from at least 150,000 years ago, including Neanderthals and then the first Homo sapiens. About 300 m of the cave carry more than 2,900 images made between roughly 41,000 and 3,500 years ago. A red painting dated to at least 41,000 years ago is among the earliest cave art known in Europe; there are 78 hand stencils, at least 37,000 years old, and many bison, deer and other animals.\n\nEl Castillo is one of four decorated caves of Monte Castillo recognised by UNESCO as World Heritage in 2008 (with Las Chimeneas, Las Monedas and La Pasiega); only El Castillo and Las Monedas are open to the public.",
+    "facts": [
+      [
+        "Visit",
+        "Guided, about 45 minutes. Tickets for El Castillo and Las Monedas can be bought at the entrance of El Castillo."
+      ],
+      [
+        "In season",
+        "In summer and at Easter there are prehistory activities for people of all ages."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "cueva-de-las-monedas": {
+    "summary": "Named after 20 coins from the time of the Catholic Monarchs found here, linked to old treasure legends. The cave is about 350 m long and the first 250 m are visited. It is known for its geology, with colourful flowstone, columns and stalactites, and for charcoal drawings in a small passage near the entrance: horses, ibex, bison and the very rare reindeer of Palaeolithic Cantabrian art. The pictures are dated to about 12,300 to 11,500 years ago. No occupation levels were found inside. The entrance is 650 m from El Castillo.",
+    "facts": [
+      [
+        "Visit",
+        "Guided, about 45 minutes. A joint ticket with El Castillo is sold at the El Castillo entrance."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "cueva-de-covalanas": {
+    "summary": "A cave used mainly as a shrine rather than a dwelling, with almost no occupation levels. A narrow, high passage about 110 m long leads in; the red paintings sit about 65 m from the entrance. They are outlined in dotted lines and are strikingly uniform: 18 hinds, two horses (one doubtful), a stag and an aurochs, probably painted at the same time about 20,000 to 25,000 years ago, plus a few signs.",
+    "facts": [
+      [
+        "Visit",
+        "Guided, about 45 minutes. There is no electric lighting; the guide supplies torches at the start."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "cueva-de-cullalvera": {
+    "summary": "Two kilometres from Covalanas, near the centre of Ramales, this cave has a surprisingly large entrance, 14 m wide and 28 m high. It was once among the longest caves in the world and is now the fourth longest in Spain, with around 12,100 m known. The visit follows a walkway of about 400 m with some access for people with limited mobility. Red and charcoal figures, including a horse and series of dots, lie more than 780 m from the entrance and are about 13,000 years old, contemporary with Las Monedas.",
+    "facts": [
+      [
+        "Visit",
+        "Guided, about 1 hour 45 minutes, longer than the other caves."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "cueva-de-el-pendo": {
+    "summary": "The first part of the cave is an impressive chamber 45 m wide and 22 m high, lit by daylight. Neanderthals lived here at least 84,000 years ago and Homo sapiens between roughly 40,000 and 12,000 years ago; more than 250 portable art objects have been found. A frieze of rock about 25 m long holds 19 of the cave’s 24 red paintings, including a herd of hinds, a bison and a horse, dated to about 20,000 to 25,000 years ago.",
+    "facts": [
+      [
+        "Location",
+        "El Churri district, Escobedo de Camargo."
+      ],
+      [
+        "Visit",
+        "Guided, about 45 minutes."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "cueva-de-hornos-de-la-pena": {
+    "summary": "A small, 100 m cave whose inner chambers are tight and sometimes difficult. Its art is mostly incised and finger-engraved. The oldest phase dates to at least 22,000 years ago, with most of the engravings about 15,500 to 13,000 years old. Horses and bison are the most common animals, followed by aurochs, ibex and stags, and its human-like figures are among the rare ones in northern Spain, similar to those on the ceiling of Altamira.",
+    "facts": [
+      [
+        "Location",
+        "Tarriba, San Felices de Buelna."
+      ],
+      [
+        "Visit",
+        "Guided, about 45 minutes; helmets are provided by the guide and must be worn. No electric lighting."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "cueva-de-chufin": {
+    "summary": "Named after the Moor Chufín of local legend, who was said to have hidden treasure inside. The real treasure is the group of Palaeolithic engravings and paintings, partly in daylight next to a prehistoric dwelling. Most figures near the entrance are hinds, many drawn with three deep lines, dated to about 25,000 to 18,000 years ago. Inside there are red signs, mostly rows of dots, plus two horses and a stag. The cave overlooks the Palombera reservoir, which flooded the valley.",
+    "facts": [
+      [
+        "Location",
+        "Riclones, Rionansa."
+      ],
+      [
+        "Visit",
+        "Guided, about 45 minutes. You have to crawl inside the cave; the guide provides helmets and kneepads. No electric lighting."
+      ],
+      [
+        "Practical",
+        "All cave visits are guided. Wear non-slip, comfortable footwear and warm clothing."
+      ],
+      [
+        "Booking",
+        "Book at least one day in advance; places depend on availability."
+      ],
+      [
+        "Phone",
+        "+34 942 598 425"
+      ],
+      [
+        "Email",
+        "cuevas@culturadecantabria.com"
+      ],
+      [
+        "Website",
+        "cuevas.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cuevas Prehistóricas de Cantabria (website printed on the leaflet)",
+        "url": "https://cuevas.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "torre-de-pero-nino": {
+    "summary": "The tower-fortress of La Aguilera, known as the Pero Niño tower, was built in the 14th century. Today it is an interpretation centre about Admiral Pero Niño, first Count of Buelna, based on the book El Victorial by his standard-bearer Gutierre Díaz de Games. The exhibition, titled \"Pero Niño: life and adventures of a medieval knight\", uses audiovisuals, holograms and touchscreens to explain chivalry and court life in the Kingdom of Castile under Henry III in the late 14th century. It also tells the story of the Hornos de la Peña cave.",
+    "facts": [
+      [
+        "Location",
+        "Sovilla, San Félices de Buelna."
+      ],
+      [
+        "Booking",
+        "Information and reservations: +34 942 598 425, centros@culturadecantabria.com, centros.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Centros de Cultura de Cantabria (website printed on the leaflet)",
+        "url": "https://centros.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
+  },
+  "centro-de-interpretacion-del-romanico": {
+    "summary": "An interpretation centre inside the church of Santa María la Mayor in Villacantid, built in the late 12th century. The Romanesque church, with its apse and door preserved, shows several building phases. Corbels and capitals carry fantastic animals, jousting knights and Samson fighting the lion. Audiovisual displays explain how stone masons worked and how Romanesque architecture developed in the southern valleys. The church of Santa María de Retortillo, nearby, was built on top of the forum of the Roman town of Julióbriga.",
+    "facts": [
+      [
+        "Location",
+        "Villacantid, Campoo de Suso."
+      ],
+      [
+        "Booking",
+        "Information and reservations: +34 942 598 425, centros@culturadecantabria.com, centros.culturadecantabria.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Centros de Cultura de Cantabria (website printed on the leaflet)",
+        "url": "https://centros.culturadecantabria.com"
+      }
+    ],
+    "uncertain": "From a photographed visitor leaflet (English edition), so check opening times, prices and booking with the centre before you go."
   }
 }
