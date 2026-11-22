@@ -196,5 +196,139 @@
     "source": "OSM: Ermita de San Esteban",
     "description": "A small hermitage on a high point of Monte Corona (about 250 m) inside the Oyambre Natural Park. Next to it are a picnic area with tables and barbecues and a small viewpoint over the forest and the western Cantabrian coast; on clear days you can see San Vicente de la Barquera and the Picos de Europa. Reached by a paved forest road from La Hayuela. A pilgrimage (romeria) is held here around 3 August.",
     "familyFriendly": true
+  },
+  {
+    "status": "verified",
+    "name": "Colegiata de Santa Juliana",
+    "category": "attraction",
+    "kind": "Heritage / church",
+    "area": "Santillana del Mar",
+    "lat": 43.392289,
+    "lon": -4.106163,
+    "source": "OSM: Colegiata de Santillana del Mar",
+    "description": "Romanesque collegiate church from the 12th century, the heart of Santillana del Mar. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Museo de Altamira",
+    "category": "attraction",
+    "kind": "Museum",
+    "area": "Santillana del Mar",
+    "lat": 43.377406,
+    "lon": -4.122397,
+    "phone": "942 81 80 05",
+    "source": "OSM: Museo Nacional y Centro de Investigación de Altamira",
+    "description": "Museum and research centre for the Altamira cave art, with a permanent exhibition and activities for children and young people about how our ancestors lived. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "El Capricho de Gaudí",
+    "category": "attraction",
+    "kind": "Heritage / museum",
+    "area": "Comillas",
+    "lat": 43.383683,
+    "lon": -4.292697,
+    "phone": "942 72 03 65",
+    "source": "OSM: El Capricho de Gaudí",
+    "description": "Small modernist villa by Antoni Gaudí from his first period (1883–85), with rounded forms, a tall tower and sunflower tile decoration. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Cementerio modernista de Comillas",
+    "category": "attraction",
+    "kind": "Heritage",
+    "area": "Comillas",
+    "lat": 43.390122,
+    "lon": -4.293863,
+    "source": "OSM: Cementerio de Comillas",
+    "description": "Modernist cemetery on a hill facing the sea, set among the ruins of a former Gothic church and with an angel sculpture by Josep Llimona. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Monumento Natural de las Secuoyas del Monte Cabezón",
+    "category": "walk",
+    "kind": "Forest walk",
+    "area": "Cabezón de la Sal",
+    "lat": 43.319598,
+    "lon": -4.259381,
+    "source": "OSM: Monumento Natural de las Secuoyas del Monte Cabezón",
+    "description": "Natural monument of giant sequoias beside the CA-135 road between Cabezón de la Sal and Comillas; the trees can reach over 50 m. A pleasant short outing with a choice of walking routes. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de Comillas",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Comillas",
+    "lat": 43.38921,
+    "lon": -4.285652,
+    "source": "OSM: Playa de Comillas",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de Luaña",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Cóbreces",
+    "lat": 43.394027,
+    "lon": -4.221225,
+    "source": "OSM: Playa de Luaña",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de la Concha",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Suances",
+    "lat": 43.435706,
+    "lon": -4.043491,
+    "source": "OSM: Playa de la Concha",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de Usil (Mogro)",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Mogro, Miengo",
+    "lat": 43.438674,
+    "lon": -3.972382,
+    "source": "OSM: Playa de Mogro (the leaflet calls it Usil)",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de los Locos",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Suances",
+    "lat": 43.438687,
+    "lon": -4.046788,
+    "source": "OSM: Playa de los Locos",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Playa de Tagle (El Sable)",
+    "category": "attraction",
+    "kind": "Beach",
+    "area": "Suances",
+    "lat": 43.427843,
+    "lon": -4.093985,
+    "source": "OSM: Playa El Sable (assumed to be the Tagle beach)",
+    "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+  },
+  {
+    "status": "verified",
+    "name": "Ermita de Santa Justa",
+    "category": "attraction",
+    "kind": "Heritage / coast",
+    "area": "Ubiarco, Santillana del Mar",
+    "lat": 43.425948,
+    "lon": -4.097628,
+    "source": "OSM: Ermita de Santa Justa",
+    "description": "Small cove with the hermitage of Santa Justa built into the rock; the start of the coastal route to Puerto Calderón. Listed in the Cantabria Costa Central visitor leaflet."
   }
 ]
