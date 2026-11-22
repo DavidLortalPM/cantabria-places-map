@@ -30,6 +30,12 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/acantilados-de-san-vicente/",
     "circular": true
+   },
+   "image": {
+    "src": "/img/acantilados-de-san-vicente-ca-enp01.jpg",
+    "credit": "Rodelar",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Acantilados_en_San_Vicente.jpg"
    }
   },
   {
@@ -404,7 +410,13 @@
    "lat": 43.15084,
    "lon": -4.69388,
    "description": "The Liébana municipality at the foot of the Picos de Europa; it includes Fuente Dé. A day-trip idea in your Notion.",
-   "familyFriendly": true
+   "familyFriendly": true,
+   "image": {
+    "src": "/img/camaleno.jpg",
+    "credit": "MiguelAlanCS",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2020_Camale%C3%B1o_04.jpg"
+   }
   },
   {
    "id": "camino-de-los-neveros-ca-enp11",
@@ -587,7 +599,13 @@
    "area": "Santillana del Mar",
    "lat": 43.389417612637835,
    "lon": -4.1087292042991574,
-   "description": "A typical example of 18th-century town architecture, with pulpit-style balconies. In the mid-18th century it belonged to Francisco Antonio Pantaleón de Villa."
+   "description": "A typical example of 18th-century town architecture, with pulpit-style balconies. In the mid-18th century it belonged to Francisco Antonio Pantaleón de Villa.",
+   "image": {
+    "src": "/img/casa-de-los-villa.jpg",
+    "credit": "charles lecompte",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Villa_-_Santillana_del_Mar_-_panoramio.jpg"
+   }
   },
   {
    "id": "casa-del-duque-de-almodovar-del-rio",
@@ -944,7 +962,13 @@
    "area": "Santillana del Mar",
    "lat": 43.392289,
    "lon": -4.106163,
-   "description": "Romanesque collegiate church from the 12th century, the heart of Santillana del Mar. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Romanesque collegiate church from the 12th century, the heart of Santillana del Mar. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/colegiata-de-santa-juliana.jpg",
+    "credit": "José Luis Filpo Cabana",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colegiata_de_Santa_Juliana._Fachada.jpg"
+   }
   },
   {
    "id": "convento-de-san-ildefonso",
@@ -957,7 +981,13 @@
    "lat": 43.38825921738098,
    "lon": -4.107906981575771,
    "description": "Built in 1667 in Baroque style, this convent was richer in income and property than Regina Coeli, and its community often took in young women from the region's leading families and great lineages.",
-   "phone": "942 81 80 36"
+   "phone": "942 81 80 36",
+   "image": {
+    "src": "/img/convento-de-san-ildefonso.jpg",
+    "credit": "Vanbasten 23",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Convento_de_San_Ildefonso_de_Santillana_del_Mar.jpg"
+   }
   },
   {
    "id": "cornejas-el-vigia-forestal-ca-enp18",
@@ -1321,7 +1351,13 @@
    "lat": 43.383683,
    "lon": -4.292697,
    "phone": "942 72 03 65",
-   "description": "Small modernist villa by Antoni Gaudí from his first period (1883–85), with rounded forms, a tall tower and sunflower tile decoration. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Small modernist villa by Antoni Gaudí from his first period (1883–85), with rounded forms, a tall tower and sunflower tile decoration. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/el-capricho-de-gaudi.jpg",
+    "credit": "Marques de Benamaurel",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Capricho_(Palacio_Gaudi)_Comillas.jpg"
+   }
   },
   {
    "id": "el-carmelo",
@@ -1822,6 +1858,12 @@
      }
     ],
     "seasonNote": "Open 28 Mar–12 Oct in 2026: Wed–Sun, daily in July and August"
+   },
+   "image": {
+    "src": "/img/laberinto-de-villapresente.jpg",
+    "credit": "MariquillaColorinchi",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laberinto_De_Villapresente.jpg"
    }
   },
   {
@@ -2262,7 +2304,13 @@
    "area": "Cabezón de la Sal",
    "lat": 43.319598,
    "lon": -4.259381,
-   "description": "Natural monument of giant sequoias beside the CA-135 road between Cabezón de la Sal and Comillas; the trees can reach over 50 m. A pleasant short outing with a choice of walking routes. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Natural monument of giant sequoias beside the CA-135 road between Cabezón de la Sal and Comillas; the trees can reach over 50 m. A pleasant short outing with a choice of walking routes. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/monumento-natural-de-las-secuoyas-del-monte-cabezon.jpg",
+    "credit": "Pedro M. Martínez Corada",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sequoyas_del_Monte_Cabez%C3%B3n.jpg"
+   }
   },
   {
    "id": "mr-wang",
@@ -2289,7 +2337,13 @@
    "lat": 43.377406,
    "lon": -4.122397,
    "phone": "942 81 80 05",
-   "description": "Museum and research centre for the Altamira cave art, with a permanent exhibition and activities for children and young people about how our ancestors lived. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Museum and research centre for the Altamira cave art, with a permanent exhibition and activities for children and young people about how our ancestors lived. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/museo-de-altamira.jpg",
+    "credit": "Alonso de Mendoza",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrada_al_Museo_de_Altamira.jpg"
+   }
   },
   {
    "id": "museo-de-la-naturaleza-de-cantabria",
@@ -2332,7 +2386,13 @@
    "lon": -4.107243476721192,
    "description": "A museum displaying more than 70 European instruments of torture and capital punishment, from the Middle Ages to the industrial era. Dogs are allowed.",
    "phone": "942 840 273",
-   "link": "https://museodelatortura.com/"
+   "link": "https://museodelatortura.com/",
+   "image": {
+    "src": "/img/museo-de-la-tortura.jpg",
+    "credit": "Stromare",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_de_la_Tortura_El_Solar_(Santillana_del_Mar)_-_2013-Aug-16_-_by_Stromare.JPG"
+   }
   },
   {
    "id": "museo-de-prehistoria-y-arqueologia-de-cantabria-mupac",
@@ -2375,7 +2435,13 @@
    "lon": -4.109069108963013,
    "description": "Housed in the former Dominican friary of Regina Coeli (\"Queen of Heaven\"), the museum holds over 800 works from parishes across the region, notable for their popular character and dominated by sculpture, which with stonemasonry was the region's traditional craft.",
    "phone": "942 840 317",
-   "link": "http://www.santillanamuseodiocesano.net/"
+   "link": "http://www.santillanamuseodiocesano.net/",
+   "image": {
+    "src": "/img/museo-diocesano-regina-coeli.jpg",
+    "credit": "charles lecompte",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_Diocesano_Regina_Coeli_-_Santillana_del_Mar_-_panoramio.jpg"
+   }
   },
   {
    "id": "museo-etnografico-de-cantabria",
@@ -2474,7 +2540,13 @@
    "lon": -4.1085503,
    "description": "One of the town's most elegant and singular buildings, the ensemble comprises the palace, its annexed houses and their splendid garden.",
    "phone": "942 818 171",
-   "link": "https://santillanadelmarturismo.com/palacio-peredo-barreda/"
+   "link": "https://santillanadelmarturismo.com/palacio-peredo-barreda/",
+   "image": {
+    "src": "/img/palacio-de-peredo-barreda.jpg",
+    "credit": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portada_del_Palacio_Peredo_Barreda,_Santillana_del_Mar.jpg"
+   }
   },
   {
    "id": "palacio-de-velarde",
@@ -2488,7 +2560,13 @@
    "lon": -4.105314613491813,
    "description": "The finest example of Renaissance architecture in the town, built in the mid-16th century for Alonso de Velarde and also known as the Palacio de las Arenas. Its most important restoration was carried out in 1934.",
    "phone": "942 140 524 / 653618069",
-   "link": "https://palaciodevelarde.com/"
+   "link": "https://palaciodevelarde.com/",
+   "image": {
+    "src": "/img/palacio-de-velarde.jpg",
+    "credit": "Luis Fermín TURIEL PEREDO",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Velarde,_Santillana_del_Mar_pan.jpg"
+   }
   },
   {
    "id": "palacio-y-capilla-panteon-de-sobrellano",
@@ -2560,7 +2638,13 @@
    "lat": 43.37821043362102,
    "lon": -4.172613244244585,
    "description": "A stroll through this charming village, full of little channels. The walk is not complete without the obligatory lemonade or gin and tonic made with the area's prized lemons.",
-   "link": "https://www.alfozdelloredo.net/novales"
+   "link": "https://www.alfozdelloredo.net/novales",
+   "image": {
+    "src": "/img/paseo-por-novales-y-degustacion-de-limonada.jpg",
+    "credit": "Luis Fermín TURIEL PEREDO",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Novales,_Alfoz_Lloredo.jpg"
+   }
   },
   {
    "id": "pausau",
@@ -2669,7 +2753,13 @@
    "area": "Suances",
    "lat": 43.438687,
    "lon": -4.046788,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/playa-de-los-locos.jpg",
+    "credit": "Daniel Escudero",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Los_Locos_P7120022.jpg"
+   }
   },
   {
    "id": "playa-de-luana",
@@ -2681,7 +2771,13 @@
    "area": "Cóbreces",
    "lat": 43.394027,
    "lon": -4.221225,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/playa-de-luana.jpg",
+    "credit": "P. B. Obregón",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Lua%C3%B1a.jpg"
+   }
   },
   {
    "id": "playa-de-san-juan-de-la-canal",
@@ -2694,7 +2790,13 @@
    "lat": 43.47530886870769,
    "lon": -3.894356586610338,
    "description": "A beach on the coast near Santander, 1 km from Soto de la Marina. It is well known for the busy party held nearby on the night of San Juan.",
-   "link": "http://www.aytobezana.com/"
+   "link": "http://www.aytobezana.com/",
+   "image": {
+    "src": "/img/playa-de-san-juan-de-la-canal.jpg",
+    "credit": "Quetzal02",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan_de_la_Canal_Beach.JPG"
+   }
   },
   {
    "id": "playa-de-tagle-el-sable",
@@ -2706,7 +2808,13 @@
    "area": "Suances",
    "lat": 43.427843,
    "lon": -4.093985,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+   "image": {
+    "src": "/img/playa-de-tagle-el-sable.jpg",
+    "credit": "Hotelpalacion",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Tagle.JPG"
+   }
   },
   {
    "id": "pollos-a-la-brasa-sabor-peruano",
@@ -2834,7 +2942,13 @@
    "area": "Suances",
    "lat": 43.4307094,
    "lon": -4.0361388,
-   "description": "An estuary on Cantabria's central coast, between the municipalities of Suances, Polanco and Miengo, where the river Saja reaches the sea."
+   "description": "An estuary on Cantabria's central coast, between the municipalities of Suances, Polanco and Miengo, where the river Saja reaches the sea.",
+   "image": {
+    "src": "/img/ria-de-san-martin-de-la-arena.jpg",
+    "credit": "Jesús Gómez Fernández",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADa_de_San_Mart%C3%ADn_de_la_Arena_01.jpg"
+   }
   },
   {
    "id": "robledal-de-cotornal-ca-enp31",
@@ -3286,7 +3400,13 @@
    "rainyDay": "Mixed",
    "familyFriendly": true,
    "booking": "Tickets at the zoo or online; check the current day tariff. Annual Club de Amigos: child 4–12 €50; adult €100; family up to 3 children €300.",
-   "link": "https://zoosantillanadelmar.com/"
+   "link": "https://zoosantillanadelmar.com/",
+   "image": {
+    "src": "/img/zoo-de-santillana.jpg",
+    "credit": "@OlgaCarreraBL",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_Tropical_del_Zoo_de_Santillana_del_Mar_DSC_0193_23.jpg"
+   }
   }
  ],
  "unplaced": [

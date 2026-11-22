@@ -107,6 +107,7 @@ for (let i = places.length - 1; i >= 0; i--) {
 // Hikes still waiting for a start point are not listed either (they are not on the map and have no route).
 for (let i = unplaced.length - 1; i >= 0; i--) if (HIDE.has(unplaced[i].category) || unplaced[i].category === 'hike') unplaced.splice(i, 1);
 
+for (const p of places) if (!p.image && images[p.name]) p.image = images[p.name]; // Commons photos for non-Cultura places
 places.sort((a, b) => a.name.localeCompare(b.name, 'es'));
 fs.mkdirSync('public/data', { recursive: true });
 fs.writeFileSync('public/data/places.json', JSON.stringify({ generated: new Date().toISOString().slice(0, 10), places, unplaced }, null, 1));
