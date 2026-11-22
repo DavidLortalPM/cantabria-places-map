@@ -1157,6 +1157,18 @@
    "kind": "Seafood"
   },
   {
+   "id": "la-herradura-food-drink",
+   "category": "restaurant",
+   "locationStatus": "verified",
+   "locationSource": "Google Maps link supplied by owner",
+   "name": "La Herradura Food&Drink",
+   "lat": 43.0214134,
+   "lon": -4.224242,
+   "gmaps": "https://maps.app.goo.gl/y3PDmWpmGWKD6rHQA",
+   "area": "Espinilla, Campoo de Suso",
+   "kind": "Restaurant"
+  },
+  {
    "id": "la-mano-de-fatima",
    "category": "restaurant",
    "locationStatus": "verified",

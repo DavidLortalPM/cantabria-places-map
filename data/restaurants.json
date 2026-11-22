@@ -362,5 +362,16 @@
     "link": "http://www.restaurantelavinoteca.com/",
     "reservations": "Book ahead",
     "priceLevel": "€€€"
+  },
+  {
+    "name": "La Herradura Food&Drink",
+    "category": "restaurant",
+    "lat": 43.0214134,
+    "lon": -4.224242,
+    "status": "verified",
+    "source": "Google Maps link supplied by owner",
+    "gmaps": "https://maps.app.goo.gl/y3PDmWpmGWKD6rHQA",
+    "area": "Espinilla, Campoo de Suso",
+    "kind": "Restaurant"
   }
 ]
