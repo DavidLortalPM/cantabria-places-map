@@ -122,6 +122,8 @@ function ascent(pts) {
 }
 
 const r5 = n => Math.round(n * 1e5) / 1e5;
+const slugOf = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const HIDDEN = new Set(fs.existsSync(path.join(root, 'data/hidden-hikes.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'data/hidden-hikes.json'), 'utf8')).names.map(slugOf) : []);
 fs.mkdirSync(outDir, { recursive: true });
 const index = {}, rows = [];
 
@@ -130,6 +132,7 @@ for (const id of fs.readdirSync(gpxDir).sort()) {
   if (!fs.statSync(dir).isDirectory()) continue;
   const files = fs.readdirSync(dir).filter(f => /\.gpx$/i.test(f)).sort();
   if (!files.length) continue;
+  if (HIDDEN.has(id)) continue; // hidden until re-added (data/hidden-hikes.json)
   const src = SOURCES[id];
   if (!src) { console.warn(`! ${id}: no entry in data/gpx/sources*.json, skipped`); continue; }
   let raw = [], names = [], nTrk = 0, nSeg = 0;
@@ -174,6 +177,7 @@ for (const id of fs.readdirSync(gpxDir).sort()) {
 }
 
 fs.writeFileSync(path.join(outDir, 'index.json'), JSON.stringify(index));
+for (const f of fs.readdirSync(outDir)) if (f.endsWith('.json') && f !== 'index.json' && !index[f.slice(0, -5)]) fs.unlinkSync(path.join(outDir, f)); // drop routes of hidden hikes
 
 console.log('\nVALIDATION (tol = Douglas-Peucker metres; off = track start vs pinned trailhead)');
 console.log(['id', 'pts raw>dedup>simp', 'tol', 'km', 'notion', 'diff%', 'off m', 'circ', 'notion type', 'trk/seg', 'gpx name'].join(' | '));
