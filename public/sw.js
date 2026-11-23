@@ -3,7 +3,7 @@
 //   If the network is slow (> NET_TIMEOUT_MS), fails, or the site is blocked by an ISP (e.g. LaLiga match windows
 //   in Spain), the saved copy is used instead, so the map still opens. A slow request keeps going and refreshes the copy.
 // - Libraries and icons: cache first. Photos: cached as you view them. Map tiles: cached as you view them (capped).
-const VERSION = 'v9';
+const VERSION = 'v10';
 const SHELL = `shell-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
 const TILES = `tiles-${VERSION}`;

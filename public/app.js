@@ -166,7 +166,7 @@ function link(href, text, primary) { return href && /^https?:\/\//i.test(href) ?
 // Sheet tags: the category (in its pin colour) first, then up to 4 short facts
 const tags = (p, list) => {
   const c = catOf(p), l = list.filter(Boolean).slice(0, 4);
-  return `<div class="tags"><span class="tag cat" style="--c:${c.color}">${esc(c.label)}</span>${(p.schemes || []).map(s => `<span class="tag scheme">${s === PASS ? '<span aria-hidden="true">🎫 </span>' : ''}${esc(s)}</span>`).join('')}${l.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>`;
+  return `<div class="tags"><span class="tag cat" style="--c:${c.color}">${esc(c.label)}</span>${p.tags?.includes('Listed by: Official') ? '<span class="tag official" title="Listed by an official Cantabria tourism source"><span aria-hidden="true">✔ </span>Official</span>' : ''}${(p.schemes || []).map(s => `<span class="tag scheme">${s === PASS ? '<span aria-hidden="true">🎫 </span>' : ''}${esc(s)}</span>`).join('')}${l.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>`;
 };
 const statusLine = p => { const s = openStatus(p); return s.open === null ? '' : `<div class="status ${s.open ? 'ok' : 'warn'}">${esc(s.text)}</div>`; };
 const nbHyphen = s => s.replace(/\b[A-Z]{2,}-(?=[A-Z0-9])/g, m => m.slice(0, -1) + '‑'); // keep codes like CA-ENP35 on one line
@@ -487,7 +487,7 @@ function renderList() {
   $('lv-near').hidden = !near; $('lv-head').hidden = !!near;
   if (near) { renderNear(); return; }
   const q = fold($('q').value.trim());
-  const l = Object.values(byId).filter(p => isVisible(p) && (!q || hay.get(p.id).includes(q)));
+  const l = Object.values(byId).filter(p => isVisible(p) && (!q || q.split(/s+/).every(w => hay.get(p.id).includes(w))));
   const d = p => here ? here.distanceTo([p.lat, p.lon]) / 1000 : null;
   l.sort(sortBy === 'near' && here ? (a, b) => d(a) - d(b) : (a, b) => a.name.localeCompare(b.name, 'es'));
   for (const x of $('seg-sort').children) x.setAttribute('aria-pressed', String(x.dataset.sort === sortBy));
@@ -623,7 +623,7 @@ function openFromHash() {
   if (selected === p.id && !$('sheet').hidden) return;
   revealPlace(p);
   rememberView();
-  if (!p.route) map.setView([p.lat, p.lon], 12, A); // routes zoom themselves
+  if (!p.route) { if (reduce) map.setView([p.lat, p.lon], 12, A); else map.flyTo([p.lat, p.lon], 12, { duration: 0.7 }); } // routes zoom themselves
   openSheet(p);
 }
 window.addEventListener('hashchange', openFromHash);
@@ -753,11 +753,11 @@ async function init() {
   const places = data.places.filter(p => Number.isFinite(p.lat) && Number.isFinite(p.lon));
   const saved = (() => { try { return JSON.parse(safeStore.get('layers') || 'null'); } catch { return null; } })();
   const on = {};
-  const ui = { layer: {}, stage: {}, rb: null, sel: null };
+  const ui = { layer: {}, stage: {}, tag: {}, rb: null, sel: null };
 
   for (const p of places) {
     byId[p.id] = p;
-    hay.set(p.id, fold([p.name, p.area, p.kind, typeLabel(p), catOf(p).label, catOf(p).single, ...(p.schemes || []), inPass(p) ? 'cultural pass passport' : ''].join(' ')));
+    hay.set(p.id, fold([p.name, p.area, p.kind, typeLabel(p), catOf(p).label, catOf(p).single, ...(p.schemes || []), ...(p.tags || []).map(x => x.split(': ')[1]), inPass(p) ? 'cultural pass passport' : ''].join(' ')));
     const g = groups[p.category] || (groups[p.category] = L.layerGroup());
     const m = L.marker([p.lat, p.lon], { icon: pinIcon(p, false), title: p.name + ', ' + typeLabel(p), riseOnHover: true })
       .on('click', e => { L.DomEvent.stopPropagation(e); openSheet(p); })
@@ -768,12 +768,14 @@ async function init() {
 
   const stageOn = Object.fromEntries(STAGES.map(s => [s, true]));
   const opt = { rainy: false, day: 'any', pass: false };
+  const tagOn = new Set((() => { try { return JSON.parse(safeStore.get('tags') || '[]'); } catch { return []; } })());
   passOk = p => !opt.pass || inPass(p);
   const visible = p => {
     if (!on[p.category] || !passOk(p)) return false;
     if (p.category === 'hike' && stageOn[p.hike?.stage] === false) return false;
     if (opt.rainy && !rainOk(p)) return false;
     if (opt.day !== 'any' && openStatus(p, +opt.day).open === false) return false;
+    for (const x of tagOn) if (!p.tags?.includes(x)) return false;
     return true;
   };
   isVisible = visible;
@@ -782,6 +784,7 @@ async function init() {
     for (const s in ui.stage) ui.stage[s].setAttribute('aria-pressed', String(stageOn[s]));
     ui.rb?.setAttribute('aria-pressed', String(opt.rainy));
     ui.pb?.setAttribute('aria-pressed', String(opt.pass));
+    for (const x in ui.tag) ui.tag[x].setAttribute('aria-pressed', String(tagOn.has(x)));
     if (ui.sel) ui.sel.value = opt.day;
   };
   const refresh = () => {
@@ -792,7 +795,7 @@ async function init() {
       if (visible(p)) { g.addLayer(m); n++; shown[p.category] = (shown[p.category] || 0) + 1; } else g.removeLayer(m);
     }
     // the badge counts only what is inside the Filters dialog; the category toggles are on screen already
-    const nf = STAGES.filter(s => stageOn[s] === false).length + (opt.rainy ? 1 : 0) + (opt.day !== 'any' ? 1 : 0) + (opt.pass ? 1 : 0);
+    const nf = STAGES.filter(s => stageOn[s] === false).length + (opt.rainy ? 1 : 0) + (opt.day !== 'any' ? 1 : 0) + (opt.pass ? 1 : 0) + tagOn.size;
     const badge = document.querySelector('#tabs [data-tab=filters] .badge');
     badge.hidden = !nf; badge.textContent = nf;
     $('fcount').innerHTML = `Showing ${n} of ${places.length} places<div class="lc">${Object.keys(on).map(k => `${esc(CATEGORIES[k].label)} ${shown[k] || 0}/${places.filter(p => p.category === k).length}`).join(' · ')}</div>`;
@@ -802,6 +805,8 @@ async function init() {
     if (selected && !visible(byId[selected])) closeSheet();
     safeStore.set('layers', JSON.stringify(on));
     safeStore.set('stages', JSON.stringify(stageOn));
+    safeStore.set('tags', JSON.stringify([...tagOn]));
+    renderActive();
     if (stageBar) stageBar.hidden = !on.hike;
     if (stageHead) stageHead.hidden = !on.hike;
     sync();
@@ -811,10 +816,11 @@ async function init() {
     if (p.hike?.stage) stageOn[p.hike.stage] = true;
     if (opt.rainy && !rainOk(p)) opt.rainy = false;
     if (!passOk(p)) opt.pass = false;
+    for (const x of [...tagOn]) if (!p.tags?.includes(x)) tagOn.delete(x);
     if (opt.day !== 'any' && openStatus(p, +opt.day).open === false) opt.day = 'any';
     refresh();
   };
-  let stageBar = null, stageHead = null;
+  let stageBar = null, stageHead = null, renderActive = () => {};
   const panel = $('fpanel');
   const chips = $('cats');
   for (const [key, cat] of Object.entries(CATEGORIES)) {
@@ -879,12 +885,49 @@ async function init() {
     const ph = document.createElement('h4'); ph.textContent = 'Planning';
     panel.append(ph, bar);
   }
+  // Tags: several at once, a place must carry every selected tag. Counts show how many places each tag has.
+  const tagCount = {};
+  for (const p of places) for (const x of p.tags || []) tagCount[x] = (tagCount[x] || 0) + 1;
+  const TAG_GROUPS = [['Listed by', 'Listed by'], ['Suits', 'Suits'], ['Type', 'Type'], ['Practical', 'Practical'], ['Level', 'Level']];
+  for (const [g, title] of TAG_GROUPS) {
+    const list = Object.keys(tagCount).filter(x => x.startsWith(g + ': ') && tagCount[x] >= 2).sort((a, b) => tagCount[b] - tagCount[a]);
+    if (!list.length) continue;
+    const h4 = document.createElement('h4'); h4.textContent = title;
+    const bar = document.createElement('div'); bar.className = 'frow';
+    for (const x of list) {
+      const b = document.createElement('button');
+      b.className = 'chip small'; b.type = 'button';
+      b.innerHTML = `${esc(x.slice(g.length + 2))} <span class="n">${tagCount[x]}</span>`;
+      b.addEventListener('click', () => { if (tagOn.has(x)) tagOn.delete(x); else tagOn.add(x); refresh(); });
+      ui.tag[x] = b; bar.append(b);
+    }
+    panel.append(h4, bar);
+  }
+  // Active filters under the search pill: each chip says what is hiding places and removes that filter when tapped
+  renderActive = () => {
+    const l = [];
+    for (const k in on) if (!on[k]) l.push([CATEGORIES[k].label + ' hidden', () => { on[k] = true; }]);
+    for (const s of STAGES) if (stageOn[s] === false && on.hike) l.push([s + ' hidden', () => { stageOn[s] = true; }]);
+    if (opt.pass) l.push(['Cultural Pass', () => { opt.pass = false; }]);
+    if (opt.rainy) l.push(['☔ Rainy day', () => { opt.rainy = false; }]);
+    if (opt.day !== 'any') l.push(['Open ' + (+opt.day === madrid().day ? 'today' : DAY_NAMES[+opt.day]), () => { opt.day = 'any'; }]);
+    for (const x of tagOn) l.push([x.split(': ')[1], () => tagOn.delete(x)]);
+    const box = $('active');
+    box.hidden = !l.length;
+    box.replaceChildren(...l.map(([label, undo]) => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'achip'; b.setAttribute('aria-label', 'Remove filter: ' + label);
+      b.innerHTML = esc(label) + ' <span aria-hidden="true">×</span>';
+      b.addEventListener('click', () => { undo(); refresh(); });
+      return b;
+    }));
+  };
   const rs = document.createElement('button');
   rs.id = 'freset'; rs.type = 'button'; rs.textContent = 'Reset filters';
   rs.addEventListener('click', () => {
     STAGES.forEach(s => { stageOn[s] = true; });
     for (const k in on) on[k] = true;
-    opt.rainy = false; opt.day = 'any'; opt.pass = false;
+    opt.rainy = false; opt.day = 'any'; opt.pass = false; tagOn.clear();
     refresh();
   });
   panel.appendChild(rs);

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "places": [
   {
    "id": "acantilados-de-san-vicente-ca-enp01",
@@ -36,7 +36,16 @@
     "credit": "Rodelar",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Acantilados_en_San_Vicente.jpg"
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "aji-limon-by-nelly",
@@ -67,7 +76,11 @@
    "address": "Calle Rosal 13, 33009 Oviedo",
    "phone": "984 08 64 35",
    "hours": "Tue-Sun 11:00-01:00, closed Monday; kitchen Tue-Thu 13:00-16:00 & 20:00-24:00, Fri-Sun 13:00-16:30 & 20:00-00:30 (check before going)",
-   "reservations": "Book ahead"
+   "reservations": "Book ahead",
+   "tags": [
+    "Type: Cider house",
+    "Practical: Book ahead"
+   ]
   },
   {
    "id": "alterna-sidreria-puerto-de-pajares",
@@ -85,7 +98,11 @@
    "address": "Calle Puerto Pajares 9, 33011 Oviedo",
    "phone": "984 28 06 41",
    "hours": "Tue-Sun 11:00-01:00, closed Monday; kitchen Tue-Thu 13:00-16:00 & 20:00-24:00, Fri-Sun 13:00-16:30 & 20:00-00:30 (check before going)",
-   "reservations": "Book ahead"
+   "reservations": "Book ahead",
+   "tags": [
+    "Type: Cider house",
+    "Practical: Book ahead"
+   ]
   },
   {
    "id": "alto-de-la-guarda-ca-enp03",
@@ -118,7 +135,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-de-la-guarda/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "alto-miera-casa-del-rey-ca-enp04",
@@ -146,7 +170,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/alto-miera-casa-del-rey/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "altos-de-carmona-ca-enp38",
@@ -177,7 +208,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/altos-carmona/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "antiguo-seminario-mayor-de-comillas",
@@ -217,7 +255,12 @@
    },
    "rainyDay": "Good",
    "booking": "Can combine with Sobrellano; official site recommends 90–120 minutes between visit start times.",
-   "link": "https://centros.culturadecantabria.com/seminario-mayor-de-comillas/"
+   "link": "https://centros.culturadecantabria.com/seminario-mayor-de-comillas/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "arqueositio-cantabro-romano-de-camesa-rebolledo",
@@ -256,7 +299,11 @@
    },
    "rainyDay": "Mixed",
    "booking": "Opening can change due to weather; check before travel.",
-   "link": "https://centros.culturadecantabria.com/arqueositio/"
+   "link": "https://centros.culturadecantabria.com/arqueositio/",
+   "tags": [
+    "Listed by: Official",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "asador-llorente",
@@ -271,7 +318,10 @@
    "description": "Traditional Cantabrian grill restaurant in Potes with a rustic wood-paneled dining room and mountain views, known for red meat (chuletón) and its cocido lebaniego, described as the star of the menu. About 100 km from Santander, on the Picos / Liébana side.",
    "address": "Pob. San Roque 1, 39570 Potes",
    "phone": "942 738 165",
-   "priceLevel": "€€"
+   "priceLevel": "€€",
+   "tags": [
+    "Type: Grill"
+   ]
   },
   {
    "id": "atypique",
@@ -288,7 +338,10 @@
    "address": "Calle Castelar 11, 39004 Santander",
    "phone": "+34 661 17 92 56",
    "hours": "Mon-Thu 09:00-20:00; Fri-Sat 09:00-21:00; Sun 09:00-15:00 (check before going)",
-   "priceLevel": "€€"
+   "priceLevel": "€€",
+   "tags": [
+    "Type: Cafe"
+   ]
   },
   {
    "id": "azabache",
@@ -317,7 +370,10 @@
    "address": "Calle Río de la Pila, 5",
    "phone": "942 216 750",
    "link": "https://bodegadelriojano.com",
-   "hours": "Conflicting: Spanish Michelin page lists daily 12:00-16:00 and 20:00-00:00; other Michelin pages list 13:00-17:00 and 20:00-23:30 (check before going)"
+   "hours": "Conflicting: Spanish Michelin page lists daily 12:00-16:00 and 20:00-00:00; other Michelin pages list 13:00-17:00 and 20:00-23:30 (check before going)",
+   "tags": [
+    "Type: Local cuisine"
+   ]
   },
   {
    "id": "bodega-fuente-de",
@@ -332,7 +388,10 @@
    "description": "Long-standing Santander bodega serving tapas and cheese plates with wine and beer; known for its cocido montañés, cheese and croquetas. Often packed, with standing room at the bar.",
    "address": "Calle Peña Herbosa, 5",
    "phone": "942 21 30 58",
-   "hours": "Mon-Sat 12:00-16:00 and 20:00-00:00; Sun closed (check before going)"
+   "hours": "Mon-Sat 12:00-16:00 and 20:00-00:00; Sun closed (check before going)",
+   "tags": [
+    "Type: Tapas"
+   ]
   },
   {
    "id": "brana-de-los-tejos-ca-enp06",
@@ -365,7 +424,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/brana-tejos/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Hard"
+   ]
   },
   {
    "id": "branazarza-ca-enp08",
@@ -397,7 +463,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branazarza/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "camaleno",
@@ -416,7 +489,11 @@
     "credit": "MiguelAlanCS",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2020_Camale%C3%B1o_04.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Family friendly",
+    "Type: Sight"
+   ]
   },
   {
    "id": "camino-de-los-neveros-ca-enp11",
@@ -444,7 +521,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-de-los-neveros/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "camino-real-tudanca-rozadio-ca-enp12",
@@ -472,7 +556,13 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-real-tudanca-rozadio/",
     "circular": false
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "camino-viejo-del-moral-ca-enp13",
@@ -501,7 +591,13 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/camino-viejo-del-moral/",
     "circular": false,
     "note": "Official GPX is one way (9.7 km, linear); the Naturea listing gives 19.6 km, which looks like out and back"
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "cantina-mexicana",
@@ -547,7 +643,15 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/canto-pilanco/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "casa-ajero",
@@ -562,7 +666,10 @@
    "description": "Tapas and pintxos bar near Plaza del Cañadío with a lively tapeo atmosphere and a summer terrace with high tables.",
    "address": "Daoiz y Velarde, 18",
    "phone": "942 218 386",
-   "hours": "Daily 11:00-02:00, Monday midday closed (per Salir; Minube differs; check before going)"
+   "hours": "Daily 11:00-02:00, Monday midday closed (per Salir; Minube differs; check before going)",
+   "tags": [
+    "Type: Tapas"
+   ]
   },
   {
    "id": "casa-de-leonor-de-la-vega",
@@ -574,7 +681,10 @@
    "area": "Santillana del Mar",
    "lat": 43.39067449631138,
    "lon": -4.107067358895488,
-   "description": "Built at the end of the 15th century and substantially remodelled in the 16th, this house is attributed to Leonor de la Vega, mother of the Marquis of Santillana, Íñigo López de Mendoza."
+   "description": "Built at the end of the 15th century and substantially remodelled in the 16th, this house is attributed to Leonor de la Vega, mother of the Marquis of Santillana, Íñigo López de Mendoza.",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "casa-de-los-abades",
@@ -587,7 +697,10 @@
    "lat": 43.39187453300494,
    "lon": -4.106194428207015,
    "description": "Probably built at the end of the 17th century, this house originally belonged to the abbots of the Colegiata. Today it is known as the Casa de la Archiduquesa, having been the residence of Archduchess Margarita of Austria-Bourbon.",
-   "phone": "942 81 88 98"
+   "phone": "942 81 88 98",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "casa-de-los-villa",
@@ -605,7 +718,10 @@
     "credit": "charles lecompte",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Villa_-_Santillana_del_Mar_-_panoramio.jpg"
-   }
+   },
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "casa-del-duque-de-almodovar-del-rio",
@@ -619,7 +735,10 @@
    "lon": -4.291534423828125,
    "description": "A magnificent 19th-century mansion, unique in Comillas because it is one of the few still owned by the original family, and it is still lived in: the owners spend their summer holidays there.",
    "phone": "609 131 298",
-   "link": "https://visitacantabria.es/visitas/comillas/comillas-mansion/"
+   "link": "https://visitacantabria.es/visitas/comillas/comillas-mansion/",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "casa-lita",
@@ -635,7 +754,10 @@
    "address": "Paseo de Pereda, 37",
    "phone": "+34 942 36 48 30",
    "link": "http://www.casalita.es/",
-   "hours": "Tue-Sun 12:00-00:00; open daily in summer (per Salir; check before going)"
+   "hours": "Tue-Sun 12:00-00:00; open daily in summer (per Salir; check before going)",
+   "tags": [
+    "Type: Tapas"
+   ]
   },
   {
    "id": "casa-luisa",
@@ -691,7 +813,13 @@
    "child": 0,
    "rainyDay": "Good",
    "booking": "Currently free entry; pass gives no direct admission saving at current tariff.",
-   "link": "https://centros.culturadecantabria.com/casas-del-aguila-y-la-parra/"
+   "link": "https://centros.culturadecantabria.com/casas-del-aguila-y-la-parra/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Suits: Free",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "cascada-del-tobazo-ca-enp-route",
@@ -723,7 +851,16 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cascada-del-tobazo/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "cascadas-de-bustalvain-ca-enp30",
@@ -751,7 +888,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/viana/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "casona-de-tudanca",
@@ -780,7 +924,12 @@
    "child": 1.5,
    "rainyDay": "Good",
    "booking": "Published tariff: adult €3; age 4–12 €1.50; under 4 free. Reservation required at least one day ahead in some periods; Sundays free.",
-   "link": "https://www.museosdecantabria.es/"
+   "link": "https://www.museosdecantabria.es/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Museum"
+   ]
   },
   {
    "id": "cementerio-modernista-de-comillas",
@@ -792,7 +941,10 @@
    "area": "Comillas",
    "lat": 43.390122,
    "lon": -4.293863,
-   "description": "Modernist cemetery on a hill facing the sea, set among the ruins of a former Gothic church and with an angel sculpture by Josep Llimona. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Modernist cemetery on a hill facing the sea, set among the ruins of a former Gothic church and with an angel sculpture by Josep Llimona. Listed in the Cantabria Costa Central visitor leaflet.",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "centro-cultural-el-espolon",
@@ -806,7 +958,10 @@
    "lon": -4.289442300796509,
    "description": "Built in the late 18th century for Juan Domingo González de la Reguera, Archbishop of Lima and a native of Comillas, to house a Chair of Latin Grammar; the Real Seminario Cántabro was founded here in 1802.",
    "phone": "942 720 276",
-   "link": "http://www.aytocomillas.es/comillas/opencms/contenido/ServiciosMunicipales/Cultura/CentroCulturalEspolon.html"
+   "link": "http://www.aytocomillas.es/comillas/opencms/contenido/ServiciosMunicipales/Cultura/CentroCulturalEspolon.html",
+   "tags": [
+    "Type: Museum"
+   ]
   },
   {
    "id": "centro-de-arte-rupestre-de-cantabria",
@@ -845,7 +1000,12 @@
    },
    "rainyDay": "Good",
    "booking": "Permanent exhibition; guided visits available. Free same day with El Castillo or Las Monedas ticket.",
-   "link": "https://cuevas.culturadecantabria.com/centro-de-arte-rupestre-de-cantabria/"
+   "link": "https://cuevas.culturadecantabria.com/centro-de-arte-rupestre-de-cantabria/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Museum"
+   ]
   },
   {
    "id": "centro-de-interpretacion-del-romanico",
@@ -883,7 +1043,12 @@
    },
    "rainyDay": "Good",
    "booking": "Opening can change due to weather; check before travel.",
-   "link": "https://centros.culturadecantabria.com/romanico/"
+   "link": "https://centros.culturadecantabria.com/romanico/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "circuito-del-ebro-ca-enp15",
@@ -911,7 +1076,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/circuito-del-ebro/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "ciudad-romana-y-domus-de-juliobriga",
@@ -950,7 +1122,11 @@
    },
    "rainyDay": "Mixed",
    "booking": "Check opening times before travel.",
-   "link": "https://centros.culturadecantabria.com/juliobriga/"
+   "link": "https://centros.culturadecantabria.com/juliobriga/",
+   "tags": [
+    "Listed by: Official",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "colegiata-de-santa-juliana",
@@ -968,7 +1144,10 @@
     "credit": "José Luis Filpo Cabana",
     "license": "CC BY 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Colegiata_de_Santa_Juliana._Fachada.jpg"
-   }
+   },
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "convento-de-san-ildefonso",
@@ -987,7 +1166,10 @@
     "credit": "Vanbasten 23",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Convento_de_San_Ildefonso_de_Santillana_del_Mar.jpg"
-   }
+   },
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "cornejas-el-vigia-forestal-ca-enp18",
@@ -1015,7 +1197,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cornejas/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "cuchisecos-la-serrulda-ca-enp19",
@@ -1043,7 +1232,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/cuchisecos-serrolda/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "cueva-de-chufin",
@@ -1093,7 +1289,11 @@
    },
    "rainyDay": "Poor",
    "booking": "Seasonal; very limited capacity (6). Check availability/reserve in advance.",
-   "link": "https://cuevas.culturadecantabria.com/chufin/"
+   "link": "https://cuevas.culturadecantabria.com/chufin/",
+   "tags": [
+    "Listed by: Official",
+    "Type: Cave"
+   ]
   },
   {
    "id": "cueva-de-covalanas",
@@ -1131,7 +1331,11 @@
    },
    "rainyDay": "Mixed",
    "booking": "Very limited capacity (4). Same-day tickets depend on availability via Cullalvera ticket office.",
-   "link": "https://cuevas.culturadecantabria.com/covalanas-esp/"
+   "link": "https://cuevas.culturadecantabria.com/covalanas-esp/",
+   "tags": [
+    "Listed by: Official",
+    "Type: Cave"
+   ]
   },
   {
    "id": "cueva-de-cullalvera",
@@ -1170,7 +1374,12 @@
    },
    "rainyDay": "Good",
    "booking": "Timed cave visit; check availability before travel.",
-   "link": "https://cuevas.culturadecantabria.com/cullalvera-esp/"
+   "link": "https://cuevas.culturadecantabria.com/cullalvera-esp/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Cave"
+   ]
   },
   {
    "id": "cueva-de-el-castillo",
@@ -1209,7 +1418,12 @@
    },
    "rainyDay": "Good",
    "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
-   "link": "https://cuevas.culturadecantabria.com/el-castillo/"
+   "link": "https://cuevas.culturadecantabria.com/el-castillo/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Cave"
+   ]
   },
   {
    "id": "cueva-de-el-pendo",
@@ -1248,7 +1462,12 @@
    },
    "rainyDay": "Good",
    "booking": "Timed guided visits; limited capacity. Advance booking recommended.",
-   "link": "https://cuevas.culturadecantabria.com/el-pendo/"
+   "link": "https://cuevas.culturadecantabria.com/el-pendo/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Cave"
+   ]
   },
   {
    "id": "cueva-de-hornos-de-la-pena",
@@ -1286,7 +1505,12 @@
    },
    "rainyDay": "Good",
    "booking": "Very limited capacity (4 per session); advance planning strongly advisable.",
-   "link": "https://cuevas.culturadecantabria.com/hornos-de-la-pena/"
+   "link": "https://cuevas.culturadecantabria.com/hornos-de-la-pena/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Cave"
+   ]
   },
   {
    "id": "cueva-de-las-monedas",
@@ -1325,7 +1549,12 @@
    },
    "rainyDay": "Good",
    "booking": "Timed visits; max 7 per session. Ticket includes Centro de Arte Rupestre.",
-   "link": "https://cuevas.culturadecantabria.com/las-monedas/"
+   "link": "https://cuevas.culturadecantabria.com/las-monedas/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Cave"
+   ]
   },
   {
    "id": "el-bulin-de-la-tasca",
@@ -1357,7 +1586,10 @@
     "credit": "Marques de Benamaurel",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:El_Capricho_(Palacio_Gaudi)_Comillas.jpg"
-   }
+   },
+   "tags": [
+    "Type: Museum"
+   ]
   },
   {
    "id": "el-carmelo",
@@ -1395,7 +1627,10 @@
    "area": "Suances",
    "lat": 43.43941,
    "lon": -4.0453449,
-   "description": "Also called \"Alma de Costa\", this bronze by sculptor Jesús González de la Vega was unveiled in October 2010. Standing on a stone pedestal, the three-metre statue shows a man meeting the sea wind with open arms."
+   "description": "Also called \"Alma de Costa\", this bronze by sculptor Jesús González de la Vega was unveiled in October 2010. Standing on a stone pedestal, the three-metre statue shows a man meeting the sea wind with open arms.",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "el-pajaro-amarillo-ca-enp20",
@@ -1423,7 +1658,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pajaro-amarillo/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "el-perdon",
@@ -1448,7 +1690,12 @@
    "lat": 43.34665,
    "lon": -4.29459,
    "description": "A small hermitage on a high point of Monte Corona (about 250 m) inside the Oyambre Natural Park. Next to it are a picnic area with tables and barbecues and a small viewpoint over the forest and the western Cantabrian coast; on clear days you can see San Vicente de la Barquera and the Picos de Europa. Reached by a paved forest road from La Hayuela. A pilgrimage (romeria) is held here around 3 August.",
-   "familyFriendly": true
+   "familyFriendly": true,
+   "tags": [
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Viewpoint"
+   ]
   },
   {
    "id": "ermita-de-santa-justa",
@@ -1460,7 +1707,10 @@
    "area": "Ubiarco, Santillana del Mar",
    "lat": 43.425948,
    "lon": -4.097628,
-   "description": "Small cove with the hermitage of Santa Justa built into the rock; the start of the coastal route to Puerto Calderón. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Small cove with the hermitage of Santa Justa built into the rock; the start of the coastal route to Puerto Calderón. Listed in the Cantabria Costa Central visitor leaflet.",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "hayedo-de-la-zamina-ca-enp21",
@@ -1492,7 +1742,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hayedo-zamina/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "heladeria-creperia-santillan",
@@ -1532,7 +1789,13 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-astrana/",
     "circular": false
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "hoyo-masayo-desde-riva-de-ruesga-ca-enp22",
@@ -1560,7 +1823,13 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/hoyo-masayo-ruesga/",
     "circular": false
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Level: Hard"
+   ]
   },
   {
    "id": "invernales-de-abiada-ca-enp02",
@@ -1588,7 +1857,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/invernales-de-abiada/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "jardin-historico-de-puente-san-miguel",
@@ -1602,7 +1878,11 @@
    "lon": -4.0834218,
    "description": "Owned by the Botín family, this estate was declared a Site of Cultural Interest in the Historic Garden category in 1986.",
    "phone": "942 820 115",
-   "link": "https://ayto-reocin.com/jardin-historico-de-puente-san-miguel/"
+   "link": "https://ayto-reocin.com/jardin-historico-de-puente-san-miguel/",
+   "tags": [
+    "Suits: Free",
+    "Type: Park & garden"
+   ]
   },
   {
    "id": "kandela",
@@ -1647,7 +1927,10 @@
    "address": "Calle Casimiro Sainz, 15",
    "phone": "942 213 028",
    "link": "http://www.labombi.com",
-   "hours": "Per Michelin: Tue closed; other days 13:30-16:00 and 21:00-23:30; Sunday lunch only. Salir lists different hours (check before going)"
+   "hours": "Per Michelin: Tue closed; other days 13:30-16:00 and 21:00-23:30; Sunday lunch only. Salir lists different hours (check before going)",
+   "tags": [
+    "Type: Seafood"
+   ]
   },
   {
    "id": "la-casuca-del-gorbea",
@@ -1691,7 +1974,16 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/nacimiento-del-pisuena-la-garma/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "la-gruta-de-jose",
@@ -1708,7 +2000,11 @@
    "hours": "Mon, Thu-Sun 11:00-17:00 and 20:00-23:45; Wed 11:00-17:00; Tue closed (check before going; site header conflicts slightly)",
    "priceLevel": "€€€",
    "reservations": "Book ahead",
-   "kind": "Seafood"
+   "kind": "Seafood",
+   "tags": [
+    "Type: Seafood",
+    "Practical: Book ahead"
+   ]
   },
   {
    "id": "la-herradura-food-drink",
@@ -1753,7 +2049,10 @@
    "address": "Carretera General de Prellezo (N-634), 39549 Prellezo, Val de San Vicente",
    "phone": "942 71 08 41",
    "link": "https://laparrilladeprellezo.com/",
-   "hours": "Daily 12:30-24:00 (check before going)"
+   "hours": "Daily 12:30-24:00 (check before going)",
+   "tags": [
+    "Type: Grill"
+   ]
   },
   {
    "id": "la-vinoteca",
@@ -1771,7 +2070,10 @@
    "phone": "942 07 57 41",
    "link": "http://www.restaurantelavinoteca.com/",
    "reservations": "Book ahead",
-   "priceLevel": "€€€"
+   "priceLevel": "€€€",
+   "tags": [
+    "Practical: Book ahead"
+   ]
   },
   {
    "id": "laberinto-de-tilde",
@@ -1790,7 +2092,11 @@
    "rainyDay": "Poor",
    "familyFriendly": true,
    "booking": "Outdoor and weather-dependent.",
-   "link": "https://laberintodetilde.com/"
+   "link": "https://laberintodetilde.com/",
+   "tags": [
+    "Suits: Family friendly",
+    "Type: Family activity"
+   ]
   },
   {
    "id": "laberinto-de-villapresente",
@@ -1864,7 +2170,11 @@
     "credit": "MariquillaColorinchi",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Laberinto_De_Villapresente.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Family friendly",
+    "Type: Family activity"
+   ]
   },
   {
    "id": "las-ciguenas-de-bustamante-ca-enp17",
@@ -1892,7 +2202,16 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/colonia-de-ciguenas-de-bustamante/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "las-colladillas-ca-enp24",
@@ -1920,7 +2239,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-colladillas/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "las-cuencas-glaciares-ca-enp05",
@@ -1944,7 +2270,13 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-cuencas/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route"
+   ]
   },
   {
    "id": "las-nieves-ca-enp37",
@@ -1972,7 +2304,16 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/las-nieves/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "las-praizas-de-cucayo-ca-enp25",
@@ -2003,7 +2344,15 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praizas-cucayo/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "los-blasones",
@@ -2047,7 +2396,15 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bosques_monte_corona/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "los-pueblos-de-lamason-ca-enp16",
@@ -2075,7 +2432,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-lamason/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "los-pueblos-de-polaciones-etapa-1-ca-enp26",
@@ -2103,7 +2467,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa1/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "los-pueblos-de-polaciones-etapa-2-ca-enp26",
@@ -2131,7 +2502,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa2/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "los-pueblos-de-polaciones-etapa-3-ca-enp26",
@@ -2159,7 +2537,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/pueblos-polaciones-etapa3/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "los-puentes-de-rucabao-ca-enp27",
@@ -2187,7 +2572,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/los-puentes-de-rucabao/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "mercado-de-la-esperanza",
@@ -2203,7 +2595,10 @@
    "address": "Plaza de la Esperanza s/n, 39002 Santander",
    "phone": "942 203 087",
    "link": "http://www.mercadodelaesperanza.com/",
-   "hours": "Mon-Fri 08:00-14:00 and 17:00-19:30; Sat 08:00-14:00; Sun closed (check before going)"
+   "hours": "Mon-Fri 08:00-14:00 and 17:00-19:30; Sat 08:00-14:00; Sun closed (check before going)",
+   "tags": [
+    "Type: Market"
+   ]
   },
   {
    "id": "meson-de-borlena",
@@ -2228,7 +2623,12 @@
    "lat": 43.17896,
    "lon": -3.67692,
    "description": "A viewpoint above the Asón valley in Soba, saved in Notion as a hiking/family idea.",
-   "familyFriendly": true
+   "familyFriendly": true,
+   "tags": [
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Viewpoint"
+   ]
   },
   {
    "id": "mirador-playa-de-la-tablia",
@@ -2240,7 +2640,11 @@
    "area": "Suances",
    "lat": 43.4348362,
    "lon": -4.0497917,
-   "description": "This viewpoint stands above the beach of the same name, one of the wildest in Suances. It lies midway between Punta del Dichoso and Punta Ballota, with lovely views of the horizon and the cliffs."
+   "description": "This viewpoint stands above the beach of the same name, one of the wildest in Suances. It lies midway between Punta del Dichoso and Punta Ballota, with lovely views of the horizon and the cliffs.",
+   "tags": [
+    "Suits: Free",
+    "Type: Viewpoint"
+   ]
   },
   {
    "id": "montana-de-oro-saron",
@@ -2280,7 +2684,16 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/monte-sobardal/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "monumento-al-marques-de-comillas",
@@ -2292,7 +2705,10 @@
    "area": "Comillas",
    "lat": 43.3890641,
    "lon": -4.2912028,
-   "description": "Raised by the town of Comillas in memory of Antonio López y López, who returned from Cuba, set up his businesses in Barcelona and was made Marquis of his native Comillas by Alfonso XII in 1878."
+   "description": "Raised by the town of Comillas in memory of Antonio López y López, who returned from Cuba, set up his businesses in Barcelona and was made Marquis of his native Comillas by Alfonso XII in 1878.",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "monumento-natural-de-las-secuoyas-del-monte-cabezon",
@@ -2310,7 +2726,13 @@
     "credit": "Pedro M. Martínez Corada",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sequoyas_del_Monte_Cabez%C3%B3n.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk"
+   ]
   },
   {
    "id": "mr-wang",
@@ -2343,7 +2765,10 @@
     "credit": "Alonso de Mendoza",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Entrada_al_Museo_de_Altamira.jpg"
-   }
+   },
+   "tags": [
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-de-la-naturaleza-de-cantabria",
@@ -2372,7 +2797,12 @@
    "child": 3,
    "rainyDay": "Good",
    "booking": "Normal €5 age 13+; reduced €3 age 4–12; age 0–3 free. Sundays free.",
-   "link": "https://www.museosdecantabria.es/"
+   "link": "https://www.museosdecantabria.es/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-de-la-tortura",
@@ -2392,7 +2822,10 @@
     "credit": "Stromare",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Museo_de_la_Tortura_El_Solar_(Santillana_del_Mar)_-_2013-Aug-16_-_by_Stromare.JPG"
-   }
+   },
+   "tags": [
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-de-prehistoria-y-arqueologia-de-cantabria-mupac",
@@ -2421,7 +2854,12 @@
    "child": 3,
    "rainyDay": "Good",
    "booking": "Check current reservation requirements; Sunday late afternoon may be free without the pass.",
-   "link": "https://www.museosdecantabria.es/"
+   "link": "https://www.museosdecantabria.es/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-diocesano-regina-coeli",
@@ -2441,7 +2879,10 @@
     "credit": "charles lecompte",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Museo_Diocesano_Regina_Coeli_-_Santillana_del_Mar_-_panoramio.jpg"
-   }
+   },
+   "tags": [
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-etnografico-de-cantabria",
@@ -2470,7 +2911,13 @@
    "child": 0,
    "rainyDay": "Good",
    "booking": "Visits are reported as free and guided; workshops require reservation. No direct admission saving from the pass at current tariff.",
-   "link": "https://www.museosdecantabria.es/"
+   "link": "https://www.museosdecantabria.es/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Suits: Free",
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-jesus-otero",
@@ -2484,7 +2931,10 @@
    "lon": -4.1056787967681885,
    "description": "Sculptor Jesús Otero Oreña left his legacy to his home town in this museum and foundation beside the Colegiata de Santa Juliana.",
    "phone": "942 840 198",
-   "link": "https://santillanadelmarturismo.com/museo-y-fundacion-jesus-otero/"
+   "link": "https://santillanadelmarturismo.com/museo-y-fundacion-jesus-otero/",
+   "tags": [
+    "Type: Museum"
+   ]
   },
   {
    "id": "museo-maritimo-del-cantabrico",
@@ -2513,7 +2963,12 @@
    "child": 5,
    "rainyDay": "Good",
    "booking": "2026 published tariff: adult €8; child 5–12 €5; under 5 free.",
-   "link": "https://www.museosdecantabria.es/"
+   "link": "https://www.museosdecantabria.es/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Museum"
+   ]
   },
   {
    "id": "palacio-de-la-familia-corro",
@@ -2526,7 +2981,10 @@
    "lat": 43.3845,
    "lon": -4.4017,
    "description": "This Renaissance palace, now the town hall of San Vicente de la Barquera, was commissioned in the 16th century by the inquisitor Antonio del Corro to shelter the town's sick poor.",
-   "link": "http://www.turismodecantabria.com"
+   "link": "http://www.turismodecantabria.com",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "palacio-de-peredo-barreda",
@@ -2546,7 +3004,10 @@
     "credit": "Unknown authorUnknown author",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Portada_del_Palacio_Peredo_Barreda,_Santillana_del_Mar.jpg"
-   }
+   },
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "palacio-de-velarde",
@@ -2566,7 +3027,10 @@
     "credit": "Luis Fermín TURIEL PEREDO",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Velarde,_Santillana_del_Mar_pan.jpg"
-   }
+   },
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "palacio-y-capilla-panteon-de-sobrellano",
@@ -2595,7 +3059,12 @@
    "child": 5,
    "rainyDay": "Good",
    "booking": "Can combine with Seminario Mayor; allow sufficient time between timed visits.",
-   "link": "https://centros.culturadecantabria.com/palacio-de-sobrellano/"
+   "link": "https://centros.culturadecantabria.com/palacio-de-sobrellano/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "parque-de-la-naturaleza-de-cabarceno",
@@ -2613,7 +3082,11 @@
    "rainyDay": "Mixed",
    "familyFriendly": true,
    "booking": "2026 tickets: adult €25/€35/€45; child 4–12 €15/€20/€25 depending on season. Annual Tarjeta Amigo: individual €80; family €170; Family Plus €200.",
-   "link": "https://parquedecabarceno.com/"
+   "link": "https://parquedecabarceno.com/",
+   "tags": [
+    "Suits: Family friendly",
+    "Type: Family activity"
+   ]
   },
   {
    "id": "parque-de-la-ribera",
@@ -2625,7 +3098,11 @@
    "area": "Suances",
    "lat": 43.42888315122248,
    "lon": -4.034713495518549,
-   "description": "A pretty park with impressive views over the Playa de la Ribera and the ría de San Martín."
+   "description": "A pretty park with impressive views over the Playa de la Ribera and the ría de San Martín.",
+   "tags": [
+    "Suits: Free",
+    "Type: Park & garden"
+   ]
   },
   {
    "id": "paseo-por-novales-y-degustacion-de-limonada",
@@ -2644,7 +3121,11 @@
     "credit": "Luis Fermín TURIEL PEREDO",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Novales,_Alfoz_Lloredo.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Free",
+    "Type: Walk"
+   ]
   },
   {
    "id": "pausau",
@@ -2658,7 +3139,10 @@
    "area": "Liencres, Piélagos",
    "kind": "Seafood",
    "phone": "+34 942 13 10 51",
-   "description": "Seafood-focused restaurant in Liencres with a panoramic terrace by the cliffs; Cantabrian sea produce, turbot, caldeirada, homemade croquettes and house desserts. Reviewers praise the views; some note it gets crowded and noisy."
+   "description": "Seafood-focused restaurant in Liencres with a panoramic terrace by the cliffs; Cantabrian sea produce, turbot, caldeirada, homemade croquettes and house desserts. Reviewers praise the views; some note it gets crowded and noisy.",
+   "tags": [
+    "Type: Seafood"
+   ]
   },
   {
    "id": "penas-de-bejes-ca-enp07",
@@ -2689,7 +3173,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/branas-de-bejes/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "peter-pan",
@@ -2704,7 +3195,10 @@
    "description": "Bakery-cafe with a wide menu and attractive decor, popular with families; reviewers single out the coffee and the chocolate cookie.",
    "address": "Calle Marqués de la Hermida 28, 39009 Santander (Peñacastillo)",
    "phone": "942 53 62 18",
-   "link": "http://panaderiapeterypan.es/"
+   "link": "http://panaderiapeterypan.es/",
+   "tags": [
+    "Type: Cafe"
+   ]
   },
   {
    "id": "playa-de-comillas",
@@ -2716,7 +3210,11 @@
    "area": "Comillas",
    "lat": 43.38921,
    "lon": -4.285652,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "playa-de-covachos",
@@ -2729,7 +3227,11 @@
    "lat": 43.47267722284485,
    "lon": -3.9115123487699464,
    "description": "A beach on the coast near Santander, about 3 km from Soto de la Marina, with a final stretch reached on foot.",
-   "link": "https://www.turismodecantabria.com/disfrutala/playas/33-playa-de-covachos"
+   "link": "https://www.turismodecantabria.com/disfrutala/playas/33-playa-de-covachos",
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "playa-de-la-concha",
@@ -2741,7 +3243,11 @@
    "area": "Suances",
    "lat": 43.435706,
    "lon": -4.043491,
-   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet."
+   "description": "Beach on the central coast. Listed in the Cantabria Costa Central visitor leaflet.",
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "playa-de-los-locos",
@@ -2759,7 +3265,11 @@
     "credit": "Daniel Escudero",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Los_Locos_P7120022.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "playa-de-luana",
@@ -2777,7 +3287,11 @@
     "credit": "P. B. Obregón",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Lua%C3%B1a.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "playa-de-san-juan-de-la-canal",
@@ -2796,7 +3310,11 @@
     "credit": "Quetzal02",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:San_Juan_de_la_Canal_Beach.JPG"
-   }
+   },
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "playa-de-tagle-el-sable",
@@ -2814,7 +3332,11 @@
     "credit": "Hotelpalacion",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Tagle.JPG"
-   }
+   },
+   "tags": [
+    "Suits: Free",
+    "Type: Beach"
+   ]
   },
   {
    "id": "pollos-a-la-brasa-sabor-peruano",
@@ -2858,7 +3380,13 @@
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/bustablado-porracolina/",
     "circular": false,
     "note": "Official CA-ENP09 Bustablado–Porracolina: the ascent track only (6.6 km one way, return the same way = about 13 km)"
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "praderas-de-ruyemas-ca-enp29",
@@ -2890,7 +3418,15 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/praderas-de-ruyemas/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "puerto-de-comillas-el-muelle",
@@ -2902,7 +3438,11 @@
    "area": "Comillas",
    "lat": 43.3908026,
    "lon": -4.290728,
-   "description": "Comillas men seem to have taken up fishing on a significant scale only in the 16th century, because San Vicente de la Barquera held the exclusive right to fish the coast for two leagues east and west of its harbour."
+   "description": "Comillas men seem to have taken up fishing on a significant scale only in the 16th century, because San Vicente de la Barquera held the exclusive right to fish the coast for two leagues east and west of its harbour.",
+   "tags": [
+    "Suits: Free",
+    "Type: Sight"
+   ]
   },
   {
    "id": "rasines-ruta-azul-balconada-de-cerreo",
@@ -2916,7 +3456,13 @@
    "why": "Signed local Rasines route to the Balconada de Cerreo.",
    "familyFriendly": false,
    "priority": "Research",
-   "hike": {}
+   "hike": {},
+   "tags": [
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk"
+   ]
   },
   {
    "id": "rasines-ruta-verde-parque-paleolitico-la-balsa-y-cantera-arqueologica",
@@ -2930,7 +3476,13 @@
    "why": "Signed local route through Rasines linking the Parque Paleolítico, La Balsa and Cantera Arqueológica.",
    "familyFriendly": true,
    "priority": "Research",
-   "hike": {}
+   "hike": {},
+   "tags": [
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk"
+   ]
   },
   {
    "id": "ria-de-san-martin-de-la-arena",
@@ -2948,7 +3500,11 @@
     "credit": "Jesús Gómez Fernández",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADa_de_San_Mart%C3%ADn_de_la_Arena_01.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Free",
+    "Type: Sight"
+   ]
   },
   {
    "id": "robledal-de-cotornal-ca-enp31",
@@ -2976,7 +3532,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-cotornal/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "robledal-del-llano-ca-enp32",
@@ -3009,7 +3572,16 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/robledal-de-llano/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "ruta-cascadas-de-tonanes",
@@ -3021,7 +3593,11 @@
    "area": "Toñanes",
    "lat": 43.40046127606476,
    "lon": -4.1986959939235025,
-   "description": "An easy walk that starts by the village of Toñanes, with just one tricky part: the final descent to the waterfall, which can be a little slippery for small children."
+   "description": "An easy walk that starts by the village of Toñanes, with just one tricky part: the final descent to the waterfall, which can be a little slippery for small children.",
+   "tags": [
+    "Suits: Free",
+    "Type: Walk"
+   ]
   },
   {
    "id": "sakura-santander",
@@ -3049,7 +3625,10 @@
    "description": "Relaxed, unpretentious cafe in central Santander for breakfast, brunch or an afternoon snack; founded by an architect and an economist. Reviewers single out tomato-and-avocado toast and coffee.",
    "address": "C. Marcelino Sanz de Sautuola, 17",
    "phone": "+34 613 25 08 78",
-   "hours": "Mon-Wed 9:00-22:00; Thu-Fri 9:00-23:00; Sat 9:30-23:00; Sun closed (check before going)"
+   "hours": "Mon-Wed 9:00-22:00; Thu-Fri 9:00-23:00; Sat 9:30-23:00; Sun closed (check before going)",
+   "tags": [
+    "Type: Cafe"
+   ]
   },
   {
    "id": "santagloria-coffee-bakery",
@@ -3064,7 +3643,10 @@
    "phone": "942 369 430",
    "link": "https://santagloria.com/en/our-locations/santagloria-florida-santander",
    "hours": "Mon-Fri 07:30-21:00; Sat-Sun 08:00-21:00 (check before going)",
-   "kind": "Café / breakfast"
+   "kind": "Café / breakfast",
+   "tags": [
+    "Type: Cafe"
+   ]
   },
   {
    "id": "senda-fluvial-del-nansa-ca-enp34",
@@ -3095,7 +3677,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/senda-fluvial-nansa/",
     "circular": false
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Family friendly",
+    "Suits: Free",
+    "Type: Hike",
+    "Level: Easy"
+   ]
   },
   {
    "id": "sendero-adaptado-del-rio-bayones",
@@ -3113,7 +3702,14 @@
     "distanceKm": 2,
     "difficulty": "Easy",
     "childSuitability": "Very suitable: short, low-difficulty adapted nature trail; part of the route is conditioned/protected with a handrail."
-   }
+   },
+   "tags": [
+    "Suits: Family friendly",
+    "Suits: Easy walk",
+    "Suits: Free",
+    "Type: Walk",
+    "Level: Easy"
+   ]
   },
   {
    "id": "sendero-de-los-puentes-ca-enp35",
@@ -3148,7 +3744,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/sendero-de-los-puentes/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Moderate"
+   ]
   },
   {
    "id": "tierra-astur-aguila-colloto",
@@ -3163,7 +3766,10 @@
    "area": "Colloto, Siero",
    "address": "Polígono Empresarial Águila del Nora, parcela 2, nave 7, 33199 Colloto (Siero)",
    "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
-   "phone": "985 791 228"
+   "phone": "985 791 228",
+   "tags": [
+    "Type: Cider house"
+   ]
   },
   {
    "id": "tierra-astur-aviles",
@@ -3178,7 +3784,10 @@
    "area": "Avilés",
    "address": "Calle San Francisco 4, 33402 Avilés",
    "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
-   "phone": "984 833 038"
+   "phone": "984 833 038",
+   "tags": [
+    "Type: Cider house"
+   ]
   },
   {
    "id": "tierra-astur-el-vasco-oviedo",
@@ -3193,7 +3802,10 @@
    "area": "Oviedo, Gran Bulevar El Vasco",
    "address": "Calle Víctor Chávarri s/n, 33001 Oviedo",
    "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
-   "phone": "985 205 252"
+   "phone": "985 205 252",
+   "tags": [
+    "Type: Cider house"
+   ]
   },
   {
    "id": "tierra-astur-gascona-oviedo",
@@ -3207,7 +3819,10 @@
    "lon": -5.8444892,
    "area": "Oviedo, Calle Gascona",
    "address": "Calle Gascona 1, 33001 Oviedo",
-   "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food."
+   "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
+   "tags": [
+    "Type: Cider house"
+   ]
   },
   {
    "id": "tierra-astur-gascona-parrilla-oviedo",
@@ -3222,7 +3837,10 @@
    "area": "Oviedo, Calle Gascona",
    "address": "Calle Gascona 9, 33001 Oviedo",
    "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
-   "phone": "984 846 624"
+   "phone": "984 846 624",
+   "tags": [
+    "Type: Cider house"
+   ]
   },
   {
    "id": "tierra-astur-poniente-gijon",
@@ -3237,7 +3855,10 @@
    "area": "Gijón, Playa de Poniente",
    "address": "Calle Mariano Pola 10-12-14, 33212 Gijón",
    "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
-   "phone": "985 327 448"
+   "phone": "985 327 448",
+   "tags": [
+    "Type: Cider house"
+   ]
   },
   {
    "id": "torre-de-los-velarde",
@@ -3249,7 +3870,10 @@
    "area": "Santillana del Mar",
    "lat": 43.39030370479751,
    "lon": -4.10751376808814,
-   "description": "A Gothic tower built in the mid-15th century by García de Velarde, head of one of the town's great lineages. It was substantially remodelled in the early 17th century."
+   "description": "A Gothic tower built in the mid-15th century by García de Velarde, head of one of the town's great lineages. It was substantially remodelled in the early 17th century.",
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "torre-de-pero-nino",
@@ -3287,7 +3911,12 @@
    },
    "rainyDay": "Good",
    "booking": "Seasonal opening hours; check before travel.",
-   "link": "https://centros.culturadecantabria.com/torre-de-pero-nino-2/"
+   "link": "https://centros.culturadecantabria.com/torre-de-pero-nino-2/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Heritage"
+   ]
   },
   {
    "id": "torre-del-infantado",
@@ -3327,7 +3956,12 @@
    },
    "rainyDay": "Good",
    "booking": "Check opening hours before travel.",
-   "link": "https://centros.culturadecantabria.com/torre-del-infantado/"
+   "link": "https://centros.culturadecantabria.com/torre-del-infantado/",
+   "tags": [
+    "Listed by: Official",
+    "Suits: Good in rain",
+    "Type: Museum"
+   ]
   },
   {
    "id": "torre-del-merino",
@@ -3345,7 +3979,10 @@
     "credit": "Lothar Wilhelm",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Torre_del_Merino.jpg"
-   }
+   },
+   "tags": [
+    "Type: Heritage"
+   ]
   },
   {
    "id": "turberas-de-selviejo-ca-enp36",
@@ -3373,7 +4010,14 @@
     "source": "Naturea Cantabria",
     "sourceUrl": "https://natureacantabria.com/rutas-autoguiadas/turberas-selviejo/",
     "circular": true
-   }
+   },
+   "tags": [
+    "Listed by: Official",
+    "Suits: Free",
+    "Type: Hike",
+    "Practical: Loop route",
+    "Level: Easy"
+   ]
   },
   {
    "id": "ylis",
@@ -3412,7 +4056,11 @@
     "credit": "@OlgaCarreraBL",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_Tropical_del_Zoo_de_Santillana_del_Mar_DSC_0193_23.jpg"
-   }
+   },
+   "tags": [
+    "Suits: Family friendly",
+    "Type: Family activity"
+   ]
   }
  ],
  "unplaced": [

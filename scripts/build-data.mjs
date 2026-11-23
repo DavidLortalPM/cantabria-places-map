@@ -4,6 +4,7 @@
 //   Hikes:   data/hikes.notion.json  + data/hike-coords.json (+ hike-overrides.json)
 // Usage: node scripts/build-data.mjs   (or: npm run data)
 import fs from 'node:fs';
+import { deriveTags } from './derive-tags.mjs';
 
 const read = f => JSON.parse(fs.readFileSync(f, 'utf8'));
 const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -108,6 +109,7 @@ for (let i = places.length - 1; i >= 0; i--) {
 for (let i = unplaced.length - 1; i >= 0; i--) if (HIDE.has(unplaced[i].category) || unplaced[i].category === 'hike') unplaced.splice(i, 1);
 
 for (const p of places) if (!p.image && images[p.name]) p.image = images[p.name]; // Commons photos for non-Cultura places
+for (const p of places) { const t = deriveTags(p); if (t.length) p.tags = t; delete p.listedBy; delete p.extraTags; }
 places.sort((a, b) => a.name.localeCompare(b.name, 'es'));
 fs.mkdirSync('public/data', { recursive: true });
 fs.writeFileSync('public/data/places.json', JSON.stringify({ generated: new Date().toISOString().slice(0, 10), places, unplaced }, null, 1));
