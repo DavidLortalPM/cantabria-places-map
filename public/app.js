@@ -398,18 +398,59 @@ $('sheet-body').addEventListener('click', e => {
   else if (e.target.closest('.near-btn') && selected) { const p = byId[selected]; showNear({ lat: p.lat, lon: p.lon, name: p.name, sub: [typeLabel(p), p.area].filter(Boolean).join(' · '), exclude: p.id }); }
 });
 $('sheet-grab').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpanded(!$('sheet').classList.contains('exp')); } });
-// Swipe up/down on the handle (or up on the compact sheet); tap the handle to toggle. Only the handle (or the x) closes the compact sheet by swiping down.
+// Drag the sheet with the finger. Down from the handle: it follows, then closes (compact) or collapses (expanded) past a
+// threshold or a quick flick. Up: a small rubber-band, then it expands. A pull down from the top of the expanded content
+// collapses it too. A tap on the handle toggles. Only the handle (or the x) closes the compact sheet by swiping down.
 (() => {
-  const s = $('sheet'); let y0 = null, moved = false, fromGrab = false;
-  s.addEventListener('pointerdown', e => { if (!phone() || e.target.closest('#sheet-close')) return; fromGrab = !!e.target.closest('#sheet-grab'); if (fromGrab || !s.classList.contains('exp')) { y0 = e.clientY; moved = false; } });
-  s.addEventListener('pointermove', e => { if (y0 !== null && Math.abs(e.clientY - y0) > 8) moved = true; });
-  s.addEventListener('pointerup', e => {
-    if (y0 === null) return;
-    const dy = e.clientY - y0, exp = s.classList.contains('exp'); y0 = null;
-    if (moved && Math.abs(dy) > 36) { if (dy < 0) setExpanded(true); else if (exp) setExpanded(false); else if (fromGrab) closeSheet(); }
-    else if (!moved && fromGrab) setExpanded(!exp);
+  const s = $('sheet'), body = $('sheet-body');
+  let y0 = null, dy = 0, moved = false, fromGrab = false, vel = 0, lastY = 0, lastT = 0, pid = null;
+  const follow = d => { s.style.transition = 'none'; s.style.transform = 'translateY(' + (d > 0 ? d : Math.max(d * 0.3, -28)) + 'px)'; };
+  const track = y => { const n = performance.now(); if (n > lastT) vel = 0.8 * vel + 0.2 * ((y - lastY) / (n - lastT)); lastY = y; lastT = n; };
+  const settle = () => { s.style.transition = 'transform .24s cubic-bezier(.2,.8,.2,1)'; s.style.transform = ''; setTimeout(() => { s.style.transition = ''; }, 260); };
+  function finish() {
+    const exp = s.classList.contains('exp'), up = dy < -36 || (vel < -0.5 && dy < -8), down = dy > 36 || (vel > 0.5 && dy > 8);
+    if (up) { settle(); if (!exp) setExpanded(true); }
+    else if (down && exp) { settle(); setExpanded(false); }
+    else if (down && fromGrab) { // slide out, then close
+      s.style.transition = 'transform .2s ease-in'; s.style.transform = 'translateY(110%)';
+      setTimeout(() => { closeSheet(); s.style.transition = ''; s.style.transform = ''; }, 200);
+    } else settle();
+  }
+  s.addEventListener('pointerdown', e => {
+    if (!phone() || e.target.closest('#sheet-close')) return;
+    fromGrab = !!e.target.closest('#sheet-grab');
+    if (!(fromGrab || !s.classList.contains('exp'))) return;
+    y0 = e.clientY; dy = 0; moved = false; vel = 0; lastY = y0; lastT = performance.now(); pid = e.pointerId;
+    try { s.setPointerCapture(pid); } catch { /* not all engines */ }
   });
-  s.addEventListener('pointercancel', () => { y0 = null; });
+  s.addEventListener('pointermove', e => {
+    if (y0 === null) return;
+    dy = e.clientY - y0; track(e.clientY);
+    if (Math.abs(dy) > 8) moved = true;
+    if (moved) follow(dy);
+  });
+  s.addEventListener('pointerup', () => {
+    if (y0 === null) return;
+    const wasMoved = moved; y0 = null;
+    try { s.releasePointerCapture(pid); } catch { /* ignore */ }
+    if (wasMoved) finish();
+    else if (fromGrab) setExpanded(!s.classList.contains('exp'));
+  });
+  s.addEventListener('pointercancel', () => { if (y0 !== null) { y0 = null; settle(); } });
+  // expanded content: a pull down while already scrolled to the top drags the whole sheet
+  let ty0 = null, pulling = false;
+  body.addEventListener('touchstart', e => { if (!phone() || !s.classList.contains('exp') || body.scrollTop > 0) { ty0 = null; return; } ty0 = e.touches[0].clientY; pulling = false; dy = 0; vel = 0; lastY = ty0; lastT = performance.now(); fromGrab = false; }, { passive: true });
+  body.addEventListener('touchmove', e => {
+    if (ty0 === null) return;
+    const d = e.touches[0].clientY - ty0;
+    if (!pulling && d > 10 && body.scrollTop <= 0) pulling = true;
+    if (!pulling) return;
+    if (e.cancelable) e.preventDefault();
+    dy = d; track(e.touches[0].clientY); follow(Math.max(0, d));
+  }, { passive: false });
+  const endPull = () => { if (ty0 !== null && pulling) finish(); ty0 = null; pulling = false; };
+  body.addEventListener('touchend', endPull);
+  body.addEventListener('touchcancel', endPull);
 })();
 
 const fmtDate = s => { const [y, m, d] = String(s || '').split('-'); return d ? +d + ' ' + MONTHS[m - 1] + ' ' + y : ''; };
@@ -637,14 +678,34 @@ const TOWN_TYPE = { city: 'City', town: 'Town', village: 'Village', hamlet: 'Ham
 const SETTLEMENT = new Set(['City', 'Town', 'Village', 'Hamlet', 'District', 'Neighbourhood', 'Municipality', 'Locality']);
 const sdlg = $('dlg-search'), sq = $('sq');
 const town = { cache: new Map(), ctl: null, timer: 0, last: 0, state: '', list: [] }; // state: '' | 'wait' | 'ok' | 'err'
-let sayT = 0;
+let sayT = 0, fuzzyUsed = false;
+const RECENT_MAX = 5;
+const recent = { get() { try { return JSON.parse(safeStore.get('recent') || '[]').filter(id => byId[id]); } catch { return []; } }, add(id) { safeStore.set('recent', JSON.stringify([id, ...this.get().filter(x => x !== id)].slice(0, RECENT_MAX))); } };
+let setTagFilter = () => {}; // set in init: switch a tag filter on from the search shortcuts
+const SHORTCUTS = [['Family friendly', 'Suits: Family friendly'], ['Free', 'Suits: Free'], ['Good in rain', 'Suits: Good in rain'], ['Official', 'Listed by: Official']];
+// One edit apart (insert, delete or replace one letter): forgives typos in long words
+function near1(a, b) {
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0; while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  if (i === a.length && i === b.length) return true;
+  return a.slice(i + 1) === b.slice(i + 1) || a.slice(i) === b.slice(i + 1) || a.slice(i + 1) === b.slice(i);
+}
+const tokens = new Map();
+const tokensOf = id => tokens.get(id) || (tokens.set(id, [...new Set(hay.get(id).split(/[^a-z0-9]+/).filter(w => w.length >= 4))]), tokens.get(id));
+const fuzzyHas = (id, w) => hay.get(id).includes(w) || (w.length >= 5 && tokensOf(id).some(t => near1(t, w) || (t.length > w.length && near1(t.slice(0, w.length), w))));
 
 function localMatches(q) {
   const words = q.split(/\s+/).filter(Boolean);
   if (!words.length) return [];
   const rank = p => { const n = fold(p.name); return n.startsWith(q) ? 0 : n.includes(q) ? 1 : 2; };
-  return Object.values(byId).filter(p => passOk(p) && words.every(w => hay.get(p.id).includes(w)))
+  const run = has => Object.values(byId).filter(p => passOk(p) && words.every(w => has(p.id, w)))
     .map(p => ({ p, r: rank(p) })).sort((a, b) => a.r - b.r || a.p.name.localeCompare(b.p.name, 'es')).slice(0, 40).map(x => x.p);
+  fuzzyUsed = false;
+  const exact = run((id, w) => hay.get(id).includes(w));
+  if (exact.length) return exact;
+  const close = run(fuzzyHas);
+  fuzzyUsed = close.length > 0;
+  return close;
 }
 function parseTowns(arr) {
   const seen = new Set();
@@ -692,7 +753,12 @@ async function fetchTowns(q, key) {
 function renderSearch() {
   const raw = sq.value.trim(), q = fold(raw), local = localMatches(q);
   let html = '';
-  if (!q) html = '<p class="s-hint">Find one of our places, or a town or village to see what is nearby.</p>';
+  if (!q) {
+    const rec = recent.get();
+    html = '<p class="s-hint">Find one of our places, or a town or village to see what is nearby.</p>'
+      + '<h3 class="s-h">Quick filters</h3><div class="s-chips">' + SHORTCUTS.map(([l], i) => `<button type="button" class="s-chip" data-tag="${i}">${esc(l)}</button>`).join('') + '</div>'
+      + (rec.length ? '<h3 class="s-h">Recent</h3><ul class="res" role="list">' + rec.map(id => `<li><button type="button" data-id="${esc(id)}">${placeRow(byId[id])}</button></li>`).join('') + '</ul>' : '');
+  } else if (fuzzyUsed && local.length) html = '<p class="s-hint">No exact match. Showing close matches.</p>';
   for (const [k, c] of Object.entries(CATEGORIES)) {
     const l = local.filter(p => p.category === k);
     if (l.length) html += `<h3 class="s-h"><span class="sw" style="background:${c.color}"></span>${esc(c.label)}</h3><ul class="res" role="list">${l.map(p => `<li><button type="button" data-id="${esc(p.id)}">${placeRow(p)}</button></li>`).join('')}</ul>`;
@@ -723,12 +789,27 @@ function openSearch() {
 }
 $('btn-search').addEventListener('click', openSearch);
 sq.addEventListener('input', () => { queueTowns(false); renderSearch(); });
-$('s-form').addEventListener('submit', e => { e.preventDefault(); if (town.state !== 'ok') { queueTowns(true); renderSearch(); } });
+$('s-form').addEventListener('submit', e => {
+  e.preventDefault();
+  const top = localMatches(fold(sq.value.trim()))[0];
+  if (top) { $('s-res').querySelector('button[data-id="' + CSS.escape(top.id) + '"]')?.click(); return; }
+  if (town.state !== 'ok') { queueTowns(true); renderSearch(); }
+});
 sq.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { const b = $('s-res').querySelector('button'); if (b) { e.preventDefault(); b.focus(); } } });
+$('s-res').addEventListener('keydown', e => { // arrows walk the result list, ArrowUp from the first goes back to the box
+  if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+  const all = [...$('s-res').querySelectorAll('button')], i = all.indexOf(document.activeElement);
+  if (i < 0) return;
+  e.preventDefault();
+  if (e.key === 'ArrowDown') all[Math.min(all.length - 1, i + 1)].focus();
+  else if (i === 0) sq.focus(); else all[i - 1].focus();
+});
 sdlg.addEventListener('close', () => { clearTimeout(town.timer); town.ctl?.abort(); if (town.state === 'wait') town.state = ''; });
 $('s-res').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.tag) { const x = SHORTCUTS[+b.dataset.tag]; if (x) { sdlg.close(); setTagFilter(x[1]); setTab('map'); } return; }
   if (b.dataset.id) {
+    recent.add(b.dataset.id);
     sdlg.close();
     const h = '#' + encodeURIComponent(b.dataset.id);
     if (location.hash === h) openFromHash(); else location.hash = h; // the same place twice gives no hashchange
@@ -779,6 +860,7 @@ async function init() {
     return true;
   };
   isVisible = visible;
+  setTagFilter = x => { tagOn.add(x); refresh(); toast('Filter on: ' + x.split(': ')[1] + '. Tap a chip under the search to remove it'); };
   const sync = () => { // bring the controls in line with the state
     for (const k in ui.layer) ui.layer[k].setAttribute('aria-pressed', String(on[k]));
     for (const s in ui.stage) ui.stage[s].setAttribute('aria-pressed', String(stageOn[s]));
