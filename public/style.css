@@ -312,7 +312,11 @@ summary{cursor:pointer;color:var(--muted);font-weight:600;padding:12px 0;min-hei
 @media (min-width:720px){
   :root{--tabs-b:calc(var(--tab-h) + 24px)}
   #tabs{left:50%;right:auto;translate:-50% 0;bottom:12px;width:420px;border-radius:16px;border:0;box-shadow:var(--shadow);min-height:var(--tab-h);padding:0}
-  #cats{right:64px}
+  /* category strip top-left, search pill beside it, map controls top-right; the side card sits under the strip */
+  #cats{left:calc(var(--sa-l) + 12px);right:auto;width:520px;margin:0}
+  #find{left:calc(var(--sa-l) + 12px + 520px + 10px);right:auto;width:340px;max-width:none;margin:0;justify-content:flex-start;top:calc(var(--sa-t) + 9px)}
+  #active{justify-content:flex-start}
+  #dlg-search{margin-top:12dvh}
   #listview{left:var(--sa-l);right:auto;width:360px;top:calc(var(--sa-t) + var(--cats-h) + 12px);bottom:var(--tabs-b);border-radius:14px}
   dialog.bsheet{margin:auto;border-radius:16px;max-height:80dvh;padding-bottom:16px}
 }
