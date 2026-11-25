@@ -43,7 +43,7 @@ Tier B (app with no sensitive data). Today the site is deployed by hand: upload 
 - Platform first: native HTML, then CSS, then a little JavaScript, then a library.
 - Keep new files small (about 300 lines) and explain *why* in comments.
 - Mark coordinates `verified`, `approximate` or `unverified`, and keep a source for hikes and routes.
-- Bump `VERSION` in `public/sw.js` (currently `v15`) when a visible release needs installed copies to refresh their offline cache.
+- Bump `VERSION` in `public/sw.js` (currently `v16`) when a visible release needs installed copies to refresh their offline cache.
 - End every code reply with "Standard applied": the rules used and any not followed, with the reason.
 
 ## Data and privacy

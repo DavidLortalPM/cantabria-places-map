@@ -5,7 +5,12 @@
   "how": "venue",
   "match": "Photon: Gowok, Calle Doctor Graíño, Avilés"
  },
- "Restaurante Yume | Torre del Niemeyer, Av. del Zinc, S/N, 33490, Asturias": null,
+ "Restaurante Yume | Torre del Niemeyer, Av. del Zinc, S/N, 33490, Asturias": {
+  "lat": 43.557382,
+  "lon": -5.918171,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "LA SMASH Burger Shop | C. Rivero, 29, 33402 Avilés, Asturias": {
   "lat": 43.554476,
   "lon": -5.921176,
@@ -24,7 +29,12 @@
   "how": "street",
   "match": "Photon: Plaza Hermanos Orbón, Avilés"
  },
- "Restaurante ~ Shang Hai City | Calle del Dr. Jiménez Díaz, 2, 33402 Avilés, Asturias": null,
+ "Restaurante ~ Shang Hai City | Calle del Dr. Jiménez Díaz, 2, 33402 Avilés, Asturias": {
+  "lat": 43.553406,
+  "lon": -5.928608,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Café de París Le Bistró | Pl. España, 9, D, 33402 Avilés, Asturias": {
   "lat": 43.555364,
   "lon": -5.922005,
@@ -133,8 +143,18 @@
   "how": "street",
   "match": "Avenida de Lugo, Jardín de Cantos - La Maruca - Cristalería, Avilés"
  },
- "Suelo Larense | 33402 Aviles, Asturias": null,
- "Pizzería La Parolaccia | Av. D.Constantino Glez Y González, 7, BAJO, 33550 Cangas de Onís, Asturias": null,
+ "Suelo Larense | 33402 Aviles, Asturias": {
+  "lat": 43.553993,
+  "lon": -5.924917,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
+ "Pizzería La Parolaccia | Av. D.Constantino Glez Y González, 7, BAJO, 33550 Cangas de Onís, Asturias": {
+  "lat": 43.35118,
+  "lon": -5.130209,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Pizzería Canto | Av. del Barrio Nuevo, 9, 33800 Cangas del Narcea, Asturias": {
   "lat": 43.176282,
   "lon": -6.552383,
@@ -147,7 +167,12 @@
   "how": "street",
   "match": "Calle Uría (El Paséu), La Cogoḷḷa, Cangas del Narcea"
  },
- "L'ABLUGO PIZZERIA-BURGUER | C. Alcalde Díaz Penedela, 2, 33800 Cangas del Narcea, Asturias": null,
+ "L'ABLUGO PIZZERIA-BURGUER | C. Alcalde Díaz Penedela, 2, 33800 Cangas del Narcea, Asturias": {
+  "lat": 43.177926,
+  "lon": -6.550466,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "KEBAB ASTURIAS LAS VEGAS | C. Severo Ochoa, 17, 33404 Las Vegas, Asturias": {
   "lat": 43.534605,
   "lon": -5.901897,
@@ -394,7 +419,12 @@
   "how": "street",
   "match": "Calle Emilio Tuya, L'Arena, Gijón / Xixón"
  },
- "Sato Sushi | Estadio El Molinón, Av. de El Molinón, 265, puerta 9, Gijon-Este, 33203 Gijón, Asturias": null,
+ "Sato Sushi | Estadio El Molinón, Av. de El Molinón, 265, puerta 9, Gijon-Este, 33203 Gijón, Asturias": {
+  "lat": 43.536005,
+  "lon": -5.636493,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Umeko Sushi | Av. de Oviedo, 1306, Periurbano - Rural, 33211 Gijón, Asturias": {
   "lat": 43.521522,
   "lon": -5.684027,
@@ -1079,7 +1109,12 @@
   "how": "venue",
   "match": "Pizzería La Forna, Calle San Antonio, La Piñera"
  },
- "¡Que Cocine Valentina! | Bº Barcena, 55, bajo, 33314 Villaviciosa, Asturias": null,
+ "¡Que Cocine Valentina! | Bº Barcena, 55, bajo, 33314 Villaviciosa, Asturias": {
+  "lat": 43.51146,
+  "lon": -5.50859,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Pizzería Akragas Los Italianos | C. Víctor García de la Concha, 6, 33300 Villaviciosa, Asturias": {
   "lat": 43.483026,
   "lon": -5.434116,
@@ -1200,7 +1235,12 @@
   "how": "address",
   "match": "Somerako Labea, 1, Gipuzkoa kalea"
  },
- "Restaurante Japonés - AMATXU SUSHI | Bernart Etxepare Kalea, 3, 48960 Kurtzea, Bizkaia": null,
+ "Restaurante Japonés - AMATXU SUSHI | Bernart Etxepare Kalea, 3, 48960 Kurtzea, Bizkaia": {
+  "lat": 43.2311,
+  "lon": -2.843468,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Suna sushi | Azkue Kalea, 32, Arteagabeitia, 48902 San Vicente de Barakaldo, Bizkaia": {
   "lat": 43.290558,
   "lon": -2.992047,
@@ -1609,7 +1649,12 @@
   "how": "address",
   "match": "14, Uribitarte pasealekua, Uribitarte"
  },
- "Restaurante Rasa | Restaurante Rasa, Heliodoro de la Torre Kalea, 02, BJ, Deusto, 48014 Bilbao, Bizkaia": null,
+ "Restaurante Rasa | Restaurante Rasa, Heliodoro de la Torre Kalea, 02, BJ, Deusto, 48014 Bilbao, Bizkaia": {
+  "lat": 43.269669,
+  "lon": -2.943864,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Swad Restaurante | Zingira Kalea, 5, Ibaiondo, 48007 Bilbao, Bizkaia": {
   "lat": 43.262809,
   "lon": -2.922818,
@@ -1958,7 +2003,12 @@
   "how": "venue",
   "match": "Uarike, Egaña kalea, Autonomia"
  },
- "Bar-Restaurante Alpamayo | C. del Gral. Castillo, 5, bajo 2, Ibaiondo, 48003 Bilbao, Vizcaya": null,
+ "Bar-Restaurante Alpamayo | C. del Gral. Castillo, 5, bajo 2, Ibaiondo, 48003 Bilbao, Vizcaya": {
+  "lat": 43.257122,
+  "lon": -2.929282,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Pituko | Egaña Kalea, 27, Abando, 48010 Bilbao, Bizkaia": {
   "lat": 43.258354,
   "lon": -2.939283,
@@ -2079,7 +2129,12 @@
   "how": "address",
   "match": "8, Egia jeneralaren kalea, Autonomia"
  },
- "Issa's Resto-bar | Francisco Macías, 8, Deusto, 48014 Bilbao, Bizkaia": null,
+ "Issa's Resto-bar | Francisco Macías, 8, Deusto, 48014 Bilbao, Bizkaia": {
+  "lat": 43.270277,
+  "lon": -2.942061,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Ha Noi Pho | Zugastinobia Kalea, 9, Errekalde, 48012 Bilbao, Bizkaia": {
   "lat": 43.257214,
   "lon": -2.942468,
@@ -2152,7 +2207,12 @@
   "how": "venue",
   "match": "Simbo, Juan Kaltzada kalea, Agirregana"
  },
- "Restaurante Hang Zhou | Calle de Iparraguirre, 16, 48300 Gernika-Lumo, Bizkaia": null,
+ "Restaurante Hang Zhou | Calle de Iparraguirre, 16, 48300 Gernika-Lumo, Bizkaia": {
+  "lat": 43.313686,
+  "lon": -2.67698,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Batu Asia | Andrés Cortina Kalea, 2A, 48991 Algorta, Bizkaia": {
   "lat": 43.351375,
   "lon": -3.011854,
@@ -2201,7 +2261,12 @@
   "how": "venue",
   "match": "Nikkou, Andikoetxe kalea, Portu Zaharra"
  },
- "IWASAKI Restaurante Japonés | frente al parque Malakate, Iturribide Kalea, 13, 48993 Andra Mari, Bizkaia": null,
+ "IWASAKI Restaurante Japonés | frente al parque Malakate, Iturribide Kalea, 13, 48993 Andra Mari, Bizkaia": {
+  "lat": 43.359269,
+  "lon": -3.011277,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Aixerrota | Galea Errepidea, 30, 48993 Andra Mari, Bizkaia": {
   "lat": 43.367671,
   "lon": -3.030755,
@@ -2244,7 +2309,12 @@
   "how": "address",
   "match": "Photon: Barria kalea, Getxo"
  },
- "Suna sushi | Calle Ibaiondo frente Nº13, 48930 Areeta / Las Arenas, Vizcaya": null,
+ "Suna sushi | Calle Ibaiondo frente Nº13, 48930 Areeta / Las Arenas, Vizcaya": {
+  "lat": 43.327475,
+  "lon": -3.009242,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Hanoi jatetxea | Ibaigane Kalea, 3, 48930 Areeta / Las Arenas, Bizkaia": {
   "lat": 43.326463,
   "lon": -3.010464,
@@ -2257,7 +2327,12 @@
   "how": "venue",
   "match": "Palillos de Oro II, Jose Ramon Aketxe plaza, Elexalde"
  },
- "Pitxote Salbaje Leioa | Agirre Lehendakaria Pl., 2, 48940 Udondo, Bizkaia": null,
+ "Pitxote Salbaje Leioa | Agirre Lehendakaria Pl., 2, 48940 Udondo, Bizkaia": {
+  "lat": 43.320258,
+  "lon": -2.986496,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Restaurante Trattoria La Casetta | Telleria Auzoa, 7, 48940, Bizkaia": {
   "lat": 43.340099,
   "lon": -2.991639,
@@ -2613,7 +2688,12 @@
   "how": "street",
   "match": "Nominatim structured: Calle de Ruamayor, Puebla Vieja, Laredo"
  },
- "Bandido Food Club | C. Peñota, 2, 39160 Loredo, Cantabria": null,
+ "Bandido Food Club | C. Peñota, 2, 39160 Loredo, Cantabria": {
+  "lat": 43.460786,
+  "lon": -3.719222,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "ATLANTIS WOK | C. Enrique Gran, 9, 39600 Maliaño, Cantabria": {
   "lat": 43.425334,
   "lon": -3.840419,
@@ -3076,7 +3156,12 @@
   "how": "address",
   "match": "14, Calle del Profesor Jiménez Díaz, Barrio Obrero del Rey"
  },
- "Machupicchu Restobar - Restaurante Peruano | C. Gral. Díaz de Villegas, 1, bajo, 39009 Santander, Cantabria": null,
+ "Machupicchu Restobar - Restaurante Peruano | C. Gral. Díaz de Villegas, 1, bajo, 39009 Santander, Cantabria": {
+  "lat": 43.454194,
+  "lon": -3.819384,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "RINCÓN CRIOLLO MONROY RESTAURANTE PERUANO | Av. del Deporte, 9, 16, bajo, 39011 Santander, Cantabria": {
   "lat": 43.460973,
   "lon": -3.848837,
@@ -3113,7 +3198,12 @@
   "how": "address",
   "match": "6, Calle de los Ciruelos, El Alisal"
  },
- "Bar Asia King Doner Kebab | 39002, C. Cuesta, 6, 39008 Santander, Cantabria": null,
+ "Bar Asia King Doner Kebab | 39002, C. Cuesta, 6, 39008 Santander, Cantabria": {
+  "lat": 43.461233,
+  "lon": -3.810143,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Kashmir Doner Kebab | Calle Sta. Lucía, 51, 39003 Santander, Cantabria": {
   "lat": 43.464743,
   "lon": -3.798402,
@@ -3150,7 +3240,12 @@
   "how": "address",
   "match": "35, Calle Vargas, Perines"
  },
- "La Pepitería | La Pepitería, C. Fernando de los Ríos, 42, 39006 Santander, Cantabria": null,
+ "La Pepitería | La Pepitería, C. Fernando de los Ríos, 42, 39006 Santander, Cantabria": {
+  "lat": 43.469525,
+  "lon": -3.797978,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Kasa Kristo | C. Desengaño, bajo 1, 39740 Santoña, Cantabria": {
   "lat": 43.441071,
   "lon": -3.456353,
@@ -3205,14 +3300,24 @@
   "how": "address",
   "match": "23B, Calle El Muelle, Suances"
  },
- "La Mar Crêperie | C. Calabazas, 50, 39150 Suesa, Cantabria": null,
+ "La Mar Crêperie | C. Calabazas, 50, 39150 Suesa, Cantabria": {
+  "lat": 43.437939,
+  "lon": -3.714849,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Casa Mei | Av. de Bilbao, 7, 39300 Torrelavega, Cantabria": {
   "lat": 43.347121,
   "lon": -4.043364,
   "how": "venue",
   "match": "Casa Mei, Avenida de Bilbao, Barrio Tronquerías"
  },
- "Astro Coffee & Burger | Blvr. Luciano Demetrio Herrero, 39300 Torrelavega, Cantabria": null,
+ "Astro Coffee & Burger | Blvr. Luciano Demetrio Herrero, 39300 Torrelavega, Cantabria": {
+  "lat": 43.34908,
+  "lon": -4.050606,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Carniball Smash Burger | C. Augusto González Linares, 25, 39300 Torrelavega, Cantabria": {
   "lat": 43.34691,
   "lon": -4.047462,
@@ -3303,7 +3408,12 @@
   "how": "address",
   "match": "5, Plaza de Baldomero Iglesias, Barrio Quebrantada"
  },
- "Osman's | Pepín del Río Gato o, C. Hermilio Alcalde del Río, 1, 39300 Torrelavega, Cantabria": null,
+ "Osman's | Pepín del Río Gato o, C. Hermilio Alcalde del Río, 1, 39300 Torrelavega, Cantabria": {
+  "lat": 43.349841,
+  "lon": -4.0522,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "Restaurante Atlas | C. Leonardo Torres Quevedo, 2, bajo, 39300 Torrelavega, Cantabria": {
   "lat": 43.353855,
   "lon": -4.04415,
@@ -3316,7 +3426,12 @@
   "how": "address",
   "match": "12, Calle de Leonardo Torres Quevedo, Grupo Juan de Herrera"
  },
- "Nur Döner Kebap | Plaza Ángel Menéndez, 3, local 3, 39300 Torrelavega, Cantabria": null,
+ "Nur Döner Kebap | Plaza Ángel Menéndez, 3, local 3, 39300 Torrelavega, Cantabria": {
+  "lat": 43.349449,
+  "lon": -4.048229,
+  "how": "google",
+  "match": "Google Maps listing (name and address match)"
+ },
  "mas que bueno kebab | C. Hermanos de Carriedo y Peredo, 10, 39300 Torrelavega, Cantabria": null,
  "NKO Eneko Restaurant | Diego Lopez Haroko Kale Nagusia, 4, 7th Floor, Abando, 48001 Bilbao, Vizcaya": {
   "lat": 43.26157,
