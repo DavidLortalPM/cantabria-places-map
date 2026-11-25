@@ -1931,6 +1931,37 @@
    ]
   },
   {
+   "id": "bolivia-en-mi-corazon-bilbao",
+   "category": "restaurant",
+   "kind": "Bolivian",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "Bolivia en mi corazón",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Bolivian",
+   "rating": 4.1,
+   "reviews": 53,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Wed",
+   "hours": "Mon 9:30 AM–9 PM; Tue 9:30 AM–6:30 PM; Wed Closed; Thu 9:30 AM–9 PM; Fri–Sat 9:30 AM–3 AM; Sun 9:30 AM–12 AM",
+   "notes": [
+    "Vegan options"
+   ],
+   "phone": "+34 688 86 39 72",
+   "address": "Iturribide Kalea, 25, Ibaiondo, 48006 Bilbao, Bizkaia",
+   "lat": 43.258026,
+   "lon": -2.918913,
+   "tags": [
+    "Cuisine: Latin American",
+    "Rating: 4.0+",
+    "Price: €",
+    "Suits: Vegan",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "bordes-pizza-club-durango",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -8342,6 +8373,35 @@
    ]
   },
   {
+   "id": "la-saint-louisienne-bilbao",
+   "category": "restaurant",
+   "kind": "Senegalese",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "La Saint Louisienne",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Senegalese",
+   "rating": 4.7,
+   "reviews": 14,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 9 AM–1:30 AM",
+   "phone": "+34 689 66 46 72",
+   "address": "Maiatzaren Biko Kalea, 26, Ibaiondo, 48003 Bilbao, Bizkaia",
+   "lat": 43.2566,
+   "lon": -2.929813,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "la-smash-burger-shop-aviles",
    "category": "restaurant",
    "kind": "Burgers",
@@ -8608,6 +8668,35 @@
    "tags": [
     "Suits: Family friendly",
     "Type: Family activity"
+   ]
+  },
+  {
+   "id": "lahori-zaika-barakaldo",
+   "category": "restaurant",
+   "kind": "Pakistani",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "Lahori Zaika",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Pakistani",
+   "rating": 4.8,
+   "reviews": 11,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 11:30 AM–4 PM, 7–11 PM; Fri–Sun 11:30 AM–12 AM",
+   "phone": "+34 614 09 69 57",
+   "address": "Bake Kalea, 7, La Paz, 48903 San Vicente de Barakaldo, Bizkaia",
+   "lat": 43.279475,
+   "lon": -2.986233,
+   "tags": [
+    "Cuisine: Indian & Nepali",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -11185,6 +11274,35 @@
    ]
   },
   {
+   "id": "panaderia-pasteleria-tangana-taberna-teranga-senegal-bilbao",
+   "category": "restaurant",
+   "kind": "Senegalese (bakery / taberna)",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by venue name",
+   "name": "Panaderia Pasteleria TANGANA / TABERNA TERANGA SENEGAL",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Senegalese (bakery / taberna)",
+   "rating": 4.5,
+   "reviews": 33,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 9 AM–11 PM",
+   "phone": "+34 688 81 36 06",
+   "address": "C. de San Francisco, 71, bjo izda, Ibaiondo, 48003 Bilbao, Vizcaya",
+   "lat": 43.256734,
+   "lon": -2.931,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "panda-jatetxea-bilbao",
    "category": "restaurant",
    "kind": "Thai",
@@ -13550,6 +13668,34 @@
    ]
   },
   {
+   "id": "restaurante-baserri-portugalete",
+   "category": "restaurant",
+   "kind": "Brazilian",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "Restaurante Baserri",
+   "area": "Portugalete",
+   "province": "Bizkaia",
+   "cuisine": "Brazilian",
+   "rating": 4.8,
+   "reviews": 29,
+   "priceLevel": "€€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 10 AM–10 PM; Fri 10 AM–11 PM; Sat–Sun 10 AM–10 PM",
+   "phone": "+34 747 49 58 15",
+   "address": "Juan Antonio Zunzunegui Kalea, 13, 48920 Portugalete, Bizkaia",
+   "lat": 43.315643,
+   "lon": -3.020976,
+   "tags": [
+    "Cuisine: Latin American",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "restaurante-bide-baltz-durango",
    "category": "restaurant",
    "kind": "Chinese",
@@ -14622,6 +14768,34 @@
    ]
   },
   {
+   "id": "restaurante-pipers-irish-getxo-algorta",
+   "category": "restaurant",
+   "kind": "Irish pub",
+   "locationStatus": "approximate",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street (approximate)",
+   "name": "Restaurante Pipers Irish",
+   "area": "Getxo (Algorta)",
+   "province": "Bizkaia",
+   "cuisine": "Irish pub",
+   "rating": 4.4,
+   "reviews": 1527,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Wed 8 AM–10 PM; Thu 8 AM–12 AM; Fri 8 AM–1 AM; Sat 9 AM–2 AM; Sun 9 AM–10 PM",
+   "phone": "+34 944 91 11 85",
+   "address": "Av. Basagoiti, 47, 48991 Algorta, Vizcaya",
+   "lat": 43.346044,
+   "lon": -3.010107,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "restaurante-pizza-va-torrelavega",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -14750,6 +14924,34 @@
    "address": "Av. de Valdecilla, 9, 39008 Santander, Cantabria",
    "lat": 43.458191,
    "lon": -3.827243,
+   "tags": [
+    "Cuisine: Latin American",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-sabor-latino-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Colombian",
+   "locationStatus": "approximate",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street (approximate)",
+   "name": "Restaurante Sabor Latino",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Colombian",
+   "rating": 4,
+   "reviews": 108,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 7 AM–11 PM; Sat–Sun 9 AM–11 PM",
+   "phone": "+34 696 51 75 28",
+   "address": "C. de la Rda., 22, 39700 Castro-Urdiales, Cantabria",
+   "lat": 43.38104,
+   "lon": -3.219886,
    "tags": [
     "Cuisine: Latin American",
     "Rating: 4.0+",
@@ -15486,6 +15688,37 @@
    ]
   },
   {
+   "id": "sakura-colindres",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "Sakura",
+   "area": "Colindres",
+   "province": "Cantabria",
+   "cuisine": "Japanese (sushi)",
+   "rating": 4.1,
+   "reviews": 1619,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sat 1–3:45 PM, 8–11:30 PM; Sun 1–3:45 PM, 8–11 PM",
+   "notes": [
+    "All-you-can-eat"
+   ],
+   "phone": "+34 695 49 24 35",
+   "address": "C. la Magdalena, 5, 39750 Colindres, Cantabria",
+   "lat": 43.395075,
+   "lon": -3.449982,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "sakura-santander",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -15539,6 +15772,34 @@
     "Price: €€",
     "Practical: Open for lunch",
     "Practical: Book ahead"
+   ]
+  },
+  {
+   "id": "samaia-restaurante-georgiano-bilbao-2",
+   "category": "restaurant",
+   "kind": "Georgian",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "Samaia | Restaurante Georgiano",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Georgian",
+   "rating": 4.9,
+   "reviews": 15,
+   "priceLevel": "€€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 1–4:30 PM, 8–11 PM; Fri 1–5 PM, 8 PM–12 AM; Sat 12–5 PM, 8 PM–12 AM; Sun 12 PM–5 AM",
+   "phone": "+34 946 06 24 58",
+   "address": "K. Barria, 4, Ibaiondo, 48005 Bilbao, Bizkaia",
+   "lat": 43.258621,
+   "lon": -2.925321,
+   "tags": [
+    "Cuisine: Mediterranean & Middle Eastern",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch"
    ]
   },
   {

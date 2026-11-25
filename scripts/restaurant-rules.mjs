@@ -6,6 +6,15 @@
 //   5. Not really a restaurant (pubs, bakeries, bubble tea): out.
 // KEEP / DROP name exceptions that override the rules, each with the reason shown in the import report.
 export const KEEP = {
+  "Sakura": "reviewed: Colindres has nothing else on the map; 4.1 from 1,600+ reviews, open daily",
+  "Lahori Zaika": "reviewed: the only Pakistani restaurant in the area (few reviews so far)",
+  "Bolivia en mi corazón": "reviewed: rare Bolivian cooking, vegan options",
+  "Restaurante Pipers Irish": "reviewed: 4.4 from 1,500+ reviews, a dependable meal in Algorta",
+  "La Saint Louisienne": "reviewed: rare Senegalese cooking (few reviews so far)",
+  "Restaurante Sabor Latino": "reviewed: the only Latin American place in Castro Urdiales",
+  "Samaia | Restaurante Georgiano": "reviewed: Georgian; both Bilbao branches kept",
+  "Restaurante Baserri": "reviewed: Brazilian, 4.8, one review short of the bar",
+  "Panaderia Pasteleria TANGANA / TABERNA TERANGA SENEGAL": "reviewed: Senegalese taberna, 4.5 from 33 reviews (check it serves full meals)",
   'NKO Eneko Restaurant': 'Michelin-recommended; the low score is about price, not food',
   'Restaurante Asador Bolivia': 'owner wants it: one of very few Bolivian places',
 };

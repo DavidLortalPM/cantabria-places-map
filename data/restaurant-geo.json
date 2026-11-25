@@ -1984,10 +1984,10 @@
   "match": "26, Maiatzaren biko kalea, San Francisco"
  },
  "Panaderia Pasteleria TANGANA / TABERNA TERANGA SENEGAL | C. de San Francisco, 71, bjo izda, Ibaiondo, 48003 Bilbao, Vizcaya": {
-  "lat": 43.256163,
-  "lon": -2.926382,
-  "how": "address",
-  "match": "Photon: Servicio Social de Base 6: San Francisco-La Peña, Mirasol kondearen kalea, Bilbao"
+  "lat": 43.256734,
+  "lon": -2.931,
+  "how": "venue",
+  "match": "Tangana, 71, San Frantzisko kalea"
  },
  "Manantial | Alameda de Recalde, 68, Errekalde, 48010 Bilbao, Vizcaya": {
   "lat": 43.261796,
@@ -2178,10 +2178,10 @@
   "match": "Golden Horse, 14, Villaondoeta kalea"
  },
  "Restaurante Pipers Irish | Av. Basagoiti, 47, 48991 Algorta, Vizcaya": {
-  "lat": 43.361654,
-  "lon": -3.016063,
+  "lat": 43.346044,
+  "lon": -3.010107,
   "how": "street",
-  "match": "Photon: Avda. del Angel 47 (La Venta), Aingeruaren etorbidea, Getxo"
+  "match": "Basagoiti etorbidea, Algorta (street only)"
  },
  "Eterna Restaurante | Av. Basagoiti, 63, 48991 Algorta, Vizcaya": {
   "lat": 43.350063,
