@@ -4,7 +4,9 @@
 //              Owner pick (set only when a row says so with listedBy: "Owner pick"); restaurants stay untagged until classified
 //   Suits      Family friendly, Easy walk, Good in rain, Free
 //   Type       Beach, Cave, Museum, Viewpoint, Heritage, Park & garden, Hike, Walk, Sight, Family activity; for food: Local cuisine, Seafood, Grill, Cider house, Tapas, Cafe, Market
-//   Practical  Book ahead, Loop route
+//   Cuisine    restaurants: Local cuisine, Seafood, ... and international groups (see CUISINE)
+//   Rating     4.5+, 4.0+ (Google rating from the owner's restaurant list)   Price  €, €€, €€€ and up
+//   Practical  Book ahead, Loop route, Open for lunch, Open every day
 //   Level      Easy, Moderate, Hard (hikes and walks)
 
 const TYPE_BY_KIND = {
@@ -15,8 +17,25 @@ const TYPE_BY_KIND = {
 };
 const FOOD_BY_KIND = {
   'Traditional Cantabrian': 'Local cuisine', Seafood: 'Seafood', 'Asador (grill)': 'Grill', Sidrería: 'Cider house',
-  'Tapas & pintxos': 'Tapas', 'Café / breakfast': 'Cafe', Market: 'Market'
+  'Tapas & pintxos': 'Tapas', 'Café / breakfast': 'Cafe', 'Ice cream / crêperie': 'Cafe', Market: 'Market'
 };
+// Cuisine groups for restaurants: the first rule whose words appear in the cuisine (or kind) text wins, checked in this order
+const CUISINE = [
+  ['Latin American', /peruvian-|peruvian|venezuel|colombi|argentin|brazil|bolivi|ecuador|paraguay|urugua|nicaragu|cuban|caribbean|latin|south american|hondur|empanada/],
+  ['Japanese & sushi', /japanese|sushi|ramen|nikkei|omakase|izakaya/],
+  ['Italian & pizza', /italian|pizza|pinsa|pasta/],
+  ['Burgers', /burger|smash/],
+  ['Kebab & Turkish', /kebab|turkish|shawarma|halal fast/],
+  ['Mexican', /mexican|tex-mex|taco/],
+  ['Chinese & wok', /chinese|chifa|dumpling|noodle|wok/],
+  ['Indian & Nepali', /indian|nepali|pakistani|afghan/],
+  ['Asian', /thai|korean|vietnam|asian|bao/],
+  ['Poke', /poke|hawaiian/],
+  ['Mediterranean & Middle Eastern', /moroccan|lebanese|middle eastern|greek|georgian|mediterranean/],
+  ['Other international', /american|bbq|irish|french|crêpe|creperie|swiss|portuguese|ukrain|slavic|african|senegal|camero/]
+];
+const cuisineOf = t => { const s = String(t || '').toLowerCase(); let best = null, at = 1e9;
+  for (const [label, re] of CUISINE) { const m = s.search(re); if (m >= 0 && m < at) { best = label; at = m; } } return best; };
 const FREE_KINDS = new Set(['Beach', 'Viewpoint', 'Walk', 'Park', 'Garden', 'Harbour', 'Estuary']);
 
 export function deriveTags(p) {
@@ -38,8 +57,18 @@ export function deriveTags(p) {
   if (p.category === 'hike') add('Type', 'Hike');
   else if (p.category === 'walk') add('Type', 'Walk');
   else if (p.category === 'family') add('Type', 'Family activity');
-  else if (p.category === 'restaurant') add('Type', FOOD_BY_KIND[p.kind]);
+  else if (p.category === 'restaurant') add('Cuisine', FOOD_BY_KIND[p.kind] || cuisineOf(p.cuisine || p.kind));
   else add('Type', TYPE_BY_KIND[p.kind] || (p.category === 'attraction' ? 'Sight' : ''));
+
+  // Restaurants: rating, price, diet notes and lunch from the owner's list
+  if (p.category === 'restaurant') {
+    if (p.rating >= 4.5) add('Rating', '4.5+');
+    if (p.rating >= 4) add('Rating', '4.0+');
+    if (p.priceLevel) add('Price', p.priceLevel.length >= 3 ? '€€€ and up' : p.priceLevel);
+    for (const n of p.notes || []) { const m = n.match(/^(Vegan|Vegetarian|Gluten-free) options$/); if (m) add('Suits', m[1]); }
+    if (/^Yes/.test(p.lunch || '')) add('Practical', 'Open for lunch');
+    if (p.closedOn === 'Open daily') add('Practical', 'Open every day');
+  }
 
   // Practical
   if (p.reservations === 'Book ahead') add('Practical', 'Book ahead');

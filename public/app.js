@@ -200,17 +200,18 @@ function renderHike(p) {
 
 function renderPlace(p) {
   const prices = p.adult != null ? `${money(p.adult)} adult${p.child != null ? ' · ' + money(p.child) + ' child' : ''}` : '';
-  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Phone', p.phone), row('Address', p.address)].filter(Boolean);
+  const rows = [row('Visit time', p.visitTime), row('Price', prices), row('Lunch', p.lunch), row('Closed', p.closedOn === 'Open daily' ? '' : p.closedOn), row('Phone', p.phone), row('Address', p.address)].filter(Boolean);
   const driveQuick = p.drive && rows.length < 2;
   if (driveQuick) rows.push(row('Drive from base', p.drive));
   const facts = p.category === 'restaurant'
-    ? [typeLabel(p), p.priceLevel, p.reservations]
+    ? [typeLabel(p), p.rating ? '★ ' + p.rating.toFixed(1) + (p.reviews ? ' (' + p.reviews.toLocaleString('en') + ')' : '') : '', p.priceLevel, p.reservations]
     : [p.familyFriendly && p.category !== 'family' ? 'Family friendly' : '', p.rainyDay ? (RAIN[p.rainyDay] || p.rainyDay) : '', p.priceLevel];
   return [`
     ${tags(p, facts)}
     ${statusLine(p)}
     <div class="rows">${rows.join('')}</div>`, `
     ${p.description ? `<p class="desc">${esc(p.description)}</p>` : ''}
+    ${p.notes?.some(n => n !== 'Book ahead') ? `<p class="desc">Good to know: ${esc(p.notes.filter(n => n !== 'Book ahead').join(', '))}</p>` : ''}
     ${p.why ? `<p>${esc(p.why)}</p>` : ''}
     ${driveQuick ? '' : `<div class="rows">${row('Drive from base', p.drive)}</div>`}
     ${p.booking ? `<div class="callout">${esc(p.booking)}</div>` : ''}
@@ -970,7 +971,7 @@ async function init() {
   // Tags: several at once, a place must carry every selected tag. Counts show how many places each tag has.
   const tagCount = {};
   for (const p of places) for (const x of p.tags || []) tagCount[x] = (tagCount[x] || 0) + 1;
-  const TAG_GROUPS = [['Listed by', 'Listed by'], ['Suits', 'Suits'], ['Type', 'Type'], ['Practical', 'Practical'], ['Level', 'Level']];
+  const TAG_GROUPS = [['Listed by', 'Listed by'], ['Suits', 'Suits'], ['Type', 'Type'], ['Cuisine', 'Cuisine'], ['Rating', 'Google rating'], ['Price', 'Price'], ['Practical', 'Practical'], ['Level', 'Level']];
   for (const [g, title] of TAG_GROUPS) {
     const list = Object.keys(tagCount).filter(x => x.startsWith(g + ': ') && tagCount[x] >= 2).sort((a, b) => tagCount[b] - tagCount[a]);
     if (!list.length) continue;

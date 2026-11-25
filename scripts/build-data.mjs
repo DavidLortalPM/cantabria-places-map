@@ -92,6 +92,20 @@ if (fs.existsSync('data/restaurants.json')) {
   }
 }
 
+// ---- The owner's restaurant list (data/restaurants.list.json, made by scripts/import-restaurant-list.mjs)
+if (fs.existsSync('data/restaurants.list.json')) {
+  for (const o of read('data/restaurants.list.json')) {
+    if (o.mergeInto) { // same place as a hand-made entry: add the list's rating and opening details to it
+      const p = places.find(x => x.category === 'restaurant' && x.name === o.mergeInto);
+      if (p) for (const k of ['rating', 'reviews', 'cuisine', 'lunch', 'closedOn', 'notes']) if (o[k] !== undefined && p[k] === undefined) p[k] = o[k];
+      continue;
+    }
+    const { status, source, ...rest } = o;
+    let id = slug(o.name + ' ' + o.area); while (places.some(p => p.id === id)) id += '-2';
+    places.push({ id, category: 'restaurant', kind: o.cuisine, locationStatus: status, locationSource: source, ...rest });
+  }
+}
+
 // Hikes are only published once there is a route to draw (public/routes/<id>.json, see scripts/build-routes.mjs).
 // HIKES_NEED_ROUTE=0 publishes every placed hike; HIDE_CATEGORIES=a,b keeps whole categories out.
 const HIDE = new Set((process.env.HIDE_CATEGORIES ?? '').split(',').map(s => s.trim()).filter(Boolean));
