@@ -7,6 +7,7 @@
 // KEEP / DROP name exceptions that override the rules, each with the reason shown in the import report.
 export const KEEP = {
   'NKO Eneko Restaurant': 'Michelin-recommended; the low score is about price, not food',
+  'Restaurante Asador Bolivia': 'owner wants it: one of very few Bolivian places',
 };
 export const DROP = {};
 const QUICK = /kebab|döner|doner|shawarma|halal fast|buffet|wok/i;

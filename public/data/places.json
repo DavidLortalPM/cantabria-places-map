@@ -13398,6 +13398,32 @@
    ]
   },
   {
+   "id": "restaurante-asador-bolivia-bilbao",
+   "category": "restaurant",
+   "kind": "Bolivian",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by street address",
+   "name": "Restaurante Asador Bolivia",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Bolivian",
+   "rating": 3.9,
+   "reviews": 233,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Tue",
+   "hours": "Mon 12:30–5 PM; Tue Closed; Wed–Thu 12:30–5 PM; Fri–Sat 12:30–10 PM; Sun 12:30–7 PM",
+   "phone": "+34 946 03 55 77",
+   "address": "Goienkale, 6, Ibaiondo, 48005 Bilbao, Bizkaia",
+   "lat": 43.255991,
+   "lon": -2.922945,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "restaurante-assafir-bilbao",
    "category": "restaurant",
    "kind": "Moroccan",
