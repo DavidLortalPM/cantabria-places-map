@@ -29,7 +29,8 @@
     "address": "Calle Rosal 13, 33009 Oviedo",
     "phone": "984 08 64 35",
     "hours": "Tue-Sun 11:00-01:00, closed Monday; kitchen Tue-Thu 13:00-16:00 & 20:00-24:00, Fri-Sun 13:00-16:30 & 20:00-00:30 (check before going)",
-    "reservations": "Book ahead"
+    "reservations": "Book ahead",
+    "gmaps": "https://maps.google.com/?cid=12329950913031179429"
   },
   {
     "name": "Alterna Sidrería (Puerto de Pajares)",
@@ -60,7 +61,8 @@
     "description": "Traditional Cantabrian grill restaurant in Potes with a rustic wood-paneled dining room and mountain views, known for red meat (chuletón) and its cocido lebaniego, described as the star of the menu. About 100 km from Santander, on the Picos / Liébana side.",
     "address": "Pob. San Roque 1, 39570 Potes",
     "phone": "942 738 165",
-    "priceLevel": "€€"
+    "priceLevel": "€€",
+    "gmaps": "https://maps.google.com/?cid=8958391360366164529"
   },
   {
     "name": "Mesón de Borleña",
@@ -117,7 +119,8 @@
     "description": "Product-driven restaurant with a charcoal-grill focus, meat and fish as protagonists. Guests mention chuletón (especially ox), steak tartare, sweetbreads, ensaladilla rusa, chorizo brioche, flan and cheesecake. Upmarket, modern and stylish; good for dinner.",
     "address": "C. Bonifaz, 9",
     "phone": "942 52 65 83",
-    "link": "https://kandela.es"
+    "link": "https://kandela.es",
+    "gmaps": "https://maps.google.com/?cid=12085928817461014975"
   },
   {
     "name": "La Bombi",
@@ -133,7 +136,8 @@
     "address": "Calle Casimiro Sainz, 15",
     "phone": "942 213 028",
     "link": "http://www.labombi.com",
-    "hours": "Per Michelin: Tue closed; other days 13:30-16:00 and 21:00-23:30; Sunday lunch only. Salir lists different hours (check before going)"
+    "hours": "Per Michelin: Tue closed; other days 13:30-16:00 and 21:00-23:30; Sunday lunch only. Salir lists different hours (check before going)",
+    "gmaps": "https://maps.google.com/?cid=10713408506821117934"
   },
   {
     "name": "Bodega del Riojano",
@@ -149,7 +153,8 @@
     "address": "Calle Río de la Pila, 5",
     "phone": "942 216 750",
     "link": "https://bodegadelriojano.com",
-    "hours": "Conflicting: Spanish Michelin page lists daily 12:00-16:00 and 20:00-00:00; other Michelin pages list 13:00-17:00 and 20:00-23:30 (check before going)"
+    "hours": "Conflicting: Spanish Michelin page lists daily 12:00-16:00 and 20:00-00:00; other Michelin pages list 13:00-17:00 and 20:00-23:30 (check before going)",
+    "gmaps": "https://maps.google.com/?cid=6693881173641100442"
   },
   {
     "name": "Casa Lita",
@@ -164,7 +169,8 @@
     "address": "Paseo de Pereda, 37",
     "phone": "+34 942 36 48 30",
     "link": "http://www.casalita.es/",
-    "hours": "Tue-Sun 12:00-00:00; open daily in summer (per Salir; check before going)"
+    "hours": "Tue-Sun 12:00-00:00; open daily in summer (per Salir; check before going)",
+    "gmaps": "https://maps.google.com/?cid=6905586871996679817"
   },
   {
     "name": "Bodega Fuente Dé",
@@ -178,7 +184,8 @@
     "description": "Long-standing Santander bodega serving tapas and cheese plates with wine and beer; known for its cocido montañés, cheese and croquetas. Often packed, with standing room at the bar.",
     "address": "Calle Peña Herbosa, 5",
     "phone": "942 21 30 58",
-    "hours": "Mon-Sat 12:00-16:00 and 20:00-00:00; Sun closed (check before going)"
+    "hours": "Mon-Sat 12:00-16:00 and 20:00-00:00; Sun closed (check before going)",
+    "gmaps": "https://maps.google.com/?cid=15247203493849023502"
   },
   {
     "name": "Casa Ajero",
@@ -192,7 +199,8 @@
     "description": "Tapas and pintxos bar near Plaza del Cañadío with a lively tapeo atmosphere and a summer terrace with high tables.",
     "address": "Daoiz y Velarde, 18",
     "phone": "942 218 386",
-    "hours": "Daily 11:00-02:00, Monday midday closed (per Salir; Minube differs; check before going)"
+    "hours": "Daily 11:00-02:00, Monday midday closed (per Salir; Minube differs; check before going)",
+    "gmaps": "https://maps.google.com/?cid=6146188188172858164"
   },
   {
     "name": "Peter & Pan",
@@ -221,7 +229,8 @@
     "address": "Plaza de la Esperanza s/n, 39002 Santander",
     "phone": "942 203 087",
     "link": "http://www.mercadodelaesperanza.com/",
-    "hours": "Mon-Fri 08:00-14:00 and 17:00-19:30; Sat 08:00-14:00; Sun closed (check before going)"
+    "hours": "Mon-Fri 08:00-14:00 and 17:00-19:30; Sat 08:00-14:00; Sun closed (check before going)",
+    "gmaps": "https://maps.google.com/?cid=13046015766002612306"
   },
   {
     "name": "El Cazurro",
@@ -234,7 +243,8 @@
     "description": "Coastal bar-restaurant with sea views from the dining room and terrace; short menu with a blackboard of daily fish and off-menu dishes. Known for rice dishes (incl. black rice), mejillones en salsa, guiso marinero, sea bass, octopus, croquetas and rabas. Repsol Solete; recommended by Jesus Sanchez (Cenador de Amos).",
     "address": "Barrio La Arnía s/n, Liencres (Piélagos), 39120",
     "phone": "942 57 85 24",
-    "priceLevel": "€€"
+    "priceLevel": "€€",
+    "gmaps": "https://maps.google.com/?cid=14958572420948898148"
   },
   {
     "name": "Casa Poli",
@@ -248,7 +258,8 @@
     "reservations": "No reservations",
     "description": "Traditional Asturian cooking in an 1833 manor house around a central courtyard, open since 1996. Menu: chorizo in cider, Llanes anchovies, octopus, fabada, cachopo, T-bone, entrecote, lamb chops, cheeses and homemade desserts. Ample parking.",
     "address": "Puertas de Vidiago, Llanes, Asturias",
-    "phone": "985 41 12 17"
+    "phone": "985 41 12 17",
+    "gmaps": "https://maps.google.com/?cid=10840559693954139378"
   },
   {
     "name": "La Parrilla de Prellezo",
@@ -263,7 +274,8 @@
     "address": "Carretera General de Prellezo (N-634), 39549 Prellezo, Val de San Vicente",
     "phone": "942 71 08 41",
     "link": "https://laparrilladeprellezo.com/",
-    "hours": "Daily 12:30-24:00 (check before going)"
+    "hours": "Daily 12:30-24:00 (check before going)",
+    "gmaps": "https://maps.google.com/?cid=11091741662624730548"
   },
   {
     "name": "Sakura Santander",
@@ -290,7 +302,8 @@
     "hours": "Mon, Thu-Sun 11:00-17:00 and 20:00-23:45; Wed 11:00-17:00; Tue closed (check before going; site header conflicts slightly)",
     "priceLevel": "€€€",
     "reservations": "Book ahead",
-    "kind": "Seafood"
+    "kind": "Seafood",
+    "gmaps": "https://maps.google.com/?cid=13109933534534164781"
   },
   {
     "name": "Santagloria Coffee & Bakery",
@@ -304,7 +317,8 @@
     "phone": "942 369 430",
     "link": "https://santagloria.com/en/our-locations/santagloria-florida-santander",
     "hours": "Mon-Fri 07:30-21:00; Sat-Sun 08:00-21:00 (check before going)",
-    "kind": "Café / breakfast"
+    "kind": "Café / breakfast",
+    "gmaps": "https://maps.google.com/?cid=2072262628474373"
   },
   {
     "name": "Casa Luisa",
@@ -532,7 +546,8 @@
     "address": "Polígono Empresarial Águila del Nora, parcela 2, nave 7, 33199 Colloto (Siero)",
     "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
     "source": "Place named by owner; position from OpenStreetMap (Nominatim) venue; details from Asturias tourism listings (check before going)",
-    "phone": "985 791 228"
+    "phone": "985 791 228",
+    "gmaps": "https://maps.google.com/?cid=1441256284357623828"
   },
   {
     "name": "Tierra Astur Gascona (Oviedo)",
@@ -545,7 +560,8 @@
     "area": "Oviedo, Calle Gascona",
     "address": "Calle Gascona 1, 33001 Oviedo",
     "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
-    "source": "Place named by owner; position from OpenStreetMap (Nominatim) address point; details from Asturias tourism listings (check before going)"
+    "source": "Place named by owner; position from OpenStreetMap (Nominatim) address point; details from Asturias tourism listings (check before going)",
+    "gmaps": "https://maps.google.com/?cid=3245876819843816675"
   },
   {
     "name": "Tierra Astur Gascona Parrilla (Oviedo)",
@@ -559,7 +575,8 @@
     "address": "Calle Gascona 9, 33001 Oviedo",
     "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
     "source": "Place named by owner; position from OpenStreetMap (Nominatim) venue; details from Asturias tourism listings (check before going)",
-    "phone": "984 846 624"
+    "phone": "984 846 624",
+    "gmaps": "https://maps.google.com/?cid=15374297204785735706"
   },
   {
     "name": "Tierra Astur El Vasco (Oviedo)",
@@ -573,7 +590,8 @@
     "address": "Calle Víctor Chávarri s/n, 33001 Oviedo",
     "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
     "source": "Place named by owner; position from OpenStreetMap (Nominatim) street point, approximate; details from Asturias tourism listings (check before going)",
-    "phone": "985 205 252"
+    "phone": "985 205 252",
+    "gmaps": "https://maps.google.com/?cid=17539806856009304079"
   },
   {
     "name": "Tierra Astur Poniente (Gijón)",
@@ -587,7 +605,8 @@
     "address": "Calle Mariano Pola 10-12-14, 33212 Gijón",
     "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
     "source": "Place named by owner; position from OpenStreetMap (Nominatim) venue; details from Asturias tourism listings (check before going)",
-    "phone": "985 327 448"
+    "phone": "985 327 448",
+    "gmaps": "https://maps.google.com/?cid=6633140075146503725"
   },
   {
     "name": "Tierra Astur Avilés",
@@ -601,6 +620,7 @@
     "address": "Calle San Francisco 4, 33402 Avilés",
     "description": "Branch of the Tierra Astur cider-house group: Asturian cider house with traditional food.",
     "source": "Place named by owner; position from OpenStreetMap (Nominatim) venue; details from Asturias tourism listings (check before going)",
-    "phone": "984 833 038"
+    "phone": "984 833 038",
+    "gmaps": "https://maps.google.com/?cid=9973748865275068751"
   }
 ]

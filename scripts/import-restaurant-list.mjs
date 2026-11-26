@@ -91,7 +91,7 @@ for (const r of keep) {
     lunch: r['Open for lunch?'] || undefined, closedOn: r['Closed on'] || undefined, hours: r['Opening hours'] || undefined,
     notes: notes.length ? notes : undefined, reservations: notes.includes('Book ahead') ? 'Book ahead' : undefined,
     phone: r.Phone.replace(/^'/, '') || undefined, address: r.Address || undefined,
-    lat: g.lat, lon: g.lon, status: g.how === 'google' ? 'verified' : g.how === 'street' ? 'approximate' : 'geocoded',
+    gmaps: g.gmaps, lat: g.lat, lon: g.lon, status: g.how === 'google' ? 'verified' : g.how === 'street' ? 'approximate' : 'geocoded',
     source: `Owner's restaurant list (Google ratings); position ${g.how === 'google' ? 'from its Google Maps listing' : 'from OpenStreetMap by ' + (g.how === 'venue' ? 'venue name' : g.how === 'address' ? 'street address' : 'street (approximate)')}`
   });
 }
