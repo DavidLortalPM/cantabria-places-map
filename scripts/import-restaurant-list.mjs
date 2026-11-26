@@ -69,7 +69,7 @@ async function locate(r) {
 
 const judged = recs.map(r => ({ r, v: verdict(r) }));
 const keep = judged.filter(x => x.v.keep).map(x => x.r);
-const skipped = { rules: judged.filter(x => !x.v.keep), alreadyListed: [], noLocation: [] };
+const skipped = { rules: judged.filter(x => !x.v.keep || /anyway/.test(x.v.why || '')), alreadyListed: [], noLocation: [] };
 const sameAs = r => existing.find(e => (e.phone && digits(e.phone) === digits(r.Phone)) ||
   (norm(e.name).length >= 4 && norm(r.Name).includes(norm(e.name)) && norm(e.area).includes(norm(r.Town.replace(/\s*\(.*\)/, '')))));
 // The list's town is wrong for some rows: the postcode wins
@@ -97,7 +97,7 @@ for (const r of keep) {
 }
 fs.writeFileSync(CACHE, JSON.stringify(cache, null, 1));
 fs.writeFileSync(OUT, JSON.stringify(out, null, 1));
-console.log(`on the map: ${out.filter(x => !x.mergeInto).length}; dropped by the rules: ${skipped.rules.length}; merged into existing entries: ${skipped.alreadyListed.join('; ') || '-'}`);
+console.log(`on the map: ${out.filter(x => !x.mergeInto).length}; kept despite the rules: ${skipped.rules.filter(x => x.v.keep).length}; dropped: ${skipped.rules.filter(x => !x.v.keep).length}; merged into existing entries: ${skipped.alreadyListed.join('; ') || '-'}`);
 fs.writeFileSync('data/_raw/restaurant-decisions.txt', skipped.rules.map(x => `${x.r.Name} (${x.r.Town}): ${x.v.why}`).join('\n') + '\n\nNo location found:\n' + skipped.noLocation.join('\n') + '\n');
 console.log(`no location (${skipped.noLocation.length}): ${skipped.noLocation.join('; ')}`);
 const how = {}; for (const v of Object.values(cache)) how[v ? v.how : 'none'] = (how[v ? v.how : 'none'] || 0) + 1; console.log('lookups:', how);

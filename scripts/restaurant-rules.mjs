@@ -21,7 +21,14 @@ export const KEEP = {
 export const DROP = {};
 const QUICK = /kebab|döner|doner|shawarma|halal fast|buffet|wok/i;
 const NOT_RESTAURANT = /irish pub|bakery|bubble tea/i;
+// The owner wants every row on the map for now (2026-11-26) and will say which to remove: the rules still run and their
+// verdict is kept in the import report, but nothing is dropped while ALL is true.
+export const ALL = true;
 export function verdict(r) {
+  const v = rules(r);
+  return ALL && !v.keep ? { keep: true, why: 'on the map anyway (the rules would drop it: ' + v.why + ')' } : v;
+}
+function rules(r) {
   const name = r.Name, rating = parseFloat(r.Rating), reviews = +String(r.Reviews || '').replace(/,/g, '') || 0;
   const text = `${r.Name} ${r.Cuisine} ${r['Good to know']}`;
   if (KEEP[name]) return { keep: true, why: 'kept: ' + KEEP[name] };

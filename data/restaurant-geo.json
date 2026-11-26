@@ -1,9 +1,10 @@
 {
  "Restaurante GoWok | C. del Dr. Graiño, 41, 1, 33402 Avilés, Asturias": {
-  "lat": 43.55671,
-  "lon": -5.925213,
-  "how": "venue",
-  "match": "Photon: Gowok, Calle Doctor Graíño, Avilés"
+  "lat": 43.55685,
+  "lon": -5.9249,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10706324004363994151",
+  "match": "Google Maps listing: Restaurante GoWok"
  },
  "Restaurante Yume | Torre del Niemeyer, Av. del Zinc, S/N, 33490, Asturias": {
   "lat": 43.55738,
@@ -27,10 +28,11 @@
   "match": "Google Maps listing: TABULA RASA"
  },
  "California Street Food Avilés | Plaza Hermanos Orbón, s/n, 33401 Orbón, Asturias": {
-  "lat": 43.557681,
-  "lon": -5.92304,
-  "how": "street",
-  "match": "Photon: Plaza Hermanos Orbón, Avilés"
+  "lat": 43.55793,
+  "lon": -5.92357,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=6098542095263147770",
+  "match": "Google Maps listing: California Street Food Avilés"
  },
  "Restaurante ~ Shang Hai City | Calle del Dr. Jiménez Díaz, 2, 33402 Avilés, Asturias": {
   "lat": 43.55341,
@@ -40,10 +42,11 @@
   "match": "Google Maps listing: Restaurante ~ Shang Hai City"
  },
  "Café de París Le Bistró | Pl. España, 9, D, 33402 Avilés, Asturias": {
-  "lat": 43.555364,
-  "lon": -5.922005,
-  "how": "street",
-  "match": "Plaza de España, La Villa, Avilés"
+  "lat": 43.55507,
+  "lon": -5.92252,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10244623284141326927",
+  "match": "Google Maps listing: Café de París Le Bistró"
  },
  "Restaurante Taj Mahal | C. de la Estación, 12, 33401 Avilés, Asturias": {
   "lat": 43.55938,
@@ -67,10 +70,11 @@
   "match": "Google Maps listing: Don Pasquale"
  },
  "Pizzería Piccola Italia | C. Fuero de Avilés, 12, 33401 Avilés, Asturias": {
-  "lat": 43.554151,
-  "lon": -5.932934,
-  "how": "address",
-  "match": "12,14,16"
+  "lat": 43.55393,
+  "lon": -5.93263,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13861768170017172968",
+  "match": "Google Maps listing: Pizzería Piccola Italia"
  },
  "Sublime Pizzería Avilés | C. de la Estación, 18, 33401 Avilés, Asturias": {
   "lat": 43.55965,
@@ -108,10 +112,11 @@
   "match": "Google Maps listing: NIXTLI"
  },
  "Taquería Sol Querétaro | Pl. España, 9, 1A, 33401 Avilés, Asturias": {
-  "lat": 43.555121,
-  "lon": -5.921315,
-  "how": "street",
-  "match": "Photon: Plaza de España, Avilés"
+  "lat": 43.55507,
+  "lon": -5.92252,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10678650991147628810",
+  "match": "Google Maps listing: Taquería Sol Querétaro"
  },
  "Restaurante Alkasbah | Calle Ruiz Gómez, 15, 33400 Avilés, Asturias": {
   "lat": 43.55578,
@@ -135,22 +140,25 @@
   "match": "Google Maps listing: El Rincón Suizo"
  },
  "Avilés kebab carbayedo | Av. Fernández Balsera, 3, 33401 Avilés, Asturias": {
-  "lat": 43.552686,
-  "lon": -5.929646,
-  "how": "venue",
-  "match": "Photon: Carbayedo, Calle Doctor Jimenez Díaz, Avilés"
+  "lat": 43.55641,
+  "lon": -5.92536,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15589051270096932049",
+  "match": "Google Maps listing: Avilés kebab carbayedo"
  },
  "Kebab Avilés (Las Meanas) | Av. Fernández Balsera, 10, 33402 Avilés, Asturias": {
-  "lat": 43.55607,
-  "lon": -5.9266,
-  "how": "address",
-  "match": "Photon: Calle Fernández Balsera, Avilés"
+  "lat": 43.55619,
+  "lon": -5.92635,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13175157193547679877",
+  "match": "Google Maps listing: Kebab Avilés (Las Meanas)"
  },
  "Real Kebab | C. de la Estación, 18, 33401 Avilés, Asturias": {
-  "lat": 43.561994,
-  "lon": -5.923579,
-  "how": "street",
-  "match": "Photon: Estación de Avilés, Calle Concepción Arenal, Avilés"
+  "lat": 43.55965,
+  "lon": -5.92283,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=17712586503898469893",
+  "match": "Google Maps listing: Real Kebab"
  },
  "Bocatin AsturVenezolano | Av. de Lugo, 62, 33401 Avilés, Asturias": {
   "lat": 43.56986,
@@ -195,16 +203,18 @@
   "match": "Google Maps listing: L'ABLUGO PIZZERIA-BURGUER"
  },
  "KEBAB ASTURIAS LAS VEGAS | C. Severo Ochoa, 17, 33404 Las Vegas, Asturias": {
-  "lat": 43.534605,
-  "lon": -5.901897,
-  "how": "street",
-  "match": "Photon: Severo Ochoa, Calle Severo Ochoa, Corvera de Asturias"
+  "lat": 43.53457,
+  "lon": -5.90187,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=14305689273914637901",
+  "match": "Google Maps listing: Donner Kebab Las Vegas"
  },
  "GOWOK | C/ Palacio Valdés, 7, Centro, 33206 Gijón, Asturias": {
-  "lat": 43.539352,
-  "lon": -5.665859,
-  "how": "venue",
-  "match": "Gowok, La Acerona, El Carmen"
+  "lat": 43.53943,
+  "lon": -5.6658,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1442398163441201418",
+  "match": "Google Maps listing: GOWOK"
  },
  "ATM Burgers | Hamburguesería en Gijón | Calle Covadonga, 5, Centro, Centro, 33201 Gijón, Asturias": {
   "lat": 43.53947,
@@ -473,10 +483,11 @@
   "match": "Google Maps listing: Toro Sushi"
  },
  "Restaurante Japonés Miko Sushi | C. Emilio Tuya, 17, Gijon-Este, 33202 Gijón, Asturias": {
-  "lat": 43.538544,
-  "lon": -5.648359,
-  "how": "street",
-  "match": "Calle Emilio Tuya, L'Arena, Gijón / Xixón"
+  "lat": 43.53967,
+  "lon": -5.65055,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=16610090904152490206",
+  "match": "Google Maps listing: Restaurante Japonés Miko Sushi"
  },
  "Sato Sushi | Estadio El Molinón, Av. de El Molinón, 265, puerta 9, Gijon-Este, 33203 Gijón, Asturias": {
   "lat": 43.53601,
@@ -619,10 +630,11 @@
   "match": "Google Maps listing: Restaurante Senegalés El Cayor"
  },
  "Doner Kebab Asturias | C. Mieres, 12, bajo, Centro, 33208 Gijón, Asturias": {
-  "lat": 43.53577,
-  "lon": -5.671596,
-  "how": "address",
-  "match": "Photon: Calle Juanín de Mieres, Gijón"
+  "lat": 43.53682,
+  "lon": -5.66376,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2862058561226693425",
+  "match": "Google Maps listing: Doner Kebab"
  },
  "Doner Kebab El Elefante Blanco | Av de Galicia, 86, Gijon-Oeste, 33213 Gijón, Asturias": {
   "lat": 43.54016,
@@ -645,10 +657,11 @@
   "match": "Nominatim structured (venue match rejected): 14, Calle Pérez de Ayala, El Llano"
  },
  "Kebab Turco Gijon | Av. Pablo Iglesias, 17, Centro, 33205 Gijón, Asturias": {
-  "lat": 43.536105,
-  "lon": -5.657233,
-  "how": "address",
-  "match": "17, Avenida de Pablo Iglesias, Los Campos"
+  "lat": 43.53618,
+  "lon": -5.65725,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=18051400433461031906",
+  "match": "Google Maps listing: Kebab Gijón España"
  },
  "Andinos | C. Ezcurdia, 34, bajo, Centro, 33202 Gijón, Asturias": {
   "lat": 43.54089,
@@ -686,10 +699,11 @@
   "match": "Google Maps listing: Sojo Sushi Langreo"
  },
  "Royal Kebab & Pizzeria Italiana | C. Gervasio Ramos, 3, 33900 Langreo, Asturias": {
-  "lat": 43.296827,
-  "lon": -5.681114,
-  "how": "street",
-  "match": "Photon: C.P. Gervasio Ramos, Paseo de los Llerones, Langreo"
+  "lat": 43.29394,
+  "lon": -5.68276,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15193437344678919797",
+  "match": "Google Maps listing: Royal Kebab & Pizzeria Italiana"
  },
  "Los Pilus | C. Leopoldo Fernández Nespral, 25, 33900 Langreo, Asturias": {
   "lat": 43.29503,
@@ -699,10 +713,11 @@
   "match": "Google Maps listing: Los Pilus"
  },
  "Ali Baba Doner Kebab | C. Pedro Duro, 7, 33930 Langreo, Asturias": {
-  "lat": 43.309239,
-  "lon": -5.690081,
-  "how": "venue",
-  "match": "Ali Baba Döner Kebab, Calle Pedro Duro, La Felguera"
+  "lat": 43.30913,
+  "lon": -5.69014,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=17620619238294012476",
+  "match": "Google Maps listing: Ali Baba Doner Kebab"
  },
  "Native | Bo. el Rápido, 1, 33330 Lastres, Asturias": {
   "lat": 43.51515,
@@ -712,10 +727,11 @@
   "match": "Google Maps listing: Native"
  },
  "PIZZERIA LOS MOLINOS | Bo. Cotiello Bajo, 7, 33500 Llanes, Asturias": {
-  "lat": 43.419651,
-  "lon": -4.755647,
-  "how": "venue",
-  "match": "Pizzeria Los Molinos, Calle Cotiello Bajo, La Portiella"
+  "lat": 43.41953,
+  "lon": -4.75551,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1797072592302009768",
+  "match": "Google Maps listing: PIZZERIA LOS MOLINOS"
  },
  "Restaurante Pizzeria \"Los Italianos\" Llanes | Pl. Constitución, 1, 33500 Llanes, Asturias": {
   "lat": 43.42011,
@@ -725,10 +741,11 @@
   "match": "Google Maps listing: Restaurante Pizzeria \"Los Italianos\" Lla"
  },
  "Kebab House Llanes | C. Mayor, 4, 33500 Llanes, Asturias": {
-  "lat": 43.420745,
-  "lon": -4.753632,
-  "how": "street",
-  "match": "Calle Mayor, Llanes, Asturias / Asturies"
+  "lat": 43.42038,
+  "lon": -4.75463,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8411603231515114388",
+  "match": "Google Maps listing: Kebab House Llanes"
  },
  "Pizzeria Tressa | C. Párroco Camino, 23, 33700 Luarca, Asturias": {
   "lat": 43.54482,
@@ -990,10 +1007,11 @@
   "match": "Google Maps listing: Pizzas Tatanka"
  },
  "Restaurante Japonés - TORO SUSHI OVIEDO | C. Gascona, 26, 33001 Oviedo, Asturias": {
-  "lat": 43.365281,
-  "lon": -5.845549,
-  "how": "address",
-  "match": "26, Calle Gascona / Cai La Gascona, Foncalada"
+  "lat": 43.36518,
+  "lon": -5.84592,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=5549179095576086995",
+  "match": "Google Maps listing: TORO SUSHI"
  },
  "Sushi Tokyo | Cl. Joaquín Costa, 33011 Oviedo, Asturias": {
   "lat": 43.37084,
@@ -1136,10 +1154,11 @@
   "match": "Google Maps listing: Bangkok 14"
  },
  "Thai Wok | C. Caveda, 23, 33002 Oviedo, Asturias": {
-  "lat": 43.365138,
-  "lon": -5.849126,
-  "how": "address",
-  "match": "Hotel Clarín, 23, Calle Caveda"
+  "lat": 43.36513,
+  "lon": -5.84911,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=12430772362789292559",
+  "match": "Google Maps listing: Wok Thai Fusión"
  },
  "Europa kebab Oviedo | C. Tenderina Baja, 106, 33010 Oviedo, Asturias": {
   "lat": 43.36609,
@@ -1156,10 +1175,11 @@
   "match": "Google Maps listing: Mr. DONOR KEBAB CORREDORIA"
  },
  "Real Kebab | C. Álvaro Flórez Estrada, 21, 33006 Oviedo, Asturias": {
-  "lat": 43.356212,
-  "lon": -5.861582,
-  "how": "address",
-  "match": "21, Calle Álvaro Florez Estrada, La Muria"
+  "lat": 43.35616,
+  "lon": -5.8617,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10317432197961640205",
+  "match": "Google Maps listing: Real Kebab"
  },
  "Uria Grill Kebab | C. Uría, 12, 33003 Oviedo, Asturias": {
   "lat": 43.36272,
@@ -1218,10 +1238,11 @@
   "match": "Google Maps listing: Gaucho Fierro Asador"
  },
  "Gowok y Ramen | Autovía Ruta de la Plata, KM. 4,5, 33429 Paredes, Asturias": {
-  "lat": 43.394337,
-  "lon": -5.802432,
-  "how": "street",
-  "match": "Autovía Ruta de la Plata, La Iría, Les Folgueres"
+  "lat": 43.38976,
+  "lon": -5.80406,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=3186664740780336120",
+  "match": "Google Maps listing: Gowok y Ramen"
  },
  "Vezzo | Autovía Ruta de la Plata, KM. 4, 5, 33429 Paredes, Asturias": {
   "lat": 43.38956,
@@ -1343,10 +1364,11 @@
   "match": "Google Maps listing: La Jarra Barakaldo"
  },
  "MONO | Nafarroa Kalea, 9, 48901 San Vicente de Barakaldo, Bizkaia": {
-  "lat": 43.296348,
-  "lon": -2.987306,
-  "how": "address",
-  "match": "9, Nafarroa kalea, Landaburu"
+  "lat": 43.29633,
+  "lon": -2.98734,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8288075573776369430",
+  "match": "Google Maps listing: MONO"
  },
  "TXIMIST SMASH BURGER - Barakaldo | C. Elcano Kalea, 1, 48901 San Vicente de Barakaldo, Vizcaya": {
   "lat": 43.29684,
@@ -1398,10 +1420,11 @@
   "match": "Google Maps listing: Pizzeria O Fiore Mío"
  },
  "Pizzería A 5 Quesos | Juan de Garay Kalea, 28, 48901 San Vicente de Barakaldo, Bizkaia": {
-  "lat": 43.298481,
-  "lon": -2.988514,
-  "how": "address",
-  "match": "28, Juan de Garay kalea, Zaballa"
+  "lat": 43.29848,
+  "lon": -2.98854,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4037025294141402696",
+  "match": "Google Maps listing: Pizzería A 5 Quesos"
  },
  "Settimo Cielo | Juan Bautista Uriarte Kalea, 37, 48960 Kurtzea, Bizkaia": {
   "lat": 43.23048,
@@ -1432,10 +1455,11 @@
   "match": "Google Maps listing: Suna sushi"
  },
  "Sushisom | Erribera Etorbidea, 48902 San Vicente de Barakaldo, Bizkaia": {
-  "lat": 43.294626,
-  "lon": -3.004688,
-  "how": "venue",
-  "match": "Sushisom, Erribera etorbidea, Ibarreta-Zuloko"
+  "lat": 43.29436,
+  "lon": -3.00461,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=6959142857866925126",
+  "match": "Google Maps listing: Sushisom"
  },
  "Cantina Mexicana Las Marías Barakaldo | Europa Plaza, 2, 48901 San Vicente de Barakaldo, Bizkaia": {
   "lat": 43.29868,
@@ -1522,10 +1546,11 @@
   "match": "Google Maps listing: Arambarri Food and Roll (Casco Viejo)"
  },
  "Bobby's Gourmet Barbecue | Urkixo Zumarkalea, 11, Abando, 48008 Bilbao, Bizkaia": {
-  "lat": 43.260536,
-  "lon": -2.930446,
-  "how": "address",
-  "match": "11, Urkixo zumarkalea, Abando"
+  "lat": 43.26048,
+  "lon": -2.9306,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=5919925330183322802",
+  "match": "Google Maps listing: Bobby's Gourmet Barbecue"
  },
  "Empanadas Malvón | Urkixo Zumarkalea, 59, Abando, 48009 Bilbao, Bizkaia": {
   "lat": 43.26061,
@@ -1570,10 +1595,11 @@
   "match": "Google Maps listing: Ondori Botxo"
  },
  "Wok House | Goienkale, 41, Ibaiondo, 48005 Bilbao, Bizkaia": {
-  "lat": 43.257136,
-  "lon": -2.922493,
-  "how": "venue",
-  "match": "Wok House, 41, Goienkale"
+  "lat": 43.25708,
+  "lon": -2.9225,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9269662315455955429",
+  "match": "Google Maps listing: Wok House"
  },
  "Bolivia en mi corazón | Iturribide Kalea, 25, Ibaiondo, 48006 Bilbao, Bizkaia": {
   "lat": 43.25801,
@@ -1660,10 +1686,11 @@
   "match": "Google Maps listing: Take a buey - Hamburguesería"
  },
  "Vista Caribbean Bar | Autonomia Kalea, 56, Abando, 48012 Bilbao, Bizkaia": {
-  "lat": 43.257864,
-  "lon": -2.944134,
-  "how": "address",
-  "match": "56, Autonomia kalea, Autonomia"
+  "lat": 43.25787,
+  "lon": -2.94414,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4076744371055208788",
+  "match": "Google Maps listing: Vista Caribbean Bar"
  },
  "Asia restaurante | Zabalbide Kalea, 55, 48006 Bilbao, Bizkaia": {
   "lat": 43.25585,
@@ -1673,10 +1700,11 @@
   "match": "Google Maps listing: Asia restaurante"
  },
  "BAR Restaurante Chino 84 | Santutxu Kalea, 84, 48006 Bilbao, Bizkaia": {
-  "lat": 43.250687,
-  "lon": -2.91807,
-  "how": "address",
-  "match": "84, Santutxu kalea, Morrogana"
+  "lat": 43.25068,
+  "lon": -2.91801,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=521984674763379817",
+  "match": "Google Maps listing: BAR Restaurante Chino 84"
  },
  "El León de Oro | Fernández del Campo K., 8, Abando, 48010 Bilbao, Bizkaia": {
   "lat": 43.25853,
@@ -1686,16 +1714,18 @@
   "match": "Google Maps listing: El León de Oro"
  },
  "FACE WOK | Autonomia Kalea, 2, Abando, 48012 Bilbao, Bizkaia": {
-  "lat": 43.260749,
-  "lon": -2.928289,
-  "how": "venue",
-  "match": "Face Wok, Hurtado de Amezaga kalea, Abando"
+  "lat": 43.25747,
+  "lon": -2.93501,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=17473529832782247242",
+  "match": "Google Maps listing: FACE WOK"
  },
  "Muralla China jatetxea | Iturribide Kalea, 108, Ibaiondo, 48006 Bilbao, Bizkaia": {
-  "lat": 43.255383,
-  "lon": -2.916081,
-  "how": "address",
-  "match": "108, Iturribide kalea, Solokoetxe"
+  "lat": 43.25541,
+  "lon": -2.91622,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13856470343212603027",
+  "match": "Google Maps listing: Restaurante Muralla China"
  },
  "Restaurante El chino misterioso | Iturriza Kalea, 19, Abando, 48003 Bilbao, Bizkaia": {
   "lat": 43.2573,
@@ -1824,10 +1854,11 @@
   "match": "Google Maps listing: Restaurante GRECOCINA Cocina Griega y Me"
  },
  "Halal | Santutxu Kalea, 48004 Bilbao, Bizkaia": {
-  "lat": 43.256682,
-  "lon": -2.930881,
-  "how": "venue",
-  "match": "Restaurante Halal Tetuan, San Frantzisko kalea, San Francisco"
+  "lat": 43.25294,
+  "lon": -2.91323,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=6981534228185871991",
+  "match": "Google Maps listing: Amine Halal"
  },
  "ALOHA Bilbao - Poké, ensaladas, wraps & comida saludable | Colón de Larreátegui K., 15, Abando, 48001 Bilbao, Bizkaia": {
   "lat": 43.26282,
@@ -1907,16 +1938,18 @@
   "match": "Google Maps listing: Swad Restaurante"
  },
  "Pub Irish Stones | Madariaga Etorbidea, 2, Deusto, 48014 Bilbao, Bizkaia": {
-  "lat": 43.271084,
-  "lon": -2.945461,
-  "how": "street",
-  "match": "Madariaga etorbidea, Deustuko Doneperiaga, San Pedro de Deusto-La Ribera"
+  "lat": 43.27123,
+  "lon": -2.94529,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8069919336662596780",
+  "match": "Google Maps listing: Pub Irish Stones"
  },
  "The Wicklow Arms | Rodríguez Arias K., 30, Abando, 48011 Bilbao, Bizkaia": {
-  "lat": 43.263174,
-  "lon": -2.94007,
-  "how": "address",
-  "match": "30, Rodriguez Arias kalea, Indautxu"
+  "lat": 43.26327,
+  "lon": -2.94024,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10730108340272338569",
+  "match": "Google Maps listing: The Wicklow Arms"
  },
  "Pub Molly Malone | Calle Particular de Estraunza, 8, Abando, 48011 Bilbao, Vizcaya": {
   "lat": 43.263734,
@@ -1960,10 +1993,11 @@
   "match": "Google Maps listing: San Telmo Pastificio"
  },
  "Trattoria Topolino | Campo de Volantín Pasealekua, 15, 48007 Bilbao, Bizkaia": {
-  "lat": 43.265622,
-  "lon": -2.925363,
-  "how": "address",
-  "match": "Photon: Campo Volantin pasealekua, Bilbao"
+  "lat": 43.26547,
+  "lon": -2.92524,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=14224982968854951871",
+  "match": "Google Maps listing: Trattoria Topolino"
  },
  "MalaVolta - Restaurante de pasta fresca | Adiskidetasun Kalea, 5, Abando, 48001 Bilbao, Bizkaia": {
   "lat": 43.26133,
@@ -2015,10 +2049,11 @@
   "match": "Google Maps listing: L'Vecchia - Deusto"
  },
  "La casa de Pizzeria | Santutxu Kalea, 78, Planta baja, 48006 Bilbao, Bizkaia": {
-  "lat": 43.250495,
-  "lon": -2.917372,
-  "how": "address",
-  "match": "78, Santutxu kalea, Morrogana"
+  "lat": 43.25048,
+  "lon": -2.91746,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2853012338740915384",
+  "match": "Google Maps listing: La casa de Pizzeria"
  },
  "Pasta y Pizza Grossi - obrador italiano en Bilbao | Calle de, C. Manuel Allende, 12, Abando, 48010 Bilbao, Vizcaya": {
   "lat": 43.25984,
@@ -2049,10 +2084,11 @@
   "match": "Google Maps listing: Pizzería Formaggi Bilbao"
  },
  "KYOTO SUSHI & BUBBLE TEA | C. del Lic. Poza, 33, bajo, Abando, 48011 Bilbao, Vizcaya": {
-  "lat": 43.261685,
-  "lon": -2.939486,
-  "how": "address",
-  "match": "Photon: Poza lizentziatuaren kalea, Bilbao"
+  "lat": 43.26171,
+  "lon": -2.93956,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=26302117525421097",
+  "match": "Google Maps listing: KYOTO SUSHI & BUBBLE TEA"
  },
  "Ramen Keitoku | Autonomia Kalea, 45, Errekalde, 48012 Bilbao, Bizkaia": {
   "lat": 43.2575,
@@ -2174,10 +2210,11 @@
   "match": "Google Maps listing: El Templo Bilbao"
  },
  "Flyin´ Burritos | Restaurante Mexicano en Bilbao | C/ Colón de Larreátegui K., 13, bajo 2, Abando, 48001 Bilbao, Vizcaya": {
-  "lat": 43.262461,
-  "lon": -2.928092,
-  "how": "address",
-  "match": "Photon: Iruña, Kolon Larreategi kalea, Bilbao"
+  "lat": 43.26247,
+  "lon": -2.928,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1841921786478119411",
+  "match": "Google Maps listing: Flyin´ Burritos / Restaurante Mexicano e"
  },
  "Los tacos de 10 by Surfin' Tacos | Poza Lizentziatuaren Kalea, 41, Abando, 48009 Bilbao, Bizkaia": {
   "lat": 43.26192,
@@ -2208,10 +2245,11 @@
   "match": "Google Maps listing: Jazminos"
  },
  "Restaurante Amir | Bailén Kalea, 33, Ibaiondo, 48003 Bilbao, Bizkaia": {
-  "lat": 43.257092,
-  "lon": -2.929659,
-  "how": "address",
-  "match": "Restaurante Arima, 33, Bailen kalea"
+  "lat": 43.25702,
+  "lon": -2.92967,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8872761865011098646",
+  "match": "Google Maps listing: Restaurante Amir"
  },
  "Berebar Jatetxea | San Frantzisko Kalea, 65, Ibaiondo, 48003 Bilbao, Bizkaia": {
   "lat": 43.25657,
@@ -2340,10 +2378,11 @@
   "match": "Google Maps listing: Panaderia Pasteleria TANGANA / TABERNA T"
  },
  "Manantial | Alameda de Recalde, 68, Errekalde, 48010 Bilbao, Vizcaya": {
-  "lat": 43.261796,
-  "lon": -2.93546,
-  "how": "street",
-  "match": "Nominatim structured: Recalde zumarkalea, Uribitarte, Abando"
+  "lat": 43.25717,
+  "lon": -2.93722,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15368514426943559169",
+  "match": "Google Maps listing: Manantial"
  },
  "Mole Tex Mex | C/ Iturriaga, 94, Bajo Derecha, 48004 Bilbao, Vizcaya": {
   "lat": 43.25371,
@@ -2374,10 +2413,11 @@
   "match": "Google Maps listing: Panda Bilbao"
  },
  "WOK BOGA | Hurtado de Amezaga Kalea, 16, Abando, 48008 Bilbao, Bizkaia": {
-  "lat": 43.259812,
-  "lon": -2.929966,
-  "how": "venue",
-  "match": "Wok Boga, Hurtado de Amezaga kalea, Abando"
+  "lat": 43.25989,
+  "lon": -2.93002,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=17540140190505930363",
+  "match": "Google Maps listing: WOK BOGA"
  },
  "Wok Vista Urquijo | Urkixo Zumarkalea, 27, Abando, 48008 Bilbao, Bizkaia": {
   "lat": 43.25956,
@@ -2394,10 +2434,11 @@
   "match": "Google Maps listing: Xing Yuan"
  },
  "Bilbao Doner Kebab | Askao Kalea, 4, Ibaiondo, 48005 Bilbao, Bizkaia": {
-  "lat": 43.258891,
-  "lon": -2.92203,
-  "how": "address",
-  "match": "4, Askao kalea, Casco Viejo"
+  "lat": 43.25884,
+  "lon": -2.92207,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=3898402269935078280",
+  "match": "Google Maps listing: Bilbao Doner Kebab"
  },
  "Kebab Casco viejo | Goienkale, 45, Ibaiondo, 48005 Bilbao, Bizkaia": {
   "lat": 43.2573,
@@ -2407,10 +2448,11 @@
   "match": "Google Maps listing: Kebab Casco viejo"
  },
  "Kebab Salcedo | Castaños Kalea, 8, 48007 Bilbao, Bizkaia": {
-  "lat": 43.26791,
-  "lon": -2.925845,
-  "how": "address",
-  "match": "8, Castaños kalea, Castaños"
+  "lat": 43.26793,
+  "lon": -2.92582,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2280579493727250126",
+  "match": "Google Maps listing: Kebab Salcedo"
  },
  "Matiko kebab | Matiko Kalea, 48007 Bilbao, Bizkaia": {
   "lat": 43.26736,
@@ -2518,10 +2560,11 @@
   "match": "Google Maps listing: KEBABISH KEBAB PIZZA RESTAURANT DURANGO"
  },
  "Kebab Pizzería Durango | Montevideo Etorbidea, 48200 Durango, Bizkaia": {
-  "lat": 43.169597,
-  "lon": -2.629619,
-  "how": "street",
-  "match": "Montevideo etorbidea, San Fausto, Durango"
+  "lat": 43.16958,
+  "lon": -2.62688,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=16390730937627229354",
+  "match": "Google Maps listing: Kebab Pizzería Durango"
  },
  "Restaurante Simbo | Calle:, Juan Calzada Kalea, 6, 48300 Gernika-Lumo, Bizkaia": {
   "lat": 43.31304,
@@ -2538,10 +2581,11 @@
   "match": "Google Maps listing: Restaurante Hang Zhou"
  },
  "Batu Asia | Andrés Cortina Kalea, 2A, 48991 Algorta, Bizkaia": {
-  "lat": 43.351375,
-  "lon": -3.011854,
-  "how": "address",
-  "match": "Photon: Andres Cortina kalea, Getxo"
+  "lat": 43.35138,
+  "lon": -3.01186,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8726800034462232591",
+  "match": "Google Maps listing: Batu Asia"
  },
  "Taroku | Euskal Herria Kalea, 16, 48991 Algorta, Bizkaia": {
   "lat": 43.34818,
@@ -2579,10 +2623,11 @@
   "match": "Google Maps listing: Eterna Restaurante"
  },
  "Raggio | Torrene Kalea, 4, 48991 Algorta, Bizkaia": {
-  "lat": 43.349768,
-  "lon": -3.011345,
-  "how": "street",
-  "match": "Photon: Torrene kalea, Getxo"
+  "lat": 43.34996,
+  "lon": -3.01063,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4829260547151912553",
+  "match": "Google Maps listing: Raggio Bokatxeria"
  },
  "Nikkou | Andrés Cortina Kalea, 4, 48991 Algorta, Bizkaia": {
   "lat": 43.35176,
@@ -2606,10 +2651,11 @@
   "match": "Google Maps listing: Mirador Aixerrota"
  },
  "The House Of Ma | Club Kalea, 1, 48930 Areeta / Las Arenas, Bizkaia": {
-  "lat": 43.326723,
-  "lon": -3.012473,
-  "how": "address",
-  "match": "1, Club kalea, Erromo"
+  "lat": 43.32683,
+  "lon": -3.01258,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=7136471816398482933",
+  "match": "Google Maps listing: Restaurante Chino La Casa de Ma"
  },
  "LA GONDOLA | Gobela Kalea, 31, 48930 Areeta / Las Arenas, Bizkaia": {
   "lat": 43.32658,
@@ -2681,10 +2727,11 @@
   "match": "Google Maps listing: Restaurante Trattoria La Casetta"
  },
  "OISHI Sushi Leioa | PLAZA IBAIONDO, Conjunto empresarial, Av. Amaia, Plaza 1, 48940, Vizcaya": {
-  "lat": 43.322667,
-  "lon": -3.008761,
-  "how": "venue",
-  "match": "Oishi Sushi, 1, Ibaiondo kalea"
+  "lat": 43.32269,
+  "lon": -3.00873,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1330231806447628891",
+  "match": "Google Maps listing: OISHI Sushi Leioa"
  },
  "AREETA KEBAB Y PIZZERIA | Larramendi Plaza, 4, 48940, Bizkaia": {
   "lat": 43.32586,
@@ -2708,10 +2755,11 @@
   "match": "Google Maps listing: Comer En Vizcaya / Restaurante Mantxua"
  },
  "Pizza Mamma Mia Lekeitio | Paskual Abaroa Etorbidea, 37, bajo, 48280 Lekeitio, Vizcaya": {
-  "lat": 43.363531,
-  "lon": -2.505232,
-  "how": "street",
-  "match": "Paskual Abaroa etorbidea, Lekeitio, Bizkaia"
+  "lat": 43.36532,
+  "lon": -2.5037,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=16736385610367199879",
+  "match": "Google Maps listing: Pizza Mamma Mia Lekeitio"
  },
  "Pizzeria Santi | Azpiri Kalea, 6, 48280 Lekeitio, Bizkaia": {
   "lat": 43.36432,
@@ -2840,22 +2888,25 @@
   "match": "Google Maps listing: Ristorante NINO"
  },
  "Al khair doner kebab Santurtzi | Juan Jose de la Quintana Kalea, 2, 48980 Santurtzi, Bizkaia": {
-  "lat": 43.327673,
-  "lon": -3.03068,
-  "how": "address",
-  "match": "2, Juan Jose de la Quintana kalea, Mamariga"
+  "lat": 43.3277,
+  "lon": -3.0308,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2595577189724065637",
+  "match": "Google Maps listing: Al khair doner kebab Santurtzi"
  },
  "Kebab mamariga | Mamariga Kalea, 127, 48980 Santurtzi, Bizkaia": {
-  "lat": 43.332124,
-  "lon": -3.039346,
-  "how": "street",
-  "match": "Mamariga kalea, Oiankas, Mamariga"
+  "lat": 43.33199,
+  "lon": -3.03944,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=12577421735201738997",
+  "match": "Google Maps listing: Kebab mamariga"
  },
  "Kebabish Best Santurce | Cápitán Mendizábál Káleá, 4, 48980 Santurtzi, Bizkaia": {
-  "lat": 43.330438,
-  "lon": -3.032635,
-  "how": "address",
-  "match": "Kebabish, 4, Capitan Mendizabal kalea"
+  "lat": 43.33042,
+  "lon": -3.03264,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=6767393962960188380",
+  "match": "Google Maps listing: Kebabish Best Santurce"
  },
  "Bar Restaurante Paraguayo | Vía Amezaga Kalea, Markonzaga, 48910 Sestao, Bizkaia": {
   "lat": 43.30752,
@@ -2907,16 +2958,18 @@
   "match": "Google Maps listing: Taberna Lábaru Pizzería Horno de Leña"
  },
  "Mr. Wok | C. Alday, 1, 39600 Camargo, Cantabria": {
-  "lat": 43.428539,
-  "lon": -3.83964,
-  "how": "venue",
-  "match": "Mr. Wok, Calle de Alday, Maliaño Alto"
+  "lat": 43.42855,
+  "lon": -3.83952,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9919744117234401751",
+  "match": "Google Maps listing: Mr. Wok"
  },
  "Restaurante Japonés - SUSHI ARTIST | C. Alday, s/n, 39600 Camargo, Cantabria": {
-  "lat": 43.423057,
-  "lon": -3.837595,
-  "how": "street",
-  "match": "Calle de Alday, Maliaño Alto, Maliaño"
+  "lat": 43.42699,
+  "lon": -3.83777,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=5834197992442499373",
+  "match": "Google Maps listing: Restaurante Japonés - SUSHI ARTIST"
  },
  "Sushi Chukamen BBQ | Polígono Camargo, 31, 39600 Camargo, Cantabria": {
   "lat": 43.42421,
@@ -2925,7 +2978,13 @@
   "gmaps": "https://maps.google.com/?cid=7832640820940061998",
   "match": "Google Maps listing: Sushi Chukamen BBQ"
  },
- "Restaurante Oriental | 39700 Castro Urdiales, Cantabria": null,
+ "Restaurante Oriental | 39700 Castro Urdiales, Cantabria": {
+  "lat": 43.37986,
+  "lon": -3.21841,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=7580935701117332625",
+  "match": "Google Maps listing: Restaurante Oriental"
+ },
  "All Iron Factory | C. la Mar, 25, 27, 39700 Castro-Urdiales, Cantabria": {
   "lat": 43.38109,
   "lon": -3.21809,
@@ -2941,10 +3000,11 @@
   "match": "Google Maps listing: Pecado Street Food"
  },
  "Nuevo Siglo | C. de la Rda., 48, 39700 Castro-Urdiales, Cantabria": {
-  "lat": 43.379897,
-  "lon": -3.218456,
-  "how": "venue",
-  "match": "Restaurante Nuevo Siglo, 48, Calle de La Ronda"
+  "lat": 43.37982,
+  "lon": -3.21846,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13825063735102355092",
+  "match": "Google Maps listing: Nuevo Siglo"
  },
  "Restaurante Sabor Latino | C. de la Rda., 22, 39700 Castro-Urdiales, Cantabria": {
   "lat": 43.38168,
@@ -2968,10 +3028,11 @@
   "match": "Google Maps listing: Pizzería Lo de Urciuoli"
  },
  "Pizzería Piccola Napoli Mia | C. Belén, 20, 39700 Castro-Urdiales, Cantabria": {
-  "lat": 43.384499,
-  "lon": -3.217696,
-  "how": "street",
-  "match": "Calle Belén, Ostende, Los Marineros"
+  "lat": 43.38455,
+  "lon": -3.21771,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1010883210119319168",
+  "match": "Google Maps listing: Pizzería Piccola Napoli Mia"
  },
  "Restaurante Pizzería Stefano | P.º Ostende, s/n, 39700 Castro-Urdiales, Cantabria": {
   "lat": 43.38808,
@@ -2981,28 +3042,32 @@
   "match": "Google Maps listing: Restaurante Pizzería Stefano"
  },
  "Restaurante Pérgola | Av. la Constitución, 8, 39700 Castro-Urdiales, Cantabria": {
-  "lat": 43.381465,
-  "lon": -3.217688,
-  "how": "address",
-  "match": "Pizzeria Pérgola, 8, Avenida de la Constitución"
+  "lat": 43.38147,
+  "lon": -3.2177,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=5454851145163383058",
+  "match": "Google Maps listing: Restaurante Pérgola"
  },
  "Estambul Kebab Castro | C. la Rúa, 24, 39700 Castro-Urdiales, Cantabria": {
-  "lat": 43.384101,
-  "lon": -3.218126,
-  "how": "street",
-  "match": "Calle de la Rua, Ostende, Casco Histórico"
+  "lat": 43.38472,
+  "lon": -3.21747,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1517134309656674801",
+  "match": "Google Maps listing: Estambul Kebab Castro"
  },
  "Mesón Domínguez King Doner Kebab | C. Ardigales, 8, 39700 Castro-Urdiales, Cantabria": {
-  "lat": 43.381616,
-  "lon": -3.218625,
-  "how": "street",
-  "match": "Calle Ardigales, Ostende, Casco Histórico"
+  "lat": 43.38292,
+  "lon": -3.21894,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9317650573887213214",
+  "match": "Google Maps listing: Mesón Domínguez King Doner Kebab"
  },
  "Urdi Donner Kebab | C. de Silvestre Ochoa, 18, 39700 Castro-Urdiales, Cantabria": {
-  "lat": 43.384352,
-  "lon": -3.224276,
-  "how": "address",
-  "match": "18 A, Calle de Silvestre Ochoa, Urbanización Villa Carmen"
+  "lat": 43.38688,
+  "lon": -3.22768,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=7797950258098171180",
+  "match": "Google Maps listing: Urdi Donner Kebab"
  },
  "Sakura | C. la Magdalena, 5, 39750 Colindres, Cantabria": {
   "lat": 43.39504,
@@ -3096,10 +3161,11 @@
   "match": "Google Maps listing: The Fresh Poke Bahía Real"
  },
  "POMODORO Pizza Pasta Burritos | Centro Comercial Valle Real, C. Alday, s/n, Local A, 19-A, 39600 Maliaño, Cantabria": {
-  "lat": 43.427312,
-  "lon": -3.838579,
-  "how": "street",
-  "match": "Centro Comercial Valle Real, Calle de Alday, Maliaño Alto"
+  "lat": 43.4286,
+  "lon": -3.83887,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=11701850724505643010",
+  "match": "Google Maps listing: POMODORO Pizza Pasta Burritos"
  },
  "Pizzería Hoyuela | Av. de Cantabria, 2, 39600 Maliaño, Cantabria": {
   "lat": 43.41808,
@@ -3207,10 +3273,11 @@
   "match": "Google Maps listing: Bao King"
  },
  "Restaurante Sabores de Brasil | C. Fernández de Isla, 15, 39008 Santander, Cantabria": {
-  "lat": 43.46105,
-  "lon": -3.813982,
-  "how": "address",
-  "match": "Nominatim structured: 15, Calle de Fernández de Isla, Cabildo de Arriba"
+  "lat": 43.46103,
+  "lon": -3.81401,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1041143660390418995",
+  "match": "Google Maps listing: Restaurante Sabores de Brasil"
  },
  "Carniball Smash Burger | C. Gómez Oreña, 13, 39003 Santander, Cantabria": {
   "lat": 43.46364,
@@ -3255,10 +3322,11 @@
   "match": "Google Maps listing: Restaurante China Town"
  },
  "Restaurante Chino Mandarin II | Plaza Dr. Fleming, 7, 39005 Santander, Cantabria": {
-  "lat": 43.475572,
-  "lon": -3.788887,
-  "how": "address",
-  "match": "7, Plaza del Doctor Fleming, El Sardinero"
+  "lat": 43.47555,
+  "lon": -3.78889,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4401456830532681653",
+  "match": "Google Maps listing: Restaurante Chino Mandarin II"
  },
  "Restaurante Chino Mulan | Avenida Antonio Maura, 19, 39005 Santander, Cantabria": {
   "lat": 43.471076,
@@ -3350,10 +3418,11 @@
   "match": "Google Maps listing: Taj Mahal Restaurante"
  },
  "Clannad Tavern | C. San Fernando, 16, 39010 Santander, Cantabria": {
-  "lat": 43.460509,
-  "lon": -3.819763,
-  "how": "address",
-  "match": "Compra Venta Oro Chaves, 16, Calle de San Fernando"
+  "lat": 43.46102,
+  "lon": -3.81967,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=18411111491978525180",
+  "match": "Google Maps listing: Clannad Tavern"
  },
  "Garbo Trattoria Moderna & Cocktail Bar | C. Bonifaz, 19, Izquierda, 39003 Santander, Cantabria": {
   "lat": 43.46408,
@@ -3377,10 +3446,11 @@
   "match": "Google Maps listing: Restaurante Nenét Bistrot"
  },
  "El Italiano | C. Calderón de la Barca, 9, 39002 Santander, Cantabria": {
-  "lat": 43.459608,
-  "lon": -3.808137,
-  "how": "venue",
-  "match": "El Italiano, 9, Calle de Calderón de la Barca"
+  "lat": 43.45961,
+  "lon": -3.8082,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4066059858708357221",
+  "match": "Google Maps listing: El italiano"
  },
  "La Tasca | C. Peña Herbosa, 11, 39003 Santander, Cantabria": {
   "lat": 43.46362,
@@ -3439,10 +3509,11 @@
   "match": "Google Maps listing: Tanuki Restaurante Japonés"
  },
  "Umi Sushi | Plaza de Italia, s/n, 39005 Santander, Cantabria": {
-  "lat": 43.471838,
-  "lon": -3.782653,
-  "how": "venue",
-  "match": "Umi Sushi, Plaza de Italia, El Sardinero"
+  "lat": 43.47171,
+  "lon": -3.78272,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4914705734975788991",
+  "match": "Google Maps listing: Umi Sushi"
  },
  "Buga Ramen Santander | Pl. Remedios, 1, 39001 Santander, Cantabria": {
   "lat": 43.46293,
@@ -3473,10 +3544,11 @@
   "match": "Google Maps listing: Hokkaido Sushi Bar"
  },
  "Jirō Sushi | Pl. de la Esperanza, 6, 39002 Santander, Cantabria": {
-  "lat": 43.463327,
-  "lon": -3.810142,
-  "how": "venue",
-  "match": "Restaurante Jiro Sushi, 6, Plaza de la Esperanza"
+  "lat": 43.46332,
+  "lon": -3.81015,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13557419124707573382",
+  "match": "Google Maps listing: Jirō Sushi"
  },
  "Restaurante Ylis | Calle Sta. Lucía, 3, 39003 Santander, Cantabria": {
   "lat": 43.46407,
@@ -3582,10 +3654,11 @@
   "match": "Google Maps listing: Órale Antojitos Mexicanos"
  },
  "CRAZZY shawarma | P.º de Altamira, 276, bajo drch, 39006 Santander, Cantabria": {
-  "lat": 43.464173,
-  "lon": -3.821173,
-  "how": "address",
-  "match": "Cervecería Davila's, 276, Paseo de Altamira"
+  "lat": 43.46417,
+  "lon": -3.82126,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10411161668372715506",
+  "match": "Google Maps listing: CRAZZY shawarma"
  },
  "El Gallinero | C. Tetuán, 37, 39004 Santander, Cantabria": {
   "lat": 43.46601,
@@ -3678,10 +3751,11 @@
   "match": "Google Maps listing: Kebab Station"
  },
  "Sabores Kebab | Av Herrera Oria, 67, 39011 Santander, Cantabria": {
-  "lat": 43.457213,
-  "lon": -3.847722,
-  "how": "address",
-  "match": "67, Avenida del Cardenal Herrera Oria, Campogiro"
+  "lat": 43.45714,
+  "lon": -3.84777,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1327895937829938899",
+  "match": "Google Maps listing: Sabores Kebab"
  },
  "La Chivitería Uruguaya | Calle Sta. Lucía, 61, 39003 Santander, Cantabria": {
   "lat": 43.4647,
@@ -3712,10 +3786,11 @@
   "match": "Google Maps listing: La Pepitería"
  },
  "Kasa Kristo | C. Desengaño, bajo 1, 39740 Santoña, Cantabria": {
-  "lat": 43.441071,
-  "lon": -3.456353,
-  "how": "street",
-  "match": "Nominatim structured: Calle Desengaño, Santoña, Cantabria"
+  "lat": 43.44107,
+  "lon": -3.45642,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15466669574099237794",
+  "match": "Google Maps listing: Kasa Kristo"
  },
  "Vento Gastrobar | C. Gral. Salinas, 2, 39740 Santoña, Cantabria": {
   "lat": 43.44276,
@@ -3739,10 +3814,11 @@
   "match": "Google Maps listing: A 200 Millas"
  },
  "Asia doner kebab | C. Manzanedo, 7, bajo, 39740 Santoña, Cantabria": {
-  "lat": 43.446555,
-  "lon": -3.455466,
-  "how": "street",
-  "match": "Nominatim structured: Calle Manzanedo, Santoña, Cantabria"
+  "lat": 43.44364,
+  "lon": -3.45582,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=17684520593819496420",
+  "match": "Google Maps listing: Asia doner kebab"
  },
  "Ho´oponopono Soto | Av. Marqués de Valdecilla, 149B, 39110 Soto de la Marina, Cantabria": {
   "lat": 43.46648,
@@ -3822,10 +3898,11 @@
   "match": "Google Maps listing: La Braña"
  },
  "La Esquina del Sabor Colombiano | C. Gral. Castañeda, 3, 39300 Torrelavega, Cantabria": {
-  "lat": 43.347296,
-  "lon": -4.049674,
-  "how": "address",
-  "match": "3, Calle del General Castañeda, Barrio Quebrantada"
+  "lat": 43.34727,
+  "lon": -4.04961,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=6861805516275622080",
+  "match": "Google Maps listing: La Esquina del Sabor Colombiano"
  },
  "La Patrona | C. Argumosa, 6, 39300 Torrelavega, Cantabria": {
   "lat": 43.34914,
@@ -3912,10 +3989,11 @@
   "match": "Google Maps listing: Restaurante Atlas"
  },
  "KinG Doner Kebab | C. Leonardo Torres Quevedo, 12, 39300 Torrelavega, Cantabria": {
-  "lat": 43.353942,
-  "lon": -4.045135,
-  "how": "address",
-  "match": "12, Calle de Leonardo Torres Quevedo, Grupo Juan de Herrera"
+  "lat": 43.35393,
+  "lon": -4.04516,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8924783494119853956",
+  "match": "Google Maps listing: KinG Doner Kebab"
  },
  "Nur Döner Kebap | Plaza Ángel Menéndez, 3, local 3, 39300 Torrelavega, Cantabria": {
   "lat": 43.34945,
@@ -3924,12 +4002,256 @@
   "gmaps": "https://maps.google.com/?cid=2931969617625468567",
   "match": "Google Maps listing: Nur Döner Kebap"
  },
- "mas que bueno kebab | C. Hermanos de Carriedo y Peredo, 10, 39300 Torrelavega, Cantabria": null,
+ "mas que bueno kebab | C. Hermanos de Carriedo y Peredo, 10, 39300 Torrelavega, Cantabria": {
+  "lat": 43.35911,
+  "lon": -4.06826,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=18330760514009849511",
+  "match": "Google Maps listing: mas que bueno kebab"
+ },
  "NKO Eneko Restaurant | Diego Lopez Haroko Kale Nagusia, 4, 7th Floor, Abando, 48001 Bilbao, Vizcaya": {
   "lat": 43.26162,
   "lon": -2.92783,
   "how": "google",
   "gmaps": "https://maps.google.com/?cid=7668383320205454619",
   "match": "Google Maps listing: ENEKO BASQUE BILBAO"
+ },
+ "Kebab de Rivero | C. Rivero, 112, 33402 Avilés, Asturias": {
+  "lat": 43.55156,
+  "lon": -5.91977,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2922098550814015502",
+  "match": "Google Maps listing: Kebab de Rivero"
+ },
+ "Restaurante chino Hong Kong | C. Llanes, 4, Centro, 33207 Gijón, Asturias": {
+  "lat": 43.53932,
+  "lon": -5.66704,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=11352679993548291841",
+  "match": "Google Maps listing: Restaurante chino Hong Kong"
+ },
+ "\"\"\"REST. LA PIZZERIA\"\"\" | P.º del Muelle, 10, 33700 Luarca, Asturias": {
+  "lat": 43.54534,
+  "lon": -6.53197,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8684820244982651501",
+  "match": "Google Maps listing: REST. LA PIZZERIA"
+ },
+ "Restaurante China Shan | C. Nueve de Mayo, 13, 33002 Oviedo, Asturias": {
+  "lat": 43.36578,
+  "lon": -5.85072,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2627374498145583405",
+  "match": "Google Maps listing: Restaurante China Shan"
+ },
+ "La Jaujina | C. Samuel Sánchez, 11, 33013 Oviedo, Asturias": {
+  "lat": 43.36323,
+  "lon": -5.85971,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9893597748671092385",
+  "match": "Google Maps listing: La Jaujina"
+ },
+ "Astur Doner Kebab | C. Martínez Marina, 17, 33009 Oviedo, Asturias": {
+  "lat": 43.35948,
+  "lon": -5.84764,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=6931585248213390666",
+  "match": "Google Maps listing: Astur Doner Kebab"
+ },
+ "Restaurant Pizzeria Pepe Cavallé | Pl. Jovellanos, 5, 33560 Ribadesella, Asturias": {
+  "lat": 43.46419,
+  "lon": -5.06601,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=10253054023830439129",
+  "match": "Google Maps listing: Restaurante Pizzería de Pepe Cavallé"
+ },
+ "Mr. Wok | Kareaga K., 48903 San Vicente de Barakaldo, Bizkaia": {
+  "lat": 43.28785,
+  "lon": -3.00817,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13998531683590211239",
+  "match": "Google Maps listing: Mr. Wok"
+ },
+ "Restaurante Brasayleña MaxCenter | Barrio, MAX CENTER, C. Kareaga, s/n, 48903 San Vicente de Barakaldo, Vizcaya": {
+  "lat": 43.28734,
+  "lon": -3.00801,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9783628540275995438",
+  "match": "Google Maps listing: Restaurante Brasayleña MaxCenter"
+ },
+ "Restaurante Jardín Feliz | Gernikako Arbola Etorbidea, 33, 48902 San Vicente de Barakaldo, Bizkaia": {
+  "lat": 43.29431,
+  "lon": -2.99291,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9907976662125782782",
+  "match": "Google Maps listing: Restaurante Jardín Feliz"
+ },
+ "Bar Restaurante El Guayaco | Quevedo Kalea, 5, 48901 San Vicente de Barakaldo, Bizkaia": {
+  "lat": 43.29908,
+  "lon": -2.98929,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=4900635273757775674",
+  "match": "Google Maps listing: Bar Restaurante El Guayaco"
+ },
+ "Ongi sushi | Muguru Kalea, 4, 48960 Kurtzea, Bizkaia": {
+  "lat": 43.23194,
+  "lon": -2.84063,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=194271219810115899",
+  "match": "Google Maps listing: Ongi sushi"
+ },
+ "Restaurante africano, camerounes 🇨🇲 | Kirikiño Etorb., 64, Errekalde, 48012 Bilbao, Bizkaia": {
+  "lat": 43.25131,
+  "lon": -2.93719,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=1461592161430542751",
+  "match": "Google Maps listing: Restaurante africano, camerounes 🇨🇲"
+ },
+ "Melao de Caña | Cerca De La Plaza De Toros, Calle Gral. Concha, 46, Errekalde, 48012 Bilbao, Vizcaya": {
+  "lat": 43.2565,
+  "lon": -2.93634,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=9343965078855893356",
+  "match": "Google Maps listing: Melao de Caña"
+ },
+ "Arepera los Pallares 2 | San Mames Zumarkalea, 43 bis, Abando, 48010 Bilbao, Bizkaia": {
+  "lat": 43.25989,
+  "lon": -2.93911,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=14205688355310727892",
+  "match": "Google Maps listing: Arepera los Pallares 2"
+ },
+ "Oso Panda | Madalena Pl., 5, 48200 Durango, Vizcaya": {
+  "lat": 43.1714,
+  "lon": -2.63315,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=3400348622048322924",
+  "match": "Google Maps listing: Oso Panda"
+ },
+ "Restaurante Nuevo Siglo | Montevideo Etorbidea, 24, 48200 Durango, Bizkaia": {
+  "lat": 43.16947,
+  "lon": -2.62817,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15544805925599692351",
+  "match": "Google Maps listing: Restaurante Nuevo Siglo"
+ },
+ "Wok Yamm | Madalena Pl., 5, BJ 1I, 48200 Durango, Bizkaia": {
+  "lat": 43.17157,
+  "lon": -2.633,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8455758100797122847",
+  "match": "Google Maps listing: Wok Yamm"
+ },
+ "DELHI Kebab | Calle Juan Mari Altuna Kalea, 48200 Durango, Bizkaia": {
+  "lat": 43.16961,
+  "lon": -2.62787,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8496046099735160795",
+  "match": "Google Maps listing: DELHI Kebab"
+ },
+ "Asia Döner kebab Gernika | Carlos Gangoiti Kalea, 7, 48300 Gernika-Lumo, Bizkaia": {
+  "lat": 43.31689,
+  "lon": -2.67908,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15900010126538850458",
+  "match": "Google Maps listing: Asia Döner kebab Gernika-Lumo"
+ },
+ "Restaurante Kebab Jan Da Jan | Juan Calzada Kalea, 9, 48300 Gernika-Lumo, Bizkaia": {
+  "lat": 43.31313,
+  "lon": -2.67825,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=15316281027229774713",
+  "match": "Google Maps listing: Restaurante Kebab Jan Da Jan"
+ },
+ "Santurtzi Sushi | Cápitán Mendizábál Káleá, 4, 48980 Santurtzi, Bizkaia": {
+  "lat": 43.33035,
+  "lon": -3.03234,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2996897691975031438",
+  "match": "Google Maps listing: Restaurante Asiático - SUSHI SANTURTZI"
+ },
+ "Sushi Maniac | C. de Silvestre Ochoa, 9, A, 39700 Castro-Urdiales, Cantabria": {
+  "lat": 43.38446,
+  "lon": -3.22487,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=14081088232222237767",
+  "match": "Google Maps listing: Sushi Maniac"
+ },
+ "SushiTake Castro-Urdiales | Bº Brazomar, s/n, 39700 Castro-Urdiales, Cantabria": {
+  "lat": 43.3679,
+  "lon": -3.21852,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2020867234112827151",
+  "match": "Google Maps listing: SushiTake Castro-Urdiales"
+ },
+ "Castro Kebab | C. Escorza, 2, 39700 Castro-Urdiales, Cantabria": {
+  "lat": 43.38403,
+  "lon": -3.21804,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2091441629026669963",
+  "match": "Google Maps listing: Castro Kebab"
+ },
+ "Restaurante Oriental Nuevo Siglo | C. República de Colombia, 17, 39770 Laredo, Cantabria": {
+  "lat": 43.41017,
+  "lon": -3.43591,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=2098396639469027303",
+  "match": "Google Maps listing: Restaurante Oriental Nuevo Siglo"
+ },
+ "Restaurante Traviatta | del, C. Marqués de Comillas, 5, 39770 Laredo, Cantabria": {
+  "lat": 43.40925,
+  "lon": -3.41641,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=12237984899247844811",
+  "match": "Google Maps listing: Restaurante Traviatta"
+ },
+ "Restaurante Japonés Sushisom Bahía Real | C. Enrique Gran, 2, 39600 Maliaño, Cantabria": {
+  "lat": 43.42654,
+  "lon": -3.84037,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=8927494720172909492",
+  "match": "Google Maps listing: Restaurante Japonés Sushisom Bahía Real"
+ },
+ "Restaurante Chino Conde | C. Calvo Sotelo, 3, 39740 Santoña, Cantabria": {
+  "lat": 43.4434,
+  "lon": -3.45701,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=5954411015694419766",
+  "match": "Google Maps listing: Restaurante Chino Conde"
+ },
+ "Irons Grill Burger | C. Isla de Mouro, 2, 39140 Somo, Cantabria": {
+  "lat": 43.45392,
+  "lon": -3.74333,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=11932158551826581465",
+  "match": "Google Maps listing: Irons Grill Burger Somo"
+ },
+ "El Barco de Oro (casa Mei) | Av. de Bilbao, 7, 39300 Torrelavega, Cantabria": {
+  "lat": 43.34728,
+  "lon": -4.04342,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=12569401626281390227",
+  "match": "Google Maps listing: El Barco de Oro (casa Mei)"
+ },
+ "Boss Doner Kebab - Kebab | C. Julián Urbina, 9, 39300 Torrelavega, Cantabria": {
+  "lat": 43.35283,
+  "lon": -4.04603,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=13843838106143504949",
+  "match": "Google Maps listing: Boss Doner Kebab-Kebab"
+ },
+ "Fátima Kebab | C. Alonso Astúlez, 4, 39300 Torrelavega, Cantabria": {
+  "lat": 43.34796,
+  "lon": -4.04734,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=3076264314578087825",
+  "match": "Google Maps listing: Fátima Kebab"
+ },
+ "Great Wall Restaurant | C. Asturias, 34, 33004 Oviedo, Asturias": {
+  "lat": 43.36433,
+  "lon": -5.85603,
+  "how": "google",
+  "gmaps": "https://maps.google.com/?cid=18198253010811027363",
+  "match": "Google Maps listing: Gran Muralla"
  }
 }

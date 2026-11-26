@@ -69,6 +69,36 @@
    ]
   },
   {
+   "id": "rest-la-pizzeria-luarca",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "\"\"\"REST. LA PIZZERIA\"\"\"",
+   "area": "Luarca",
+   "province": "Asturias",
+   "cuisine": "Italian (pizza)",
+   "rating": 3.5,
+   "reviews": 607,
+   "priceLevel": "€",
+   "lunch": "No (dinner only)",
+   "closedOn": "Tue, Wed, Thu",
+   "hours": "Mon 7 PM–12 AM; Tue–Thu Closed; Fri–Sun 7 PM–12 AM",
+   "notes": [
+    "Vegetarian options"
+   ],
+   "phone": "+34 985 47 05 25",
+   "address": "P.º del Muelle, 10, 33700 Luarca, Asturias",
+   "gmaps": "https://maps.google.com/?cid=8684820244982651501",
+   "lat": 43.54534,
+   "lon": -6.53197,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €",
+    "Suits: Vegetarian"
+   ]
+  },
+  {
    "id": "a-200-millas-santona",
    "category": "restaurant",
    "kind": "Pizza (brewpub)",
@@ -236,6 +266,35 @@
    ]
   },
   {
+   "id": "al-khair-doner-kebab-santurtzi-santurtzi",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Al khair doner kebab Santurtzi",
+   "area": "Santurtzi",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4,
+   "reviews": 63,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30–11:30 PM; Fri–Sat 12:30 PM–12 AM; Sun 12:30–11:30 PM",
+   "phone": "+34 944 65 43 31",
+   "address": "Juan Jose de la Quintana Kalea, 2, 48980 Santurtzi, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=2595577189724065637",
+   "lat": 43.3277,
+   "lon": -3.0308,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "ali-baba-doner-kebab-santander",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -259,6 +318,34 @@
    "tags": [
     "Cuisine: Kebab & Turkish",
     "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "ali-baba-doner-kebab-langreo",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Ali Baba Doner Kebab",
+   "area": "Langreo",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.8,
+   "reviews": 191,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12:30 AM; Fri–Sun 12:30 PM–1 AM",
+   "phone": "+34 984 15 60 72",
+   "address": "C. Pedro Duro, 7, 33930 Langreo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=17620619238294012476",
+   "lat": 43.30913,
+   "lon": -5.69014,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
     "Price: €",
     "Practical: Open for lunch",
     "Practical: Open every day"
@@ -904,6 +991,37 @@
    ]
   },
   {
+   "id": "arepera-los-pallares-2-bilbao",
+   "category": "restaurant",
+   "kind": "Venezuelan",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Arepera los Pallares 2",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Venezuelan",
+   "rating": 3.6,
+   "reviews": 723,
+   "priceLevel": "€€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Sun",
+   "hours": "Mon–Thu 7 AM–11 PM; Fri–Sat 7 AM–12 AM; Sun Closed",
+   "notes": [
+    "Vegetarian options"
+   ],
+   "phone": "+34 946 85 83 23",
+   "address": "San Mames Zumarkalea, 43 bis, Abando, 48010 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=14205688355310727892",
+   "lat": 43.25989,
+   "lon": -2.93911,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €€",
+    "Suits: Vegetarian",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "aroma-pizzeria-artesana-gijon",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -1062,6 +1180,65 @@
    ]
   },
   {
+   "id": "asia-doner-kebab-santona",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Asia doner kebab",
+   "area": "Santoña",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.9,
+   "reviews": 125,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon 12–11:55 PM; Tue 12 PM–12 AM; Wed–Thu 12:30 PM–12 AM; Fri–Sat 12:30 PM–12:30 AM; Sun 12 PM–12 AM",
+   "notes": [
+    "English spoken"
+   ],
+   "phone": "+34 942 10 57 60",
+   "address": "C. Manzanedo, 7, bajo, 39740 Santoña, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=17684520593819496420",
+   "lat": 43.44364,
+   "lon": -3.45582,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "asia-doner-kebab-gernika-gernika",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Asia Döner kebab Gernika",
+   "area": "Gernika",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.7,
+   "reviews": 115,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12 PM–12 AM",
+   "phone": "+34 946 46 60 59",
+   "address": "Carlos Gangoiti Kalea, 7, 48300 Gernika-Lumo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=15900010126538850458",
+   "lat": 43.31689,
+   "lon": -2.67908,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "asia-restaurante-bilbao",
    "category": "restaurant",
    "kind": "Chinese",
@@ -1151,6 +1328,34 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "astur-doner-kebab-oviedo",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Astur Doner Kebab",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.4,
+   "reviews": 272,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12 AM; Fri–Sat 12:30 PM–1:30 AM; Sun 12:30 PM–12 AM",
+   "phone": "+34 985 08 93 94",
+   "address": "C. Martínez Marina, 17, 33009 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=6931585248213390666",
+   "lat": 43.35948,
+   "lon": -5.84764,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -1262,6 +1467,35 @@
    "tags": [
     "Cuisine: Cafe",
     "Price: €€"
+   ]
+  },
+  {
+   "id": "aviles-kebab-carbayedo-aviles",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Avilés kebab carbayedo",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4,
+   "reviews": 97,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Open daily",
+   "hours": "Mon 4:30 PM–1:15 AM; Tue–Fri 12:30 PM–1:15 AM; Sat 12:30 PM–1:30 AM; Sun 12:30 PM–1:25 AM",
+   "phone": "+34 984 08 99 42",
+   "address": "Av. Fernández Balsera, 3, 33401 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=15589051270096932049",
+   "lat": 43.55641,
+   "lon": -5.92536,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -1670,6 +1904,62 @@
    ]
   },
   {
+   "id": "bar-restaurante-chino-84-bilbao",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "BAR Restaurante Chino 84",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 4.1,
+   "reviews": 13,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11:30 AM–4 PM, 7–11:30 PM",
+   "phone": "+34 946 96 20 44",
+   "address": "Santutxu Kalea, 84, 48006 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=521984674763379817",
+   "lat": 43.25068,
+   "lon": -2.91801,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "bar-restaurante-el-guayaco-barakaldo",
+   "category": "restaurant",
+   "kind": "Ecuadorian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Bar Restaurante El Guayaco",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Ecuadorian",
+   "rating": 3.7,
+   "reviews": 380,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 12–8 PM; Fri–Sat 12–10 PM; Sun 12–8 PM",
+   "phone": "+34 846 66 56 00",
+   "address": "Quevedo Kalea, 5, 48901 San Vicente de Barakaldo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=4900635273757775674",
+   "lat": 43.29908,
+   "lon": -2.98929,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "bar-restaurante-paraguayo-sestao",
    "category": "restaurant",
    "kind": "Paraguayan",
@@ -1814,6 +2104,35 @@
     "Price: €€",
     "Suits: Vegan",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "batu-asia-getxo-algorta",
+   "category": "restaurant",
+   "kind": "Asian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Batu Asia",
+   "area": "Getxo (Algorta)",
+   "province": "Bizkaia",
+   "cuisine": "Asian",
+   "rating": 4.1,
+   "reviews": 47,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4:30 PM, 8–11:30 PM",
+   "phone": "+34 944 17 55 77",
+   "address": "Andrés Cortina Kalea, 2A, 48991 Algorta, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=8726800034462232591",
+   "lat": 43.35138,
+   "lon": -3.01186,
+   "tags": [
+    "Cuisine: Asian",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -2001,6 +2320,74 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "bilbao-doner-kebab-bilbao",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Bilbao Doner Kebab",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4,
+   "reviews": 451,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12:30 AM; Fri–Sat 12:30 PM–2 AM; Sun 12:30 PM–12:30 AM",
+   "notes": [
+    "Vegetarian options",
+    "Michelin-recommended"
+   ],
+   "phone": "+34 944 79 25 23",
+   "address": "Askao Kalea, 4, Ibaiondo, 48005 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=3898402269935078280",
+   "lat": 43.25884,
+   "lon": -2.92207,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Suits: Vegetarian",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "bobby-s-gourmet-barbecue-bilbao",
+   "category": "restaurant",
+   "kind": "American BBQ",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Bobby's Gourmet Barbecue",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "American BBQ",
+   "rating": 3.9,
+   "reviews": 1437,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30–4 PM, 7:30–11 PM; Fri 12:30–4 PM, 7:30 PM–12 AM; Sat 1–4 PM, 7:30 PM–12 AM; Sun 1–4 PM, 7:30–11 PM",
+   "notes": [
+    "Book ahead",
+    "English spoken"
+   ],
+   "reservations": "Book ahead",
+   "phone": "+34 946 79 07 49",
+   "address": "Urkixo Zumarkalea, 11, Abando, 48008 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=5919925330183322802",
+   "lat": 43.26048,
+   "lon": -2.9306,
+   "tags": [
+    "Cuisine: Other international",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day",
+    "Practical: Book ahead"
    ]
   },
   {
@@ -2200,6 +2587,34 @@
     "Rating: 4.5+",
     "Rating: 4.0+",
     "Price: €"
+   ]
+  },
+  {
+   "id": "boss-doner-kebab-kebab-torrelavega",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Boss Doner Kebab - Kebab",
+   "area": "Torrelavega",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.3,
+   "reviews": 322,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12:30 AM; Fri–Sat 12:30 PM–1:30 AM; Sun 12:30 PM–12 AM",
+   "phone": "+34 942 94 47 23",
+   "address": "C. Julián Urbina, 9, 39300 Torrelavega, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=13843838106143504949",
+   "lat": 43.35283,
+   "lon": -4.04603,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -2475,6 +2890,32 @@
    ]
   },
   {
+   "id": "cafe-de-paris-le-bistro-aviles",
+   "category": "restaurant",
+   "kind": "French",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Café de París Le Bistró",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "French",
+   "rating": 4.7,
+   "reviews": 7,
+   "lunch": "No (dinner only)",
+   "closedOn": "Mon, Tue, Wed, Thu, Fri, Sun",
+   "hours": "Mon–Fri Closed; Sat 8–11 PM; Sun Closed",
+   "phone": "+34 663 03 13 19",
+   "address": "Pl. España, 9, D, 33402 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=10244623284141326927",
+   "lat": 43.55507,
+   "lon": -5.92252,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.5+",
+    "Rating: 4.0+"
+   ]
+  },
+  {
    "id": "cafeteria-picaroneria-miski-wasi-gijon",
    "category": "restaurant",
    "kind": "Peruvian",
@@ -2507,6 +2948,38 @@
     "Price: €€",
     "Practical: Open for lunch",
     "Practical: Book ahead"
+   ]
+  },
+  {
+   "id": "california-street-food-aviles-aviles",
+   "category": "restaurant",
+   "kind": "Californian / American",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "California Street Food Avilés",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Californian / American",
+   "rating": 4.4,
+   "reviews": 20,
+   "priceLevel": "€",
+   "lunch": "No (dinner only)",
+   "closedOn": "Mon, Tue",
+   "hours": "Mon–Tue Closed; Wed–Sun 8–11:30 PM",
+   "notes": [
+    "Gluten-free options",
+    "English spoken"
+   ],
+   "phone": "+34 692 80 21 26",
+   "address": "Plaza Hermanos Orbón, s/n, 33401 Orbón, Asturias",
+   "gmaps": "https://maps.google.com/?cid=6098542095263147770",
+   "lat": 43.55793,
+   "lon": -5.92357,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.0+",
+    "Price: €",
+    "Suits: Gluten-free"
    ]
   },
   {
@@ -3319,6 +3792,33 @@
    ]
   },
   {
+   "id": "castro-kebab-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Castro Kebab",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.6,
+   "reviews": 23,
+   "priceLevel": "€",
+   "lunch": "Yes, 5 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue 12:30–1:30 AM; Wed–Thu 9 AM–1:30 AM; Fri 9 AM–6 AM; Sat 9 AM–1:30 AM; Sun 9 AM–4 AM",
+   "phone": "+34 631 84 33 11",
+   "address": "C. Escorza, 2, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=2091441629026669963",
+   "lat": 43.38403,
+   "lon": -3.21804,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "cementerio-modernista-de-comillas",
    "locationStatus": "verified",
    "locationSource": "OSM: Cementerio de Comillas",
@@ -3800,6 +4300,35 @@
    ]
   },
   {
+   "id": "clannad-tavern-santander",
+   "category": "restaurant",
+   "kind": "Irish pub",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Clannad Tavern",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Irish pub",
+   "rating": 4,
+   "reviews": 261,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 9:30 AM–12 AM; Fri–Sat 9:30 AM–2 AM; Sun 9:30 AM–12 AM",
+   "phone": "+34 942 36 93 40",
+   "address": "C. San Fernando, 16, 39010 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=18411111491978525180",
+   "lat": 43.46102,
+   "lon": -3.81967,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "colegiata-de-santa-juliana",
    "locationStatus": "verified",
    "locationSource": "OSM: Colegiata de Santillana del Mar",
@@ -3975,6 +4504,32 @@
     "Type: Hike",
     "Practical: Loop route",
     "Level: Easy"
+   ]
+  },
+  {
+   "id": "crazzy-shawarma-santander",
+   "category": "restaurant",
+   "kind": "Middle Eastern (shawarma)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "CRAZZY shawarma",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Middle Eastern (shawarma)",
+   "rating": 4.2,
+   "reviews": 176,
+   "priceLevel": "€",
+   "lunch": "No (dinner only)",
+   "closedOn": "Tue",
+   "hours": "Mon 8–11 PM; Tue Closed; Wed–Thu 8–11 PM; Fri–Sat 8–11:30 PM; Sun 8–11 PM",
+   "address": "P.º de Altamira, 276, bajo drch, 39006 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=10411161668372715506",
+   "lat": 43.46417,
+   "lon": -3.82126,
+   "tags": [
+    "Cuisine: Mediterranean & Middle Eastern",
+    "Rating: 4.0+",
+    "Price: €"
    ]
   },
   {
@@ -4422,6 +4977,34 @@
    ]
   },
   {
+   "id": "delhi-kebab-durango",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "DELHI Kebab",
+   "area": "Durango",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.6,
+   "reviews": 38,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 12 PM–12 AM; Sat 12 PM–12:30 AM; Sun 12 PM–12 AM",
+   "phone": "+34 946 07 42 63",
+   "address": "Calle Juan Mari Altuna Kalea, 48200 Durango, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=8496046099735160795",
+   "lat": 43.16961,
+   "lon": -2.62787,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "demaio-pizza-gourmet-san-francisco-bilbao",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -4640,6 +5223,35 @@
    ]
   },
   {
+   "id": "doner-kebab-asturias-gijon",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Doner Kebab Asturias",
+   "area": "Gijón",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.1,
+   "reviews": 285,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12:30 PM–12 AM",
+   "phone": "+34 984 39 94 55",
+   "address": "C. Mieres, 12, bajo, Centro, 33208 Gijón, Asturias",
+   "gmaps": "https://maps.google.com/?cid=2862058561226693425",
+   "lat": 43.53682,
+   "lon": -5.66376,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "doner-kebab-el-elefante-blanco-gijon",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -4834,6 +5446,34 @@
     "Price: €",
     "Suits: Vegetarian",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "el-barco-de-oro-casa-mei-torrelavega",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "El Barco de Oro (casa Mei)",
+   "area": "Torrelavega",
+   "province": "Cantabria",
+   "cuisine": "Chinese",
+   "rating": 3.4,
+   "reviews": 58,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11:30 AM–12 AM",
+   "phone": "+34 942 08 31 46",
+   "address": "Av. de Bilbao, 7, 39300 Torrelavega, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=12569401626281390227",
+   "lat": 43.34728,
+   "lon": -4.04342,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -5069,6 +5709,39 @@
    "description": "Also called \"Alma de Costa\", this bronze by sculptor Jesús González de la Vega was unveiled in October 2010. Standing on a stone pedestal, the three-metre statue shows a man meeting the sea wind with open arms.",
    "tags": [
     "Type: Heritage"
+   ]
+  },
+  {
+   "id": "el-italiano-santander",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "El Italiano",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Italian (pizza)",
+   "rating": 3.9,
+   "reviews": 2409,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 1–5 PM, 7:30–11:30 PM; Fri–Sat 1 PM–12:30 AM; Sun 1–11:30 PM",
+   "notes": [
+    "Book ahead"
+   ],
+   "reservations": "Book ahead",
+   "phone": "+34 942 21 21 68",
+   "address": "C. Calderón de la Barca, 9, 39002 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=4066059858708357221",
+   "lat": 43.45961,
+   "lon": -3.8082,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day",
+    "Practical: Book ahead"
    ]
   },
   {
@@ -5465,6 +6138,38 @@
    ]
   },
   {
+   "id": "estambul-kebab-castro-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Estambul Kebab Castro",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4,
+   "reviews": 69,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1 PM–12 AM",
+   "notes": [
+    "Tasting menu"
+   ],
+   "phone": "+34 942 12 11 42",
+   "address": "C. la Rúa, 24, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=1517134309656674801",
+   "lat": 43.38472,
+   "lon": -3.21747,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "eterna-restaurante-getxo-algorta",
    "category": "restaurant",
    "kind": "Italian",
@@ -5522,6 +6227,63 @@
    ]
   },
   {
+   "id": "face-wok-bilbao",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "FACE WOK",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 4.1,
+   "reviews": 483,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Tue 11:30 AM–4:30 PM, 7:15–11:45 PM; Wed 11:30 AM–4:30 PM, 7:15 PM–12 AM; Thu 12 AM–4:30 PM, 7:15–11:45 PM; Fri–Sat 11:30 AM–4:30 PM, 7:15 PM–12 AM; Sun 11:30 AM–4:30 PM, 7:15–11:45 PM",
+   "phone": "+34 946 00 40 57",
+   "address": "Autonomia Kalea, 2, Abando, 48012 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=17473529832782247242",
+   "lat": 43.25747,
+   "lon": -2.93501,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "fatima-kebab-torrelavega",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Fátima Kebab",
+   "area": "Torrelavega",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.3,
+   "reviews": 133,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12:30 AM; Fri–Sat 12:30 PM–3 AM; Sun 12:30 PM–12:30 AM",
+   "phone": "+34 631 17 15 88",
+   "address": "C. Alonso Astúlez, 4, 39300 Torrelavega, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=3076264314578087825",
+   "lat": 43.34796,
+   "lon": -4.04734,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "fiorella-santander",
    "category": "restaurant",
    "kind": "Venezuelan",
@@ -5548,6 +6310,34 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "flyin-burritos-restaurante-mexicano-en-bilbao-bilbao",
+   "category": "restaurant",
+   "kind": "Mexican",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Flyin´ Burritos | Restaurante Mexicano en Bilbao",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Mexican",
+   "rating": 3.9,
+   "reviews": 372,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Wed 1–10:30 PM; Thu–Fri 1–11 PM; Sat 12–11 PM; Sun 12–10:30 PM",
+   "phone": "+34 946 09 98 25",
+   "address": "C/ Colón de Larreátegui K., 13, bajo 2, Abando, 48001 Bilbao, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=1841921786478119411",
+   "lat": 43.26247,
+   "lon": -2.928,
+   "tags": [
+    "Cuisine: Mexican",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -5897,6 +6687,68 @@
    ]
   },
   {
+   "id": "gowok-gijon",
+   "category": "restaurant",
+   "kind": "Asian wok",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "GOWOK",
+   "area": "Gijón",
+   "province": "Asturias",
+   "cuisine": "Asian wok",
+   "rating": 4,
+   "reviews": 311,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11:30 AM–4:30 PM, 7:30–11:30 PM",
+   "notes": [
+    "Vegan options",
+    "Vegetarian options"
+   ],
+   "phone": "+34 642 25 95 67",
+   "address": "C/ Palacio Valdés, 7, Centro, 33206 Gijón, Asturias",
+   "gmaps": "https://maps.google.com/?cid=1442398163441201418",
+   "lat": 43.53943,
+   "lon": -5.6658,
+   "tags": [
+    "Cuisine: Asian",
+    "Rating: 4.0+",
+    "Price: €",
+    "Suits: Vegan",
+    "Suits: Vegetarian",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "gowok-y-ramen-siero",
+   "category": "restaurant",
+   "kind": "Asian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Gowok y Ramen",
+   "area": "Siero",
+   "province": "Asturias",
+   "cuisine": "Asian",
+   "rating": 3.9,
+   "reviews": 235,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1–11 PM",
+   "address": "Autovía Ruta de la Plata, KM. 4,5, 33429 Paredes, Asturias",
+   "gmaps": "https://maps.google.com/?cid=3186664740780336120",
+   "lat": 43.38976,
+   "lon": -5.80406,
+   "tags": [
+    "Cuisine: Asian",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "gran-masala-gijon",
    "category": "restaurant",
    "kind": "Indian",
@@ -5928,6 +6780,40 @@
     "Suits: Vegetarian",
     "Practical: Open for lunch",
     "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "great-wall-restaurant-oviedo",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Great Wall Restaurant",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Chinese",
+   "rating": 3.7,
+   "reviews": 352,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Wed",
+   "hours": "Mon–Tue 12–4 PM, 8 PM–12 AM; Wed Closed; Thu–Sun 12–4 PM, 8 PM–12 AM",
+   "notes": [
+    "Vegan options",
+    "Vegetarian options",
+    "Takeaway"
+   ],
+   "phone": "+34 985 27 13 51",
+   "address": "C. Asturias, 34, 33004 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=18198253010811027363",
+   "lat": 43.36433,
+   "lon": -5.85603,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Suits: Vegan",
+    "Suits: Vegetarian",
+    "Practical: Open for lunch"
    ]
   },
   {
@@ -6194,6 +7080,35 @@
    "tags": [
     "Cuisine: Asian",
     "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "halal-bilbao",
+   "category": "restaurant",
+   "kind": "Halal fast food (kebab / pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Halal",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Halal fast food (kebab / pizza)",
+   "rating": 4.1,
+   "reviews": 90,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30–11:30 PM; Fri–Sat 12:30 PM–12 AM; Sun 12:30–11:30 PM",
+   "phone": "+34 666 23 49 05",
+   "address": "Santutxu Kalea, 48004 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=6981534228185871991",
+   "lat": 43.25294,
+   "lon": -2.91323,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch",
@@ -6986,6 +7901,36 @@
    ]
   },
   {
+   "id": "irons-grill-burger-somo",
+   "category": "restaurant",
+   "kind": "Burgers",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Irons Grill Burger",
+   "area": "Somo",
+   "province": "Cantabria",
+   "cuisine": "Burgers",
+   "rating": 3.7,
+   "reviews": 2269,
+   "priceLevel": "€",
+   "lunch": "Yes, 5 days/wk",
+   "closedOn": "Wed",
+   "hours": "Mon–Tue 1–4 PM, 7:30–11 PM; Wed Closed; Thu 7:30–11 PM; Fri–Sat 1–4 PM, 7:30–11:30 PM; Sun 1–4 PM, 7:30–11 PM",
+   "notes": [
+    "English spoken"
+   ],
+   "phone": "+34 942 51 04 39",
+   "address": "C. Isla de Mouro, 2, 39140 Somo, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=11932158551826581465",
+   "lat": 43.45392,
+   "lon": -3.74333,
+   "tags": [
+    "Cuisine: Burgers",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "iru-arri-amorebieta",
    "category": "restaurant",
    "kind": "Chinese / Korean",
@@ -7346,6 +8291,38 @@
    ]
   },
   {
+   "id": "jiro-sushi-santander",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Jirō Sushi",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Japanese (sushi)",
+   "rating": 3.9,
+   "reviews": 541,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1–4:30 PM, 8 PM–12 AM",
+   "notes": [
+    "All-you-can-eat",
+    "Buffet"
+   ],
+   "phone": "+34 633 64 82 66",
+   "address": "Pl. de la Esperanza, 6, 39002 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=13557419124707573382",
+   "lat": 43.46332,
+   "lon": -3.81015,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "kaisen-experience-portugalete-portugalete",
    "category": "restaurant",
    "kind": "Japanese (buffet)",
@@ -7581,6 +8558,38 @@
    ]
   },
   {
+   "id": "kasa-kristo-santona",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kasa Kristo",
+   "area": "Santoña",
+   "province": "Cantabria",
+   "cuisine": "Italian (pizza)",
+   "rating": 4.2,
+   "reviews": 24,
+   "priceLevel": "€",
+   "lunch": "No (dinner only)",
+   "closedOn": "Open daily",
+   "hours": "Mon 6 PM–11:30 AM; Tue–Wed 8–11:30 PM; Thu 8–11 PM; Fri–Sat 8–11:30 PM; Sun 8–11 PM",
+   "notes": [
+    "Gluten-free options"
+   ],
+   "phone": "+34 632 98 88 94",
+   "address": "C. Desengaño, bajo 1, 39740 Santoña, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=15466669574099237794",
+   "lat": 43.44107,
+   "lon": -3.45642,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Rating: 4.0+",
+    "Price: €",
+    "Suits: Gluten-free",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "kashmir-doner-kebab-santander",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -7609,6 +8618,63 @@
     "Rating: 4.5+",
     "Rating: 4.0+",
     "Price: €",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebab-asturias-las-vegas-corvera",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "KEBAB ASTURIAS LAS VEGAS",
+   "area": "Corvera",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.9,
+   "reviews": 247,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Open daily",
+   "hours": "Mon 4:30 PM–1:15 AM; Tue–Sun 12 PM–1:15 AM",
+   "phone": "+34 985 57 81 39",
+   "address": "C. Severo Ochoa, 17, 33404 Las Vegas, Asturias",
+   "gmaps": "https://maps.google.com/?cid=14305689273914637901",
+   "lat": 43.53457,
+   "lon": -5.90187,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebab-aviles-las-meanas-aviles",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab Avilés (Las Meanas)",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.1,
+   "reviews": 36,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Open daily",
+   "hours": "Mon 4:30 PM–1:15 AM; Tue–Sun 12:30 PM–1:15 AM",
+   "phone": "+34 614 70 84 65",
+   "address": "Av. Fernández Balsera, 10, 33402 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=13175157193547679877",
+   "lat": 43.55619,
+   "lon": -5.92635,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
     "Practical: Open every day"
    ]
   },
@@ -7705,6 +8771,34 @@
    ]
   },
   {
+   "id": "kebab-de-rivero-aviles",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab de Rivero",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.7,
+   "reviews": 33,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12 PM–1:15 AM",
+   "phone": "+34 632 44 44 36",
+   "address": "C. Rivero, 112, 33402 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=2922098550814015502",
+   "lat": 43.55156,
+   "lon": -5.91977,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "kebab-el-caserio-portugalete",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -7765,6 +8859,124 @@
    ]
   },
   {
+   "id": "kebab-house-llanes-llanes",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab House Llanes",
+   "area": "Llanes",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.2,
+   "reviews": 153,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12 AM; Fri–Sat 12:30 PM–12:30 AM; Sun 12:30 PM–12 AM",
+   "phone": "+34 985 40 21 94",
+   "address": "C. Mayor, 4, 33500 Llanes, Asturias",
+   "gmaps": "https://maps.google.com/?cid=8411603231515114388",
+   "lat": 43.42038,
+   "lon": -4.75463,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebab-mamariga-santurtzi",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab mamariga",
+   "area": "Santurtzi",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.4,
+   "reviews": 11,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12 AM; Fri–Sat 12:30 PM–1 AM; Sun 12:30 PM–12 AM",
+   "phone": "+34 946 29 55 45",
+   "address": "Mamariga Kalea, 127, 48980 Santurtzi, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=12577421735201738997",
+   "lat": 43.33199,
+   "lon": -3.03944,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebab-pizzeria-durango-durango",
+   "category": "restaurant",
+   "kind": "Turkish (kebab) & pizza",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab Pizzería Durango",
+   "area": "Durango",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab) & pizza",
+   "rating": 4.1,
+   "reviews": 203,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12 PM–12 AM; Fri–Sat 12 PM–6 AM; Sun 12 PM–12 AM",
+   "phone": "+34 946 07 33 80",
+   "address": "Montevideo Etorbidea, 48200 Durango, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=16390730937627229354",
+   "lat": 43.16958,
+   "lon": -2.62688,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebab-salcedo-bilbao",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab Salcedo",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.9,
+   "reviews": 274,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12 PM–12 AM; Fri–Sat 12 PM–1 AM; Sun 12 PM–12 AM",
+   "notes": [
+    "English spoken"
+   ],
+   "phone": "+34 944 46 40 62",
+   "address": "Castaños Kalea, 8, 48007 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=2280579493727250126",
+   "lat": 43.26793,
+   "lon": -2.92582,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "kebab-station-santander",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -7785,6 +8997,64 @@
    "gmaps": "https://maps.google.com/?cid=6762986703307096480",
    "lat": 43.45966,
    "lon": -3.8104,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebab-turco-gijon-gijon",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebab Turco Gijon",
+   "area": "Gijón",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.1,
+   "reviews": 238,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 12 PM–12:30 AM; Sat–Sun 1 PM–1 AM",
+   "phone": "+34 634 28 91 99",
+   "address": "Av. Pablo Iglesias, 17, Centro, 33205 Gijón, Asturias",
+   "gmaps": "https://maps.google.com/?cid=18051400433461031906",
+   "lat": 43.53618,
+   "lon": -5.65725,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kebabish-best-santurce-santurtzi",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Kebabish Best Santurce",
+   "area": "Santurtzi",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4,
+   "reviews": 281,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12:30 PM–12:30 AM",
+   "phone": "+34 944 04 80 21",
+   "address": "Cápitán Mendizábál Káleá, 4, 48980 Santurtzi, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=6767393962960188380",
+   "lat": 43.33042,
+   "lon": -3.03264,
    "tags": [
     "Cuisine: Kebab & Turkish",
     "Rating: 4.0+",
@@ -7886,6 +9156,35 @@
     "Rating: 4.5+",
     "Rating: 4.0+",
     "Price: €"
+   ]
+  },
+  {
+   "id": "king-doner-kebab-torrelavega",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "KinG Doner Kebab",
+   "area": "Torrelavega",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.3,
+   "reviews": 48,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12:30 AM; Fri–Sat 12:30 PM–1:30 AM; Sun 12:30 PM–12:30 AM",
+   "phone": "+34 602 64 82 95",
+   "address": "C. Leonardo Torres Quevedo, 12, 39300 Torrelavega, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=8924783494119853956",
+   "lat": 43.35393,
+   "lon": -4.04516,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -8047,6 +9346,39 @@
     "Rating: 4.0+",
     "Price: €",
     "Suits: Vegetarian",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "kyoto-sushi-bubble-tea-bilbao",
+   "category": "restaurant",
+   "kind": "Japanese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "KYOTO SUSHI & BUBBLE TEA",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Japanese",
+   "rating": 4.6,
+   "reviews": 125,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Open daily",
+   "hours": "Mon 11:30 AM–11:30 PM; Tue 6–11:30 PM; Wed–Thu 11:30 AM–11:30 PM; Fri–Sat 11:30 AM–12 AM; Sun 11:30 AM–11:30 PM",
+   "notes": [
+    "Takeaway"
+   ],
+   "phone": "+34 944 39 66 30",
+   "address": "C. del Lic. Poza, 33, bajo, Abando, 48011 Bilbao, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=26302117525421097",
+   "lat": 43.26171,
+   "lon": -2.93956,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
     "Practical: Open for lunch",
     "Practical: Open every day"
    ]
@@ -8229,6 +9561,36 @@
     "Rating: 4.0+",
     "Price: €€",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "la-casa-de-pizzeria-bilbao",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "La casa de Pizzeria",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Italian (pizza)",
+   "rating": 5,
+   "reviews": 13,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12 PM–12 AM",
+   "phone": "+34 612 41 62 30",
+   "address": "Santutxu Kalea, 78, Planta baja, 48006 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=2853012338740915384",
+   "lat": 43.25048,
+   "lon": -2.91746,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -8418,6 +9780,34 @@
     "Rating: 4.0+",
     "Price: €€",
     "Suits: Vegan"
+   ]
+  },
+  {
+   "id": "la-esquina-del-sabor-colombiano-torrelavega",
+   "category": "restaurant",
+   "kind": "Colombian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "La Esquina del Sabor Colombiano",
+   "area": "Torrelavega",
+   "province": "Cantabria",
+   "cuisine": "Colombian",
+   "rating": 4,
+   "reviews": 140,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Fri 9 AM–10:30 PM; Sat 9 AM–11:30 PM; Sun 10 AM–10:30 PM",
+   "phone": "+34 632 98 33 39",
+   "address": "C. Gral. Castañeda, 3, 39300 Torrelavega, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=6861805516275622080",
+   "lat": 43.34727,
+   "lon": -4.04961,
+   "tags": [
+    "Cuisine: Latin American",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch"
    ]
   },
   {
@@ -8673,6 +10063,33 @@
    "tags": [
     "Cuisine: Burgers",
     "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "la-jaujina-oviedo",
+   "category": "restaurant",
+   "kind": "Peruvian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "La Jaujina",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Peruvian",
+   "rating": 3.4,
+   "reviews": 40,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Tue",
+   "hours": "Mon 10 AM–10 PM; Tue Closed; Wed–Thu 10 AM–10 PM; Fri–Sun 10 AM–11:30 PM",
+   "phone": "+34 668 51 09 74",
+   "address": "C. Samuel Sánchez, 11, 33013 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=9893597748671092385",
+   "lat": 43.36323,
+   "lon": -5.85971,
+   "tags": [
+    "Cuisine: Latin American",
     "Price: €",
     "Practical: Open for lunch"
    ]
@@ -10133,6 +11550,34 @@
    ]
   },
   {
+   "id": "manantial-bilbao",
+   "category": "restaurant",
+   "kind": "South American",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Manantial",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "South American",
+   "rating": 3.8,
+   "reviews": 370,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 9 AM–10:30 PM; Fri–Sat 9 AM–11 PM; Sun 9 AM–10 PM",
+   "phone": "+34 946 08 45 94",
+   "address": "Alameda de Recalde, 68, Errekalde, 48010 Bilbao, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=15368514426943559169",
+   "lat": 43.25717,
+   "lon": -2.93722,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "manos-morenas-phc-gijon",
    "category": "restaurant",
    "kind": "Peruvian",
@@ -10288,6 +11733,36 @@
    ]
   },
   {
+   "id": "mas-que-bueno-kebab-torrelavega",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "mas que bueno kebab",
+   "area": "Torrelavega",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.7,
+   "reviews": 22,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Open daily",
+   "hours": "Mon–Wed 1 PM–12 AM; Thu 6 PM–12 AM; Fri–Sat 1 PM–1 AM; Sun 1 PM–12 AM",
+   "phone": "+34 642 66 99 38",
+   "address": "C. Hermanos de Carriedo y Peredo, 10, 39300 Torrelavega, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=18330760514009849511",
+   "lat": 43.35911,
+   "lon": -4.06826,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "matiko-kebab-bilbao",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -10380,6 +11855,34 @@
    ]
   },
   {
+   "id": "melao-de-cana-bilbao",
+   "category": "restaurant",
+   "kind": "Colombian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Melao de Caña",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Colombian",
+   "rating": 3.7,
+   "reviews": 722,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 1 PM–1 AM; Fri–Sat 1 PM–2:30 AM; Sun 1 PM–1 AM",
+   "phone": "+34 946 57 93 94",
+   "address": "Cerca De La Plaza De Toros, Calle Gral. Concha, 46, Errekalde, 48012 Bilbao, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=9343965078855893356",
+   "lat": 43.2565,
+   "lon": -2.93634,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "menu-degustacion-getxo-las-arenas",
    "category": "restaurant",
    "kind": "Italian",
@@ -10441,6 +11944,34 @@
    "gmaps": "https://maps.app.goo.gl/5icKZb2Uor7iCoaD8",
    "kind": "Restaurant",
    "area": "Borleña, Cantabria"
+  },
+  {
+   "id": "meson-dominguez-king-doner-kebab-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Mesón Domínguez King Doner Kebab",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.9,
+   "reviews": 216,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1 PM–1 AM",
+   "phone": "+34 942 79 08 59",
+   "address": "C. Ardigales, 8, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=9317650573887213214",
+   "lat": 43.38292,
+   "lon": -3.21894,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
   },
   {
    "id": "mexicano-miguelon-laredo",
@@ -10684,6 +12215,33 @@
    ]
   },
   {
+   "id": "mono-barakaldo",
+   "category": "restaurant",
+   "kind": "Burgers",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "MONO",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Burgers",
+   "rating": 3.8,
+   "reviews": 104,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4 PM, 7–11 PM",
+   "address": "Nafarroa Kalea, 9, 48901 San Vicente de Barakaldo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=8288075573776369430",
+   "lat": 43.29633,
+   "lon": -2.98734,
+   "tags": [
+    "Cuisine: Burgers",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "montana-de-oro-saron",
    "category": "restaurant",
    "locationStatus": "verified",
@@ -10858,6 +12416,65 @@
    ]
   },
   {
+   "id": "mr-wok-barakaldo",
+   "category": "restaurant",
+   "kind": "Asian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Mr. Wok",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Asian",
+   "rating": 3.7,
+   "reviews": 291,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 1–5 PM, 8–11:30 PM; Sat 1–5 PM, 8 PM–12 AM; Sun 1–5 PM, 8–11:30 PM",
+   "notes": [
+    "Buffet"
+   ],
+   "phone": "+34 944 85 10 74",
+   "address": "Kareaga K., 48903 San Vicente de Barakaldo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=13998531683590211239",
+   "lat": 43.28785,
+   "lon": -3.00817,
+   "tags": [
+    "Cuisine: Asian",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "mr-wok-camargo",
+   "category": "restaurant",
+   "kind": "Asian wok",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Mr. Wok",
+   "area": "Camargo",
+   "province": "Cantabria",
+   "cuisine": "Asian wok",
+   "rating": 3.9,
+   "reviews": 123,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sat 1–4:30 PM, 8–11 PM; Sun 1:30–4:30 PM",
+   "phone": "+34 942 02 09 55",
+   "address": "C. Alday, 1, 39600 Camargo, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=9919744117234401751",
+   "lat": 43.42855,
+   "lon": -3.83952,
+   "tags": [
+    "Cuisine: Asian",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "mundo-canalla-torrelavega",
    "category": "restaurant",
    "kind": "Burgers (+ daily menu)",
@@ -10890,6 +12507,34 @@
     "Suits: Vegan",
     "Suits: Vegetarian",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "muralla-china-jatetxea-bilbao",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Muralla China jatetxea",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 3.8,
+   "reviews": 163,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11:30 AM–4:30 PM, 7:30 PM–12 AM",
+   "phone": "+34 944 33 94 86",
+   "address": "Iturribide Kalea, 108, Ibaiondo, 48006 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=13856470343212603027",
+   "lat": 43.25541,
+   "lon": -2.91622,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -11559,6 +13204,34 @@
    ]
   },
   {
+   "id": "nuevo-siglo-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Nuevo Siglo",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Chinese",
+   "rating": 3.8,
+   "reviews": 273,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12:30–4:30 PM, 8 PM–12 AM",
+   "phone": "+34 942 86 39 87",
+   "address": "C. de la Rda., 48, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=13825063735102355092",
+   "lat": 43.37982,
+   "lon": -3.21846,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "nur-doner-kebap-torrelavega",
    "category": "restaurant",
    "kind": "Turkish (kebab)",
@@ -11642,6 +13315,37 @@
     "Price: €",
     "Practical: Open for lunch",
     "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "oishi-sushi-leioa-leioa",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "OISHI Sushi Leioa",
+   "area": "Leioa",
+   "province": "Bizkaia",
+   "cuisine": "Japanese (sushi)",
+   "rating": 4,
+   "reviews": 585,
+   "priceLevel": "€€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 1–4:30 PM, 8:30–11:30 PM; Fri–Sat 1–4:30 PM, 8:30 PM–12 AM; Sun 1–5 PM, 8:30–11:30 PM",
+   "notes": [
+    "Buffet"
+   ],
+   "phone": "+34 946 57 64 49",
+   "address": "PLAZA IBAIONDO, Conjunto empresarial, Av. Amaia, Plaza 1, 48940, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=1330231806447628891",
+   "lat": 43.32269,
+   "lon": -3.00873,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch"
    ]
   },
   {
@@ -11738,6 +13442,33 @@
    ]
   },
   {
+   "id": "ongi-sushi-barakaldo",
+   "category": "restaurant",
+   "kind": "Japanese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Ongi sushi",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Japanese",
+   "rating": 3.7,
+   "reviews": 181,
+   "priceLevel": "€€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Tue",
+   "hours": "Mon 12–4 PM, 7:30–11:30 PM; Tue Closed; Wed–Sun 12–4 PM, 7:30–11:30 PM",
+   "phone": "+34 946 29 28 22",
+   "address": "Muguru Kalea, 4, 48960 Kurtzea, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=194271219810115899",
+   "lat": 43.23194,
+   "lon": -2.84063,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €€",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "ooda-pizza-napoletana-santurtzi",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -11827,6 +13558,34 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "oso-panda-durango",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Oso Panda",
+   "area": "Durango",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 3.4,
+   "reviews": 109,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 8 AM–12 AM; Sat–Sun 8 AM–1 AM",
+   "phone": "+34 946 20 33 06",
+   "address": "Madalena Pl., 5, 48200 Durango, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=3400348622048322924",
+   "lat": 43.1714,
+   "lon": -2.63315,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -12297,6 +14056,7 @@
    "address": "Calle Marqués de la Hermida 28, 39009 Santander (Peñacastillo)",
    "phone": "942 53 62 18",
    "link": "http://panaderiapeterypan.es/",
+   "gmaps": "https://maps.google.com/?cid=6525836408372535120",
    "tags": [
     "Cuisine: Cafe"
    ]
@@ -12453,6 +14213,35 @@
    ]
   },
   {
+   "id": "pizza-mamma-mia-lekeitio-lekeitio",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Pizza Mamma Mia Lekeitio",
+   "area": "Lekeitio",
+   "province": "Bizkaia",
+   "cuisine": "Italian (pizza)",
+   "rating": 4.3,
+   "reviews": 26,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11 AM–12 AM",
+   "phone": "+34 688 71 31 00",
+   "address": "Paskual Abaroa Etorbidea, 37, bajo, 48280 Lekeitio, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=16736385610367199879",
+   "lat": 43.36532,
+   "lon": -2.5037,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "pizza-oviedo-oviedo",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -12537,6 +14326,38 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "pizzeria-a-5-quesos-barakaldo",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Pizzería A 5 Quesos",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Italian (pizza)",
+   "rating": 5,
+   "reviews": 20,
+   "priceLevel": "€",
+   "lunch": "Limited (2 days/wk)",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 7–11 PM; Sat–Sun 1–4 PM, 7–11:30 PM",
+   "notes": [
+    "Takeaway"
+   ],
+   "phone": "+34 946 29 56 63",
+   "address": "Juan de Garay Kalea, 28, 48901 San Vicente de Barakaldo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=4037025294141402696",
+   "lat": 43.29848,
+   "lon": -2.98854,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open every day"
    ]
   },
   {
@@ -13089,6 +14910,39 @@
    ]
   },
   {
+   "id": "pizzeria-los-molinos-llanes",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "PIZZERIA LOS MOLINOS",
+   "area": "Llanes",
+   "province": "Asturias",
+   "cuisine": "Italian (pizza)",
+   "rating": 3.9,
+   "reviews": 410,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1–4 PM, 8 PM–12 AM",
+   "notes": [
+    "Gluten-free options",
+    "English spoken"
+   ],
+   "phone": "+34 985 40 31 11",
+   "address": "Bo. Cotiello Bajo, 7, 33500 Llanes, Asturias",
+   "gmaps": "https://maps.google.com/?cid=1797072592302009768",
+   "lat": 43.41953,
+   "lon": -4.75551,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €",
+    "Suits: Gluten-free",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "pizzeria-malamasa-mala-masa-sopela",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -13169,6 +15023,62 @@
    "tags": [
     "Cuisine: Italian & pizza",
     "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €"
+   ]
+  },
+  {
+   "id": "pizzeria-piccola-italia-aviles",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Pizzería Piccola Italia",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Italian (pizza)",
+   "rating": 5,
+   "reviews": 8,
+   "priceLevel": "€",
+   "lunch": "Yes, 5 days/wk",
+   "closedOn": "Tue, Wed",
+   "hours": "Mon 1:30–4 PM, 8–11 PM; Tue–Wed Closed; Thu–Fri 1:30–4 PM, 8–11 PM; Sat 1:30–11 PM; Sun 1:30–4 PM, 8–11 PM",
+   "phone": "+34 614 49 10 90",
+   "address": "C. Fuero de Avilés, 12, 33401 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=13861768170017172968",
+   "lat": 43.55393,
+   "lon": -5.93263,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "pizzeria-piccola-napoli-mia-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Pizzería Piccola Napoli Mia",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Italian (pizza)",
+   "rating": 4.1,
+   "reviews": 140,
+   "priceLevel": "€",
+   "lunch": "No (dinner only)",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 8–11 PM; Fri–Sat 8 PM–12 AM; Sun 8–11 PM",
+   "phone": "+34 942 86 92 64",
+   "address": "C. Belén, 20, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=1010883210119319168",
+   "lat": 43.38455,
+   "lon": -3.21771,
+   "tags": [
+    "Cuisine: Italian & pizza",
     "Rating: 4.0+",
     "Price: €"
    ]
@@ -13564,6 +15474,38 @@
    ]
   },
   {
+   "id": "pomodoro-pizza-pasta-burritos-maliano",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "POMODORO Pizza Pasta Burritos",
+   "area": "Maliaño",
+   "province": "Cantabria",
+   "cuisine": "Italian (pizza)",
+   "rating": 3.8,
+   "reviews": 842,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1–10:30 PM",
+   "notes": [
+    "Gluten-free options"
+   ],
+   "phone": "+34 942 88 60 10",
+   "address": "Centro Comercial Valle Real, C. Alday, s/n, Local A, 19-A, 39600 Maliaño, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=11701850724505643010",
+   "lat": 43.4286,
+   "lon": -3.83887,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €",
+    "Suits: Gluten-free",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "porracolina-cordal-de-las-jorobas-y-via-normal",
    "name": "Porracolina — Cordal de las Jorobas y vía normal",
    "category": "hike",
@@ -13694,6 +15636,61 @@
    "tags": [
     "Cuisine: Latin American",
     "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "pub-irish-stones-bilbao",
+   "category": "restaurant",
+   "kind": "Irish pub",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Pub Irish Stones",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Irish pub",
+   "rating": 4.3,
+   "reviews": 648,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 8 AM–1 AM; Fri–Sat 8 AM–3 AM; Sun 8 AM–1 AM",
+   "address": "Madariaga Etorbidea, 2, Deusto, 48014 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=8069919336662596780",
+   "lat": 43.27123,
+   "lon": -2.94529,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "pub-molly-malone-bilbao",
+   "category": "restaurant",
+   "kind": "Irish pub (gastropub)",
+   "locationStatus": "geocoded",
+   "locationSource": "Owner's restaurant list (Google ratings); position from OpenStreetMap by venue name",
+   "name": "Pub Molly Malone",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Irish pub (gastropub)",
+   "rating": 4.1,
+   "reviews": 1966,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 8:30 AM–11 PM; Fri 8:30 AM–12 AM; Sat 12:30–1 AM, 12 PM–2 AM; Sun 12:30–11 PM",
+   "phone": "+34 944 39 51 63",
+   "address": "Calle Particular de Estraunza, 8, Abando, 48011 Bilbao, Vizcaya",
+   "lat": 43.263734,
+   "lon": -2.94083,
+   "tags": [
+    "Cuisine: Other international",
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
@@ -13840,6 +15837,32 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "raggio-getxo-algorta",
+   "category": "restaurant",
+   "kind": "Italian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Raggio",
+   "area": "Getxo (Algorta)",
+   "province": "Bizkaia",
+   "cuisine": "Italian",
+   "rating": 3.9,
+   "reviews": 40,
+   "priceLevel": "€",
+   "lunch": "Limited (2 days/wk)",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 7:30 PM–12 AM; Sat–Sun 2 PM–12 AM",
+   "address": "Torrene Kalea, 4, 48991 Algorta, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=4829260547151912553",
+   "lat": 43.34996,
+   "lon": -3.01063,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €",
+    "Practical: Open every day"
    ]
   },
   {
@@ -14117,6 +16140,63 @@
    ]
   },
   {
+   "id": "real-kebab-aviles",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Real Kebab",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.8,
+   "reviews": 16,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30 PM–12 AM; Fri–Sun 12:30 PM–1 AM",
+   "phone": "+34 985 43 57 02",
+   "address": "C. de la Estación, 18, 33401 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=17712586503898469893",
+   "lat": 43.55965,
+   "lon": -5.92283,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "real-kebab-oviedo",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Real Kebab",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Turkish (kebab)",
+   "rating": 4.4,
+   "reviews": 37,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12 PM–12 AM",
+   "phone": "+34 984 25 24 32",
+   "address": "C. Álvaro Flórez Estrada, 21, 33006 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=10317432197961640205",
+   "lat": 43.35616,
+   "lon": -5.8617,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "renzo-angeletti-trattoria-mamma-mia-mamma-torrelavega",
    "category": "restaurant",
    "kind": "Italian",
@@ -14151,6 +16231,33 @@
    ]
   },
   {
+   "id": "restaurant-pizzeria-pepe-cavalle-ribadesella",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurant Pizzeria Pepe Cavallé",
+   "area": "Ribadesella",
+   "province": "Asturias",
+   "cuisine": "Italian (pizza)",
+   "rating": 3.6,
+   "reviews": 897,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Tue",
+   "hours": "Mon 9 AM–5 PM; Tue Closed; Wed–Sun 1–4 PM, 7:30–11 PM",
+   "phone": "+34 985 85 79 37",
+   "address": "Pl. Jovellanos, 5, 33560 Ribadesella, Asturias",
+   "gmaps": "https://maps.google.com/?cid=10253054023830439129",
+   "lat": 43.46419,
+   "lon": -5.06601,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "restaurante-shang-hai-city-aviles",
    "category": "restaurant",
    "kind": "Chinese",
@@ -14179,6 +16286,31 @@
     "Cuisine: Chinese & wok",
     "Rating: 4.0+",
     "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-africano-camerounes-bilbao",
+   "category": "restaurant",
+   "kind": "Cameroonian / African",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante africano, camerounes 🇨🇲",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Cameroonian / African",
+   "rating": 0,
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 10 AM–2 AM; Fri–Sat 10 AM–3 AM; Sun 10 AM–2 AM",
+   "phone": "+34 643 96 50 27",
+   "address": "Kirikiño Etorb., 64, Errekalde, 48012 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=1461592161430542751",
+   "lat": 43.25131,
+   "lon": -2.93719,
+   "tags": [
+    "Cuisine: Other international",
     "Practical: Open for lunch",
     "Practical: Open every day"
    ]
@@ -14315,6 +16447,35 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "restaurante-amir-bilbao",
+   "category": "restaurant",
+   "kind": "Middle Eastern",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Amir",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Middle Eastern",
+   "rating": 4.1,
+   "reviews": 116,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 9 AM–11 PM",
+   "phone": "+34 688 71 13 90",
+   "address": "Bailén Kalea, 33, Ibaiondo, 48003 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=8872761865011098646",
+   "lat": 43.25702,
+   "lon": -2.92967,
+   "tags": [
+    "Cuisine: Mediterranean & Middle Eastern",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -14565,6 +16726,40 @@
    ]
   },
   {
+   "id": "restaurante-brasaylena-maxcenter-barakaldo",
+   "category": "restaurant",
+   "kind": "Brazilian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Brasayleña MaxCenter",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Brazilian",
+   "rating": 3.4,
+   "reviews": 2498,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Wed 1–11:30 PM; Thu–Fri 1 PM–12 AM; Sat–Sun 12:30 PM–12 AM",
+   "notes": [
+    "Buffet",
+    "Book ahead"
+   ],
+   "reservations": "Book ahead",
+   "phone": "+34 944 90 39 80",
+   "address": "Barrio, MAX CENTER, C. Kareaga, s/n, 48903 San Vicente de Barakaldo, Vizcaya",
+   "gmaps": "https://maps.google.com/?cid=9783628540275995438",
+   "lat": 43.28734,
+   "lon": -3.00801,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day",
+    "Practical: Book ahead"
+   ]
+  },
+  {
    "id": "restaurante-casa-prado-oviedo",
    "category": "restaurant",
    "kind": "Colombian",
@@ -14591,6 +16786,34 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "restaurante-china-shan-oviedo",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante China Shan",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Chinese",
+   "rating": 3.7,
+   "reviews": 83,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4:30 PM, 8 PM–12 AM",
+   "phone": "+34 667 62 72 44",
+   "address": "C. Nueve de Mayo, 13, 33002 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=2627374498145583405",
+   "lat": 43.36578,
+   "lon": -5.85072,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -14653,6 +16876,34 @@
    ]
   },
   {
+   "id": "restaurante-chino-conde-santona",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Chino Conde",
+   "area": "Santoña",
+   "province": "Cantabria",
+   "cuisine": "Chinese",
+   "rating": 3.7,
+   "reviews": 117,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11:30 AM–4:30 PM, 7:30–11:30 PM",
+   "phone": "+34 942 68 17 89",
+   "address": "C. Calvo Sotelo, 3, 39740 Santoña, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=5954411015694419766",
+   "lat": 43.4434,
+   "lon": -3.45701,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "restaurante-chino-gran-muralla-mieres",
    "category": "restaurant",
    "kind": "Chinese",
@@ -14685,6 +16936,34 @@
    ]
   },
   {
+   "id": "restaurante-chino-hong-kong-gijon",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante chino Hong Kong",
+   "area": "Gijón",
+   "province": "Asturias",
+   "cuisine": "Chinese",
+   "rating": 3.6,
+   "reviews": 898,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4:30 PM, 7:30 PM–12 AM",
+   "phone": "+34 985 35 09 89",
+   "address": "C. Llanes, 4, Centro, 33207 Gijón, Asturias",
+   "gmaps": "https://maps.google.com/?cid=11352679993548291841",
+   "lat": 43.53932,
+   "lon": -5.66704,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "restaurante-chino-hua-li-du-gijon",
    "category": "restaurant",
    "kind": "Chinese",
@@ -14708,6 +16987,36 @@
    "tags": [
     "Cuisine: Chinese & wok",
     "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "restaurante-chino-mandarin-ii-santander",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Chino Mandarin II",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Chinese",
+   "rating": 3.8,
+   "reviews": 528,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Tue",
+   "hours": "Mon 11 AM–4:30 PM, 7:30–11:30 PM; Tue Closed; Wed–Sun 11 AM–4:30 PM, 7:30–11:30 PM",
+   "notes": [
+    "Takeaway"
+   ],
+   "phone": "+34 942 28 22 14",
+   "address": "Plaza Dr. Fleming, 7, 39005 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=4401456830532681653",
+   "lat": 43.47555,
+   "lon": -3.78889,
+   "tags": [
+    "Cuisine: Chinese & wok",
     "Price: €",
     "Practical: Open for lunch"
    ]
@@ -15003,6 +17312,34 @@
    "tags": [
     "Cuisine: Chinese & wok",
     "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-gowok-aviles",
+   "category": "restaurant",
+   "kind": "Asian wok / noodles",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante GoWok",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Asian wok / noodles",
+   "rating": 3.9,
+   "reviews": 228,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4 PM, 8 PM–12 AM",
+   "phone": "+34 685 69 55 67",
+   "address": "C. del Dr. Graiño, 41, 1, 33402 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=10706324004363994151",
+   "lat": 43.55685,
+   "lon": -5.9249,
+   "tags": [
+    "Cuisine: Asian",
     "Price: €",
     "Practical: Open for lunch",
     "Practical: Open every day"
@@ -15325,6 +17662,189 @@
    ]
   },
   {
+   "id": "restaurante-japones-sushi-artist-camargo",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Japonés - SUSHI ARTIST",
+   "area": "Camargo",
+   "province": "Cantabria",
+   "cuisine": "Japanese (sushi)",
+   "rating": 3.9,
+   "reviews": 128,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Sun",
+   "hours": "Mon–Sat 10 AM–10 PM; Sun Closed",
+   "phone": "+34 612 47 99 32",
+   "address": "C. Alday, s/n, 39600 Camargo, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=5834197992442499373",
+   "lat": 43.42699,
+   "lon": -3.83777,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "restaurante-japones-toro-sushi-oviedo-oviedo",
+   "category": "restaurant",
+   "kind": "Japanese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Japonés - TORO SUSHI OVIEDO",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Japanese",
+   "rating": 4.2,
+   "reviews": 1438,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1:30–4:30 PM, 8:30 PM–12 AM",
+   "notes": [
+    "Buffet"
+   ],
+   "phone": "+34 617 67 87 90",
+   "address": "C. Gascona, 26, 33001 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=5549179095576086995",
+   "lat": 43.36518,
+   "lon": -5.84592,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-japones-miko-sushi-gijon",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Japonés Miko Sushi",
+   "area": "Gijón",
+   "province": "Asturias",
+   "cuisine": "Japanese (sushi)",
+   "rating": 4.2,
+   "reviews": 1443,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 1–4:30 PM, 8:30–11:30 PM; Fri–Sat 1–4:30 PM, 8:15 PM–12 AM; Sun 1–4:30 PM, 8:15–11:30 PM",
+   "notes": [
+    "All-you-can-eat",
+    "Buffet",
+    "Book ahead"
+   ],
+   "reservations": "Book ahead",
+   "phone": "+34 984 25 05 15",
+   "address": "C. Emilio Tuya, 17, Gijon-Este, 33202 Gijón, Asturias",
+   "gmaps": "https://maps.google.com/?cid=16610090904152490206",
+   "lat": 43.53967,
+   "lon": -5.65055,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day",
+    "Practical: Book ahead"
+   ]
+  },
+  {
+   "id": "restaurante-japones-sushisom-bahia-real-maliano",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Japonés Sushisom Bahía Real",
+   "area": "Maliaño",
+   "province": "Cantabria",
+   "cuisine": "Japanese (sushi)",
+   "rating": 3.7,
+   "reviews": 2560,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 1–4:30 PM, 8–11:30 PM; Fri–Sat 1–4:30 PM, 8 PM–12 AM; Sun 1–4:30 PM, 8–11:30 PM",
+   "notes": [
+    "Buffet",
+    "English spoken"
+   ],
+   "phone": "+34 942 29 10 57",
+   "address": "C. Enrique Gran, 2, 39600 Maliaño, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=8927494720172909492",
+   "lat": 43.42654,
+   "lon": -3.84037,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-jardin-feliz-barakaldo",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Jardín Feliz",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 3.7,
+   "reviews": 227,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon 12–4 PM; Tue–Thu 12:30–4 PM, 8–11 PM; Fri–Sun 12:30–4 PM, 8–11:30 PM",
+   "phone": "+34 944 78 08 40",
+   "address": "Gernikako Arbola Etorbidea, 33, 48902 San Vicente de Barakaldo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=9907976662125782782",
+   "lat": 43.29431,
+   "lon": -2.99291,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-kebab-jan-da-jan-gernika",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Kebab Jan Da Jan",
+   "area": "Gernika",
+   "province": "Bizkaia",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.6,
+   "reviews": 121,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12 PM–12 AM; Fri–Sat 12 PM–2 AM; Sun 12 PM–12 AM",
+   "phone": "+34 944 65 35 78",
+   "address": "Juan Calzada Kalea, 9, 48300 Gernika-Lumo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=15316281027229774713",
+   "lat": 43.31313,
+   "lon": -2.67825,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "restaurante-la-gran-muralla-santander",
    "category": "restaurant",
    "kind": "Chinese",
@@ -15612,6 +18132,57 @@
    ]
   },
   {
+   "id": "restaurante-nuevo-siglo-durango",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Nuevo Siglo",
+   "area": "Durango",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 3.5,
+   "reviews": 131,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4:30 PM, 7–11:30 PM",
+   "phone": "+34 946 20 40 71",
+   "address": "Montevideo Etorbidea, 24, 48200 Durango, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=15544805925599692351",
+   "lat": 43.16947,
+   "lon": -2.62817,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-oriental-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Asian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Oriental",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Asian",
+   "rating": 5,
+   "reviews": 4,
+   "lunch": "Unknown",
+   "address": "39700 Castro Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=7580935701117332625",
+   "lat": 43.37986,
+   "lon": -3.21841,
+   "tags": [
+    "Cuisine: Asian",
+    "Rating: 4.5+",
+    "Rating: 4.0+"
+   ]
+  },
+  {
    "id": "restaurante-oriental-alisal-santander",
    "category": "restaurant",
    "kind": "Chinese",
@@ -15637,6 +18208,37 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "restaurante-oriental-nuevo-siglo-laredo",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Oriental Nuevo Siglo",
+   "area": "Laredo",
+   "province": "Cantabria",
+   "cuisine": "Chinese",
+   "rating": 3.6,
+   "reviews": 346,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Fri 11:30 AM–4:30 PM, 7:30 PM–12 AM; Sat–Sun 11 AM–4:30 PM, 7 PM–12 AM",
+   "notes": [
+    "Takeaway"
+   ],
+   "phone": "+34 942 60 30 44",
+   "address": "C. República de Colombia, 17, 39770 Laredo, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=2098396639469027303",
+   "lat": 43.41017,
+   "lon": -3.43591,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -15700,6 +18302,37 @@
     "Practical: Open for lunch",
     "Practical: Open every day",
     "Practical: Book ahead"
+   ]
+  },
+  {
+   "id": "restaurante-pergola-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Italian (pizza)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Pérgola",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Italian (pizza)",
+   "rating": 3.8,
+   "reviews": 924,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1–4 PM, 8–11 PM",
+   "notes": [
+    "Takeaway"
+   ],
+   "phone": "+34 942 86 21 62",
+   "address": "Av. la Constitución, 8, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=5454851145163383058",
+   "lat": 43.38147,
+   "lon": -3.2177,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -15930,6 +18563,34 @@
     "Price: €",
     "Practical: Open for lunch",
     "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "restaurante-sabores-de-brasil-santander",
+   "category": "restaurant",
+   "kind": "Brazilian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Sabores de Brasil",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Brazilian",
+   "rating": 4.2,
+   "reviews": 6,
+   "priceLevel": "€€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Wed",
+   "hours": "Mon–Tue 1–4 PM, 7–10 PM; Wed Closed; Thu–Fri 1–4 PM, 7–10 PM; Sat–Sun 1:30–4:30 PM, 7–10:30 PM",
+   "phone": "+34 942 69 19 89",
+   "address": "C. Fernández de Isla, 15, 39008 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=1041143660390418995",
+   "lat": 43.46103,
+   "lon": -3.81401,
+   "tags": [
+    "Cuisine: Latin American",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch"
    ]
   },
   {
@@ -16176,6 +18837,32 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "restaurante-traviatta-laredo",
+   "category": "restaurant",
+   "kind": "Italian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Restaurante Traviatta",
+   "area": "Laredo",
+   "province": "Cantabria",
+   "cuisine": "Italian",
+   "rating": 3.7,
+   "reviews": 823,
+   "priceLevel": "€",
+   "lunch": "Limited (3 days/wk)",
+   "closedOn": "Mon",
+   "hours": "Mon Closed; Tue–Thu 8–11 PM; Fri 1:30–3:30 PM, 8–11:30 PM; Sat–Sun 1:30–3:30 PM, 8–11 PM",
+   "phone": "+34 942 61 31 34",
+   "address": "del, C. Marqués de Comillas, 5, 39770 Laredo, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=12237984899247844811",
+   "lat": 43.40925,
+   "lon": -3.41641,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €"
    ]
   },
   {
@@ -16516,6 +19203,39 @@
    ]
   },
   {
+   "id": "royal-kebab-pizzeria-italiana-langreo",
+   "category": "restaurant",
+   "kind": "Kebab & pizza",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Royal Kebab & Pizzeria Italiana",
+   "area": "Langreo",
+   "province": "Asturias",
+   "cuisine": "Kebab & pizza",
+   "rating": 4,
+   "reviews": 235,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Open daily",
+   "hours": "Mon 12–11:59 PM; Tue 7–11:59 PM; Wed–Sun 12–11:59 PM",
+   "notes": [
+    "Vegetarian options"
+   ],
+   "phone": "+34 984 06 59 64",
+   "address": "C. Gervasio Ramos, 3, 33900 Langreo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=15193437344678919797",
+   "lat": 43.29394,
+   "lon": -5.68276,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Rating: 4.0+",
+    "Price: €",
+    "Suits: Vegetarian",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "royal-tandoori-asador-indian-restaurant-santander-astillero",
    "category": "restaurant",
    "kind": "Indian",
@@ -16675,6 +19395,34 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "sabores-kebab-santander",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Sabores Kebab",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.9,
+   "reviews": 63,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1 PM–12:30 AM",
+   "phone": "+34 672 97 70 01",
+   "address": "Av Herrera Oria, 67, 39011 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=1327895937829938899",
+   "lat": 43.45714,
+   "lon": -3.84777,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -16898,6 +19646,34 @@
    "gmaps": "https://maps.google.com/?cid=2072262628474373",
    "tags": [
     "Cuisine: Cafe"
+   ]
+  },
+  {
+   "id": "santurtzi-sushi-santurtzi",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Santurtzi Sushi",
+   "area": "Santurtzi",
+   "province": "Bizkaia",
+   "cuisine": "Japanese (sushi)",
+   "rating": 3.7,
+   "reviews": 495,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 11:30 AM–4:30 PM, 7 PM–12 AM; Fri–Sun 11:30 AM–4:30 PM, 7 PM–12:30 AM",
+   "phone": "+34 688 72 48 95",
+   "address": "Cápitán Mendizábál Káleá, 4, 48980 Santurtzi, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=2996897691975031438",
+   "lat": 43.33035,
+   "lon": -3.03234,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -17601,6 +20377,34 @@
    ]
   },
   {
+   "id": "sushi-maniac-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Sushi Maniac",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Japanese (sushi)",
+   "rating": 3.6,
+   "reviews": 37,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1–3:45 PM, 8–11:30 PM",
+   "phone": "+34 654 86 06 02",
+   "address": "C. de Silvestre Ochoa, 9, A, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=14081088232222237767",
+   "lat": 43.38446,
+   "lon": -3.22487,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "sushi-salvaje-oviedo",
    "category": "restaurant",
    "kind": "Japanese (sushi)",
@@ -17694,6 +20498,68 @@
     "Price: €€",
     "Practical: Open for lunch",
     "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "sushisom-barakaldo",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Sushisom",
+   "area": "Barakaldo",
+   "province": "Bizkaia",
+   "cuisine": "Japanese (sushi)",
+   "rating": 4.1,
+   "reviews": 2164,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 1–4:30 PM, 8–11:30 PM; Fri–Sat 1–4:30 PM, 8 PM–12 AM; Sun 1–4:30 PM, 8–11:30 PM",
+   "notes": [
+    "All-you-can-eat",
+    "Book ahead",
+    "Takeaway"
+   ],
+   "reservations": "Book ahead",
+   "phone": "+34 688 18 99 08",
+   "address": "Erribera Etorbidea, 48902 San Vicente de Barakaldo, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=6959142857866925126",
+   "lat": 43.29436,
+   "lon": -3.00461,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day",
+    "Practical: Book ahead"
+   ]
+  },
+  {
+   "id": "sushitake-castro-urdiales-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Japanese (sushi)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "SushiTake Castro-Urdiales",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Japanese (sushi)",
+   "rating": 3.5,
+   "reviews": 4,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Sun",
+   "hours": "Mon–Sat 9 AM–10 PM; Sun Closed",
+   "address": "Bº Brazomar, s/n, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=2020867234112827151",
+   "lat": 43.3679,
+   "lon": -3.21852,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Price: €",
+    "Practical: Open for lunch"
    ]
   },
   {
@@ -18068,6 +20934,35 @@
    ]
   },
   {
+   "id": "taqueria-sol-queretaro-aviles",
+   "category": "restaurant",
+   "kind": "Mexican",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Taquería Sol Querétaro",
+   "area": "Avilés",
+   "province": "Asturias",
+   "cuisine": "Mexican",
+   "rating": 3.9,
+   "reviews": 45,
+   "priceLevel": "€€",
+   "lunch": "No (dinner only)",
+   "closedOn": "Mon, Tue, Wed, Thu, Sat, Sun",
+   "hours": "Mon–Thu Closed; Fri 8:30–11 PM; Sat–Sun Closed",
+   "notes": [
+    "Tasting menu"
+   ],
+   "phone": "+34 985 12 77 02",
+   "address": "Pl. España, 9, 1A, 33401 Avilés, Asturias",
+   "gmaps": "https://maps.google.com/?cid=10678650991147628810",
+   "lat": 43.55507,
+   "lon": -5.92252,
+   "tags": [
+    "Cuisine: Mexican",
+    "Price: €€"
+   ]
+  },
+  {
    "id": "taroku-getxo-algorta",
    "category": "restaurant",
    "kind": "Asian",
@@ -18217,6 +21112,35 @@
    ]
   },
   {
+   "id": "thai-wok-oviedo",
+   "category": "restaurant",
+   "kind": "Thai / Asian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Thai Wok",
+   "area": "Oviedo",
+   "province": "Asturias",
+   "cuisine": "Thai / Asian",
+   "rating": 4.1,
+   "reviews": 632,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Tue 8 AM–11 PM; Wed–Fri 8 AM–11:30 PM; Sat 11 AM–11:30 PM; Sun 11 AM–10:30 PM",
+   "phone": "+34 984 84 33 60",
+   "address": "C. Caveda, 23, 33002 Oviedo, Asturias",
+   "gmaps": "https://maps.google.com/?cid=12430772362789292559",
+   "lat": 43.36513,
+   "lon": -5.84911,
+   "tags": [
+    "Cuisine: Asian",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "the-fresh-poke-bahia-real-maliano",
    "category": "restaurant",
    "kind": "Hawaiian (poke)",
@@ -18246,6 +21170,33 @@
    ]
   },
   {
+   "id": "the-house-of-ma-getxo-las-arenas",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "The House Of Ma",
+   "area": "Getxo (Las Arenas)",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 3.8,
+   "reviews": 207,
+   "priceLevel": "€",
+   "lunch": "Yes, 6 days/wk",
+   "closedOn": "Tue",
+   "hours": "Mon 12–4 PM, 8–11:30 PM; Tue Closed; Wed–Sun 12–4 PM, 8–11:30 PM",
+   "phone": "+34 944 63 08 22",
+   "address": "Club Kalea, 1, 48930 Areeta / Las Arenas, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=7136471816398482933",
+   "lat": 43.32683,
+   "lon": -3.01258,
+   "tags": [
+    "Cuisine: Chinese & wok",
+    "Price: €",
+    "Practical: Open for lunch"
+   ]
+  },
+  {
    "id": "the-pizza-lab-aviles",
    "category": "restaurant",
    "kind": "Italian (pizza)",
@@ -18270,6 +21221,38 @@
     "Cuisine: Italian & pizza",
     "Rating: 4.0+",
     "Price: €"
+   ]
+  },
+  {
+   "id": "the-wicklow-arms-bilbao",
+   "category": "restaurant",
+   "kind": "Irish pub",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "The Wicklow Arms",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Irish pub",
+   "rating": 4.7,
+   "reviews": 764,
+   "priceLevel": "€",
+   "lunch": "Yes, 4 days/wk",
+   "closedOn": "Mon, Sun",
+   "hours": "Mon Closed; Tue–Wed 12 PM–1 AM; Thu 12 PM–12 AM; Fri Open 24 hours; Sat 1 PM–3 AM; Sun Closed",
+   "notes": [
+    "English spoken"
+   ],
+   "phone": "+34 944 42 51 48",
+   "address": "Rodríguez Arias K., 30, Abando, 48011 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=10730108340272338569",
+   "lat": 43.26327,
+   "lon": -2.94024,
+   "tags": [
+    "Cuisine: Other international",
+    "Rating: 4.5+",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch"
    ]
   },
   {
@@ -18602,6 +21585,30 @@
    ]
   },
   {
+   "id": "trattoria-topolino-bilbao",
+   "category": "restaurant",
+   "kind": "Italian",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Trattoria Topolino",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Italian",
+   "rating": 3.8,
+   "reviews": 217,
+   "priceLevel": "€€",
+   "lunch": "Unknown",
+   "phone": "+34 946 67 39 48",
+   "address": "Campo de Volantín Pasealekua, 15, 48007 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=14224982968854951871",
+   "lat": 43.26547,
+   "lon": -2.92524,
+   "tags": [
+    "Cuisine: Italian & pizza",
+    "Price: €€"
+   ]
+  },
+  {
    "id": "tre-sorelle-ristorante-italiano-castro-urdiales",
    "category": "restaurant",
    "kind": "Italian",
@@ -18850,6 +21857,67 @@
     "Rating: 4.0+",
     "Price: €",
     "Practical: Open for lunch"
+   ]
+  },
+  {
+   "id": "umi-sushi-santander",
+   "category": "restaurant",
+   "kind": "Japanese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Umi Sushi",
+   "area": "Santander",
+   "province": "Cantabria",
+   "cuisine": "Japanese",
+   "rating": 4.2,
+   "reviews": 300,
+   "priceLevel": "€€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12:30–4 PM, 8–11:30 PM; Fri–Sat 12:30–4 PM, 8 PM–12 AM; Sun 12:30–4 PM, 8–11:30 PM",
+   "notes": [
+    "All-you-can-eat",
+    "Buffet"
+   ],
+   "phone": "+34 942 22 61 76",
+   "address": "Plaza de Italia, s/n, 39005 Santander, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=4914705734975788991",
+   "lat": 43.47171,
+   "lon": -3.78272,
+   "tags": [
+    "Cuisine: Japanese & sushi",
+    "Rating: 4.0+",
+    "Price: €€",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "urdi-donner-kebab-castro-urdiales",
+   "category": "restaurant",
+   "kind": "Turkish (kebab)",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Urdi Donner Kebab",
+   "area": "Castro Urdiales",
+   "province": "Cantabria",
+   "cuisine": "Turkish (kebab)",
+   "rating": 3.9,
+   "reviews": 49,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 1 PM–12 AM",
+   "phone": "+34 942 86 95 66",
+   "address": "C. de Silvestre Ochoa, 18, 39700 Castro-Urdiales, Cantabria",
+   "gmaps": "https://maps.google.com/?cid=7797950258098171180",
+   "lat": 43.38688,
+   "lon": -3.22768,
+   "tags": [
+    "Cuisine: Kebab & Turkish",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
    ]
   },
   {
@@ -19111,6 +22179,34 @@
    ]
   },
   {
+   "id": "vista-caribbean-bar-bilbao",
+   "category": "restaurant",
+   "kind": "Caribbean",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Vista Caribbean Bar",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Caribbean",
+   "rating": 3.9,
+   "reviews": 134,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon 2 PM–12 AM; Tue–Thu 2 PM–1 AM; Fri–Sat 2 PM–2:30 AM; Sun 2 PM–1 AM",
+   "phone": "+34 645 02 02 71",
+   "address": "Autonomia Kalea, 56, Abando, 48012 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=4076744371055208788",
+   "lat": 43.25787,
+   "lon": -2.94414,
+   "tags": [
+    "Cuisine: Latin American",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
    "id": "wabisabi-ramen-bar-gijon",
    "category": "restaurant",
    "kind": "Japanese (ramen)",
@@ -19173,7 +22269,70 @@
    ]
   },
   {
+   "id": "wok-boga-bilbao",
+   "category": "restaurant",
+   "kind": "Thai",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "WOK BOGA",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Thai",
+   "rating": 4.1,
+   "reviews": 277,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 11 AM–11 PM",
+   "notes": [
+    "Book ahead"
+   ],
+   "reservations": "Book ahead",
+   "phone": "+34 946 12 37 01",
+   "address": "Hurtado de Amezaga Kalea, 16, Abando, 48008 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=17540140190505930363",
+   "lat": 43.25989,
+   "lon": -2.93002,
+   "tags": [
+    "Cuisine: Asian",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day",
+    "Practical: Book ahead"
+   ]
+  },
+  {
    "id": "wok-house-bilbao",
+   "category": "restaurant",
+   "kind": "Asian wok",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Wok House",
+   "area": "Bilbao",
+   "province": "Bizkaia",
+   "cuisine": "Asian wok",
+   "rating": 4.2,
+   "reviews": 317,
+   "priceLevel": "€",
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Thu 12–4:30 PM, 7 PM–12 AM; Fri–Sat 12–4:30 PM, 7 PM–12:30 AM; Sun 12–4:30 PM, 7 PM–12 AM",
+   "phone": "+34 747 41 63 22",
+   "address": "Goienkale, 41, Ibaiondo, 48005 Bilbao, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=9269662315455955429",
+   "lat": 43.25708,
+   "lon": -2.9225,
+   "tags": [
+    "Cuisine: Asian",
+    "Rating: 4.0+",
+    "Price: €",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "wok-house-bilbao-2",
    "category": "restaurant",
    "kind": "Chinese",
    "locationStatus": "verified",
@@ -19292,6 +22451,32 @@
     "Rating: 4.0+",
     "Price: €",
     "Suits: Vegetarian",
+    "Practical: Open for lunch",
+    "Practical: Open every day"
+   ]
+  },
+  {
+   "id": "wok-yamm-durango",
+   "category": "restaurant",
+   "kind": "Chinese",
+   "locationStatus": "verified",
+   "locationSource": "Owner's restaurant list (Google ratings); position from its Google Maps listing",
+   "name": "Wok Yamm",
+   "area": "Durango",
+   "province": "Bizkaia",
+   "cuisine": "Chinese",
+   "rating": 3.6,
+   "reviews": 122,
+   "lunch": "Yes, daily",
+   "closedOn": "Open daily",
+   "hours": "Mon–Sun 12–4:30 PM, 8 PM–12 AM",
+   "phone": "+34 946 20 33 06",
+   "address": "Madalena Pl., 5, BJ 1I, 48200 Durango, Bizkaia",
+   "gmaps": "https://maps.google.com/?cid=8455758100797122847",
+   "lat": 43.17157,
+   "lon": -2.633,
+   "tags": [
+    "Cuisine: Chinese & wok",
     "Practical: Open for lunch",
     "Practical: Open every day"
    ]

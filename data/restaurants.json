@@ -214,7 +214,8 @@
     "description": "Bakery-cafe with a wide menu and attractive decor, popular with families; reviewers single out the coffee and the chocolate cookie.",
     "address": "Calle Marqués de la Hermida 28, 39009 Santander (Peñacastillo)",
     "phone": "942 53 62 18",
-    "link": "http://panaderiapeterypan.es/"
+    "link": "http://panaderiapeterypan.es/",
+    "gmaps": "https://maps.google.com/?cid=6525836408372535120"
   },
   {
     "name": "Mercado de la Esperanza",

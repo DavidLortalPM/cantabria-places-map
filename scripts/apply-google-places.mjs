@@ -26,7 +26,7 @@ const tsv = fs.existsSync('data/_raw/intl-restaurants.tsv') ? fs.readFileSync('d
 const head = tsv.shift() || [];
 const info = Object.fromEntries(tsv.map(r => { const o = Object.fromEntries(head.map((k, i) => [k, r[i]])); return [o.Name + ' | ' + o.Address, o]; }));
 
-const CHECKED = { 'Restaurante Hong Kong': 'postcode 48960 is Galdakao, where Google has it', 'Japanese Restaurant in Bilbao': 'the list name is cut at |: it is Izu Sushi' };
+const CHECKED = { 'Great Wall Restaurant': 'Gran Muralla is its Spanish name, at the listed address', 'The House Of Ma': 'La Casa de Ma is its Spanish name, at the listed address', 'Restaurante Hong Kong': 'postcode 48960 is Galdakao, where Google has it', 'Japanese Restaurant in Bilbao': 'the list name is cut at |: it is Izu Sushi' };
 const rows = [];
 let applied = 0;
 for (const line of fs.readFileSync(resFile, 'utf8').split('\n').filter(Boolean)) {
@@ -50,7 +50,8 @@ for (const line of fs.readFileSync(resFile, 'utf8').split('\n').filter(Boolean))
   rows.push({ status: q.src === 'dropped' ? 'dropped' : 'on map', name: ours, town: t.Town || prev?.area || '', rating: t.Rating || prev?.rating || '', reviews: t.Reviews || '',
     google: hit ? cidLink(hit.fid) : '', googleName: hit?.name || '', check: ok ? '' : hit ? `name or place differs (${dist === null ? '?' : dist.toFixed(1)} km)` : 'not found' });
   if (!ok) continue;
-  if (q.src === 'list' && q.k in cache) { cache[q.k] = { lat: +hit.lat.toFixed(6), lon: +hit.lon.toFixed(6), how: 'google', gmaps: cidLink(hit.fid), match: 'Google Maps listing: ' + hit.name }; applied++; }
+  // dropped rows have no earlier pin to compare with: the name must match and the pin must be in the region
+  if ((q.src === 'list' && q.k in cache) || (q.src === 'dropped' && hit.lat > 42.7 && hit.lat < 43.8 && hit.lon > -7.3 && hit.lon < -2.3)) { cache[q.k] = { lat: +hit.lat.toFixed(6), lon: +hit.lon.toFixed(6), how: 'google', gmaps: cidLink(hit.fid), match: 'Google Maps listing: ' + hit.name }; applied++; }
   if (q.src === 'orig') { const o = orig.find(x => x.name === q.k); if (o && !o.gmaps) { o.gmaps = cidLink(hit.fid); applied++; } }
 }
 fs.writeFileSync('data/restaurant-geo.json', JSON.stringify(cache, null, 1));
